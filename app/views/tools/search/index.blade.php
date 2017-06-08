@@ -40,10 +40,10 @@
     <section class="row">
         <div class="small-12 columns">
             <dl class="accordion" data-accordion>
-                <dd class="accordion-navigation active">
+                <dd class="accordion-navigation">
                     <a href="#filter">Filter Search Results</a>
 
-                    <div id="filter" class="content active">
+                    <div id="filter" class="content">
                         <ul class="small-block-grid-1 medium-block-grid-6">
                             @foreach ($facetList as $facet)
                                 @if (count($facet->values) > 0)
