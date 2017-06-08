@@ -74,6 +74,9 @@
 
 @section("content")
     <section class="row">
+        @if (Auth::user()->hasAdminAccess() && !$tool->is_filled)
+            <h2 class="red-warning"><span class="glyphicons warning_sign"></span>This tool does not have all necessary describing elements, it will not be shown to the users. Please edit this tool.</h2>
+        @endif
         <article class="small-12 columns" itemscope itemtype="http://schema.org/SoftwareApplication">
             @include("tools.data_sources._navigation", array("dataSources" => $tool->dataSources))
 

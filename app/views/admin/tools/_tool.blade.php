@@ -1,6 +1,10 @@
 <tr>
     <td>{{{ $tool->id }}}</td>
-    <td>{{ link_to_route("admin.tools.show", e($tool->name), array("id" => $tool->id), array("title" => Lang::get("views.admin.tools.index.actions.show.title"))) }}</td>
+    @if ($tool->is_filled)
+        <td>{{ link_to_route("admin.tools.show", e($tool->name), array("id" => $tool->id), array("title" => Lang::get("views.admin.tools.index.actions.show.title"))) }}</td>
+    @else
+        <td>{{ link_to_route("admin.tools.show", e($tool->name), array("id" => $tool->id), array("class" => "red-warning", "title" => "Tool not fully described")) }}</td>
+    @endif
     <td>{{{ $tool->slug }}}</td>
     <td>{{ link_to_route("admin.users.show", e($tool->user->name), array("id" => $tool->user->id), array("title" => e($tool->user->name))) }}</td>
     <td>{{{ $tool->created_at }}}</td>

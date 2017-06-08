@@ -16,6 +16,10 @@ body {
     position: relative;
 }
 
+.red-warning {
+    color: #d95434 !important;
+}
+
 a:link,
 a:visited {
     color: #5d47ba;

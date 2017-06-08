@@ -6,6 +6,9 @@
 
 @section("content")
     <section class="row">
+        @if (!$tool->is_filled)
+            <h2 class="red-warning"><span class="glyphicons warning_sign"></span>This tool does not have all necessary describing elements, it will not be shown to the users. Please edit this tool.</h2>
+        @endif
         <div class="small-12 columns">
             @include("admin.tools._navigation")
 
