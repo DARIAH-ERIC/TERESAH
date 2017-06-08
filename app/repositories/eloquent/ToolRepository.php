@@ -7,6 +7,7 @@ use DataType;
 use Illuminate\Support\Facades\Config;
 use Repositories\ToolRepositoryInterface;
 use Repositories\Eloquent\AbstractRepository;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB as DB;
 
 class ToolRepository extends AbstractRepository implements ToolRepositoryInterface
