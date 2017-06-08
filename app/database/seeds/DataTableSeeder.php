@@ -53,6 +53,24 @@ class DataTableSeeder extends Seeder
                 Data::create($d);
             }
         }
+
+        // TODO: This is ugly, to change
+        $mandatoryDataTypes = array();
+        $mandatoryDataTypes["description"] = $types["description"];
+        $mandatoryDataTypes["tool-type"] = $types["tool-type"];
+        foreach($toolsTemp as $tool) {
+            $hasTwoMandatory = 0;
+            foreach(Tool::find($tool->id)->data()->get() as $data) {
+                if(in_array($data->data_type_id, $mandatoryDataTypes)) {
+                    $hasTwoMandatory = $hasTwoMandatory + 1;
+                }
+            }
+            if($hasTwoMandatory >= 2) {
+                $myTool = Tool::find($tool->id);
+                $myTool->is_filled = true;
+                $myTool->save();
+            }
+        }
     }
     
 

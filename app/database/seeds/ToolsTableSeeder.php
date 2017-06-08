@@ -20,6 +20,7 @@ class ToolsTableSeeder extends Seeder
         foreach ($toolList as $t) {
             $tool = array("name" => $t);
             $tool["user_id"] = $userId;
+            $tool["is_filled"] = false;
             Tool::create($tool);
         }
     }

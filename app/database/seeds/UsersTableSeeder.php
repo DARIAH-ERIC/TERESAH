@@ -9,7 +9,7 @@ class UsersTableSeeder extends Seeder
                 "email_address" => "teresah@dasish.eu",
                 "password" => "password",
                 # "password_confirmation" => "password",
-                "name" => "TERESAH",
+                "name" => "TERESAH Admin",
                 "locale" => "en",
                 "active" => true,
                 "user_level" => 4,

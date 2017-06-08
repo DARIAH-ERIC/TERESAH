@@ -44,8 +44,11 @@ class DataTypesTableSeeder extends Seeder
                   "rdf_mapping" => "http://schema.org/Article",
                   "description" => "Link to articles mentioning the tool",
                   "linkable" => false
-                 )
-            
+                 ),
+            array("label" => "Contributor",
+                "rdf_mapping" => "http://purl.org/dc/terms/contributor",
+                "description" => "Organization or person whol contributed to the tool"
+            )
             
         );
 

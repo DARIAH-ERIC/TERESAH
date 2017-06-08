@@ -36,19 +36,33 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
         # TODO: Extract/remove the pagination?
 
         if (isset($perPage) && is_numeric($perPage)) {
-            return $this->make($with)->haveData()->orderBy("created_at", "DESC")->paginate($perPage);
+            if (Auth::check() && Auth::user()->hasAdminAccess()) {
+                return $this->make($with)->haveData()->orderBy("created_at", "DESC")->paginate($perPage);
+            } else {
+                return $this->make($with)->haveData()->where("is_filled", true)->orderBy("created_at", "DESC")->paginate($perPage);
+            }
         }
-
-        return $this->make($with)->haveData()->orderBy("created_at", "DESC");
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            return $this->make($with)->haveData()->orderBy("created_at", "DESC");
+        } else {
+            return $this->make($with)->haveData()->where("is_filled", true)->orderBy("created_at", "DESC");
+        }
     }
     
     public function allIncludingSourceLess(array $with = array(), $perPage = null)
     {
         if (isset($perPage) && is_numeric($perPage)) {
-            return $this->make($with)->orderBy("name", "ASC")->paginate($perPage);
+            if (Auth::check() && Auth::user()->hasAdminAccess()) {
+                return $this->make($with)->orderBy("name", "ASC")->paginate($perPage);
+            } else {
+                return $this->make($with)->where("is_filled", true)->orderBy("name", "ASC")->paginate($perPage);
+            }
         }
-
-        return $this->make($with)->orderBy("name", "ASC");
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            return $this->make($with)->orderBy("name", "ASC");
+        } else {
+            return $this->make($with)->where("is_filled", true)->orderBy("name", "ASC");
+        }
     }
 
     public function attachDataSource($id, $dataSourceId)
@@ -66,32 +80,60 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
     }
 
     public function byAlphabet($startsWith) {
-        return $this->model->haveData()
-                ->where("name", "LIKE" ,"$startsWith%")
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            return $this->model->haveData()
+                ->where("name", "LIKE", "$startsWith%")
                 ->orderBy("name", "ASC")
                 ->paginate(Config::get("teresah.browse_pager_size"));
+        } else {
+            return $this->model->haveData()
+                ->where("name", "LIKE", "$startsWith%")
+                ->where("is_filled", true)
+                ->orderBy("name", "ASC")
+                ->paginate(Config::get("teresah.browse_pager_size"));
+        }
     }
 
     public function byFacet($type, $value)
     {
         $dataType = DataType::where("slug", $type)->first();
-
-        return $this->model
-                ->whereHas("data", function($query) use($dataType, $value) {
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            return $this->model
+                ->whereHas("data", function ($query) use ($dataType, $value) {
                     $query->where("slug", $value)
-                          ->where("data_type_id", $dataType->id);
+                        ->where("data_type_id", $dataType->id);
                 })
                 ->orderBy("name", "ASC")
                 ->paginate(Config::get("teresah.browse_pager_size"));
+        } else {
+            return $this->model
+                ->whereHas("data", function($query) use($dataType, $value) {
+                    $query->where("slug", $value)
+                        ->where("data_type_id", $dataType->id);
+                })
+                ->where("is_filled", true)
+                ->orderBy("name", "ASC")
+                ->paginate(Config::get("teresah.browse_pager_size"));
+        }
     }
 
     public function quicksearch($query) {
-        $matches = $this->model
-                    ->select("name", "slug", "id")
-                    ->haveData()
-                    ->where("name", "LIKE" ,"%$query%")
-                    ->orderBy("name", "ASC")
-                    ->take(Config::get("teresah.quicksearch_size"))->get();
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            $matches = $this->model
+                ->select("name", "slug", "id")
+                ->haveData()
+                ->where("name", "LIKE", "%$query%")
+                ->orderBy("name", "ASC")
+                ->take(Config::get("teresah.quicksearch_size"))->get();
+        } else {
+            $matches = $this->model
+                ->select("name", "slug", "id")
+                ->haveData()
+                ->where("is_filled", true)
+                ->where("name", "LIKE" ,"%$query%")
+                ->orderBy("name", "ASC")
+                ->take(Config::get("teresah.quicksearch_size"))->get();
+        }
         $result = array();
 
         foreach ($matches as $match) {
@@ -102,12 +144,11 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
         return $result;
     }
 
-    public function random()
-    {
-        if(Config::get("DATABASE_DRIVER") == 'pgsql'){
-            return $this->model->haveData()->orderBy(DB::raw("RANDOM()"))->first();
-        }else{
-            return $this->model->haveData()->orderBy(DB::raw("RAND()"))->first();
+    public function random() {
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            return $this->model->haveData()->where("is_filled", true)->orderBy(DB::raw("RAND()"))->first();
+        } else {
+            return $this->model->haveData()->where("is_filled", true)->orderBy(DB::raw("RAND()"))->first();
         }
     }
     
@@ -128,13 +169,20 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
         return $return;
     }
     
-    public function latest()
-    {
-        return $this->model->haveData()->orderBy(DB::raw("created_at"), "DESC")->take(3)->get();
+    public function latest() {
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            return $this->model->haveData()->orderBy(DB::raw("created_at"), "DESC")->take(3)->get();
+        } else {
+            return $this->model->haveData()->where("is_filled", true)->orderBy(DB::raw("created_at"), "DESC")->take(3)->get();
+        }
     }
     
     public function mostViwed(){
-        return $this->model->haveData()->orderBy("views", "DESC")->take(3)->get();
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            return $this->model->haveData()->orderBy("views", "DESC")->take(3)->get();
+        } else {
+            return $this->model->haveData()->where("is_filled", true)->orderBy("views", "DESC")->take(3)->get();
+        }
     }
 
     public function search($parameters = array())
@@ -207,9 +255,16 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
             $facetList[] = $type;
         }
 
-        $tools = $this->model->whereIn("id", $tool_ids)
-                   ->orderBy("name", "ASC")
-                   ->paginate(Config::get("teresah.search_pager_size"));
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            $tools = $this->model->whereIn("id", $tool_ids)
+                ->orderBy("name", "ASC")
+                ->paginate(Config::get("teresah.search_pager_size"));
+        } else {
+            $tools = $this->model->whereIn("id", $tool_ids)
+                ->where("is_filled", true)
+                ->orderBy("name", "ASC")
+                ->paginate(Config::get("teresah.search_pager_size"));
+        }
 
         $results = array(
             "tools" => $tools,

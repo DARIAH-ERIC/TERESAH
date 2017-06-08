@@ -39,9 +39,16 @@ class ToolsController extends BaseController {
             $sortBy = "name";
         }
 
-        $tools = Tool::haveData()
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            $tools = Tool::haveData()
                 ->orderBy($sortBy, $order)
                 ->paginate(Config::get("teresah.browse_pager_size"));
+        } else {
+            $tools = Tool::haveData()
+                ->orderBy($sortBy, $order)
+                ->where("is_filled", true)
+                ->paginate(Config::get("teresah.browse_pager_size"));
+        }
 
         return View::make("tools.index", compact("tools"))
                 ->with("alphaList", $this->listByAlphabet());

@@ -9,7 +9,7 @@ class Tool extends BaseModel
     use ValidatingTrait;
 
     protected $dates = array("deleted_at");
-    protected $fillable = array("name", "user_id");
+    protected $fillable = array("name", "user_id", "is_filled");
 
     /**
      * Validation rules for the model
@@ -17,6 +17,7 @@ class Tool extends BaseModel
     protected $rules = array(
         "name" => "required|unique:tools|max:255",
         "slug" => "required|unique:tools|max:255",
+        "is_filled" => "required|boolean",
         "user_id" => "required|integer|exists:users,id,deleted_at,NULL"
     );
 
