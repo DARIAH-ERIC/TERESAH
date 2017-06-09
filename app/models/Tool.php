@@ -17,7 +17,7 @@ class Tool extends BaseModel
     protected $rules = array(
         "name" => "required|unique:tools|max:255",
         "slug" => "required|unique:tools|max:255",
-        "is_filled" => "required|boolean",
+        "is_filled" => "boolean",
         "user_id" => "required|integer|exists:users,id,deleted_at,NULL"
     );
 
