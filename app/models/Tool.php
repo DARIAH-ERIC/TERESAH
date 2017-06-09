@@ -144,7 +144,7 @@ class Tool extends BaseModel
         });
     }
 
-    public function isFilled($mandatoryDataTypes)
+    public function isFilledBatch($mandatoryDataTypes)
     {
         $dataTypeIds = array();
         foreach($mandatoryDataTypes as $mandatoryDataType) {
@@ -156,12 +156,12 @@ class Tool extends BaseModel
         return false;
     }
 
-    public function isFilledNotEfficient()
+    public function isFilledSingle()
     {
         $mandatoryFieldSlugs = array("description", "tool-type");
         $mandatoryDataTypes = DataType::whereIn("slug", $mandatoryFieldSlugs)->get();
 
-        return $this->isFilled($mandatoryDataTypes);
+        return $this->isFilledBatch($mandatoryDataTypes);
     }
 
     public function getNumberOfUsers()

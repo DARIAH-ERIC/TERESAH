@@ -13,4 +13,6 @@ interface ToolServiceInterface extends RepositoryServiceInterface
     public function search($parameters);
     
     public function allIncludingSourceLess(array $with, $perPage);
+
+    public function refreshIsFilledVariable($toolId);
 }

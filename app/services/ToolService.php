@@ -2,6 +2,7 @@
 
 use Repositories\ToolRepositoryInterface as ToolRepository;
 use Services\ToolServiceInterface;
+use Tool;
 
 class ToolService extends AbstractRepositoryService implements ToolServiceInterface
 {
@@ -85,5 +86,17 @@ class ToolService extends AbstractRepositoryService implements ToolServiceInterf
     public function mostViwed()
     {
         return $this->toolRepository->mostViwed();
+    }
+
+    public function refreshIsFilledVariable($toolId)
+    {
+        $tool = Tool::find($toolId);
+        if($tool->is_filled == false && $tool->isFilledSingle()) {
+            $tool->is_filled = true;
+            $tool->save();
+        } else if($tool->is_filled == true && ! $tool->isFilledSingle()) {
+            $tool->is_filled = false;
+            $tool->save();
+        }
     }
 }

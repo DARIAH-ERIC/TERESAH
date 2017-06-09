@@ -71,6 +71,7 @@ class DataController extends AdminController
         );
 
         if ($this->dataService->create(array_merge(Input::all(), $associations))) {
+            $this->toolService->refreshIsFilledVariable($toolId);
             return Redirect::route("admin.tools.data-sources.index", $toolId)
                 ->with("success", Lang::get("controllers.admin.tools.data_sources.data.store.success"));
         } else {
@@ -154,6 +155,7 @@ class DataController extends AdminController
     public function destroy($toolId, $dataSourceId, $id)
     {
         if ($this->dataService->destroy($id)) {
+            $this->toolService->refreshIsFilledVariable($toolId);
             return Redirect::route("admin.tools.data-sources.show", array($toolId, $dataSourceId))
                 ->with("success", Lang::get("controllers.admin.tools.data_sources.data.destroy.success"));
         } else {
