@@ -144,6 +144,26 @@ class Tool extends BaseModel
         });
     }
 
+    public function isFilled($mandatoryDataTypes)
+    {
+        $dataTypeIds = array();
+        foreach($mandatoryDataTypes as $mandatoryDataType) {
+            $dataTypeIds[] = $mandatoryDataType->id;
+        }
+        if(count($this->data()->whereIn("data_type_id", $dataTypeIds)->get()) >= sizeof($mandatoryDataTypes)) {
+            return true;
+        }
+        return false;
+    }
+
+    public function isFilledNotEfficient()
+    {
+        $mandatoryFieldSlugs = array("description", "tool-type");
+        $mandatoryDataTypes = DataType::whereIn("slug", $mandatoryFieldSlugs)->get();
+
+        return $this->isFilled($mandatoryDataTypes);
+    }
+
     public function getNumberOfUsers()
     {
         return count($this->users());

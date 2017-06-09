@@ -54,19 +54,11 @@ class DataTableSeeder extends Seeder
             }
         }
 
-        // TODO: This is ugly, to change
-        $mandatoryDataTypes = array();
-        $mandatoryDataTypes["description"] = $types["description"];
-        $mandatoryDataTypes["tool-type"] = $types["tool-type"];
+        $mandatoryFieldSlugs = array("description", "tool-type");
+        $mandatoryDataTypes = DataType::whereIn("slug", $mandatoryFieldSlugs)->get();
         foreach($toolsTemp as $tool) {
-            $hasTwoMandatory = 0;
-            foreach(Tool::find($tool->id)->data()->get() as $data) {
-                if(in_array($data->data_type_id, $mandatoryDataTypes)) {
-                    $hasTwoMandatory = $hasTwoMandatory + 1;
-                }
-            }
-            if($hasTwoMandatory >= 2) {
-                $myTool = Tool::find($tool->id);
+            $myTool = Tool::find($tool->id);
+            if($myTool->isFilled($mandatoryDataTypes)) {
                 $myTool->is_filled = true;
                 $myTool->save();
             }
