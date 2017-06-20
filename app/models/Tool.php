@@ -72,7 +72,11 @@ class Tool extends BaseModel
     public function allSimilarTools()
     {
         $linked = $this->similarTools()->get();
-        $computed = $this->computedMatch()->get();
+        if (Auth::check() && Auth::user()->hasAdminAccess()) {
+            $computed = $this->computedMatch()->get();
+        } else {
+            $computed = $this->computedMatch()->where("is_filled", true)->get();
+        }
         $counter = 0;
 
         while(count($linked) < Config::get("teresah.similar_count") && $counter < count($computed))
