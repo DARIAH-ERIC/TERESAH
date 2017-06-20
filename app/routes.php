@@ -165,6 +165,19 @@ Route::group(array("namespace" => "Tools"), function() {
     ));
 });
 
+# View the harvester page
+Route::group(array("prefix" => "harvester", "namespace" => "Harvester"), function() {
+    Route::get("/", array(
+        "as" => "harvester.index",
+        "uses" => "HarvesterController@index"
+    ));
+    Route::post("/", array(
+        "as" => "harvester.harvest",
+        "uses" => "HarvesterController@harvest"
+    ));
+});
+
+
 Route::group(array("prefix" => "api", "namespace" => "Api"), function() {
     Route::group(array("prefix" => "v1", "namespace" => "V1"), function() {
         $namespace = "api.v1";
