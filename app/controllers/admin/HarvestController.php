@@ -19,7 +19,7 @@ class HarvestController extends AdminController
     
     public function index(){
 
-        $this->importDataTypes("http://teresah.php.dev.dasish.eu.localhost/rdf/datatypes.turtle");        
+        $this->importDataTypes("http://localhost/rdf/datatypes.turtle");
     }
     
     public function importDataTypes($uri) {
