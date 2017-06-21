@@ -10,14 +10,6 @@
 In the install  folder for TERESAH run
 ```git clone https://github.com/DASISH/TERESAH```
 
-# Install composer
-Install composer on your server https://getcomposer.org/download/
-
-# Install depencencies via composer
-TERESAH requires some third party libraries, all of these can be installed via composer.
-To install run:
-```composer install```
-
 # Create a database for TERESAH
 Create a empty database for TERESAH in MySQL / Postgres / SQL Server.
 
@@ -25,6 +17,14 @@ Create a empty database for TERESAH in MySQL / Postgres / SQL Server.
 Make a copy of the configuration template ``.env.environment.php.template``.
 For a production server the name shoud be ``.env.production.php``
 Fill in the values for your database connection, configuration if oauth is used, encryption key for user passwords etc.
+
+# Install composer
+Install composer on your server https://getcomposer.org/download/
+
+# Install depencencies via composer
+TERESAH requires some third party libraries, all of these can be installed via composer.
+To install run:
+```composer install```
 
 # Initiate the database
 To create the database structure run ``php artisan migrate``. The tables will be created.
