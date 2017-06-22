@@ -1,8 +1,15 @@
 @extends("layouts.default")
 
+@section("breadcrumb", BreadcrumbHelper::renderAdmin(array(
+    Lang::get("views.shared.navigation.admin.harvester.name")
+)))
+
 @section("master-head")
 <div class="row">
-    Master-head
+    <div class="small-12 columns">
+        <h1>{{ Lang::get("views.admin.harvester.name.heading") }}</h1>
+    </div>
+    <!-- /small-12.columns -->
 </div>
 <!-- /row -->
 @stop
@@ -17,9 +24,9 @@
     @endif
 
     {{ Form::open(array("route" => "harvester.harvest", "role" => "form")) }}
-        {{ Form::label("url", Lang::get("views.sessions.form.url.label")) }}
-        {{ Form::text("url", null, array("name" => "url")) }}
-        {{ Form::submit(Lang::get("harvester.harvest"), array("class" => "button")) }}
+        {{ Form::label("url", Lang::get("views.admin.harvester.form.url.label")) }}
+        {{ Form::text("url", null, array("name" => "url", "placeholder" => Lang::get("views.admin.harvester.form.url.placeholder"))) }}
+        {{ Form::submit(Lang::get("views.admin.harvester.form.harvest"), array("class" => "button")) }}
     {{ Form::close() }}
 </section>
 <!-- /row -->
