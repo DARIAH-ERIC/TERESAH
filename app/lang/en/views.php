@@ -251,6 +251,24 @@ return array(
             )
         ),
 
+        "harvester" => array(
+            "form" => array(
+                "url" => array(
+                    "label" => "The URL to harvest",
+                    "placeholder" => "URL"
+                ),
+                "harvest" => "Harvest"
+            ),
+
+            "create" => array(
+                "heading" => "Sign in"
+            ),
+
+            "name" => array(
+                "heading" => "Harvester"
+            )
+        ),
+
         "tools" => array(
             "navigation" => array(
                 "tool" => array(
@@ -668,6 +686,10 @@ return array(
                         "name" => "Manage Data Types",
                         "title" => "Manage Data Types"
                     )
+                ),
+
+                "harvester" => array(
+                    "name" => "Harvester"
                 ),
 
                 "tools" => array(
