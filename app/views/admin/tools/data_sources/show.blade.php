@@ -32,7 +32,7 @@
                                         <h3>{{ Lang::get("views.admin.tools.data_sources.show.heading.available_data") }} <a href="{{ URL::route("admin.tools.data-sources.data.create", array($tool->id, $dataSource->id)) }}" class="button right" title="{{ Lang::get("views.admin.tools.data_sources.navigation.data.create.title") }}" role="button"><span class="glyphicons circle_plus"></span> {{ Lang::get("views.admin.tools.data_sources.navigation.data.create.name") }}</a></h3>
 
                                         <table class="responsive">
-                                            <thead
+                                            <thead>
                                                 <tr>
                                                     <th>{{ Lang::get("models.data.attributes.data_type") }}</th>
                                                     <th>{{ Lang::get("models.data.attributes.value") }}</th>
