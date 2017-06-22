@@ -54,8 +54,7 @@ class DataTableSeeder extends Seeder
             }
         }
 
-        $mandatoryFieldSlugs = array("description", "tool-type");
-        $mandatoryDataTypes = DataType::whereIn("slug", $mandatoryFieldSlugs)->get();
+        $mandatoryDataTypes = DataType::whereIn("slug", Tool::$mandatoryFieldSlugs)->get();
         foreach($toolsTemp as $tool) {
             $myTool = Tool::find($tool->id);
             if($myTool->isFilledBatch($mandatoryDataTypes)) {
