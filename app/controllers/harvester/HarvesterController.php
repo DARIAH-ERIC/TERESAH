@@ -108,6 +108,6 @@ class HarvesterController extends BaseController
             }
         });
 
-        return View::make("harvester.show");
+        return View::make("harvester.show")->with("harvest", "The harvester was complete");
     }
 }
