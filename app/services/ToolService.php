@@ -63,6 +63,12 @@ class ToolService extends AbstractRepositoryService implements ToolServiceInterf
         return $this->toolRepository->find($id, $with);
     }
 
+    public function findByName($name)
+    {
+        $id = $this->toolRepository->getFirstBy("name", "=", $name)->id;
+        return $this->toolRepository->find($id);
+    }
+
     public function random()
     {
         return $this->toolRepository->random();

@@ -12,4 +12,10 @@ class DataService extends AbstractRepositoryService implements DataServiceInterf
     {
         $this->dataRepository = $this->setRepository($dataRepository);
     }
+
+    public function findByValue($name)
+    {
+        $id = $this->dataRepository->getFirstBy("value", "=", $name)->id;
+        return $this->dataRepository->find($id);
+    }
 }
