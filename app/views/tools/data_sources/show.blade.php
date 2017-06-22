@@ -79,10 +79,11 @@
         @endif
         <article class="small-12 columns" itemscope itemtype="http://schema.org/SoftwareApplication">
             @include("tools.data_sources._navigation", array("dataSources" => $tool->dataSources))
-            <div style="visibility: hidden;" property="http://purl.org/dc/terms/title">{{{ $tool->name }}}</div>
+            <div style="visibility: hidden;" itemprop="name" property="http://purl.org/dc/terms/title">{{{ $tool->name }}}</div>
             <div class="tabs-content">
                 @foreach ($tool->dataSources as $dataSource)
                     <div class="content{{ Active::path(ltrim(parse_url(URL::route("tools.data-sources.show", array($tool->slug, $dataSource->slug)))["path"], "/"), " active") }}">
+<!--                    <div property="{{URL::route("tools.data-sources.show", array($tool->slug, $dataSource->slug))}}" class="content{{ Active::path(ltrim(parse_url(URL::route("tools.data-sources.show", array($tool->slug, $dataSource->slug)))["path"], "/"), " active") }}">-->
                         <div class="row">
                             <div class="small-12 medium-8 columns">
                                 @if (!$dataSource->data->isEmpty())
@@ -107,7 +108,7 @@
                                                         @elseif ($data->dataType->linkable)
                                                             {{ link_to_route("tools.by-facet", $data->value, array($data->dataType->slug, $data->slug), array("property" => $data->dataType->rdf_mapping)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @else
-                                                            {{{ $data->value }}}{{ ($index < count($dataList) - 1) ? "," : null }}
+                                                            <span property="{{{ $data->dataType->rdf_mapping }}}">{{{ $data->value }}}</span>{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @endif
                                                     @endif
                                                 @endforeach
