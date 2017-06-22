@@ -69,8 +69,10 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
     public function attachDataSource($id, $dataSourceId)
     {
         $this->model = $this->find($id);
-
-        return $this->model->dataSources()->attach($dataSourceId);
+        if(! $this->model->dataSources()->where("data_source_id", $dataSourceId)->exists()) {
+            return $this->model->dataSources()->attach($dataSourceId);
+        }
+        return 0;
     }
 
     public function detachDataSource($id, $dataSourceId)
