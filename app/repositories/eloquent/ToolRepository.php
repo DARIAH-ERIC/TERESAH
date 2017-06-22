@@ -148,10 +148,14 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
     }
 
     public function random() {
+        $randomStr = "RAND()";
+        if($_ENV["DATABASE_DRIVER"] == 'pgsql'){
+            $randomStr = "RANDOM()";
+        }
         if (Auth::check() && Auth::user()->hasAdminAccess()) {
-            return $this->model->haveData()->where("is_filled", true)->orderBy(DB::raw("RAND()"))->first();
+            return $this->model->haveData()->orderBy(DB::raw($randomStr))->first();
         } else {
-            return $this->model->haveData()->where("is_filled", true)->orderBy(DB::raw("RAND()"))->first();
+            return $this->model->haveData()->where("is_filled", true)->orderBy(DB::raw($randomStr))->first();
         }
     }
     
