@@ -3,6 +3,7 @@
 use BaseController;
 use Data;
 use DataSource;
+use DataType;
 use DateTime;
 use Goutte\Client;
 use Illuminate\Support\Facades\Auth;
@@ -84,7 +85,7 @@ class HarvesterController extends BaseController
                     $node->filter('*[property="' . $dataType->rdf_mapping . '"]')->each(function (Crawler $subNode) use ($dataType, $myGoodTool, $sourceId) {
                         Log::info($dataType->rdf_mapping . ' --> ' . $subNode->text());
 
-                        $dataFound = $this->dataService->findByValue($subNode->text());
+                        $dataFound = $this->dataService->findByValueAndTool($myGoodTool->id, $subNode->text());
                         if(! $dataFound) {
                             $this->dataService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
                             $d = new Data;
@@ -100,14 +101,18 @@ class HarvesterController extends BaseController
                             $d->save();
                             Log::info($d->id);
 
-                            $dataFound = $this->dataService->findByValue($subNode->text());
+                            $dataFound = $this->dataService->findByValueAndTool($myGoodTool->id, $subNode->text());
                         }
                         Log::info("We have this data in the DB: " . $dataFound->id);
                     });
                 }
+                if($myGoodTool->isFilledSingle()) {
+                    $myGoodTool->is_filled = true;
+                    $myGoodTool->save();
+                }
             }
         });
 
-        return View::make("harvester.show")->with("harvest", "The harvester was complete");
+        return View::make("harvester.show")->with("harvest", "The harvest was complete");
     }
 }
