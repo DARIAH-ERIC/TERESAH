@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Eloquent\SoftDeletingTrait;
+use Illuminate\Support\Facades\Log;
 use Watson\Validating\ValidatingTrait;
 
 class Tool extends BaseModel
@@ -10,7 +11,9 @@ class Tool extends BaseModel
 
     protected $dates = array("deleted_at");
     protected $fillable = array("name", "user_id", "is_filled");
-    public $mandatoryFieldSlugs = array("description", "tool-type");
+    public static $mandatoryFieldSlugs = array("description");
+
+    public static $missingMandatoryFields = array();
 
     /**
      * Validation rules for the model
@@ -151,20 +154,22 @@ class Tool extends BaseModel
 
     public function isFilledBatch($mandatoryDataTypes)
     {
-        $dataTypeIds = array();
         foreach($mandatoryDataTypes as $mandatoryDataType) {
-            $dataTypeIds[] = $mandatoryDataType->id;
+            if(! $this->data()->where("data_type_id", $mandatoryDataType->id)->exists()) {
+                array_push(self::$missingMandatoryFields, $mandatoryDataType->slug);
+            }
         }
-        if(count($this->data()->whereIn("data_type_id", $dataTypeIds)->get()) >= sizeof($mandatoryDataTypes)) {
-            return true;
+        LOG::info("Size of missing mandatory fields: ".sizeof(self::$missingMandatoryFields));
+        foreach(self::$missingMandatoryFields as $missingMandatoryField) {
+            LOG::info("This tool is missing: ".$missingMandatoryField);
+            return false;
         }
-        return false;
+        return true;
     }
 
     public function isFilledSingle()
     {
-        $mandatoryDataTypes = DataType::whereIn("slug", $this->mandatoryFieldSlugs)->get();
-
+        $mandatoryDataTypes = DataType::whereIn("slug", self::$mandatoryFieldSlugs)->get();
         return $this->isFilledBatch($mandatoryDataTypes);
     }
 
