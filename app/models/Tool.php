@@ -10,6 +10,7 @@ class Tool extends BaseModel
 
     protected $dates = array("deleted_at");
     protected $fillable = array("name", "user_id", "is_filled");
+    public $mandatoryFieldSlugs = array("description", "tool-type");
 
     /**
      * Validation rules for the model
@@ -162,8 +163,7 @@ class Tool extends BaseModel
 
     public function isFilledSingle()
     {
-        $mandatoryFieldSlugs = array("description", "tool-type");
-        $mandatoryDataTypes = DataType::whereIn("slug", $mandatoryFieldSlugs)->get();
+        $mandatoryDataTypes = DataType::whereIn("slug", $this->mandatoryFieldSlugs)->get();
 
         return $this->isFilledBatch($mandatoryDataTypes);
     }
