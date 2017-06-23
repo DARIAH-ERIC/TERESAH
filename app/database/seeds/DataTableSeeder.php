@@ -7,7 +7,7 @@ class DataTableSeeder extends Seeder
         $dataSourceId = DataSource::first()->id;
         $userId = User::first()->id;
                 
-        $data = DatabaseSeeder::csv_to_array(app_path().'/database/seeds/data/data_short.csv', ';');
+        $data = DatabaseSeeder::csv_to_array(app_path().'/database/seeds/data/data.csv', ';');
         
         DB::table("data")->delete();
 
