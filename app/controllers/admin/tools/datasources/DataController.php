@@ -51,11 +51,20 @@ class DataController extends AdminController
     {
         # TODO: Abort the app (with error 404) if the tool or
         # data source cannot be found.
+        $arrayOfDataTypeWithOptions = array();
+        foreach($this->dataTypeService->all()->get() as $dataType) {
+            $dataTypeOptionArray = array();
+            foreach($dataType->dataTypeOption as $dataTypeOption) {
+                $dataTypeOptionArray[$dataTypeOption->id] = $dataTypeOption->label;
+            }
+            $arrayOfDataTypeWithOptions[$dataType->id] = $dataTypeOptionArray;
+        }
+
         return View::make("admin.tools.data_sources.data.create")
             ->with("tool", $this->toolService->find($toolId))
             ->with("dataSource", $this->dataSourceService->find($dataSourceId))
             ->with("dataTypes", $this->dataTypeService->getDataTypes())
-            ->with("dataTypeOptions", $this->dataTypeOptionService->getDataTypeOptions());
+            ->with("dataTypeOptions", $arrayOfDataTypeWithOptions);
     }
 
     /**
@@ -97,11 +106,21 @@ class DataController extends AdminController
      */
     public function edit($toolId, $dataSourceId, $id)
     {
+        $arrayOfDataTypeWithOptions = array();
+        foreach($this->dataTypeService->all()->get() as $dataType) {
+            $dataTypeOptionArray = array();
+            foreach($dataType->dataTypeOption as $dataTypeOption) {
+                $dataTypeOptionArray[$dataTypeOption->id] = $dataTypeOption->label;
+            }
+            $arrayOfDataTypeWithOptions[$dataType->id] = $dataTypeOptionArray;
+        }
+
         return View::make("admin.tools.data_sources.data.edit")
             ->with("tool", $this->toolService->find($toolId))
             ->with("dataSource", $this->dataSourceService->find($dataSourceId))
             ->with("dataTypes", $this->dataTypeService->getDataTypes())
-            ->with("data", $this->dataService->find($id));
+            ->with("data", $this->dataService->find($id))
+            ->with("dataTypeOptions", $arrayOfDataTypeWithOptions);
     }
 
     /**

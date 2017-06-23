@@ -1198,3 +1198,7 @@ dl {
 #footer nav ul {
     list-style-image: url(/assets/icons/footer_arrow.png);
 }
+
+.hidden {
+    display: none;
+}
