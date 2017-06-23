@@ -11,7 +11,7 @@ class Tool extends BaseModel
 
     protected $dates = array("deleted_at");
     protected $fillable = array("name", "user_id", "is_filled");
-    public static $mandatoryFieldSlugs = array("description");
+    public static $mandatoryFieldSlugs = array("tool-type", "description");
 
     public static $missingMandatoryFields = array();
 
@@ -154,17 +154,20 @@ class Tool extends BaseModel
 
     public function isFilledBatch($mandatoryDataTypes)
     {
+        self::$missingMandatoryFields = array();
         foreach($mandatoryDataTypes as $mandatoryDataType) {
             if(! $this->data()->where("data_type_id", $mandatoryDataType->id)->exists()) {
                 array_push(self::$missingMandatoryFields, $mandatoryDataType->slug);
             }
         }
-        LOG::info("Size of missing mandatory fields: ".sizeof(self::$missingMandatoryFields));
-        foreach(self::$missingMandatoryFields as $missingMandatoryField) {
-            LOG::info("This tool is missing: ".$missingMandatoryField);
-            return false;
+        if(!empty(self::$missingMandatoryFields)) {
+            LOG::debug("Size of missing mandatory fields: ".sizeof(self::$missingMandatoryFields));
         }
-        return true;
+        foreach(self::$missingMandatoryFields as $missingMandatoryField) {
+            LOG::debug("This tool is missing: ".$missingMandatoryField);
+        }
+
+        return empty(self::$missingMandatoryFields);
     }
 
     public function isFilledSingle()
