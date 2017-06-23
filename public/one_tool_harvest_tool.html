@@ -1,8 +1,155 @@
 <html>
 <head>
     <title>Example of a harvestable tool</title>
+    <!-- RDF alternatives -->
+    <link rel="alternate" type="application/rdf+xml" href="http://localhost/tools/yoann-test-tool.rdfxml" title="Structured Descriptor Document (RDF/XML format)" />
+    <link rel="alternate" type="text/rdf+n3" href="http://localhost/tools/yoann-test-tool.n3" title="Structured Descriptor Document (N3/Turtle format)" />
+    <link rel="alternate" type="application/ld+json" href="http://localhost/tools/yoann-test-tool.jsonld" title="Structured Descriptor Document (JSON-LD format)" />
+
+    <!-- Favicon -->
+    <link href="http://localhost/assets/favicon.png" rel="icon" type="image/x-icon" />
+
+    <!-- Stylesheets -->
+    <link href="http://localhost/assets/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/foundation.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/editable.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/highlight.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/glyphicons.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/halflings.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/responsive-tables.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/shared/typography.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/shared/forms.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost/assets/screen/master.css" rel="stylesheet" type="text/css" />
+
+    <!-- JavaScripts -->
+    <!--<script src="http://localhost/assets/jquery.js"></script>-->
+    <!--<script src="http://localhost/assets/jquery.autosize.js"></script>-->
+    <!--<script src="http://localhost/assets/foundation.js"></script>-->
+    <!--<script src="http://localhost/assets/foundation.accordion.js"></script>-->
+    <!--<script src="http://localhost/assets/foundation.alert.js"></script>-->
+    <!--<script src="http://localhost/assets/foundation.dropdown.js"></script>-->
+    <!--<script src="http://localhost/assets/foundation.tab.js"></script>-->
+    <!--<script src="http://localhost/assets/foundation.topbar.js"></script>-->
+    <!--<script src="http://localhost/assets/foundation.reveal.js"></script>-->
+    <!--<script src="http://localhost/assets/responsive-tables.js"></script>-->
+    <!--<script src="http://localhost/assets/modernizr.js"></script>-->
+    <!--<script src="http://localhost/assets/editable.js"></script>-->
+    <!--<script src="http://localhost/assets/highlight.js"></script>-->
+    <!--<script src="http://localhost/assets/typeahead.jquery.min.js"></script>-->
+    <!--<script src="http://localhost/assets/bloodhound.min.js"></script>-->
+    <!--<script src="http://localhost/assets/application.js"></script>-->
+    <!--<script src="http://localhost/assets/teresah.js"></script>-->
 </head>
 <body>
+<header id="header" role="banner">
+    <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar role="navigation">
+            <ul class="title-area">
+                <li class="name"><h1><a href="/" title="TERESAH"><img src="http://localhost/assets/cropped-rsz_2has.png" alt="TERESAH" />
+                    <img src="http://localhost/assets/teresah_logo.png" alt="TERESAH" />
+                </a></h1></li>
+                <li class="toggle-topbar menu-icon"><a href="#" title="Menu">Menu</a></li>
+            </ul>
+            <!-- /title-area -->
+
+            <section class="top-bar-section">
+                <ul class="right">
+                    <li><a href="http://localhost">Home</a></li>
+                    <li class="has-dropdown"><a href="http://localhost/about" title="About">About</a>
+                        <ul class="dropdown">
+                            <li><a href="http://localhost/about" title="Home">TERESAH</a></li>
+                            <li><a href="http://localhost/about/privacy" title="Privacy Policy">Privacy Policy</a></li>
+                            <li><a href="http://localhost/about/license" title="License and Citing">License and Citing</a></li>
+                            <li><a href="http://localhost/about/api" title="API">API</a></li>
+                            <li><a href="http://localhost/about/rdf" title="RDF">RDF</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="http://localhost/tools" title="Browse Tools by">Browse Tools by</a>
+
+                        <ul class="dropdown">
+                            <li><a href="http://localhost/search" title="Search">Search</a></li>
+                            <li><a href="http://localhost/tools" title="Browse All">Browse All</a></li>
+                            <li><a href="http://localhost/tools/by-facet" title="Browse Facets">Browse Facets</a></li>
+                            <li><a href="http://localhost/tools/popular" title="Most Popular">Most Popular</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#" title="TERESAH Admin">TERESAH Admin</a>
+
+                        <ul class="dropdown">
+                            <li><a href="http://localhost/admin" title="Switch to administrative section of TERESAH">Manage TERESAH</a></li>
+                            <li><a href="http://localhost/profile" title="Edit Profile">Edit Profile</a></li>
+                            <li><a href="http://localhost/profile/api-keys" title="Manage API Keys">Manage API Keys</a></li>
+                            <li><a href="http://localhost/profile/my-tools" title="My Tools">My Tools</a></li>
+                            <li><a href="http://localhost/logout" title="Logout" title="Logout">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <!-- /top-bar-section -->
+        </nav>
+        <!-- /top-bar -->
+    </div>
+    <!-- /contain-to-grid -->
+
+    <div id="myModal" class="reveal-modal" data-reveal></div>
+    <section id="master-head">
+        <div class="row">
+            <ul class="breadcrumbs small-12 columns">
+                <li><a href="http://localhost" title="Home">Home</a></li>
+                <li><a href="http://localhost/tools" title="Browse All">Browse All</a></li>
+                <li class="current">yoann-test-tool</li>
+            </ul>
+            <!-- /breadcrumbs.small-12.columns -->
+        </div>
+        <!-- /row -->
+        <div class="row">
+            <div class="small-12 medium-7 columns">
+                <div class="symbol">
+                    <abbr title="yoann-test-tool">ytt</abbr>
+                </div>
+                <!-- /symbol -->
+
+                <h1><span itemprop="name">yoann-test-tool</span></h1>
+            </div>
+            <!-- /small-12.medium-7.columns -->
+
+            <div class="small-12 medium-5 columns">
+                <ul class="toolbar">
+                    <li>Share This Tool on</li>
+                    <li><a href="#" class="addthis_button_facebook" title="Facebook"><img src="http://localhost/assets/icons/share/facebook.png" alt="Facebook" />
+                    </a></li>
+                    <li><a href="#" class="addthis_button_google_plusone_share" title="Google+"><img src="http://localhost/assets/icons/share/google_plus.png" alt="Google+" />
+                    </a></li>
+                    <li><a href="#" class="addthis_button_twitter" title="Twitter"><img src="http://localhost/assets/icons/share/twitter.png" alt="Twitter" />
+                    </a></li>
+                </ul>
+
+                <ul class="toolbar">
+                    <li>
+                        <a id="toolUsageButton" class="unstarred button right" data-callback="http://localhost/tools/use/28662" data-action="GET" title="Add to 'My Tools'" role="button"></a>
+                    </li>
+
+
+                    <li>
+                        <a href="http://localhost/admin/tools/28662/edit" class="button right" title="Edit Tool" role="button"><span class="glyphicons pencil"></span></a>
+                    </li>
+                </ul>
+                <!-- /toolbar -->
+
+            </div>
+            <!-- /small-12.medium-5.columns -->
+        </div>
+        <!-- /row -->
+    </section>
+    <!-- /master-head -->
+</header>
+<!-- /header -->
+
+<main id="content" role="main">
+    <section class="row">
+        <h2 class="red-warning"><span class="glyphicons warning_sign"></span>This tool does not have all necessary describing elements, it will not be shown to the users. Please edit this tool.</h2>
 <article class="small-12 columns" itemscope itemtype="http://schema.org/SoftwareApplication">
     <dl class="tabs">
         <dd>
@@ -25,7 +172,7 @@
     <!-- /tabs -->
     <div style="visibility: hidden;" itemprop="name" property="http://purl.org/dc/terms/title">yoann-test-tool</div>
     <div class="tabs-content">
-        <div class="content">
+        <div class="content active">
             <!--                    <div property="http://localhost/tools/yoann-test-tool/data-sources/teresah" class="content">-->
             <div class="row">
                 <div class="small-12 medium-8 columns">
@@ -35,8 +182,10 @@
                     <dl class="data">
                         <dt>Application Category</dt>
                         <dd>
-                            <a href="http://localhost/tools/by-facet/applicayion-category/encoding"
+                            <a href="http://localhost/tools/by-facet/application-category/encoding"
                                property="http://schema.org/applicationCategory">Encoding</a>
+                            <a href="http://localhost/tools/by-facet/application-category/wrong-type"
+                               property="http://schema.org/applicationCategory">Wrong type</a>
                         </dd>
                         <dt>Developer</dt>
                         <dd>
@@ -121,7 +270,7 @@
             <!-- /row -->
         </div>
         <!-- /content -->
-        <div class="content active">
+        <div class="content">
             <!--                    <div property="http://localhost/tools/yoann-test-tool/data-sources/has-tool-registry" class="content active">-->
             <div class="row">
                 <div class="small-12 medium-8 columns">
@@ -217,5 +366,82 @@
     </div>
     <!-- /tabs-content -->
 </article>
+        <!-- /tool.align.row -->
+        </li>
+        </ul>
+        <!-- /small-block-grid-1.medium-block-grid-4 -->
+        </div>
+        <!-- /small-12.columns -->
+    </section>
+    <!-- /row -->
+</main>
+<!-- /content -->
+
+<footer id="footer" class="row" role="contentinfo">
+    <div class="small-12 medium-6 columns">
+        <ul class="creative-commons">
+            <li><img src="http://localhost/assets/icons/creative_commons_cc.png" alt="Creative Commons CC" />
+            </li>
+            <li><img src="http://localhost/assets/icons/creative_commons_by.png" alt="Creative Commons BY" />
+            </li>
+            <li><img src="http://localhost/assets/icons/creative_commons_nc.png" alt="Creative Commons NC" />
+            </li>
+            <li><img src="http://localhost/assets/icons/creative_commons_sa.png" alt="Creative Commons SA" />
+            </li>
+        </ul>
+        <!-- /creative-commons -->
+
+        <p>Except where otherwise noted, content on this site is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> license.</p>
+
+        <p>TERESAH has been developed as part of the Data Service Infrastructure for the Social Sciences and Humanities (DASISH), a Seventh Framework Programme funded project.</p>
+
+        <p><span class="glyphicons circle_info"></span> <strong>TERESAH version (current commit ID):</strong> 692a281 (23.06.2017 10:07:25 UTC)</p>
+    </div>
+    <!-- /small-12.medium-6.columns -->
+
+    <div class="small-12 medium-2 columns">
+        <h1>TERESAH</h1>
+
+        <nav role="navigation">
+            <ul>
+                <li><a href="http://localhost">Home</a></li>
+                <li><a href="http://localhost/about" title="About">About</a></li>
+                <li><a href="http://localhost/about/privacy" title="Privacy Policy">Privacy Policy</a></li>
+                <li><a href="http://localhost/about/license" title="License and Citing">License and Citing</a></li>
+                <li><a href="http://localhost/help">Help</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /small-12.medium-2.columns -->
+
+    <div class="small-12 medium-2 columns">
+        <h1>Browse Tools by</h1>
+
+        <nav role="navigation">
+            <ul>
+                <li><a href="http://localhost/search" title="Search">Search</a></li>
+                <li><a href="http://localhost/tools" title="Browse All">Browse All</a></li>
+                <li><a href="http://localhost/tools/by-facet" title="Browse Facets">Browse Facets</a></li>
+                <li><a href="http://localhost/tools/popular" title="Most Popular">Most Popular</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /small-12.medium-2.columns -->
+
+    <div class="small-12 medium-2 columns end">
+        <h1>Contribute</h1>
+
+        <nav role="navigation">
+            <ul>
+                <li><a href="http://localhost/login" title="Login" title="Login">Sign in</a></li>
+                <li><a href="http://localhost/about/api" title="API">API</a></li>
+                <li><a href="http://localhost/about/rdf" title="RDF">RDF</a></li>
+                <li><a href="https://github.com/DASISH/TERESAH">TERESAH on GitHub</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- /small-2.columns -->
+</footer>
+<!-- /footer.row -->
 </body>
 </html>
