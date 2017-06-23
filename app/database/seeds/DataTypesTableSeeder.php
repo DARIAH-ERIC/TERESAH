@@ -48,6 +48,10 @@ class DataTypesTableSeeder extends Seeder
             array("label" => "Contributor",
                 "rdf_mapping" => "http://purl.org/dc/terms/contributor",
                 "description" => "Organization or person whol contributed to the tool"
+            ),
+            array("label" => "Application Category",
+                "rdf_mapping" => "http://schema.org/applicationCategory",
+                "description" => "Type of software application, e.g. 'Game Multimedia'"
             )
             
         );

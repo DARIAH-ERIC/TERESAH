@@ -7,14 +7,14 @@ class DataTableSeeder extends Seeder
         $dataSourceId = DataSource::first()->id;
         $userId = User::first()->id;
                 
-        $data = DatabaseSeeder::csv_to_array(app_path().'/database/seeds/data/data.csv', ';');
+        $data = DatabaseSeeder::csv_to_array(app_path().'/database/seeds/data/data_short.csv', ';');
         
         DB::table("data")->delete();
 
         $dataTypes = DataType::all();
         $types = array();
         foreach($dataTypes as $dataType) {
-            $types[$dataType->slug] = $dataType->id;
+            $types[$dataType->slug] = $dataType;
         }
         
         $dataSources = DataSource::all();
@@ -33,10 +33,22 @@ class DataTableSeeder extends Seeder
                 
         foreach ($data as $d) {
             if(array_key_exists($d["tool"], $tools)){
+                $correctWithDataTypeOption = false;
                 $d["tool_id"] = $tools[$d["tool"]];
                 unset($d["tool"]);
-                $d["data_type_id"] = $types[$d["type"]];
+                $d["data_type_id"] = $types[$d["type"]]->id;
+                if($types[$d["type"]]->dataTypeOption()->count() > 0) {
+                    foreach($types[$d["type"]]->dataTypeOption()->get() as $dataTypeOption) {
+                        if($dataTypeOption->value == $d["value"]) {
+                            $correctWithDataTypeOption = true;
+                        }
+                    }
+                } else {
+                    $correctWithDataTypeOption = true;
+                }
                 unset($d["type"]);
+
+
                 
                 $d["data_source_id"] = $sources[$d["source"]];
                 $t = Tool::find($d["tool_id"]);
@@ -50,7 +62,9 @@ class DataTableSeeder extends Seeder
                 $d["created_at"] = new DateTime;
                 $d["updated_at"] = new DateTime;
 
-                Data::create($d);
+                if($correctWithDataTypeOption) {
+                    Data::create($d);
+                }
             }
         }
 

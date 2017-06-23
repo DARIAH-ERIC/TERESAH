@@ -52,6 +52,11 @@ class DataType extends BaseModel
         return $this->hasMany("Data");
     }
 
+    public function dataTypeOption()
+    {
+        return $this->hasMany("DataTypeOption");
+    }
+
     public function user()
     {
         return $this->belongsTo("User");
