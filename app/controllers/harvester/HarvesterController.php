@@ -87,23 +87,34 @@ class HarvesterController extends BaseController
 
                         $dataFound = $this->dataService->findByValueAndTool($myGoodTool->id, $subNode->text());
                         if(! $dataFound) {
-                            $this->dataService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
-                            $d = new Data;
-                            $d->fill([
-                                "value" => $subNode->text(),
-                                "tool_id" => $myGoodTool->id,
-                                "data_type_id" => $dataType->id,
-                                "data_source_id" => $sourceId,
-                                "user_id" => Auth::user()->id,
-                                "created_at" => new DateTime,
-                                "updated_at" => new DateTime
-                            ]);
-                            $d->save();
-                            Log::info($d->id);
 
-                            $dataFound = $this->dataService->findByValueAndTool($myGoodTool->id, $subNode->text());
+                            $correctWithDataTypeOption = false;
+                            if($dataType->dataTypeOption()->count() > 0) {
+                                foreach ($dataType->dataTypeOption()->get() as $dataTypeOption) {
+                                    if ($subNode->text() == $dataTypeOption->value) {
+                                        $correctWithDataTypeOption = true;
+                                    }
+                                }
+                            } else {
+                                $correctWithDataTypeOption = true;
+                            }
+//                            $this->dataService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
+                            if($correctWithDataTypeOption) {
+                                $d = new Data;
+                                $d->fill([
+                                    "value" => $subNode->text(),
+                                    "tool_id" => $myGoodTool->id,
+                                    "data_type_id" => $dataType->id,
+                                    "data_source_id" => $sourceId,
+                                    "user_id" => Auth::user()->id,
+                                    "created_at" => new DateTime,
+                                    "updated_at" => new DateTime
+                                ]);
+                                $d->save();
+                                Log::info("Saved data id:" . $d->id);
+//                                $dataFound = $this->dataService->find($d->id);
+                            }
                         }
-                        Log::info("We have this data in the DB: " . $dataFound->id);
                     });
                 }
                 if($myGoodTool->isFilledSingle()) {
