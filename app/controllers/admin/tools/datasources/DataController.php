@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\Facades\View;
 use Services\DataServiceInterface as DataService;
 use Services\DataSourceServiceInterface as DataSourceService;
+use Services\DataTypeOptionService;
 use Services\DataTypeServiceInterface as DataTypeService;
 use Services\ToolServiceInterface as ToolService;
 
@@ -22,15 +23,17 @@ class DataController extends AdminController
     protected $toolService;
     protected $dataSourceService;
     protected $dataTypeService;
+    protected $dataTypeOptionService;
     protected $dataService;
 
-    public function __construct(ToolService $toolService, DataSourceService $dataSourceService, DataTypeService $dataTypeService, DataService $dataService)
+    public function __construct(ToolService $toolService, DataSourceService $dataSourceService, DataTypeService $dataTypeService, DataTypeOptionService $dataTypeOptionService, DataService $dataService)
     {
         parent::__construct();
 
         $this->toolService = $toolService;
         $this->dataSourceService = $dataSourceService;
         $this->dataTypeService = $dataTypeService;
+        $this->dataTypeOptionService = $dataTypeOptionService;
         $this->dataService = $dataService;
     }
 
@@ -51,7 +54,8 @@ class DataController extends AdminController
         return View::make("admin.tools.data_sources.data.create")
             ->with("tool", $this->toolService->find($toolId))
             ->with("dataSource", $this->dataSourceService->find($dataSourceId))
-            ->with("dataTypes", $this->dataTypeService->getDataTypes());
+            ->with("dataTypes", $this->dataTypeService->getDataTypes())
+            ->with("dataTypeOptions", $this->dataTypeOptionService->getDataTypeOptions());
     }
 
     /**

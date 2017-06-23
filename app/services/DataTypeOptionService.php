@@ -9,6 +9,8 @@
 namespace Services;
 
 
+use Repositories\DataTypeOptionRepositoryInterface as DataTypeOptionRepository;
+
 class DataTypeOptionService extends AbstractRepositoryService implements DataTypeOptionServiceInterface
 {
     protected $errors;
