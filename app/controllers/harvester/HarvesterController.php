@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\View;
+use Illuminate\Support\Str;
 use Services\DataService;
 use Services\DataTypeService;
 use Services\ToolService;
@@ -65,29 +66,30 @@ class HarvesterController extends BaseController
 
         $client = new Client();
         $crawler = $client->request('GET', urldecode($url));
-        $crawler->filter('article[itemtype="http://schema.org/SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId) {
-            $selectedTool = $node->filter('*[itemprop="name"]')->each(function (Crawler $subNode) {
-                Log::info('Create tool with name: --> ' . $subNode->text());
-
+        $crawler->filter('article[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId) {
+            Log::info("Passed it");
+            $selectedTool = $node->filter("*[property='http://purl.org/dc/terms/title']")->each(function (Crawler $subNode) {
                 $toolFound = $this->toolService->findByName($subNode->text());
                 if(! $toolFound) {
                     $this->toolService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
                     $toolFound = $this->toolService->findByName($subNode->text());
                 }
-                Log::info("Tool found: " . $toolFound->id);
                 return $toolFound;
             });
             if($selectedTool) {
                 Log::info("We have a tool on this page, it contains at least a name");
-                $myGoodTool = $selectedTool[0];
-                $this->toolService->attachDataSource($myGoodTool->id, $sourceId);
+                $myTool = $selectedTool[0];
+                $this->toolService->attachDataSource($myTool->id, $sourceId);
                 foreach ($dataTypes as $dataType) {
-                    $node->filter('*[property="' . $dataType->rdf_mapping . '"]')->each(function (Crawler $subNode) use ($dataType, $myGoodTool, $sourceId) {
-                        Log::info($dataType->rdf_mapping . ' --> ' . $subNode->text());
+                    $rdfFullUri = $dataType->rdf_mapping;
+                    if(! Str::startsWith($rdfFullUri, "http://")) {
+                        $rdfFullUri = "http://schema.org/" . $rdfFullUri;
+                    }
+                    $node->filter('*[property="' . $rdfFullUri . '"]')->each(function (Crawler $subNode) use ($dataType, $myTool, $sourceId, $rdfFullUri) {
+                        Log::info($rdfFullUri . ' --> ' . $subNode->text());
 
-                        $dataFound = $this->dataService->findByValueAndTool($myGoodTool->id, $subNode->text());
+                        $dataFound = $this->dataService->findByValueAndTool($myTool->id, $subNode->text());
                         if(! $dataFound) {
-
                             $correctWithDataTypeOption = false;
                             if($dataType->dataTypeOption()->count() > 0) {
                                 foreach ($dataType->dataTypeOption()->get() as $dataTypeOption) {
@@ -98,12 +100,11 @@ class HarvesterController extends BaseController
                             } else {
                                 $correctWithDataTypeOption = true;
                             }
-//                            $this->dataService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
                             if($correctWithDataTypeOption) {
                                 $d = new Data;
                                 $d->fill([
                                     "value" => $subNode->text(),
-                                    "tool_id" => $myGoodTool->id,
+                                    "tool_id" => $myTool->id,
                                     "data_type_id" => $dataType->id,
                                     "data_source_id" => $sourceId,
                                     "user_id" => Auth::user()->id,
@@ -117,9 +118,9 @@ class HarvesterController extends BaseController
                         }
                     });
                 }
-                if($myGoodTool->isFilledSingle()) {
-                    $myGoodTool->is_filled = true;
-                    $myGoodTool->save();
+                if($myTool->isFilledSingle()) {
+                    $myTool->is_filled = true;
+                    $myTool->save();
                 }
             }
         });

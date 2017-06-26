@@ -77,9 +77,9 @@
         @if (!$tool->is_filled)
             <h2 class="red-warning"><span class="glyphicons warning_sign"></span>This tool does not have all necessary describing elements, it will not be shown to the users. Please edit this tool.</h2>
         @endif
-        <article class="small-12 columns" itemscope itemtype="http://schema.org/SoftwareApplication">
+        <article class="small-12 columns" vocab="http://schema.org/" typeof="SoftwareApplication">
             @include("tools.data_sources._navigation", array("dataSources" => $tool->dataSources))
-            <div style="visibility: hidden;" itemprop="name" property="http://purl.org/dc/terms/title">{{{ $tool->name }}}</div>
+            <div style="visibility: hidden;" property="http://purl.org/dc/terms/title">{{{ $tool->name }}}</div>
             <div class="tabs-content">
                 @foreach ($tool->dataSources as $dataSource)
                     <div class="content{{ Active::path(ltrim(parse_url(URL::route("tools.data-sources.show", array($tool->slug, $dataSource->slug)))["path"], "/"), " active") }}">
@@ -103,12 +103,13 @@
                                             <dd>
                                                 @foreach ($dataList as $index => $data)
                                                     @if ($data->dataType)
+                                                        <?php $rdfValue = str_replace("http://schema.org/", "", $data->dataType->rdf_mapping); ?>
                                                         @if (filter_var($data->value, FILTER_VALIDATE_URL))
-                                                            {{ link_to($data->value, Str::limit($data->value, 60), array("property" => $data->dataType->rdf_mapping)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
+                                                            {{ link_to($data->value, Str::limit($data->value, 60), array("property" => $rdfValue)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @elseif ($data->dataType->linkable)
-                                                            {{ link_to_route("tools.by-facet", $data->value, array($data->dataType->slug, $data->slug), array("property" => $data->dataType->rdf_mapping)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
+                                                            {{ link_to_route("tools.by-facet", $data->value, array($data->dataType->slug, $data->slug), array("property" => $rdfValue)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @else
-                                                            <span property="{{{ $data->dataType->rdf_mapping }}}">{{{ $data->value }}}</span>{{ ($index < count($dataList) - 1) ? "," : null }}
+                                                            <span property="{{{ $rdfValue }}}">{{{ $data->value }}}</span>{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @endif
                                                     @endif
                                                 @endforeach
