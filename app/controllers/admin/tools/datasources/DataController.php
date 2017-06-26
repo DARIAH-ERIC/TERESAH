@@ -54,7 +54,7 @@ class DataController extends AdminController
         $arrayOfDataTypeWithOptions = array();
         foreach($this->dataTypeService->all()->get() as $dataType) {
             $dataTypeOptionArray = array();
-            foreach($dataType->dataTypeOption as $dataTypeOption) {
+            foreach($dataType->dataTypeOption()->orderBy("order", "ASC")->get() as $dataTypeOption) {
                 $dataTypeOptionArray[$dataTypeOption->id] = $dataTypeOption->label;
             }
             $arrayOfDataTypeWithOptions[$dataType->id] = $dataTypeOptionArray;
@@ -109,7 +109,7 @@ class DataController extends AdminController
         $arrayOfDataTypeWithOptions = array();
         foreach($this->dataTypeService->all()->get() as $dataType) {
             $dataTypeOptionArray = array();
-            foreach($dataType->dataTypeOption as $dataTypeOption) {
+            foreach($dataType->dataTypeOption()->orderBy("order", "ASC")->get() as $dataTypeOption) {
                 $dataTypeOptionArray[$dataTypeOption->id] = $dataTypeOption->label;
             }
             $arrayOfDataTypeWithOptions[$dataType->id] = $dataTypeOptionArray;

@@ -34,7 +34,6 @@
 <script language="JavaScript">
     $(document).ready(function() {
         modifyViewTextAreaOrDropdownList($('#data_type_id').find('option:selected').val());
-//        modifyViewTextAreaOrDropdownList($('#data_type_id').find('option:first-child').val());
         $("#data_type_id").change(function() {
             modifyViewTextAreaOrDropdownList(this.value);
         });
@@ -48,35 +47,35 @@
         }
     }
     function modifyViewTextAreaOrDropdownList(dataTypeId) {
+        var dataTypeOptionArray = [];
         <?php
                 $js_array = json_encode($dataTypeOptions);
-                echo "var dataTypeOptionArray = " . $js_array . ";\n";
+                echo "dataTypeOptionArray = " . $js_array . ";\n";
         ?>
         $('#data_type_options').empty();
-        $.each(dataTypeOptionArray, function(key, array) {
-            if(key === dataTypeId) {
-                var selectedDataTypeOption = '';
-                <?php
-                    if(isset($data)) {
-                        echo "selectedDataTypeOption = '" . $data->value . "';\n";
-                    }
-                ?>
-                $.each(array, function(id, value) {
-                    if(selectedDataTypeOption === value) {
-                        $('#data_type_options').append($('<option>', {value: id, selected: "selected"}).text(value));
-                    } else {
-                        $('#data_type_options').append($('<option>', {value: id}).text(value));
-                    }
-                });
-                copyValueToTextarea($('#data_type_options').find('option:selected').text());
-//                copyValueToTextarea($('#data_type_options').find('option:first-child').text());
-                $("#select_div").removeClass("hidden");
-                $("#textarea_div").addClass("hidden");
-            } else {
-                $("#select_div").addClass("hidden");
-                $("#textarea_div").removeClass("hidden");
-                $("#value").val("");
-            }
-        });
+
+        var selectedDataTypeOption = '';
+        <?php
+        if(isset($data)) {
+            echo "selectedDataTypeOption = '" . $data->value . "';\n";
+        }
+        ?>
+
+        if(dataTypeOptionArray[dataTypeId] !== null && Object.keys(dataTypeOptionArray[dataTypeId]).length > 0) {
+            $.each(dataTypeOptionArray[dataTypeId], function(id, value) {
+                if(selectedDataTypeOption === value) {
+                    $('#data_type_options').append($('<option>', {value: id, selected: "selected"}).text(value));
+                } else {
+                    $('#data_type_options').append($('<option>', {value: id}).text(value));
+                }
+            });
+            copyValueToTextarea($('#data_type_options').find('option:selected').text());
+            $("#select_div").removeClass("hidden");
+            $("#textarea_div").addClass("hidden");
+        } else {
+            $("#select_div").addClass("hidden");
+            $("#textarea_div").removeClass("hidden");
+            $("#value").val(selectedDataTypeOption);
+        }
     }
 </script>
