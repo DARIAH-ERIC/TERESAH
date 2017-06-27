@@ -79,7 +79,7 @@
         @endif
         <article class="small-12 columns" vocab="http://schema.org/" typeof="SoftwareApplication">
             @include("tools.data_sources._navigation", array("dataSources" => $tool->dataSources))
-            <div style="visibility: hidden;" property="http://purl.org/dc/terms/title">{{{ $tool->name }}}</div>
+            <div style="visibility: hidden;" property="name">{{{ $tool->name }}}</div>
             <div class="tabs-content">
                 @foreach ($tool->dataSources as $dataSource)
                     <div class="content{{ Active::path(ltrim(parse_url(URL::route("tools.data-sources.show", array($tool->slug, $dataSource->slug)))["path"], "/"), " active") }}">

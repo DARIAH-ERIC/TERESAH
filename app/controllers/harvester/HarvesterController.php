@@ -72,7 +72,7 @@ class HarvesterController extends BaseController
             $vocab = $node->attr("vocab");
             $typeof = $node->attr("typeof");
             if(($vocab.$typeof) == static::$vocabSoftwareApplication) {
-                $selectedTool = $node->filter("*[property='http://purl.org/dc/terms/title']")->each(function (Crawler $subNode) {
+                $selectedTool = $node->filter("*[property='name']")->each(function (Crawler $subNode) {
                     $toolFound = $this->toolService->findByName($subNode->text());
                     if (!$toolFound) {
                         $this->toolService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
@@ -87,10 +87,11 @@ class HarvesterController extends BaseController
                     $this->toolService->attachDataSource($myTool->id, $sourceId);
                     foreach ($dataTypes as $dataType) {
                         $rdfFullUri = $dataType->rdf_mapping;
-                        if (!Str::startsWith($rdfFullUri, "http://")) {
-                            $rdfFullUri = $vocab . $rdfFullUri;
+                        if (Str::startsWith($rdfFullUri, $vocab)) {
+                            $rdfFullUri = str_replace($vocab, "", $rdfFullUri);
                         }
-                        $node->filter('*[property="' . $rdfFullUri . '"]')->each(function (Crawler $subNode) use ($dataType, $myTool, $sourceId, $rdfFullUri) {
+                        $node->filterXPath('//*[@property="' . $rdfFullUri . '" or @property="'.$vocab.$rdfFullUri.'"]')->each(function (Crawler $subNode) use ($dataType, $myTool, $sourceId, $rdfFullUri) {
+                            Log::debug($dataType->rdf_mapping . " --> " . $subNode->text());
                             $dataFound = $this->dataService->findByValueAndTool($myTool->id, $subNode->text());
                             if (!$dataFound) {
                                 $correctWithDataTypeOption = false;

@@ -27,7 +27,7 @@ class RdfController extends BaseController {
 
             $graph = new EasyRdf_Graph();
             $t = $graph->resource($uri, "http://schema.org/SoftwareApplication");
-            $t->set("dc:title", $tool->name);
+            $t->add("http://schema.org/name", $tool->name);
 
             foreach ($tool->dataSources as $data_source) {
                 $t->addResource("dc:hasPart", URL::route("tools.data-sources.show", array($tool->slug, $data_source->slug)));
