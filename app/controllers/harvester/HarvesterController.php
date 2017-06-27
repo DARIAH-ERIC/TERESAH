@@ -3,7 +3,6 @@
 use BaseController;
 use Data;
 use DataSource;
-use DataType;
 use DateTime;
 use Goutte\Client;
 use Illuminate\Support\Facades\Auth;
@@ -15,7 +14,6 @@ use Services\DataService;
 use Services\DataTypeService;
 use Services\ToolService;
 use Symfony\Component\DomCrawler\Crawler;
-use Tool;
 
 class HarvesterController extends BaseController
 {
@@ -58,6 +56,8 @@ class HarvesterController extends BaseController
         $url = Input::get("url");
         Log::info("The URL to crawl: " . $url);
         $dataTypes = $this->dataTypeService->all()->get();
+        $tools = array();
+        $toolsFullyDescribed = array();
 
         $dataSources = DataSource::all();
         foreach($dataSources as $dataSource) {
@@ -68,7 +68,7 @@ class HarvesterController extends BaseController
 
         $client = new Client();
         $crawler = $client->request('GET', urldecode($url));
-        $crawler->filter('article[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId) {
+        $crawler->filter('article[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId, &$tools, &$toolsFullyDescribed) {
             $vocab = $node->attr("vocab");
             $typeof = $node->attr("typeof");
             if(($vocab.$typeof) == static::$vocabSoftwareApplication) {
@@ -83,15 +83,14 @@ class HarvesterController extends BaseController
                 if ($selectedTool) {
                     Log::info("We have a tool on this page, it contains at least a name");
                     $myTool = $selectedTool[0];
+                    $tools[] = $myTool;
                     $this->toolService->attachDataSource($myTool->id, $sourceId);
                     foreach ($dataTypes as $dataType) {
                         $rdfFullUri = $dataType->rdf_mapping;
-                        if (!Str::startsWith($rdfFullUri, $vocab)) {
+                        if (!Str::startsWith($rdfFullUri, "http://")) {
                             $rdfFullUri = $vocab . $rdfFullUri;
                         }
                         $node->filter('*[property="' . $rdfFullUri . '"]')->each(function (Crawler $subNode) use ($dataType, $myTool, $sourceId, $rdfFullUri) {
-                            Log::info($rdfFullUri . ' --> ' . $subNode->text());
-
                             $dataFound = $this->dataService->findByValueAndTool($myTool->id, $subNode->text());
                             if (!$dataFound) {
                                 $correctWithDataTypeOption = false;
@@ -124,12 +123,16 @@ class HarvesterController extends BaseController
                     }
                     if ($myTool->isFilledSingle()) {
                         $myTool->is_filled = true;
+                        $toolsFullyDescribed[] = $myTool;
                         $myTool->save();
                     }
                 }
             }
         });
 
-        return View::make("harvester.show")->with("harvest", "The harvest was complete");
+        return View::make("harvester.show")
+            ->with("harvest", "The harvest was complete")
+            ->with("tools", $tools)
+            ->with("toolsFullyDescribed", $toolsFullyDescribed);
     }
 }

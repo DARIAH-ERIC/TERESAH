@@ -22,6 +22,18 @@
     @if (isset($harvest))
         <h1>{{{ $harvest }}}</h1>
     @endif
+    @if (isset($tools))
+        <h3>Number of tools on the harvested page: {{{ sizeof($tools) }}}</h3>
+        @foreach($tools as $tool)
+            <p>{{{ $tool->name }}}</p>
+        @endforeach
+    @endif
+    @if (isset($toolsFullyDescribed))
+        <h3>Number of tools fully described on the harvested page: {{{ sizeof($toolsFullyDescribed) }}}</h3>
+        @foreach($toolsFullyDescribed as $tool)
+            <p>{{{ $tool->name }}}</p>
+        @endforeach
+    @endif
 
     {{ Form::open(array("route" => "harvester.harvest", "role" => "form")) }}
         {{ Form::label("url", Lang::get("views.admin.harvester.form.url.label")) }}
