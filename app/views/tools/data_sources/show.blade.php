@@ -105,9 +105,13 @@
                                                     @if ($data->dataType)
                                                         <?php $rdfValue = str_replace("http://schema.org/", "", $data->dataType->rdf_mapping); ?>
                                                         @if (filter_var($data->value, FILTER_VALIDATE_URL))
-                                                            {{ link_to($data->value, Str::limit($data->value, 60), array("property" => $rdfValue)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
+                                                            <a href="{{ $data->value }}" title="{{ Str::limit($data->value, 60) }}">
+                                                                <span property="{{{ $rdfValue }}}">{{{ $data->value }}}</span>
+                                                            </a>{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @elseif ($data->dataType->linkable)
-                                                            {{ link_to_route("tools.by-facet", $data->value, array($data->dataType->slug, $data->slug), array("property" => $rdfValue)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
+                                                            <a href="{{ URL::route('tools.by-facet', array($data->dataType->slug, $data->slug)) }}">
+                                                                <span property="{{{ $rdfValue }}}">{{{ $data->value }}}</span>
+                                                            </a>{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @else
                                                             <span property="{{{ $rdfValue }}}">{{{ $data->value }}}</span>{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @endif
