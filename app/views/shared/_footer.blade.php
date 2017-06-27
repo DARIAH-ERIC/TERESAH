@@ -11,6 +11,7 @@
         <p>{{ Lang::get("views.shared.footer.license.prefix") }}<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a> {{ Lang::get("views.shared.footer.license.suffix") }}.</p>
 
         <p>{{ Lang::get("views.shared.footer.dasish") }}</p>
+        <p>{{ Lang::get("views.shared.footer.has") }}</p>
 
         @include("shared._version_information")
     </div>
@@ -53,7 +54,7 @@
                 <li><a href="{{ URL::route("sessions.create") }}" title="{{ Lang::get("views.shared.navigation.login.title") }}" title="{{ Lang::get("views.shared.navigation.login.title") }}">{{ Lang::get("views.shared.navigation.login.name") }}</a></li>
                 <li>{{ link_to_route("pages.show", Lang::get("views.shared.navigation.about.api.name"), array("path" => "about/api"), array("title" => Lang::get("views.shared.navigation.about.api.title"))) }}</li>
                 <li>{{ link_to_route("pages.show", Lang::get("views.shared.navigation.about.rdf.name"), array("path" => "about/rdf"), array("title" => Lang::get("views.shared.navigation.about.rdf.title"))) }}</li>
-                <li>{{ link_to("https://github.com/DASISH/TERESAH", Lang::get("views.shared.navigation.fork.name"))}}</li>
+                <li>{{ link_to("https://github.com/DARIAH-ERIC/TERESAH", Lang::get("views.shared.navigation.fork.name"))}}</li>
             </ul>
         </nav>
     </div>

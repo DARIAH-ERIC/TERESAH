@@ -862,7 +862,8 @@ return array(
                 "prefix" => "Except where otherwise noted, content on this site is licensed under a ",
                 "suffix" => "license"
             ),
-            "dasish" => "TERESAH has been developed as part of the Data Service Infrastructure for the Social Sciences and Humanities (DASISH), a Seventh Framework Programme funded project."
+            "dasish" => "TERESAH has been developed as part of the Data Service Infrastructure for the Social Sciences and Humanities (DASISH), a Seventh Framework Programme funded project.",
+            "has" => "TERESAH has been further developed by the HaS (Humanities at Scale) project WP8."
         )
     ),
 

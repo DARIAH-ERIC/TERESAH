@@ -28,12 +28,13 @@
     <div id="partners">
         <div class="row">
             <div class="small-12 columns">
-                <ul class="small-block-grid-3 medium-block-grid-7">
+                <ul class="small-block-grid-3 medium-block-grid-8">
                     <li><a href="http://www.cessda.net/" title="CESSDA">{{ image_tag("partners/cessda_logo.png", array("alt" => "CESSDA")) }}</a></li>
                     <li><a href="http://clarin.eu/" title="Clarin">{{ image_tag("partners/clarin_logo.png", array("alt" => "Clarin")) }}</a></li>
                     <li><a href="https://www.dariah.eu/" title="DARIAH">{{ image_tag("partners/dariah_logo.png", array("alt" => "DARIAH")) }}</a></li>
                     <li><a href="http://dasish.eu/" title="DASISH">{{ image_tag("partners/dasish_logo.png", array("alt" => "DASISH")) }}</a></li>
                     <li><a href="http://www.europeansocialsurvey.org/" title="European Social Survey">{{ image_tag("partners/ess_logo.png", array("alt" => "European Social Survey")) }}</a></li>
+                    <li><a href="http://has.dariah.eu/" title="HaS">{{ image_tag("partners/has_logo.png", array("alt" => "HaS")) }}</a></li>
                     <li><a href="http://www.share-project.org/" title="SHARE">{{ image_tag("partners/share_logo.png", array("alt" => "SHARE")) }}</a></li>
                     <li><a href="http://cordis.europa.eu/fp7/home_en.html" title="Seventh Framework Programme">{{ image_tag("partners/seventh_framework_programme_logo.png", array("alt" => "Seventh Framework Programme")) }}</a></li>
                 </ul>
