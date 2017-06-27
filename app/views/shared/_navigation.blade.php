@@ -39,11 +39,11 @@
                             <li><a href="{{ URL::route("users.edit") }}" title="{{ Lang::get("views.shared.navigation.edit_user_profile.title") }}">{{ Lang::get("views.shared.navigation.edit_user_profile.name") }}</a></li>
                             <li><a href="{{ URL::route("users.keys") }}" title="{{ Lang::get("views.shared.navigation.edit_user_api_keys.title") }}">{{ Lang::get("views.shared.navigation.edit_user_api_keys.name") }}</a></li>
                             <li><a href="{{ URL::route("users.tools") }}" title="{{ Lang::get("views.shared.navigation.edit_user_tools.title") }}">{{ Lang::get("views.shared.navigation.edit_user_tools.name") }}</a></li>
-                            <li><a href="{{ URL::route("sessions.destroy") }}" title="{{ Lang::get("views.shared.navigation.logout.title") }}" title="{{ Lang::get("views.shared.navigation.logout.title") }}">{{ Lang::get("views.shared.navigation.logout.name") }}</a></li>
+                            <li><a href="{{ URL::route("sessions.destroy") }}" title="{{ Lang::get("views.shared.navigation.logout.title") }}">{{ Lang::get("views.shared.navigation.logout.name") }}</a></li>
                         </ul>
                     </li>
                 @else
-                    <li><a href="{{ URL::route("sessions.create") }}" title="{{ Lang::get("views.shared.navigation.login.title") }}" data-reveal-id="myModal" data-reveal-ajax="{{ URL::route("sessions.create.dialog") }}" title="{{ Lang::get("views.shared.navigation.login.title") }}">{{ Lang::get("views.shared.navigation.login.name") }}</a></li>
+                    <li><a href="{{ URL::route("sessions.create") }}" title="{{ Lang::get("views.shared.navigation.login.title") }}" data-reveal-id="myModal" data-reveal-ajax="{{ URL::route("sessions.create.dialog") }}">{{ Lang::get("views.shared.navigation.login.name") }}</a></li>
                 @endif
             </ul>
         </section>
