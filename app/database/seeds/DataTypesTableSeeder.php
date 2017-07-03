@@ -72,11 +72,13 @@ class DataTypesTableSeeder extends Seeder
             ),
             array("label" => "Date Created",
                 "rdf_mapping" => "http://schema.org/dateCreated",
-                "description" => "The data on which the CreativeWork was created or the item was added to a DataFeed"
+                "description" => "The data on which the CreativeWork was created or the item was added to a DataFeed",
+                "is_date_field" => true
             ),
             array("label" => "Date Modified",
                 "rdf_mapping" => "http://schema.org/dateModified",
-                "description" => "The data on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed"
+                "description" => "The data on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed",
+                "is_date_field" => true
             ),
             array("label" => "Provider",
                 "rdf_mapping" => "http://schema.org/provider",
