@@ -408,7 +408,7 @@ class DataTypeOptionsTableSeeder extends Seeder
                 "value" => "Text Bearing Objects",
                 "order" => 33
             ),
-            array("label" => "Toolds",
+            array("label" => "Tools",
                 "value" => "Tools",
                 "order" => 34
             ),
