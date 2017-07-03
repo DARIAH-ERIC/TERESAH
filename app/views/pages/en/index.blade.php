@@ -31,7 +31,7 @@
                 <ul class="small-block-grid-3 medium-block-grid-8">
                     <li><a href="http://www.cessda.net/" title="CESSDA">{{ image_tag("partners/cessda_logo.png", array("alt" => "CESSDA")) }}</a></li>
                     <li><a href="http://clarin.eu/" title="Clarin">{{ image_tag("partners/clarin_logo.png", array("alt" => "Clarin")) }}</a></li>
-                    <li><a href="https://www.dariah.eu/" title="DARIAH">{{ image_tag("partners/dariah_logo.png", array("alt" => "DARIAH")) }}</a></li>
+                    <li><a href="http://www.dariah.eu/" title="DARIAH">{{ image_tag("partners/dariah_logo.png", array("alt" => "DARIAH")) }}</a></li>
                     <li><a href="http://dasish.eu/" title="DASISH">{{ image_tag("partners/dasish_logo.png", array("alt" => "DASISH")) }}</a></li>
                     <li><a href="http://www.europeansocialsurvey.org/" title="European Social Survey">{{ image_tag("partners/ess_logo.png", array("alt" => "European Social Survey")) }}</a></li>
                     <li><a href="http://has.dariah.eu/" title="HaS">{{ image_tag("partners/has_logo.png", array("alt" => "HaS")) }}</a></li>
