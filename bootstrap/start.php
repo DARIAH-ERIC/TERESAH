@@ -31,8 +31,8 @@ if (strtoupper(substr(PHP_OS, 0, 3)) === "WIN") {
 } else {
     $env = $app->detectEnvironment(array(
         "development" => array("*.local", "*.localhost"),
-        "production" => array("teresah"),
-        "staging" => array("dasish")
+        "staging" => array("dasish", "teresah"),
+        "production" => array("production")
     ));
 }
 
