@@ -173,93 +173,167 @@
                 </dd>
             </dl>
             <!-- /tabs -->
-            <div style="visibility: hidden;" property="name">yoann-test-tool</div>
+            <div style="display: none;" property="name">yoann-test-tool</div>
             <div class="tabs-content">
                 <div class="content active">
-                    <!--                    <div property="http://localhost/tools/yoann-test-tool/data-sources/has-tool-registry" class="content active">-->
+                    <!--                    <div property="http://localhost/tools/yoann-test-tool/data-sources/teresah" class="content active">-->
                     <div class="row">
                         <div class="small-12 medium-8 columns">
 
                             <h3>Available Data</h3>
 
                             <dl class="data">
-                                <dt>Application Category</dt>
-                                <dd>
-                                    <a href="http://localhost/tools/by-facet/application-category/encoding"
-                                       property="applicationCategory">Encoding</a>
-                                    <a href="http://localhost/tools/by-facet/application-category/wrong-encoding"
-                                       property="applicationCategory">Wrong-encoding</a>
-                                </dd>
-                                <dt>Description</dt>
-                                <dd>
-                                    <span property="http://purl.org/dc/elements/1.1/description">yoann-test-tool is a powerful, open source object-relational database system.</span>
-                                </dd>
                                 <dt>Developer</dt>
                                 <dd>
-                                    <a href="http://localhost/tools/by-facet/developer/michael-stonebraker"
-                                       property="http://purl.org/dc/elements/1.1/creator">Michael Stonebraker</a>,
-                                    <a href="http://localhost/tools/by-facet/developer/yoann-test-tool-global-development-group"
-                                       property="http://purl.org/dc/elements/1.1/creator">yoann-test-tool Global
-                                        Development Group</a>
+                                    <span style="display: none;" property="creator">Michael Stonebraker</span>
+                                    <a href="http://localhost/tools/by-facet/developer/michael-stonebraker">Michael
+                                        Stonebraker</a>,
+                                    <span style="display: none;"
+                                          property="creator">yoann-test-tool Global Development Group</span>
+                                    <a href="http://localhost/tools/by-facet/developer/yoann-test-tool-global-development-group">yoann-test-tool
+                                        Global Development Group</a>
+                                </dd>
+                                <dt>Homepage</dt>
+                                <dd>
+                                    <a href="http://www.yoann-test-tool.org/" property="url">http://www.yoann-test-tool.org/</a>
                                 </dd>
                                 <dt>Keyword</dt>
                                 <dd>
-                                    <a href="http://localhost/tools/by-facet/keyword/net"
-                                       property="http://purl.org/dc/elements/1.1/subject">.Net</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/c"
-                                       property="http://purl.org/dc/elements/1.1/subject">C</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/database"
-                                       property="http://purl.org/dc/elements/1.1/subject">database</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/java"
-                                       property="http://purl.org/dc/elements/1.1/subject">Java</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/odbc"
-                                       property="http://purl.org/dc/elements/1.1/subject">ODBC</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/perl"
-                                       property="http://purl.org/dc/elements/1.1/subject">Perl</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/php"
-                                       property="http://purl.org/dc/elements/1.1/subject">PHP</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/python"
-                                       property="http://purl.org/dc/elements/1.1/subject">Python</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/query-language"
-                                       property="http://purl.org/dc/elements/1.1/subject">query language</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/ruby"
-                                       property="http://purl.org/dc/elements/1.1/subject">Ruby</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/structuring"
-                                       property="http://purl.org/dc/elements/1.1/subject">structuring</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/tcl"
-                                       property="http://purl.org/dc/elements/1.1/subject">Tcl</a>,
-                                    <a href="http://localhost/tools/by-facet/keyword/manual-input-and-transcription"
-                                       property="http://purl.org/dc/elements/1.1/subject">Manual input and
-                                        transcription</a>
+                                    <span style="display: none;" property="keywords">.Net</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/net">.Net</a>,
+                                    <span style="display: none;" property="keywords">C</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/c">C</a>,
+                                    <span style="display: none;" property="keywords">database</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/database">database</a>,
+                                    <span style="display: none;" property="keywords">Java</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/java">Java</a>,
+                                    <span style="display: none;"
+                                          property="keywords">Manual input and transcription</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/manual-input-and-transcription">Manual
+                                        input and transcription</a>,
+                                    <span style="display: none;" property="keywords">ODBC</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/odbc">ODBC</a>,
+                                    <span style="display: none;" property="keywords">Perl</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/perl">Perl</a>,
+                                    <span style="display: none;" property="keywords">PHP</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/php">PHP</a>,
+                                    <span style="display: none;" property="keywords">Python</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/python">Python</a>,
+                                    <span style="display: none;" property="keywords">query language</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/query-language">query language</a>,
+                                    <span style="display: none;" property="keywords">Ruby</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/ruby">Ruby</a>,
+                                    <span style="display: none;" property="keywords">structuring</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/structuring">structuring</a>,
+                                    <span style="display: none;" property="keywords">Tcl</span>
+                                    <a href="http://localhost/tools/by-facet/keyword/tcl">Tcl</a>
                                 </dd>
                                 <dt>License</dt>
                                 <dd>
                                     <a href="http://localhost/tools/by-facet/license/yoann-test-tool-license"
-                                       property="http://purl.org/dc/terms/license">yoann-test-tool License</a>
+                                       property="license">yoann-test-tool License</a>
+                                </dd>
+                                <dt>Platform</dt>
+                                <dd>
+                                    <span style="display: none;" property="operatingSystem">Cross-platform</span>
+                                    <a href="http://localhost/tools/by-facet/platform/cross-platform">Cross-platform</a>,
+                                    <span style="display: none;" property="operatingSystem">Linux</span>
+                                    <a href="http://localhost/tools/by-facet/platform/linux">Linux</a>
                                 </dd>
                                 <dt>Standard</dt>
                                 <dd>
-                                    <a href="http://localhost/tools/by-facet/standard/xml"
-                                       property="http://purl.org/dc/terms/conformsTo">XML</a>
+                                    <span style="display: none;" property="supportingData">XML</span>
+                                    <a href="http://localhost/tools/by-facet/standard/xml">XML</a>
                                 </dd>
                             </dl>
                             <!-- /data -->
 
                             <h3>Available Data Formats</h3>
 
-                            <a href="http://localhost/tools/yoann-test-tool.jsonld" class="button data-format"
-                               role="button">RDF/JsonLD</a>
-                            <a href="http://localhost/tools/yoann-test-tool.turtle" class="button data-format"
-                               role="button">RDF/Turtle</a>
-                            <a href="http://localhost/tools/yoann-test-tool.rdfxml" class="button data-format"
-                               role="button">RDF/XML</a>
+                            <a href="http://localhost/tools/yoann-test-tool.jsonld" class="button data-format" role="button">RDF/JsonLD</a>
+                            <a href="http://localhost/tools/yoann-test-tool.turtle" class="button data-format" role="button">RDF/Turtle</a>
+                            <a href="http://localhost/tools/yoann-test-tool.rdfxml" class="button data-format" role="button">RDF/XML</a>
                         </div>
                         <!-- /small-12.medium-8.columns -->
 
                         <aside class="small-12 medium-4 columns">
                             <h3 class="icon info small">About the Data Source</h3>
 
-                            <p>HaS (Humanities at Scale) Tool registry is a tool created on top of TERESAH.</p>
+                            <p>TERESAH (Tools E-Registry for E-Social science, Arts and Humanities) is a cross-community
+                                tools knowledge registry aimed at researchers in the Social Sciences and Humanities
+                                (SSH). It aims to provide an authoritative listing of the software tools currently in
+                                use in those domains, and to allow their users to make transparent the methods and
+                                applications behind them.</p>
+                        </aside>
+                        <!-- /small-12.medium-4.columns -->
+                    </div>
+                    <!-- /row -->
+                </div>
+                <!-- /content -->
+                <div class="content">
+                    <!--                    <div property="http://localhost/tools/yoann-test-tool/data-sources/artshumanities" class="content">-->
+                    <div class="row">
+                        <div class="small-12 medium-8 columns">
+
+                            <h3>Available Data</h3>
+
+                            <dl class="data">
+                                <dt>Description</dt>
+                                <dd>
+                                    <span property="description">yoann-test-tool is a powerful, open source object-relational database system.</span>
+                                </dd>
+                            </dl>
+                            <!-- /data -->
+
+                            <h3>Available Data Formats</h3>
+
+                            <a href="http://localhost/tools/yoann-test-tool.jsonld" class="button data-format" role="button">RDF/JsonLD</a>
+                            <a href="http://localhost/tools/yoann-test-tool.turtle" class="button data-format" role="button">RDF/Turtle</a>
+                            <a href="http://localhost/tools/yoann-test-tool.rdfxml" class="button data-format" role="button">RDF/XML</a>
+                        </div>
+                        <!-- /small-12.medium-8.columns -->
+
+                        <aside class="small-12 medium-4 columns">
+                            <h3 class="icon info small">About the Data Source</h3>
+
+                            <p>arts-humanities.net aims to support and advance the use and understanding of digital
+                                tools and methods for research and teaching in the arts and humanities</p>
+                        </aside>
+                        <!-- /small-12.medium-4.columns -->
+                    </div>
+                    <!-- /row -->
+                </div>
+                <!-- /content -->
+                <div class="content">
+                    <!--                    <div property="http://localhost/tools/yoann-test-tool/data-sources/bamboodirt" class="content">-->
+                    <div class="row">
+                        <div class="small-12 medium-8 columns">
+
+                            <h3>Available Data</h3>
+
+                            <dl class="data">
+                                <dt>Description</dt>
+                                <dd>
+                                    <span property="description">yoann-test-tool is a powerful, open source object-relational database system.</span>
+                                </dd>
+                            </dl>
+                            <!-- /data -->
+
+                            <h3>Available Data Formats</h3>
+
+                            <a href="http://localhost/tools/yoann-test-tool.jsonld" class="button data-format" role="button">RDF/JsonLD</a>
+                            <a href="http://localhost/tools/yoann-test-tool.turtle" class="button data-format" role="button">RDF/Turtle</a>
+                            <a href="http://localhost/tools/yoann-test-tool.rdfxml" class="button data-format" role="button">RDF/XML</a>
+                        </div>
+                        <!-- /small-12.medium-8.columns -->
+
+                        <aside class="small-12 medium-4 columns">
+                            <h3 class="icon info small">About the Data Source</h3>
+
+                            <p>The DiRT Directory is a registry of digital research tools for scholarly use. DiRT makes
+                                it easy for digital humanists and others conducting digital research to find and compare
+                                resources ranging from content management systems to music OCR, statistical analysis
+                                packages to mindmapping software.</p>
                         </aside>
                         <!-- /small-12.medium-4.columns -->
                     </div>
@@ -279,7 +353,7 @@
 
             <ul class="small-block-grid-1 medium-block-grid-4">
                 <li>
-                    <article class="tool align row" itemscope itemtype="http://schema.org/SoftwareApplication">
+                    <article class="tool align row" vocab="http://schema.org/" typeof="SoftwareApplication">
                         <div class="small-3 columns">
                             <a href="http://localhost/tools/postgresql" class="symbol" title="PostgreSQL"><abbr
                                     title="PostgreSQL">P</abbr></a>
@@ -287,7 +361,7 @@
                         <!-- /small-3.columns -->
 
                         <div class="small-9 columns">
-                            <h1 itemprop="name"><a href="http://localhost/tools/postgresql"
+                            <h1 property="name"><a href="http://localhost/tools/postgresql"
                                                    title="All the information are not filled" class="red-warning">PostgreSQL</a>
                             </h1>
 
