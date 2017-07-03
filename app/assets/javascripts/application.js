@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery.autosize
+//= require jquery-ui.min
 //= require foundation
 //= require foundation.accordion
 //= require foundation.alert

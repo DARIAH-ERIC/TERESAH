@@ -19,4 +19,7 @@
  *= require shared/typography
  *= require shared/forms
  *= require screen/master
+ *= require jquery-ui.min
+ *= require jquery-ui.structure.min
+ *= require jquery-ui.theme.min
  */
