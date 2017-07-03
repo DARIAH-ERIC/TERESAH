@@ -14,7 +14,8 @@ class DataType extends BaseModel
         "label",
         "description",
         "rdf_mapping",
-        "linkable"
+        "linkable",
+        "schema_linkable"
     );
 
     /**
@@ -26,7 +27,8 @@ class DataType extends BaseModel
         "slug" => "required|unique:data_types|max:255",
         "description" => "sometimes|max:1024",
         "rdf_mapping" => "sometimes|url|max:255",
-        "linkable" => "sometimes|boolean"
+        "linkable" => "sometimes|boolean",
+        "schema_linkable" => "sometimes|boolean"
     );
 
     public static function boot()
@@ -65,6 +67,11 @@ class DataType extends BaseModel
     public function scopeIsLinkable($query)
     {
         return $query->where("linkable", true);
+    }
+
+    public function scopeIsSchemaLinkable($query)
+    {
+        return $query->where("schema_linkable", true);
     }
 
     public function scopeHaveData($query)

@@ -7,7 +7,7 @@ class DataTypesTableSeeder extends Seeder
         $userId = User::first()->id;
         $dataTypes = array(
             array("label" => "Description", 
-                  "rdf_mapping" => "http://purl.org/dc/elements/1.1/description", 
+                  "rdf_mapping" => "http://schema.org/description",
                   "description" => "General description of the tool",
                   "linkable" => false
                  ),
@@ -17,25 +17,29 @@ class DataTypesTableSeeder extends Seeder
                   "linkable" => false
                  ),
             array("label" => "Developer", 
-                  "rdf_mapping" => "http://purl.org/dc/elements/1.1/creator",
-                  "description" => "Organization or person who developed the tool"
+                  "rdf_mapping" => "http://schema.org/creator",
+                  "description" => "Organization or person who developed the tool",
+                  "schema_linkable" => false
                  ),
             array("label" => "Keyword", 
-                  "rdf_mapping" => "http://purl.org/dc/elements/1.1/subject",
-                  "description" => "Free form keywords describing the tool"
+                  "rdf_mapping" => "http://schema.org/keywords",
+                  "description" => "Free form keywords describing the tool",
+                  "schema_linkable" => false
                  ),
             array("label" => "License", 
-                  "rdf_mapping" => "http://purl.org/dc/terms/license",
+                  "rdf_mapping" => "http://schema.org/license",
                   "description" => "Type of licence for the tool"
                  ),
             array("label" => "Platform", 
                   "rdf_mapping" => "http://schema.org/operatingSystem",
-                  "description" => "Platform the tool runs on"
+                  "description" => "Platform the tool runs on",
+                  "schema_linkable" => false
                  ),
             array("label" => "Standard", 
-                  "rdf_mapping" => "http://purl.org/dc/terms/conformsTo",
-                  "description" => "Suported standard for the tool"
-                 ),
+                  "rdf_mapping" => "http://schema.org/supportingData",
+                  "description" => "Suported standard for the tool",
+                  "schema_linkable" => false
+            ),
             array("label" => "Tool Type", 
                   "rdf_mapping" => "http://purl.org/dc/elements/1.1/type",
                   "description" => "General type of the tool"
@@ -46,8 +50,9 @@ class DataTypesTableSeeder extends Seeder
                   "linkable" => false
                  ),
             array("label" => "Contributor",
-                "rdf_mapping" => "http://purl.org/dc/terms/contributor",
-                "description" => "Organization or person whol contributed to the tool"
+                "rdf_mapping" => "http://schema.org/contributor",
+                "description" => "Organization or person whol contributed to the tool",
+                "schema_linkable" => false
             ),
             array("label" => "Application Category",
                 "rdf_mapping" => "http://schema.org/applicationCategory",

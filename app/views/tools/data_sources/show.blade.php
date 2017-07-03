@@ -79,7 +79,7 @@
         @endif
         <article class="small-12 columns" vocab="http://schema.org/" typeof="SoftwareApplication">
             @include("tools.data_sources._navigation", array("dataSources" => $tool->dataSources))
-            <div style="visibility: hidden;" property="name">{{{ $tool->name }}}</div>
+            <div style="display: none;" property="name">{{{ $tool->name }}}</div>
             <div class="tabs-content">
                 @foreach ($tool->dataSources as $dataSource)
                     <div class="content{{ Active::path(ltrim(parse_url(URL::route("tools.data-sources.show", array($tool->slug, $dataSource->slug)))["path"], "/"), " active") }}">
@@ -106,8 +106,11 @@
                                                         <?php $rdfValue = str_replace("http://schema.org/", "", $data->dataType->rdf_mapping); ?>
                                                         @if (filter_var($data->value, FILTER_VALIDATE_URL))
                                                             {{ link_to($data->value, Str::limit($data->value, 60), array("property" => $rdfValue)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
-                                                        @elseif ($data->dataType->linkable)
+                                                        @elseif ($data->dataType->linkable && $data->dataType->schema_linkable)
                                                             {{ link_to_route("tools.by-facet", $data->value, array($data->dataType->slug, $data->slug), array("property" => $rdfValue)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
+                                                        @elseif ($data->dataType->linkable)
+                                                            <span style="display: none;" property="{{{ $rdfValue }}}">{{{ $data->value }}}</span>
+                                                            {{ link_to_route("tools.by-facet", $data->value, array($data->dataType->slug, $data->slug)) }}{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @else
                                                             <span property="{{{ $rdfValue }}}">{{{ $data->value }}}</span>{{ ($index < count($dataList) - 1) ? "," : null }}
                                                         @endif

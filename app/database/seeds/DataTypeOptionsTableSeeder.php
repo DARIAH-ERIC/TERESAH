@@ -44,17 +44,25 @@ class DataTypeOptionsTableSeeder extends Seeder
          * For Service Type
          */
         $dataTypeOptions = array(
-            array("label" => "--WP5 INKIND classes 1?--",
-                "value" => "WP5 INKIND classes 1",
+            array("label" => "Hosting services",
+                "value" => "Hosting services",
                 "order" => 1
             ),
-            array("label" => "--WP5 INKIND classes 2?--",
-                "value" => "WP5 INKIND classes 2",
+            array("label" => "Processing services",
+                "value" => "Processing services",
                 "order" => 2
             ),
-            array("label" => "--WP5 INKIND classes 3?--",
-                "value" => "WP5 INKIND classes 3",
+            array("label" => "Support services",
+                "value" => "Support services",
                 "order" => 3
+            ),
+            array("label" => "Access to resources",
+                "value" => "Access to resources",
+                "order" => 4
+            ),
+            array("label" => "Access/availability to software",
+                "value" => "Access/availability to software",
+                "order" => 5
             )
         );
         foreach ($dataTypeOptions as $dataTypeOption) {
