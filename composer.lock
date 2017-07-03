@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "af7c459d2493068ac8db42083b6fd693",
+    "content-hash": "da42c78c5f24c1b374a4a4d11722e40f",
     "packages": [
         {
             "name": "artdarek/oauth-4-laravel",
@@ -378,20 +378,17 @@
         },
         {
             "name": "erusev/parsedown",
-            "version": "1.6.2",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown.git",
-                "reference": "1bf24f7334fe16c88bf9d467863309ceaf285b01"
+                "reference": "0e89e3714bda18973184d30646306bb0a482bd96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown/zipball/1bf24f7334fe16c88bf9d467863309ceaf285b01",
-                "reference": "1bf24f7334fe16c88bf9d467863309ceaf285b01",
+                "url": "https://api.github.com/repos/erusev/parsedown/zipball/0e89e3714bda18973184d30646306bb0a482bd96",
+                "reference": "0e89e3714bda18973184d30646306bb0a482bd96",
                 "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
             },
             "type": "library",
             "autoload": {
@@ -416,24 +413,24 @@
                 "markdown",
                 "parser"
             ],
-            "time": "2017-03-29T16:04:15+00:00"
+            "time": "2015-08-03T09:24:05+00:00"
         },
         {
             "name": "erusev/parsedown-extra",
-            "version": "0.2.6",
+            "version": "0.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/erusev/parsedown-extra.git",
-                "reference": "77f604b65b08550f229c2e79c0427c84c0c0979e"
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/77f604b65b08550f229c2e79c0427c84c0c0979e",
-                "reference": "77f604b65b08550f229c2e79c0427c84c0c0979e",
+                "url": "https://api.github.com/repos/erusev/parsedown-extra/zipball/0db5cce7354e4b76f155d092ab5eb3981c21258c",
+                "reference": "0db5cce7354e4b76f155d092ab5eb3981c21258c",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown": "~1.1"
+                "erusev/parsedown": "~1.4"
             },
             "type": "library",
             "autoload": {
@@ -460,7 +457,7 @@
                 "parsedown",
                 "parser"
             ],
-            "time": "2014-11-20T20:21:03+00:00"
+            "time": "2015-11-01T10:19:22+00:00"
         },
         {
             "name": "fabpot/goutte",
@@ -571,21 +568,21 @@
         },
         {
             "name": "graham-campbell/markdown",
-            "version": "v2.0.5",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GrahamCampbell/Laravel-Markdown.git",
-                "reference": "d316f586fcaf59ecdf9d2f60f26da277cd6c8e8d"
+                "reference": "cf1d0f1c5a68cc632f4e2fd70cc09ca6e6efe2be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Markdown/zipball/d316f586fcaf59ecdf9d2f60f26da277cd6c8e8d",
-                "reference": "d316f586fcaf59ecdf9d2f60f26da277cd6c8e8d",
+                "url": "https://api.github.com/repos/GrahamCampbell/Laravel-Markdown/zipball/cf1d0f1c5a68cc632f4e2fd70cc09ca6e6efe2be",
+                "reference": "cf1d0f1c5a68cc632f4e2fd70cc09ca6e6efe2be",
                 "shasum": ""
             },
             "require": {
-                "erusev/parsedown": "~1.1",
-                "erusev/parsedown-extra": "~0.2.2",
+                "erusev/parsedown": "1.5.*",
+                "erusev/parsedown-extra": "0.7.*",
                 "illuminate/support": "~4.1",
                 "illuminate/view": "~4.1",
                 "php": ">=5.4.7"
@@ -601,7 +598,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache-2.0"
+                "MIT"
             ],
             "authors": [
                 {
@@ -624,20 +621,20 @@
                 "parsedown extra wrapper",
                 "parsedown wrapper"
             ],
-            "time": "2014-10-05T14:49:46+00:00"
+            "time": "2015-02-02T15:38:37+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.2.3",
+            "version": "6.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006"
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8d6c6cc55186db87b7dc5009827429ba4e9dc006",
-                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
                 "shasum": ""
             },
             "require": {
@@ -647,8 +644,11 @@
             },
             "require-dev": {
                 "ext-curl": "*",
-                "phpunit/phpunit": "^4.0",
+                "phpunit/phpunit": "^4.0 || ^5.0",
                 "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
             },
             "type": "library",
             "extra": {
@@ -686,7 +686,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2017-02-28T22:50:30+00:00"
+            "time": "2017-06-22T18:50:49+00:00"
         },
         {
             "name": "guzzlehttp/promises",
