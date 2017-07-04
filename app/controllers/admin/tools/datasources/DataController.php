@@ -64,6 +64,7 @@ class DataController extends AdminController
             ->with("tool", $this->toolService->find($toolId))
             ->with("dataSource", $this->dataSourceService->find($dataSourceId))
             ->with("dataTypes", $this->dataTypeService->getDataTypes())
+            ->with("allDataTypes", $this->dataTypeService->all()->get())
             ->with("dataTypeOptions", $arrayOfDataTypeWithOptions);
     }
 
@@ -120,6 +121,7 @@ class DataController extends AdminController
             ->with("dataSource", $this->dataSourceService->find($dataSourceId))
             ->with("dataTypes", $this->dataTypeService->getDataTypes())
             ->with("data", $this->dataService->find($id))
+            ->with("allDataTypes", $this->dataTypeService->all()->get())
             ->with("dataTypeOptions", $arrayOfDataTypeWithOptions);
     }
 

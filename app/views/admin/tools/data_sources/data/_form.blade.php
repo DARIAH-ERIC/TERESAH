@@ -27,11 +27,40 @@
         </div>
         <!-- /row -->
 
+        <div class="row" id="date_div">
+            <div class="small-12 columns">
+                {{ Form::label("value", Lang::get("views.admin.tools.data_sources.data.form.value.label")) }}
+                {{ Form::text("date", '', array("id" => "datepicker")) }}
+            </div>
+            <!-- /small-12.columns -->
+        </div>
+        <!-- /row -->
+
         {{ Form::submit(Lang::get("views.admin.tools.data_sources.data.{$action}.form.submit"), array("class" => "button")) }} &ndash; {{ Lang::get("views.shared.form.or") }} {{ link_to_route("admin.tools.data-sources.show", Lang::get("views.shared.form.cancel"), array($tool->id, $dataSource->id), array("title" => e($tool->name))) }}
     {{ Form::close() }}
 </div>
 <!-- /panel -->
 <script language="JavaScript">
+    var dataTypeOptionArray = [];
+    <?php
+        $js_array = json_encode($dataTypeOptions);
+        echo "dataTypeOptionArray = " . $js_array . ";\n";
+    ?>
+    var selectedDataTypeOption = '';
+    <?php
+        if(isset($data)) {
+            echo "selectedDataTypeOption = '" . $data->value . "';\n";
+        }
+    ?>
+    var dateFields = [];
+    <?php
+        foreach ($allDataTypes as $dataType) {
+            if($dataType->is_date_field) {
+                echo "dateFields.push('" . $dataType->id . "');\n";
+            }
+        }
+    ?>
+
     $(document).ready(function() {
         modifyViewTextAreaOrDropdownList($('#data_type_id').find('option:selected').val());
         $("#data_type_id").change(function() {
@@ -40,26 +69,20 @@
         $("#data_type_options").change(function(e) {
             copyValueToTextarea($('#data_type_options option:selected').text());
         });
+
+        $("#datepicker").datepicker({ dateFormat: 'yy-mm-dd' });
+        $("#datepicker").change(function(e) {
+            copyValueToTextarea($('#datepicker').val());
+        });
     });
     function copyValueToTextarea(myValue) {
+        console.log("myValue: " + myValue);
         if(myValue !== "") {
             $("#value").val(myValue);
         }
     }
     function modifyViewTextAreaOrDropdownList(dataTypeId) {
-        var dataTypeOptionArray = [];
-        <?php
-                $js_array = json_encode($dataTypeOptions);
-                echo "dataTypeOptionArray = " . $js_array . ";\n";
-        ?>
         $('#data_type_options').empty();
-
-        var selectedDataTypeOption = '';
-        <?php
-        if(isset($data)) {
-            echo "selectedDataTypeOption = '" . $data->value . "';\n";
-        }
-        ?>
 
         if(dataTypeOptionArray[dataTypeId] !== null && Object.keys(dataTypeOptionArray[dataTypeId]).length > 0) {
             $.each(dataTypeOptionArray[dataTypeId], function(id, value) {
@@ -72,8 +95,18 @@
             copyValueToTextarea($('#data_type_options').find('option:selected').text());
             $("#select_div").removeClass("hidden");
             $("#textarea_div").addClass("hidden");
+            $("#date_div").addClass("hidden");
+        } else if($.inArray(dataTypeId, dateFields) > -1) {
+            if(selectedDataTypeOption !== null) {
+                $('#datepicker').val(selectedDataTypeOption);
+            }
+            copyValueToTextarea($('#datepicker').val());
+            $("#date_div").removeClass("hidden");
+            $("#select_div").addClass("hidden");
+            $("#textarea_div").addClass("hidden");
         } else {
             $("#select_div").addClass("hidden");
+            $("#date_div").addClass("hidden");
             $("#textarea_div").removeClass("hidden");
             $("#value").val(selectedDataTypeOption);
         }
