@@ -1202,3 +1202,7 @@ dl {
 .hidden {
     display: none;
 }
+
+.partner-empty {
+    width: 123.75px;
+}
