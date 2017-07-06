@@ -33,10 +33,152 @@ class DataTypeOptionsTableSeeder extends Seeder
             array("label" => "Georeferencing > Enrichment-Annotation",
                 "value" => "Georeferencing > Enrichment-Annotation",
                 "order" => 3
+            ),
+            array("label" => "Information Retrieval > Analysis-Content Analysis",
+                "value" => "Information Retrieval > Analysis-Content Analysis",
+                "order" => 4
+            ),
+            array("label" => "Linked open data > Enrichment-Annotation; Dissemination-Publishing",
+                "value" => "Linked open data > Enrichment-Annotation; Dissemination-Publishing",
+                "order" => 5
+            ),
+            array("label" => "Machine Learning > Analysis-Structural Analysis; Analysis-Stylistic Analysis; Analysis-Content Analysis",
+                "value" => "Machine Learning > Analysis-Structural Analysis; Analysis-Stylistic Analysis; Analysis-Content Analysis",
+                "order" => 6
+            ),
+            array("label" => "Mapping",
+                "value" => "Mapping",
+                "order" => 7
+            ),
+            array("label" => "Migration > Storage-Preservation",
+                "value" => "Migration > Storage-Preservation",
+                "order" => 8
+            ),
+            array("label" => "Named Entity Recognition > Enrichment-Annotation; Analysis-Content Analysis",
+                "value" => "Named Entity Recognition > Enrichment-Annotation; Analysis-Content Analysis",
+                "order" => 9
+            ),
+            array("label" => "Open Archival Information Systems > Storage-Preservation",
+                "value" => "Open Archival Information Systems > Storage-Preservation",
+                "order" => 10
+            ),
+            array("label" => "Pattern Recognition > Analysis-Relational Analysis",
+                "value" => "Pattern Recognition > Analysis-Relational Analysis",
+                "order" => 11
+            ),
+            array("label" => "Photography",
+                "value" => "Photography",
+                "order" => 12
+            ),
+            array("label" => "POS-Tagging > Analysis-Structural Analysis",
+                "value" => "POS-Tagging > Analysis-Structural Analysis",
+                "order" => 13
+            ),
+            array("label" => "Preservation Metadata > Storage-Preservation",
+                "value" => "Preservation Metadata > Storage-Preservation",
+                "order" => 14
+            ),
+            array("label" => "Principal Component Analysis > Analysis-Stylistic Analysis",
+                "value" => "Principal Component Analysis > Analysis-Stylistic Analysis",
+                "order" => 15
+            ),
+            array("label" => "Replication > Storage-Preservation",
+                "value" => "Replication > Storage-Preservation",
+                "order" => 16
+            ),
+            array("label" => "Scanning",
+                "value" => "Scanning",
+                "order" => 17
+            ),
+            array("label" => "Searching",
+                "value" => "Searching",
+                "order" => 18
+            ),
+            array("label" => "Sentiment Analysis > Analysis-Content Analysis",
+                "value" => "Sentiment Analysis > Analysis-Content Analysis",
+                "order" => 19
+            ),
+            array("label" => "Sequence Alignment > Analysis-Relational Analysis",
+                "value" => "Sequence Alignment > Analysis-Relational Analysis",
+                "order" => 20
+            ),
+            array("label" => "Technology Preservation > Storage-Preservation",
+                "value" => "Technology Preservation > Storage-Preservation",
+                "order" => 21
+            ),
+            array("label" => "Topic Modeling > Analysis-Content Analysis",
+                "value" => "Topic Modeling > Analysis-Content Analysis",
+                "order" => 22
+            ),
+            array("label" => "Versioning > Storage-Preservation",
+                "value" => "Versioning > Storage-Preservation",
+                "order" => 23
+            ),
+            array("label" => "Web Crawling > Capture-Gathering",
+                "value" => "Web Crawling > Capture-Gathering",
+                "order" => 24
+            ),
+            array("label" => "Bit Stream Preservation > Storage-Preservation",
+                "value" => "Bit Stream Preservation > Storage-Preservation",
+                "order" => 25
+            ),
+            array("label" => "Brainstorming",
+                "value" => "Brainstorming",
+                "order" => 26
+            ),
+            array("label" => "Browsing",
+                "value" => "Browsing",
+                "order" => 27
+            ),
+            array("label" => "Cluster Analysis > Analysis-Stylistic Analysis",
+                "value" => "Cluster Analysis > Analysis-Stylistic Analysis",
+                "order" => 28
+            ),
+            array("label" => "Collocation Analysis > Analysis- Structural Analysis",
+                "value" => "Collocation Analysis > Analysis- Structural Analysis",
+                "order" => 29
+            ),
+            array("label" => "Concordancing > Analysis-Structural Analysis",
+                "value" => "Concordancing > Analysis-Structural Analysis",
+                "order" => 30
+            ),
+            array("label" => "Debugging",
+                "value" => "Debugging",
+                "order" => 31
+            ),
+            array("label" => "Distance Measures > Analysis-Stylistic Analysis",
+                "value" => "Distance Measures > Analysis-Stylistic Analysis",
+                "order" => 32
+            ),
+            array("label" => "Durable Persistent Media > Storage-Preservation",
+                "value" => "Durable Persistent Media > Storage-Preservation",
+                "order" => 33
+            ),
+            array("label" => "Emulation > Storage-Preservation",
+                "value" => "Emulation > Storage-Preservation",
+                "order" => 34
             )
         );
         foreach ($dataTypeOptions as $dataTypeOption) {
             $dataTypeOption["data_type_id"] = $types["application-category"];
+            DataTypeOption::create($dataTypeOption);
+        }
+
+        /**
+         * For Type
+         */
+        $dataTypeOptions = array(
+            array("label" => "Tool",
+                "value" => "Tool",
+                "order" => 1
+            ),
+            array("label" => "Service",
+                "value" => "Service",
+                "order" => 2
+            )
+        );
+        foreach ($dataTypeOptions as $dataTypeOption) {
+            $dataTypeOption["data_type_id"] = $types["tool-type"];
             DataTypeOption::create($dataTypeOption);
         }
 
