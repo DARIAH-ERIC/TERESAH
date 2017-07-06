@@ -11,12 +11,12 @@ class DataTypesTableSeeder extends Seeder
                   "description" => "General description of the tool",
                   "linkable" => false
                  ),
-            array("label" => "Homepage", 
+            array("label" => "Url",
                   "rdf_mapping" => "http://schema.org/url", 
                   "description" => "URL to the tool homepage",                
                   "linkable" => false
                  ),
-            array("label" => "Developer", 
+            array("label" => "Creator",
                   "rdf_mapping" => "http://schema.org/creator",
                   "description" => "Organization or person who developed the tool",
                   "schema_linkable" => false
@@ -30,7 +30,7 @@ class DataTypesTableSeeder extends Seeder
                   "rdf_mapping" => "http://schema.org/license",
                   "description" => "Type of licence for the tool"
                  ),
-            array("label" => "Platform", 
+            array("label" => "Operating System",
                   "rdf_mapping" => "http://schema.org/operatingSystem",
                   "description" => "Platform the tool runs on",
                   "schema_linkable" => false
@@ -40,7 +40,7 @@ class DataTypesTableSeeder extends Seeder
                   "description" => "Suported standard for the tool",
                   "schema_linkable" => false
             ),
-            array("label" => "Tool Type", 
+            array("label" => "Tool Type",
                   "rdf_mapping" => "http://purl.org/dc/elements/1.1/type",
                   "description" => "General type of the tool"
                  ),
