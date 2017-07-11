@@ -22,4 +22,5 @@
  *= require jquery-ui.min
  *= require jquery-ui.structure.min
  *= require jquery-ui.theme.min
+ *= require cookieconsent-3.0.3-min
  */

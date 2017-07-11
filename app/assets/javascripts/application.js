@@ -26,4 +26,5 @@
 //= require highlight
 //= require typeahead.jquery
 //= require bloodhound
+//= require cookieconsent-3.0.3-min
 //= require_tree .

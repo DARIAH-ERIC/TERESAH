@@ -44,4 +44,26 @@
 
 <!-- JavaScripts -->
     {{ javascript_include_tag() }}
+
+<!-- JavaScript Cookie consent -->
+    <script type="text/javascript">
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#553DAB"
+                    },
+                    "button": {
+                        "background": "#45A275",
+                        "text": "#ffffff"
+                    }
+                },
+                "content": {
+                    "message": "This website uses cookies to ensure you get the best experience on our website.",
+                    "dismiss": "Got it!",
+                    "link": "Learn more",
+                    "href": "http://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm"
+                }
+            })});
+    </script>
 </head>
