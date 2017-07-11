@@ -29,7 +29,18 @@ class DataTableSeeder extends Seeder
         foreach($toolsTemp as $tool) {
             $tools[$tool->name] = $tool->id;
             Tool::find($tool->id)->dataSources()->attach($dataSourceId);
-        }    
+
+            //By default, from TERESAH default data.csv, all entries are tools
+            Tool::find($tool->id)->dataSources()->attach($sources["HaS Tool Registry"]);
+            $toolTypeData["tool_id"] = $tool->id;
+            $toolTypeData["data_type_id"] = $types["tool-type"]->id;
+            $toolTypeData["data_source_id"] = $sources["HaS Tool Registry"];
+            $toolTypeData["value"] = "Tool";
+            $toolTypeData["user_id"] = $userId;
+            $toolTypeData["created_at"] = new DateTime;
+            $toolTypeData["updated_at"] = new DateTime;
+            Data::create($toolTypeData);
+        }
                 
         foreach ($data as $d) {
             if(array_key_exists($d["tool"], $tools)){
@@ -48,8 +59,6 @@ class DataTableSeeder extends Seeder
                 }
                 unset($d["type"]);
 
-
-                
                 $d["data_source_id"] = $sources[$d["source"]];
                 $t = Tool::find($d["tool_id"]);
                 if(! in_array($d["data_source_id"], $t->dataSources()->lists('data_source_id'))){
@@ -57,7 +66,7 @@ class DataTableSeeder extends Seeder
                 }
                 
                 unset($d["source"]);
-                
+
                 $d["user_id"] = $userId; 
                 $d["created_at"] = new DateTime;
                 $d["updated_at"] = new DateTime;
