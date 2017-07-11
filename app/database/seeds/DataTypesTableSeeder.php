@@ -63,12 +63,12 @@ class DataTypesTableSeeder extends Seeder
                 "description" => "Type of service being offered, e.g. 'veteran's benefits', 'emergency relief', etc..."
             ),
             array("label" => "Is Used For",
-                "rdf_mapping" => "http://schema.org/unknownIsUsedFor",
-                "description" => "Unknown..."
+                "rdf_mapping" => "http://purl.org/dc/terms/subject",
+                "description" => "TaDiRAH Research Activities describes how tools and services can be used for."
             ),
             array("label" => "Research Object",
-                "rdf_mapping" => "http://schema.org/unknownResearchObject",
-                "description" => "Unknown..."
+                "rdf_mapping" => "http://schema.org/object",
+                "description" => "The object upon which the action is carried out. Used with the ontology of TaDiRAH Research Object."
             ),
             array("label" => "Date Created",
                 "rdf_mapping" => "http://schema.org/dateCreated",
