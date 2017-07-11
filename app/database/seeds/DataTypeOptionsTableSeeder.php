@@ -186,25 +186,21 @@ class DataTypeOptionsTableSeeder extends Seeder
          * For Service Type
          */
         $dataTypeOptions = array(
-            array("label" => "Hosting services",
-                "value" => "Hosting services",
+            array("label" => "Hosting service",
+                "value" => "data hosting",
                 "order" => 1
             ),
-            array("label" => "Processing services",
-                "value" => "Processing services",
+            array("label" => "Processing service",
+                "value" => "processing service",
                 "order" => 2
             ),
-            array("label" => "Support services",
-                "value" => "Support services",
+            array("label" => "Support service",
+                "value" => "support service",
                 "order" => 3
             ),
             array("label" => "Access to resources",
-                "value" => "Access to resources",
+                "value" => "access to resources",
                 "order" => 4
-            ),
-            array("label" => "Access/availability to software",
-                "value" => "Access/availability to software",
-                "order" => 5
             )
         );
         foreach ($dataTypeOptions as $dataTypeOption) {
