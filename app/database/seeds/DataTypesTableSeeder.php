@@ -63,7 +63,7 @@ class DataTypesTableSeeder extends Seeder
                 "description" => "Type of service being offered, e.g. 'veteran's benefits', 'emergency relief', etc..."
             ),
             array("label" => "Is Used For",
-                "rdf_mapping" => "http://purl.org/dc/terms/subject",
+                "rdf_mapping" => "http://purl.org/dc/elements/1.1/subject",
                 "description" => "TaDiRAH Research Activities describes how tools and services can be used for."
             ),
             array("label" => "Research Object",
