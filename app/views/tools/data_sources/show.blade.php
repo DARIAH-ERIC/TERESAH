@@ -40,13 +40,6 @@
         <!-- /small-12.medium-7.columns -->
 
         <div class="small-12 medium-5 columns">
-            <ul class="toolbar">
-                <li>Share This Tool on</li>
-                <li><a href="#" class="addthis_button_facebook" title="Facebook">{{ image_tag("icons/share/facebook.png", array("alt" => "Facebook")) }}</a></li>
-                <li><a href="#" class="addthis_button_google_plusone_share" title="Google+">{{ image_tag("icons/share/google_plus.png", array("alt" => "Google+")) }}</a></li>
-                <li><a href="#" class="addthis_button_twitter" title="Twitter">{{ image_tag("icons/share/twitter.png", array("alt" => "Twitter")) }}</a></li>
-            </ul>
-                                        
             @if (Auth::user() != null)
              <ul class="toolbar">
                 @if (Auth::user()->toolUsages()->where("tool_id", "=", $tool->id)->count() != 0)                                        
