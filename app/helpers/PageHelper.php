@@ -39,7 +39,7 @@ class PageHelper
     {
         switch (App::environment()) {
             case "development":
-            case "staging":
+//            case "staging":
             case "test":
                 return true;
                 break;
