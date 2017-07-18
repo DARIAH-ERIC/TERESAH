@@ -76,7 +76,6 @@
         });
     });
     function copyValueToTextarea(myValue) {
-        console.log("myValue: " + myValue);
         if(myValue !== "") {
             $("#value").val(myValue);
         }
