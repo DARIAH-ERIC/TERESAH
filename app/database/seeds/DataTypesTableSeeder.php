@@ -40,9 +40,9 @@ class DataTypesTableSeeder extends Seeder
                   "description" => "Suported standard for the tool",
                   "schema_linkable" => false
             ),
-            array("label" => "Tool Type",
+            array("label" => "Type",
                   "rdf_mapping" => "http://purl.org/dc/elements/1.1/type",
-                  "description" => "General type of the tool"
+                  "description" => "General type"
                  ),
             array("label" => "Publication", 
                   "rdf_mapping" => "http://schema.org/Article",
