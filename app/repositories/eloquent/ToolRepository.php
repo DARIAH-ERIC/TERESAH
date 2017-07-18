@@ -252,8 +252,6 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
 
             if (array_key_exists($type->slug."-limit", $parameters)) {
                 $limit = $parameters[$type->slug."-limit"];
-            } else if(!empty($parameters["limit"])) {
-                $limit = $parameters["limit"];
             } else {
                 $limit = Config::get("teresah.search_facet_count");
             }
@@ -264,15 +262,19 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
             $facetList[] = $type;
         }
 
+        $limit = Config::get("teresah.search_pager_size");
+        if(!empty($parameters["limit"])) {
+            $limit = $parameters["limit"];
+        }
         if (Auth::check() && Auth::user()->hasAdminAccess()) {
             $tools = $this->model->whereIn("id", $tool_ids)
                 ->orderBy("name", "ASC")
-                ->paginate(Config::get("teresah.search_pager_size"));
+                ->paginate($limit);
         } else {
             $tools = $this->model->whereIn("id", $tool_ids)
                 ->where("is_filled", true)
                 ->orderBy("name", "ASC")
-                ->paginate(Config::get("teresah.search_pager_size"));
+                ->paginate($limit);
         }
 
         $results = array(
