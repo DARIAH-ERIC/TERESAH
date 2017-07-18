@@ -178,7 +178,7 @@ class DataTypeOptionsTableSeeder extends Seeder
             )
         );
         foreach ($dataTypeOptions as $dataTypeOption) {
-            $dataTypeOption["data_type_id"] = $types["tool-type"];
+            $dataTypeOption["data_type_id"] = $types["type"];
             DataTypeOption::create($dataTypeOption);
         }
 
