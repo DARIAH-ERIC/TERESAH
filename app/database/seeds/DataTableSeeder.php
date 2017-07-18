@@ -33,7 +33,7 @@ class DataTableSeeder extends Seeder
             //By default, from TERESAH default data.csv, all entries are tools
             Tool::find($tool->id)->dataSources()->attach($sources["HaS Tool Registry"]);
             $toolTypeData["tool_id"] = $tool->id;
-            $toolTypeData["data_type_id"] = $types["tool-type"]->id;
+            $toolTypeData["data_type_id"] = $types["type"]->id;
             $toolTypeData["data_source_id"] = $sources["HaS Tool Registry"];
             $toolTypeData["value"] = "Tool";
             $toolTypeData["user_id"] = $userId;
