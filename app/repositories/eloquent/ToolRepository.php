@@ -252,6 +252,8 @@ class ToolRepository extends AbstractRepository implements ToolRepositoryInterfa
 
             if (array_key_exists($type->slug."-limit", $parameters)) {
                 $limit = $parameters[$type->slug."-limit"];
+            } else if(!empty($parameters["limit"])) {
+                $limit = $parameters["limit"];
             } else {
                 $limit = Config::get("teresah.search_facet_count");
             }
