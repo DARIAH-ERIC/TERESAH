@@ -67,7 +67,7 @@
             modifyViewTextAreaOrDropdownList(this.value);
         });
         $("#data_type_options").change(function(e) {
-            copyValueToTextarea($('#data_type_options option:selected').text());
+            copyValueToTextarea($('#data_type_options option:selected').val());
         });
 
         $("#datepicker").datepicker({ dateFormat: 'yy-mm-dd' });
@@ -86,13 +86,13 @@
 
         if(dataTypeOptionArray[dataTypeId] !== null && Object.keys(dataTypeOptionArray[dataTypeId]).length > 0) {
             $.each(dataTypeOptionArray[dataTypeId], function(id, value) {
-                if(selectedDataTypeOption === value) {
+                if(selectedDataTypeOption === id) {
                     $('#data_type_options').append($('<option>', {value: id, selected: "selected"}).text(value));
                 } else {
                     $('#data_type_options').append($('<option>', {value: id}).text(value));
                 }
             });
-            copyValueToTextarea($('#data_type_options').find('option:selected').text());
+            copyValueToTextarea($('#data_type_options').find('option:selected').val());
             $("#select_div").removeClass("hidden");
             $("#textarea_div").addClass("hidden");
             $("#date_div").addClass("hidden");
