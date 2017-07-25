@@ -272,8 +272,8 @@ class DataTypeOptionsTableSeeder extends Seeder
                 "value" => "3_Enrichment",
                 "order" => 15
             ),
-                array("label" => "- Annotation",
-                    "value" => "Annotation",
+                array("label" => "- Annotating",
+                    "value" => "Annotating",
                     "order" => 16
                 ),
                 array("label" => "- Cleanup",
@@ -451,7 +451,7 @@ class DataTypeOptionsTableSeeder extends Seeder
                 "order" => 9
             ),
             array("label" => "Images (3D)",
-                "value" => "Images (3D0",
+                "value" => "Images (3D)",
                 "order" => 10
             ),
             array("label" => "Infrastructure",
