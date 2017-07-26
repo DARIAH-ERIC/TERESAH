@@ -436,7 +436,7 @@ Afloat|description|Afloat is a utility that adds new window management functiona
 Afloat|url|http://infinite-labs.net/afloat/|TERESAH
 Afloat|creator|Infinite Labs|TERESAH
 Afloat|operating-system|osX|TERESAH
-Afloat|application-category|Task management|TERESAH
+Afloat|keyword|window manager|TERESAH
 All Our Ideas|description|"All Our Ideas is a research project that seeks to develop a new form of social data collection by combining the best features of quantitative and qualitative methods. Using the power of the web, we are creating a data collection tool that has the scale, speed, and quantification of a survey while still allowing for new information to ""bubble up"" from respondents as happens in interviews, participant observation, and focus groups."|BambooDirt
 All Our Ideas|creator|Google|TERESAH
 All Our Ideas|url|http://www.allourideas.org/|TERESAH
@@ -465,7 +465,7 @@ Altmetric|operating-system|Web|TERESAH
 Amazon Web Services|keyword|Active development|TERESAH
 Amazon Web Services|keyword|Advanced|TERESAH
 Amazon Web Services|description|"Amazon Web Services offers a range of cloud computing services, many of them aimed at the commercial sector (for example, a micropayments system); some of the services of interest to historical researchers may be its cloud database services, online file storage, and text mining tools such as Hadoop. Costs vary greatly but an advantage of cloud services is that space is usually charged according to what is used (as opposed to buying a physical server, which may not be fully used by remains a fixed cost)."|HistoryOnline
-Amazon Web Services|application-category|Cloud computing|TERESAH
+Amazon Web Services|keyword|Cloud computing|TERESAH
 Amazon Web Services|keyword|Multifunctional|TERESAH
 Amazon Web Services|keyword|Online|TERESAH
 Amazon Web Services|keyword|"Variable; data use charged monthly"|TERESAH
@@ -947,7 +947,7 @@ Basecamp|application-category|Communicating|TERESAH
 Basecamp|keyword|Paid|TERESAH
 Basecamp|keyword|productivity|TERESAH
 Basecamp|description|Project management software for sharing files, messages, and task management, including options for daily update emails, real time document editing.|BambooDirt
-Basecamp|application-category|Task management|TERESAH
+Basecamp|application-category|Meta: Project Management|TERESAH
 Basecamp|operating-system|Web|TERESAH
 Basis Technology|description|Basis provides natural language processing technology for the analysis of unstructured multilingual text.|BambooDirt
 Basis Technology|url|http://www.basistech.com/|TERESAH
@@ -1840,7 +1840,7 @@ GoodReader|operating-system|iOS|TERESAH
 GoodReader|operating-system|iOS 3.14+|TERESAH
 GoodReader|operating-system|iPhone|TERESAH
 GoodReader|keyword|Paid|TERESAH
-GoodReader|application-category|Staying current|TERESAH
+GoodReader|keyword|PDF reader|TERESAH
 Google 3D Warehouse|keyword|3D modeling|TERESAH
 Google 3D Warehouse|description|A collection of free-to-download 3D models that have been designed using Google SketchUp.|BambooDirt
 Google 3D Warehouse|creator|Google|TERESAH
@@ -3272,7 +3272,7 @@ OmniFocus|operating-system|iPad|TERESAH
 OmniFocus|description|OmniFocus is task management software that can sync between Macs and iOS devices.|BambooDirt
 OmniFocus|creator|Omnigroup|TERESAH
 OmniFocus|keyword|Paid|TERESAH
-OmniFocus|application-category|Task management|TERESAH
+OmniFocus|keyword|task management|TERESAH
 OmniGraffle|url|http://www.omnigroup.com/products/omnigraffle/|TERESAH
 OmniGraffle|description|OmniGraffle can help you make graphic documents quickly by keeping lines connected to shapes even when they're moved, providing powerful styling tools, importing and exporting Microsoft Visio files, and organizing diagrams with just one click.|BambooDirt
 OmniGraffle|creator|Omnigroup|TERESAH
@@ -3463,7 +3463,7 @@ Org Mode|creator|Bastien Guerry|TERESAH
 Org Mode|url|http://orgmode.org/|TERESAH
 Org Mode|operating-system|Linux|TERESAH
 Org Mode|description|Org mode is for keeping notes, maintaining TODO lists, doing project planning, and authoring with a fast and effective plain-text system.|BambooDirt
-Org Mode|application-category|Task management|TERESAH
+Org Mode|application-category|Meta: Project Management|TERESAH
 OS Open Data|keyword|Active development|TERESAH
 OS Open Data|keyword|Beginner|TERESAH
 OS Open Data|keyword|Both|TERESAH
@@ -3996,7 +3996,7 @@ Projects|url|https://projects.ac/|TERESAH
 Projects|operating-system|osX|TERESAH
 Projects|keyword|Paid|TERESAH
 Projects|description|Projects allows researchers to organise and manage all their research outputs in a safe, simple and structured way. It’s designed to help academics, at any stage of their career, keep track and stay on top of all their results. It’s a light, useful and slick application that integrates into a researcher’s existing workflow to help them work more efficiently and ensure they have more time for making discoveries.|BambooDirt
-Projects|application-category|Task management|TERESAH
+Projects|application-category|Meta: Project Management|TERESAH
 Proofread Page|url|https://www.mediawiki.org/wiki/Extension:Proofread_Page|TERESAH
 Proofread Page|keyword|mediawiki|TERESAH
 Proofread Page|description|Proofread Page is an extension for MediaWiki which allows you to edit transcriptions side by side with the page images. It is used on WikiSource for manuscript and early print transcription projects. Proofread Page supports workflow, but no markup.|BambooDirt
@@ -4401,7 +4401,7 @@ SCHED*|keyword|collaboration|TERESAH
 SCHED*|description|Conference and festival organizers use Sched.org to manage their website's schedule of events, seamlessly integrate social networking and provide their attendees with tools like personal agenda builders, dynamic attendee directories and mobile applications.|BambooDirt
 SCHED*|url|http://sched.org/|TERESAH
 SCHED*|keyword|Paid|TERESAH
-SCHED*|application-category|Task management|TERESAH
+SCHED*|application-category|Communicating|TERESAH
 SCHED*|operating-system|Web|TERESAH
 Scholarometer|keyword|Chrome|TERESAH
 Scholarometer|url|http://scholarometer.indiana.edu/|TERESAH
@@ -5174,7 +5174,6 @@ Things|description|Easy to use task management software for Mac, iPad, and iPhon
 Things|url|http://culturedcode.com/things/|TERESAH
 Things|operating-system|iOS|TERESAH
 Things|keyword|Paid|TERESAH
-Things|application-category|Task management|TERESAH
 Things|keyword|task management|TERESAH
 Thinkport Annotator|url|http://annotator.thinkport.org/|TERESAH
 Thinkport Annotator|keyword|teaching|TERESAH
@@ -5699,7 +5698,8 @@ WikiPack|description|Create private wikis using Markdown and WikiWords that are 
 WikiPack|keyword|Dropbox|TERESAH
 WikiPack|url|http://wikipackit.com/|TERESAH
 WikiPack|keyword|Paid|TERESAH
-WikiPack|application-category|Task management|TERESAH
+WikiPack|application-category|Creation|TERESAH
+WikiPack|application-category|Organizing|TERESAH
 WikiPack|operating-system|Web|TERESAH
 WikiPack|creator|WikiPack|TERESAH
 Wink|creator|DebugMode|TERESAH
@@ -6065,7 +6065,7 @@ Xtranormal|operating-system|Web|TERESAH
 Xtranormal|application-category|Recording|TERESAH
 Xtranormal|creator|Xtranormal Inc.|TERESAH
 Yahoo! Pipes |keyword|Active development|TERESAH
-Yahoo! Pipes |application-category|Cloud computing|TERESAH
+Yahoo! Pipes |keyword|Cloud computing|TERESAH
 Yahoo! Pipes |keyword|Intermediate|TERESAH
 Yahoo! Pipes |keyword|Online|TERESAH
 Yahoo! Pipes |keyword|Single purpose|TERESAH
