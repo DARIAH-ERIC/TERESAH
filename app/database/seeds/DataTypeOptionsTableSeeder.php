@@ -160,7 +160,7 @@ class DataTypeOptionsTableSeeder extends Seeder
             )
         );
         foreach ($dataTypeOptions as $dataTypeOption) {
-            $dataTypeOption["data_type_id"] = $types["application-category"];
+            $dataTypeOption["data_type_id"] = $types["is-used-for"];
             DataTypeOption::create($dataTypeOption);
         }
 
@@ -406,7 +406,7 @@ class DataTypeOptionsTableSeeder extends Seeder
                 )
         );
         foreach ($dataTypeOptions as $dataTypeOption) {
-            $dataTypeOption["data_type_id"] = $types["is-used-for"];
+            $dataTypeOption["data_type_id"] = $types["application-category"];
             DataTypeOption::create($dataTypeOption);
         }
 
