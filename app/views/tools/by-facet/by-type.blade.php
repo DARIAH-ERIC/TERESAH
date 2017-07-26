@@ -27,7 +27,11 @@
                 @foreach ($dataValues as $value)
                     <li>
                         <article class="card">
-                            <h2>{{ link_to_route("tools.by-facet", e($value->value), array($dataType->slug, $value->slug), array("title" => e($value->value))) }}</h2>
+                            @if (array_key_exists($value->value, $dataTypesOptionsMap))
+                                <h2>{{ link_to_route("tools.by-facet", e($dataTypesOptionsMap[$value->value]), array($dataType->slug, $value->slug), array("title" => e($value->value))) }}</h2>
+                            @else
+                                <h2>{{ link_to_route("tools.by-facet", e($value->value), array($dataType->slug, $value->slug), array("title" => e($value->value))) }}</h2>
+                            @endif
                         </article>
                         <!-- /card -->
                     </li>

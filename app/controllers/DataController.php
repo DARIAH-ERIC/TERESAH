@@ -23,9 +23,13 @@ class DataController extends BaseController {
         $dataValues = $this->data->where("data_type_id", $dataType->id)
                             ->groupBy("slug")
                             ->orderBy("value", "ASC")->paginate(20);
-        
+        $allDataTypesOptions = $dataType->dataTypeOption()->get();
+        $dataTypesOptionsMap[] = array();
+        foreach($allDataTypesOptions as $dataTypesOption) {
+            $dataTypesOptionsMap[$dataTypesOption->value] = $dataTypesOption->label;
+        }
         return View::make("tools.by-facet.by-type", compact("dataValues"))
-            ->with("dataType", $dataType);
+            ->with("dataType", $dataType)->with("dataTypesOptionsMap", $dataTypesOptionsMap);
     }
     
     /**
