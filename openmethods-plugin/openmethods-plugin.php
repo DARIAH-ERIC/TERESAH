@@ -33,35 +33,28 @@ class TeresahSearchWidget extends WP_Widget
             $teresahToolUrl = $instance['teresahurl'] . "tools/";
 
             if (isset($_GET['query']) && !empty($_GET['query'])) {
-                $args = array('headers' => array('x-auth-token' => $instance['apikey'],
+                $teresahArgs = array('headers' => array('x-auth-token' => $instance['apikey'],
                     'user-agent' => 'Yoann (http://google.com)',
                     'Content-Type' => 'application/json; charset=utf-8'));
-                $response = wp_remote_get($teresahApiUrl . "?limit=10&query=" . $_GET['query'], $args);
+                $response = wp_remote_get($teresahApiUrl . "?limit=10&query=" . $_GET['query'], $teresahArgs);
             }
 
             if (is_wp_error($response)) {
                 return;
             }
+            echo $args['before_widget'];
             echo "<a href='http://141.5.105.148/' target='_blank' title='Link to TERESAH'>TERESAH (Tools E-Registry for E-Social science, Arts and Humanities)</a> is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities.";
             $form = '<form role="search" method="get" class="search-form" action="/">
                 <label>
                     <span class="screen-reader-text">' . _x('Search for:', 'label') . '</span>
                     <input type="search" class="search-field" placeholder="' . esc_attr_x('Search on TERESAH ...', 'placeholder') . '" value="' . get_search_query() . '" name="query" title="' . esc_attr_x('Search for:', 'label') . '" />
                 </label>
-                <button type="submit" class="search-submit"><span class="screen-reader-text">Search</span>
-                    <svg class="icon icon-search" aria-hidden="true" role="img">
-                        <use href="#icon-search" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
-                    </svg>        
+                <button type="submit" class="search-submit"><span class="screen-reader-text">Search</span>        
                 </button>
             </form>';
             echo $form;
 
             $posts = json_decode(wp_remote_retrieve_body($response));
-            echo $args['before_widget'];
-            //        if (!empty($instance['title'])) {
-            //            echo $args['before_title'] . apply_filters('widget_title', $instance['title'], $instance, $this->id_base) . $args['after_title'];
-            //        }
-
             if (!empty($posts)) {
                 echo '<ul>';
                 foreach ($posts->tools->data as $post) {
