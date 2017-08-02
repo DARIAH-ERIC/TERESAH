@@ -43,8 +43,8 @@ class TeresahSearchWidget extends WP_Widget
                 return;
             }
             echo $args['before_widget'];
-            echo "<a href='http://141.5.105.148/' target='_blank' title='Link to TERESAH'>TERESAH (Tools E-Registry for E-Social science, Arts and Humanities)</a> is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities.";
-            $form = '<form role="search" method="get" class="search-form" action="/">
+            echo "<a href='http://141.5.105.148/' target='_blank' title='Link to TERESAH' id='teresah_link'>TERESAH (Tools E-Registry for E-Social science, Arts and Humanities)</a> is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities.";
+            $form = '<form role="search" method="get" class="search-form" action="/#teresah_link">
                 <label>
                     <span class="screen-reader-text">' . _x('Search for:', 'label') . '</span>
                     <input type="search" class="search-field" placeholder="' . esc_attr_x('Search on TERESAH ...', 'placeholder') . '" value="' . get_search_query() . '" name="query" title="' . esc_attr_x('Search for:', 'label') . '" />
