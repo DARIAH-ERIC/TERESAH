@@ -56,7 +56,7 @@ class TeresahSearchWidget extends WP_Widget
 
             $posts = json_decode(wp_remote_retrieve_body($response));
             if (!empty($posts)) {
-                echo '<ul>';
+                echo '<ul style="list-style-type: circle;">';
                 foreach ($posts->tools->data as $post) {
                     echo '<li><a href="' . $teresahToolUrl . $post->slug . '" target="_blank">' . $post->name . '</a></li>';
                 }
