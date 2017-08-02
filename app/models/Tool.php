@@ -11,7 +11,7 @@ class Tool extends BaseModel
 
     protected $dates = array("deleted_at");
     protected $fillable = array("name", "user_id", "is_filled");
-    public static $mandatoryFieldSlugs = array("tool-type", "description", "url", "operating-system");
+    public static $mandatoryFieldSlugs = array("type", "description", "url");
 
     public static $missingMandatoryFields = array();
 
