@@ -9,12 +9,14 @@ class DataTypesTableSeeder extends Seeder
             array("label" => "Description", 
                   "rdf_mapping" => "http://schema.org/description",
                   "description" => "General description of the tool",
-                  "linkable" => false
+                  "linkable" => false,
+                  "schema_linkable" => false
                  ),
             array("label" => "Url",
                   "rdf_mapping" => "http://schema.org/url", 
                   "description" => "URL to the tool homepage",                
-                  "linkable" => false
+                  "linkable" => false,
+                  "schema_linkable" => false
                  ),
             array("label" => "Creator",
                   "rdf_mapping" => "http://schema.org/creator",
@@ -47,7 +49,8 @@ class DataTypesTableSeeder extends Seeder
             array("label" => "Publication", 
                   "rdf_mapping" => "http://schema.org/Article",
                   "description" => "Link to articles mentioning the tool",
-                  "linkable" => false
+                  "linkable" => false,
+                  "schema_linkable" => false
                  ),
             array("label" => "Contributor",
                 "rdf_mapping" => "http://schema.org/contributor",
