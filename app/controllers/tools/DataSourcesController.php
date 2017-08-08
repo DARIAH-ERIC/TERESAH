@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\View;
 use Illuminate\Support\Facades\URL;
 use Illuminate\Support\Facades\Config;
 use Services\ToolServiceInterface as ToolService;
+use Services\DataTypeOptionServiceInterface as DataTypeOptionService;
 use Illuminate\Support\Facades\Cookie;
 
 class DataSourcesController extends BaseController
@@ -15,14 +16,16 @@ class DataSourcesController extends BaseController
     protected $tool;
     protected $toolService;
     protected $dataSource;
+    protected $dataTypeOptionService;
 
-    public function __construct(Tool $tool, ToolService $toolService, DataSource $dataSource)
+    public function __construct(Tool $tool, ToolService $toolService, DataSource $dataSource, DataTypeOptionService $dataTypeOptionService)
     {
         parent::__construct();
 
         $this->tool = $tool;
         $this->toolService = $toolService;
         $this->dataSource = $dataSource;
+        $this->dataTypeOptionService = $dataTypeOptionService;
     }
 
     /**
@@ -59,10 +62,16 @@ class DataSourcesController extends BaseController
             $this->tool->dataSources[$dataSourceId]->groupedData = $groupedData;
         }
 
+        $dataTypeOptions = array();
+        foreach($this->dataTypeOptionService->all()->get() as $dataTypeOption) {
+            $dataTypeOptions[$dataTypeOption->value] = $dataTypeOption->label;
+        }
+
         return View::make("tools.data_sources.show")
             ->with("tool", $this->tool)
             ->with("preTitle", $this->tool->name)
             ->with("toolSlug", $this->tool->slug)
+            ->with("dataTypeOptions", $dataTypeOptions)
             ->with("similarTools", $this->tool->allSimilarTools())
             ->with("rdf_formats", Config::get("teresah.tool_rdf_formats"));
     }
