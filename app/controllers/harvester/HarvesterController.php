@@ -73,7 +73,10 @@ class HarvesterController extends BaseController
             $typeof = $node->attr("typeof");
             if(($vocab.$typeof) == static::$vocabSoftwareApplication) {
                 $selectedTool = $node->filter("*[property='name']")->each(function (Crawler $subNode) {
-                    $toolFound = $this->toolService->findByName($subNode->text());
+                    $toolFound = $this->toolService->findByNameAndTrashed($subNode->text());
+                    if($toolFound->trashed()) {
+                        $toolFound->restore();
+                    }
                     if (!$toolFound) {
                         $this->toolService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
                         $toolFound = $this->toolService->findByName($subNode->text());

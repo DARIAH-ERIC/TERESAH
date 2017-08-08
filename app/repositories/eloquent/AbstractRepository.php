@@ -52,6 +52,11 @@ abstract class AbstractRepository implements RepositoryInterface
         return $this->make($with)->where($key, $operator, $value)->first();
     }
 
+    public function getFirstTrashedAndBy($key, $operator = "=", $value)
+    {
+        return $this->model->withTrashed()->where($key, $operator, $value)->first();
+    }
+
     public function getManyBy($key, $operator = "=", $value, array $with = array(), $perPage = null)
     {
         if (isset($perPage) && is_numeric($perPage)) {
