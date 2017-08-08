@@ -14,14 +14,14 @@ class DataSourcesTableSeeder extends Seeder
                 "created_at" => new DateTime,
                 "updated_at" => new DateTime
             ),
-            array(
-                "name" => "HaS Tool Registry",
-                "description" => "HaS (Humanities at Scale) Tool registry is a tool created on top of TERESAH.",
-                "homepage" => "http://has.dariah.eu/",
-                "user_id" => $userId,
-                "created_at" => new DateTime,
-                "updated_at" => new DateTime
-            ),
+//            array(
+//                "name" => "HaS Tool Registry",
+//                "description" => "HaS (Humanities at Scale) Tool registry is a tool created on top of TERESAH.",
+//                "homepage" => "http://has.dariah.eu/",
+//                "user_id" => $userId,
+//                "created_at" => new DateTime,
+//                "updated_at" => new DateTime
+//            ),
             array(
                 "name" => "BambooDirt",
                 "description" => "The DiRT Directory is a registry of digital research tools for scholarly use. DiRT makes it easy for digital humanists and others conducting digital research to find and compare resources ranging from content management systems to music OCR, statistical analysis packages to mindmapping software.",

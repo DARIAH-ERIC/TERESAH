@@ -61,7 +61,7 @@ class HarvesterController extends BaseController
 
         $dataSources = DataSource::all();
         foreach($dataSources as $dataSource) {
-            if($dataSource->slug == "has-tool-registry") {
+            if($dataSource->slug == "teresah") {
                 $sourceId = $dataSource->id;
             }
         }
@@ -97,7 +97,7 @@ class HarvesterController extends BaseController
                                 $correctWithDataTypeOption = false;
                                 if ($dataType->dataTypeOption()->count() > 0) {
                                     foreach ($dataType->dataTypeOption()->get() as $dataTypeOption) {
-                                        if ($subNode->text() == $dataTypeOption->value) {
+                                        if ($subNode->text() == $dataTypeOption->value || trim(preg_replace('/\s+/', ' ', $subNode->text())) == $dataTypeOption->value) {
                                             $correctWithDataTypeOption = true;
                                         }
                                     }

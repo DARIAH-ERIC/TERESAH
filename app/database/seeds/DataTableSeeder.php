@@ -31,10 +31,12 @@ class DataTableSeeder extends Seeder
             Tool::find($tool->id)->dataSources()->attach($dataSourceId);
 
             //By default, from TERESAH default data.csv, all entries are tools
-            Tool::find($tool->id)->dataSources()->attach($sources["HaS Tool Registry"]);
+            Tool::find($tool->id)->dataSources()->attach($sources["TERESAH"]);
+//            Tool::find($tool->id)->dataSources()->attach($sources["HaS Tool Registry"]);
             $toolTypeData["tool_id"] = $tool->id;
             $toolTypeData["data_type_id"] = $types["type"]->id;
-            $toolTypeData["data_source_id"] = $sources["HaS Tool Registry"];
+            $toolTypeData["data_source_id"] = $sources["TERESAH"];
+//            $toolTypeData["data_source_id"] = $sources["HaS Tool Registry"];
             $toolTypeData["value"] = "Tool";
             $toolTypeData["user_id"] = $userId;
             $toolTypeData["created_at"] = new DateTime;
