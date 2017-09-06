@@ -34,7 +34,7 @@ class TeresahSearchWidget extends WP_Widget
 
             if (isset($_GET['query']) && !empty($_GET['query'])) {
                 $teresahArgs = array('headers' => array('x-auth-token' => $instance['apikey'],
-                    'user-agent' => 'Yoann (http://google.com)',
+                    'user-agent' => 'OpenMethods (http://openmethods.dariah.eu/)',
                     'Content-Type' => 'application/json; charset=utf-8'));
                 $response = wp_remote_get($teresahApiUrl . "?limit=10&query=" . $_GET['query'], $teresahArgs);
             }
@@ -43,7 +43,7 @@ class TeresahSearchWidget extends WP_Widget
                 return;
             }
             echo $args['before_widget'];
-            echo "<a href='http://141.5.105.148/' target='_blank' title='Link to TERESAH' id='teresah_link'>TERESAH (Tools E-Registry for E-Social science, Arts and Humanities)</a> is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities.";
+            echo "<b><a href='http://141.5.105.148/' target='_blank' title='Link to TERESAH' id='teresah_link'>TERESAH (Tools E-Registry for E-Social science, Arts and Humanities)</a></b> is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities.<br />It aims to provide an authoritative listing of the software tools currently in use in those domains, and to allow their users to make transparent the methods and applications behind them.";
             $form = '<form role="search" method="get" class="search-form" action="/#teresah_link">
                 <label>
                     <span class="screen-reader-text">' . _x('Search for:', 'label') . '</span>
