@@ -6,7 +6,7 @@ class UsersTableSeeder extends Seeder
     {
         $users = array(
             array(
-                "email_address" => "teresah@dasish.eu",
+                "email_address" => "yoann.moranville@dariah.eu",
                 "password" => "password",
                 # "password_confirmation" => "password",
                 "name" => "TERESAH Admin",

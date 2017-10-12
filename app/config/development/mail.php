@@ -54,7 +54,7 @@ return array(
     |
     */
 
-    "from" => array("address" => "teresah@dasish.eu", "name" => "TERESAH"),
+    "from" => array("address" => "yoann.moranville@dariah.eu", "name" => "TERESAH"),
 
     /*
     |--------------------------------------------------------------------------
