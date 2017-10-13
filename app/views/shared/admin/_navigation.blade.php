@@ -1,7 +1,7 @@
 <div class="contain-to-grid sticky">
     <nav class="top-bar" data-topbar role="navigation">
         <ul class="title-area">
-            <li class="name"><h1><a href="/" title="TERESAH">{{ image_tag("cropped-rsz_2has.png", array("alt" => "TERESAH")) }}{{ image_tag("teresah_logo.png", array("alt" => "TERESAH")) }}</a></h1></li>
+            <li class="name"><h1><a href="/" title="TERESAH">{{ image_tag("teresah_logo.png", array("alt" => "TERESAH")) }}</a></h1></li>
             <li class="toggle-topbar menu-icon"><a href="#" title="Menu">Menu</a></li>
         </ul>
         <!-- /title-area -->
