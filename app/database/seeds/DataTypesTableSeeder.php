@@ -9,24 +9,20 @@ class DataTypesTableSeeder extends Seeder
             array("label" => "Description", 
                   "rdf_mapping" => "http://schema.org/description",
                   "description" => "General description of the tool",
-                  "linkable" => false,
-                  "schema_linkable" => false
+                  "linkable" => false
                  ),
             array("label" => "Url",
                   "rdf_mapping" => "http://schema.org/url", 
                   "description" => "URL to the tool homepage",                
-                  "linkable" => false,
-                  "schema_linkable" => false
+                  "linkable" => false
                  ),
             array("label" => "Creator",
                   "rdf_mapping" => "http://schema.org/creator",
-                  "description" => "Organization or person who developed the tool",
-                  "schema_linkable" => false
+                  "description" => "Organization or person who developed the tool"
                  ),
             array("label" => "Keyword", 
                   "rdf_mapping" => "http://schema.org/keywords",
-                  "description" => "Free form keywords describing the tool",
-                  "schema_linkable" => false
+                  "description" => "Free form keywords describing the tool"
                  ),
             array("label" => "License", 
                   "rdf_mapping" => "http://schema.org/license",
@@ -34,28 +30,19 @@ class DataTypesTableSeeder extends Seeder
                  ),
             array("label" => "Operating System",
                   "rdf_mapping" => "http://schema.org/operatingSystem",
-                  "description" => "Platform the tool runs on",
-                  "schema_linkable" => false
+                  "description" => "Platform the tool runs on"
                  ),
             array("label" => "Standard", 
                   "rdf_mapping" => "http://schema.org/supportingData",
-                  "description" => "Suported standard for the tool",
-                  "schema_linkable" => false
+                  "description" => "Supported standard for the tool"
             ),
             array("label" => "Type",
                   "rdf_mapping" => "http://purl.org/dc/elements/1.1/type",
                   "description" => "General type"
                  ),
-            array("label" => "Publication", 
-                  "rdf_mapping" => "http://schema.org/Article",
-                  "description" => "Link to articles mentioning the tool",
-                  "linkable" => false,
-                  "schema_linkable" => false
-                 ),
             array("label" => "Contributor",
                 "rdf_mapping" => "http://schema.org/contributor",
-                "description" => "Organization or person whol contributed to the tool",
-                "schema_linkable" => false
+                "description" => "Organization or person who contributed to the tool"
             ),
             array("label" => "Application Category",
                 "rdf_mapping" => "http://schema.org/applicationCategory",
