@@ -1285,18 +1285,18 @@ Click2map |description|Click2Map's 'Free Map Creator' provides an online user in
 Click2map |keyword|Online|TERESAH
 Click2map |keyword|Single purpose|TERESAH
 Click2map |application-category|Visualization|TERESAH
-Collin\'s Parser|creator|Michael Collins|TERESAH
-Collin�s Parser|description|A statistical natural language parser capable of analysing a text to determine its grammatical structure.|ArtsHumanities
-Collin�s Parser|keyword|analysis|TERESAH
-Collin�s Parser|operating-system|Cross-platform|TERESAH
-Collin�s Parser|license|GNU GPL|TERESAH
-Collin�s Parser|operating-system|Linux|TERESAH
-Collin�s Parser|keyword|Natural language|TERESAH
-Collin�s Parser|operating-system|osX|TERESAH
-Collin�s Parser|keyword|parse|TERESAH
-Collin�s Parser|keyword|parsing standards|TERESAH
-Collin�s Parser|keyword|Statistical analysis|TERESAH
-Collin�s Parser|operating-system|Windows|TERESAH
+Collin's Parser|creator|Michael Collins|TERESAH
+Collin's Parser|description|A statistical natural language parser capable of analysing a text to determine its grammatical structure.|ArtsHumanities
+Collin's Parser|keyword|analysis|TERESAH
+Collin's Parser|operating-system|Cross-platform|TERESAH
+Collin's Parser|license|GNU GPL|TERESAH
+Collin's Parser|operating-system|Linux|TERESAH
+Collin's Parser|keyword|Natural language|TERESAH
+Collin's Parser|operating-system|osX|TERESAH
+Collin's Parser|keyword|parse|TERESAH
+Collin's Parser|keyword|parsing standards|TERESAH
+Collin's Parser|keyword|Statistical analysis|TERESAH
+Collin's Parser|operating-system|Windows|TERESAH
 Concordance|description|A software tool for performing concordance � the analysis of a set of words within its immediate context - on a body of text. The tool performs full concordance, reading and analysing each and every word in a text. It was initially written for the analysis of English texts, but has since been extended to cater for other Western languages. Limited support is also provided for text in East Asian scripts, such as Chinese and Korean.|ArtsHumanities
 Concordance|keyword|analysis|TERESAH
 Concordance|license|commercial|TERESAH
@@ -1764,10 +1764,6 @@ Gephi|url|http://gephi.org/|TERESAH
 Gephi|operating-system|Linux|TERESAH
 Gephi|keyword|network analysis|TERESAH
 Gephi|application-category|Visualization|TERESAH
-Gephi|publication|http://www.aaai.org/ocs/index.php/ICWSM/09/paper/viewFile/154Forum/1009|TERESAH
-Gephi|publication|http://dl.acm.org/citation.cfm?id=2464487|TERESAH
-Gephi|publication|http://books.google.com.cy/books?hl=en&lr=&id=-bP4AAAAQBAJ&oi=fnd&pg=PT6&dq=Gephi&ots=tFvoJQ17K0&sig=jLg_vjM4feBBSWXXrRH1OSE_ICc|TERESAH
-Gephi|publication|http://www.tandfonline.com/doi/abs/10.1080/19409419.2013.824401?journalCode=rrjc20|TERESAH
 GIMP (GNU Image Manipulation Program)|description|GIMP is image editing software, much like Photoshop. It is a multi-platform software application primarily used for image composition and editing. The basic tool may be augmented by plug-ins and extensions that allow the use of new file formats, effects filters and batch processing capabilities. GIMP was initially created to manipulate raster images, but has been extended to provide limited vector image and moving image support. A number of free extensions are available in the plugin registry.|BambooDirt
 GIMP (GNU Image Manipulation Program)|creator|GIMP Team|TERESAH
 GIMP (GNU Image Manipulation Program)|license|GNU GPL|TERESAH
@@ -1937,9 +1933,6 @@ Google Maps|description|Google Maps is a web mapping service application that in
 Google Maps|url|http://maps.google.com/|TERESAH
 Google Maps|is-used-for|Mapping|TERESAH
 Google Maps|operating-system|Web|TERESAH
-Google Maps|publication|http://www.sciencedirect.com/science/article/pii/S030544031100015X|TERESAH
-Google Maps|publication|http://www.sciencedirect.com/science/article/pii/S1296207411000069|TERESAH
-Google Maps|publication|http://www.saa.org/Portals/0/SAA/Publications/thesaaarchrec/Jan2013.pdf#page=22|TERESAH
 Google Notebook|application-category|Annotating|TERESAH
 Google Notebook|creator|Google|TERESAH
 Google Notebook|description|"Google Notebook helps you collect notes and information from the web for research or planning. You can use Google's bookmarklet to add text and images to any page of your notebooks, access your notebooks from any computer or your mobile phone, and also share your notebooks with others.
@@ -3395,9 +3388,6 @@ OpenLayers|keyword|markers|TERESAH
 OpenLayers|creator|Open Source Geospatial Foundation|TERESAH
 OpenLayers|description|OpenLayers is a Javascript library that can display map tiles and markers loaded from any source.|BambooDirt
 OpenLayers|operating-system|Web|TERESAH
-OpenLayers|publication|http://www.e-perimetron.org/vol_4_2/Henrie.pdf|TERESAH
-OpenLayers|publication|http://proceedings.asmedigitalcollection.asme.org/proceeding.aspx?articleid=1614910|TERESAH
-OpenLayers|publication|http://dl.acm.org/citation.cfm?id=1823894|TERESAH
 OpenOffice|license|Apache License|TERESAH
 OpenOffice|creator|Apache Software Foundation|TERESAH
 OpenOffice|url|http://www.openoffice.org|TERESAH
