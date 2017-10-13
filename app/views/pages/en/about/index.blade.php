@@ -11,7 +11,7 @@
 
             <p>TERESAH has been further developed by the HaS (Humanities at Scale) project WP8.</p>
 
-            <p>Partners who has contributed to TERESAH include King's College London, Swedish National Data Service, Finnish Social Science Data Archive, University of Tartu, Universitat Pompeu Fabra and CentERdata.</p>
+            <p>Partners who has initially contributed to TERESAH include King's College London, Swedish National Data Service, Finnish Social Science Data Archive, University of Tartu, Universitat Pompeu Fabra and CentERdata. And later, within the Humanities at Scale project were DARIAH-ERIC and Göttingen State and University library.</p>
         </div>
         <!-- /small-12.medium-10.columns.small-centered -->
     </section>

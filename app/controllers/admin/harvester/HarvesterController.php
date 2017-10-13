@@ -1,6 +1,7 @@
-<?php namespace Harvester;
+<?php namespace Admin\Harvester;
 
 use BaseController;
+use BaseHelper;
 use Data;
 use DataSource;
 use DateTime;
@@ -40,7 +41,7 @@ class HarvesterController extends BaseController
      */
     public function index()
     {
-        return View::make("harvester.show");
+        return View::make("admin.harvester.show");
     }
 
     /**
@@ -54,7 +55,6 @@ class HarvesterController extends BaseController
     public function harvest()
     {
         $url = Input::get("url");
-        Log::info("The URL to crawl: " . $url);
         $dataTypes = $this->dataTypeService->all()->get();
         $tools = array();
         $toolsFullyDescribed = array();
@@ -68,16 +68,17 @@ class HarvesterController extends BaseController
 
         $client = new Client();
         $crawler = $client->request('GET', urldecode($url));
-        $crawler->filter('article[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId, &$tools, &$toolsFullyDescribed) {
+        $crawler->filter('*[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId, &$tools, &$toolsFullyDescribed) {
             $vocab = $node->attr("vocab");
             $typeof = $node->attr("typeof");
             if(($vocab.$typeof) == static::$vocabSoftwareApplication) {
                 $selectedTool = $node->filter("*[property='name']")->each(function (Crawler $subNode) {
                     $toolFound = $this->toolService->findByNameAndTrashed($subNode->text());
-                    if($toolFound->trashed()) {
-                        $toolFound->restore();
-                    }
-                    if (!$toolFound) {
+                    if ($toolFound) {
+                        if ($toolFound->trashed()) {
+                            $toolFound->restore();
+                        }
+                    } else {
                         $this->toolService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
                         $toolFound = $this->toolService->findByName($subNode->text());
                     }
@@ -100,7 +101,7 @@ class HarvesterController extends BaseController
                                 $correctWithDataTypeOption = false;
                                 if ($dataType->dataTypeOption()->count() > 0) {
                                     foreach ($dataType->dataTypeOption()->get() as $dataTypeOption) {
-                                        if ($subNode->text() == $dataTypeOption->value || trim(preg_replace('/\s+/', ' ', $subNode->text())) == $dataTypeOption->value) {
+                                        if (BaseHelper::generateSlug(trim(preg_replace('/\s+/', ' ', $subNode->text()))) == BaseHelper::generateSlug($dataTypeOption->value)) {
                                             $correctWithDataTypeOption = true;
                                         }
                                     }
@@ -134,7 +135,7 @@ class HarvesterController extends BaseController
             }
         });
 
-        return View::make("harvester.show")
+        return View::make("admin.harvester.show")
             ->with("harvest", "The harvest was complete")
             ->with("tools", $tools)
             ->with("toolsFullyDescribed", $toolsFullyDescribed);

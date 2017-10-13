@@ -35,7 +35,7 @@
         @endforeach
     @endif
 
-    {{ Form::open(array("route" => "harvester.harvest", "role" => "form")) }}
+    {{ Form::open(array("route" => "admin.harvester.harvest", "role" => "form")) }}
         {{ Form::label("url", Lang::get("views.admin.harvester.form.url.label")) }}
         {{ Form::text("url", null, array("name" => "url", "placeholder" => Lang::get("views.admin.harvester.form.url.placeholder"))) }}
         {{ Form::submit(Lang::get("views.admin.harvester.form.harvest"), array("class" => "button")) }}

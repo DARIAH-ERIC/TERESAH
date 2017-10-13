@@ -48,6 +48,9 @@
                     <ul class="dropdown">
                         <li>{{ link_to_route("admin.tools.index", Lang::get("views.shared.navigation.admin.tools.index.name"), null, array("title" => Lang::get("views.shared.navigation.admin.tools.index.title"))) }}</li>
                         <li>{{ link_to_route("admin.tools.create", Lang::get("views.shared.navigation.admin.tools.create.name"), null, array("title" => Lang::get("views.shared.navigation.admin.tools.create.title"))) }}</li>
+                        @if (Auth::user()->isAdministrator())
+                            <li>{{ link_to_route("admin.harvester.index", Lang::get("views.shared.navigation.admin.harvester.name"), null, array("title" => Lang::get("views.shared.navigation.admin.harvester.name"))) }}</li>
+                        @endif
                     </ul>
                 </li>
 
