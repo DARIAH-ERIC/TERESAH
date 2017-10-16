@@ -19,6 +19,7 @@ class ToolsController extends BaseController {
 
     /**
      * Returns all tool records.
+     * If not admin, it will only return the items that contains all mandatory fields of the Metadata Application Profile.
      *
      * GET /tools
      *

@@ -15,12 +15,17 @@ use Services\DataService;
 use Services\DataTypeService;
 use Services\ToolService;
 use Symfony\Component\DomCrawler\Crawler;
+use Tool;
 
 class HarvesterController extends BaseController
 {
     protected $toolService;
     protected $dataService;
     protected $dataTypeService;
+
+    protected $accessControlList = array(
+        "administrator" => array("*")
+    );
 
     private static $vocabSoftwareApplication = "http://schema.org/SoftwareApplication";
 
@@ -45,7 +50,8 @@ class HarvesterController extends BaseController
     }
 
     /**
-     * Show the index page of the harvester.
+     * Harvest the given URL and inputs the data in our database.
+     * Create a new item if it doesn't yet exist
      *
      * POST /harvester
      *
@@ -79,14 +85,14 @@ class HarvesterController extends BaseController
                             $toolFound->restore();
                         }
                     } else {
-                        $this->toolService->create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text())));
+                        Tool::create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text(), "is_filled" => false)));
                         $toolFound = $this->toolService->findByName($subNode->text());
                     }
                     return $toolFound;
                 });
                 if ($selectedTool) {
-                    Log::info("We have a tool on this page, it contains at least a name");
                     $myTool = $selectedTool[0];
+                    Log::info("We have a tool on this page, it contains at least a name: " . $myTool->name . " (" . $myTool->id . ")");
                     $tools[] = $myTool;
                     $this->toolService->attachDataSource($myTool->id, $sourceId);
                     foreach ($dataTypes as $dataType) {
