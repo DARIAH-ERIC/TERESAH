@@ -2,7 +2,7 @@
 
 _Developed in DASISH Task 2.3._
 
-##### Code forked and developed further for HaS Task 8.1 
+_Code forked and further developed for HaS Task 8.1_ 
 
 TERESAH (Tools E-Registry for E-Social science, Arts and Humanities) is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities (SSH). It aims to provide an authoritative listing of the software tools currently in use in those domains, and to allow their users to make transparent the methods and applications behind them.
 
@@ -33,6 +33,12 @@ To ensure consistency throughout the source code, follow the coding conventions 
 * [Tools](documentation/api/v1/tools.md)
 * [Users](documentation/api/v1/users.md)
 
+# User manual
+* [User manual](documentation/user_manual/readme.md)
+
+# Harvester
+* [Harvester](documentation/harvester/readme.md)
+
 # Licence
 * [License for the software (TERESAH)](LICENSE.md)
-* [License for the conent](LICENSE_CONTENT.md)
+* [License for the content](LICENSE_CONTENT.md)

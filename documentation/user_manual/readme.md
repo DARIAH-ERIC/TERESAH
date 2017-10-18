@@ -201,7 +201,7 @@ Either click on the link "Add tool data" or pick "Add tool data" in the menu for
 - 2) Fill out the data
 - 3) Click "Add data" to save
 
-If we look at the tool (first leaving adminin mode), we can se our newly added data.
+If we look at the tool (first leaving admin mode), we can see our newly added data.
 
 ![Viewing a newly added data field](./../../app/assets/images/user_manual/viewing_a_new_data_field.png)
 *Viewing our newly added data*
@@ -242,11 +242,15 @@ A message bar will show that the tool has been deleted.
 ![Tool deletion confirmation](./../../app/assets/images/user_manual/tool_successfully_deleted.png)
 *Confirmation of tool deletion*
 
+Harvesting data
+---------------
+
+A user (Supervisor and Administrator) can also harvest HTML pages containing RDFa information, for more information please see the folder TERESAH/documentation/harvester/ in the git repository
 
 The TERESAH API
 ===============
 
-Since this manual is aimed at non-programmers, we will not cover the TERESAH API here. For up-to-date information regarding the API, se the folder TERESAH/documentation/api/v1/ in the git repository.
+Since this manual is aimed at non-programmers, we will not cover the TERESAH API here. For up-to-date information regarding the API, see the folder TERESAH/documentation/api/v1/ in the git repository.
 
 Reference
 =========
