@@ -156,7 +156,9 @@ class CronRunCommand extends Command {
 
         $client = new Client();
         $crawler = $client->request('GET', urldecode($harvester->url));
-        $crawler->filter('*[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId, &$tools, &$toolsFullyDescribed) {
+        $userId = key($this->userService->getActiveUsers());
+
+        $crawler->filter('*[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId, $userId, &$tools, &$toolsFullyDescribed) {
             $vocab = $node->attr("vocab");
             $typeof = $node->attr("typeof");
             if(($vocab.$typeof) == static::$vocabSoftwareApplication) {
@@ -167,7 +169,7 @@ class CronRunCommand extends Command {
                             $toolFound->restore();
                         }
                     } else {
-                        Tool::create(array("name" => $subNode->text(), "is_filled" => false, "user_id" => key($this->userService->getActiveUsers())));
+                        Tool::create(array("name" => $subNode->text(), "is_filled" => false, "user_id" => $userId));
                         $toolFound = $this->toolService->findByName($subNode->text());
                     }
                     return $toolFound;
@@ -182,7 +184,7 @@ class CronRunCommand extends Command {
                         if (Str::startsWith($rdfFullUri, $vocab)) {
                             $rdfFullUri = str_replace($vocab, "", $rdfFullUri);
                         }
-                        $node->filterXPath('//*[@property="' . $rdfFullUri . '" or @property="'.$vocab.$rdfFullUri.'"]')->each(function (Crawler $subNode) use ($dataType, $myTool, $sourceId, $rdfFullUri) {
+                        $node->filterXPath('//*[@property="' . $rdfFullUri . '" or @property="'.$vocab.$rdfFullUri.'"]')->each(function (Crawler $subNode) use ($dataType, $myTool, $sourceId, $userId, $rdfFullUri) {
                             Log::debug($dataType->rdf_mapping . " --> " . $subNode->text());
                             $dataFound = $this->dataService->findByValueAndTool($myTool->id, $subNode->text());
                             if (!$dataFound) {
@@ -203,7 +205,7 @@ class CronRunCommand extends Command {
                                         "tool_id" => $myTool->id,
                                         "data_type_id" => $dataType->id,
                                         "data_source_id" => $sourceId,
-                                        "user_id" => Auth::user()->id,
+                                        "user_id" => $userId,
                                         "created_at" => new DateTime,
                                         "updated_at" => new DateTime
                                     ]);
