@@ -245,7 +245,7 @@ A message bar will show that the tool has been deleted.
 Harvesting data
 ---------------
 
-A user (Supervisor and Administrator) can also harvest HTML pages containing RDFa information, for more information please see the folder TERESAH/documentation/harvester/ in the git repository
+A user (Supervisor and Administrator) can also harvest HTML pages containing RDFa information, for more information please see the folder TERESAH/documentation/harvester/ in the git repository and the [Metadata Application Profile](./../../app/assets/application_profile/HaS_WP8.1_Application_Metadata_Profile.pdf) written for the HaS project. 
 
 The TERESAH API
 ===============

@@ -1,9 +1,13 @@
 Harvesting data in order to create or modify Tools and/or Services
 ==================================================================
 
+#Introduction
+
 As Supervisor or Administrator, one can also harvest webpages in order to add content to TERESAH.
 This page is available in the administrative section of TERESAH under the "Data Sources" dropdown menu and is labeled as "Harvester".
 In the context of TERESAH, we talk about harvesting when retrieving information from a single HTML page containing RDFa data. This RDFa data can describe either one Tool / Service or many of those.
+
+#Installation
 
 These harvests are done weekly on Sundays at 3am, but in order to do this, we need to tell our application to launch a script regularly to check if there is a harvest to be done.
 You will need to add a cronjob to your server for this, and it has to be launched by your apache user (or the user that owns the TERESAH source code), first open crontab with your user, here `apache`:
@@ -15,10 +19,11 @@ Then add this line to your contab, this will launch a script every 5 minutes by 
 */5 * * * * cd /var/www/html/ && /usr/bin/php artisan cron:run
 ```
 
+#Metadata Application Profile 
 
-In order to be able to harvest correctly a webpage, you would need to know the [metadata application profile](./../../app/assets/application_profile/empty.pdf.txt) we use and to correctly use the [vocabularies](./../../app/assets/application_profile/empty.pdf.txt) that goes with it. Of course more information are given here in this document.
+In order to be able to harvest correctly a webpage, you would need to know the [metadata application profile](./../../app/assets/application_profile/HaS_WP8.1_Application_Metadata_Profile.pdf) we use and to correctly use the [vocabularies](./../../app/assets/application_profile/empty.pdf.txt) that goes with it. Of course more information are given here in this document.
 
-Explanations for webmasters
+###Explanations for webmasters
 Adding RDFa to an existing website is relatively easy once you know the properties that are used by the ones monitoring your website, that’s why we created this Metadata Application Profile which are the properties that can be set in HTML in order to have descriptive information for machines. Firstly, you will need to set a vocabulary at the top HTML element that encapsulates the description of your tool or service. This can be at the very top of an HTML page if the page only describes one tool / service or multiple times within the page. Once the vocab has been given, it would be need to be given a type, our AP is set on a type of SoftwareApplication (http://schema.org/SoftwareApplication). Therefore your top level HTML element that encapsulate the description of your item should look like the following (with @vocab and @typeof):
 ```xml
 <article vocab="http://schema.org/" typeof="SoftwareApplication">
@@ -39,7 +44,7 @@ Within this HTML element, you can then add all the descriptive elements you wish
 ```
 
 
-Following is a full example:
+###Following is a full example:
 ```xml
 <div vocab="http://schema.org/" typeof="SoftwareApplication">
    <div property="name">TERESAH Tool</div>

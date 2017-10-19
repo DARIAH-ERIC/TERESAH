@@ -145,6 +145,11 @@ class Activity extends BaseModel
                 }
             }
         }
+        # TODO: If you want the metadata column of the Activity table without "NULL", uncomment the following
+        #if($model instanceof \Data)
+        #{
+        #    return array("name" => "Data, see Data table");
+        #}
     }
 
     private static function getUserId($model)
