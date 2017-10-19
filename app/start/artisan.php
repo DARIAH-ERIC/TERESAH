@@ -12,3 +12,4 @@
 */
 
 Artisan::add(new Deploy);
+Artisan::add(App::make('CronRunCommand'));

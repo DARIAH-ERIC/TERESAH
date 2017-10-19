@@ -269,8 +269,20 @@ Route::group(array("prefix" => "admin", "namespace" => "Admin"), function() {
             "uses" => "HarvesterController@index"
         ));
         Route::post("/", array(
+            "as" => "admin.harvester.save",
+            "uses" => "HarvesterController@save"
+        ));
+        Route::put("/{id}", array(
             "as" => "admin.harvester.harvest",
             "uses" => "HarvesterController@harvest"
+        ));
+        Route::patch("/{id}", array(
+            "as" => "admin.harvester.harvest",
+            "uses" => "HarvesterController@harvest"
+        ));
+        Route::delete("/{id}", array(
+            "as" => "admin.harvester.destroy",
+            "uses" => "HarvesterController@destroy"
         ));
     });
 });

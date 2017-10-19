@@ -253,11 +253,32 @@ return array(
 
         "harvester" => array(
             "form" => array(
+                "name" => array(
+                    "label" => "The name of your harvest",
+                    "placeholder" => "Name"
+                ),
                 "url" => array(
                     "label" => "The URL to harvest",
                     "placeholder" => "URL"
                 ),
-                "harvest" => "Harvest"
+                "data_source" => "The data source it belongs to",
+                "save" => "Save"
+            ),
+
+            "text" => array(
+                "enter_url" => "You can enter an URL where a tool exists in order to harvest it into TERESAH",
+                "number_tools" => "Number of tools on the harvested page",
+                "number_tools_described" => "Number of tools fully described on the harvested page"
+            ),
+
+            "table" => array(
+                "name" => "Name",
+                "url" => "URL",
+                "launch_now" => "Launch now",
+                "last_launched" => "Last time launched",
+                "active" => "Active",
+                "data_source" => "Data source",
+                "actions" => "Actions"
             ),
 
             "create" => array(
