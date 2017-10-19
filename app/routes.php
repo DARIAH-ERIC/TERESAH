@@ -192,6 +192,10 @@ Route::group(array("prefix" => "api", "namespace" => "Api"), function() {
         Route::patch("data-types/{id}{format}", array("as" => "{$namespace}.data-types.update", "uses" => "DataTypesController@update"));
         Route::delete("data-types/{id}{format}", array("as" => "{$namespace}.data-sources.destroy", "uses" => "DataTypesController@destroy"));
 
+        # Harvesters
+        Route::get("harvesters{format}", array("as" => "{$namespace}.harvesters.index", "uses" => "HarvestersController@index"));
+        Route::get("harvesters/{id}{format}", array("as" => "{$namespace}.harvesters.show", "uses" => "HarvestersController@show"));
+
         # Logins
         Route::get("logins{format}", array("as" => "{$namespace}.logins.index", "uses" => "LoginsController@index"));
         Route::get("logins/{id}{format}", array("as" => "{$namespace}.logins.show", "uses" => "LoginsController@show"));
