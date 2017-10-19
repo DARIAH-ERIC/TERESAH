@@ -8,4 +8,4 @@ Have a great day!
 P.S. - For your future reference, your registered email address is: {{ $user->email_address }}
 
 Best regards,
-The DASISH/TERESAH team
+The TERESAH team

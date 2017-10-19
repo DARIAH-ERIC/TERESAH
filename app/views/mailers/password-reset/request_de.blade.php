@@ -11,4 +11,4 @@ Reset your password now
 If you don't want to change your password, you can ignore this email.
 
 Best regards,
-The DASISH/TERESAH team
+The TERESAH team
