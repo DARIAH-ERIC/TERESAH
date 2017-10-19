@@ -52,7 +52,7 @@ class Harvester extends BaseModel
 
     public function dataSource()
     {
-        return $this->hasMany("DataSource");
+        return $this->belongsTo("DataSource");
     }
 
     public function scopeIsActive($query)
@@ -63,10 +63,5 @@ class Harvester extends BaseModel
     public function user()
     {
         return $this->belongsTo("User");
-    }
-
-    public function users()
-    {
-        return $this->belongsToMany("User")->withTimestamps();
     }
 }
