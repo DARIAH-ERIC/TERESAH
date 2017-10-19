@@ -32,7 +32,7 @@ class HarvestersController extends ApiController
      */
     public function index()
     {
-        return Response::jsonWithStatus(200, array("harvesters" => $this->harvesterService->all($with = array("user", "dataSources"), $perPage = Input::get("limit", 20))->toArray()));
+        return Response::jsonWithStatus(200, array("harvesters" => $this->harvesterService->all($with = array("user", "dataSource"), $perPage = Input::get("limit", 20))->toArray()));
     }
 
     /**
