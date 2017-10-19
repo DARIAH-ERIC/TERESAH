@@ -29,6 +29,7 @@ class HarvesterController extends BaseController
     protected $harvesterService;
 
     protected $accessControlList = array(
+        "supervisor" => array("*"),
         "administrator" => array("*")
     );
 

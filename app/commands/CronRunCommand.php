@@ -220,7 +220,7 @@ class CronRunCommand extends Command {
                 }
             }
         });
-//        $harvester->last_launched = date("Y-m-d H:i:s");
+        $harvester->last_launched = date("Y-m-d H:i:s");
         $harvester->launch_now = 0;
         $harvester->save();
     }
