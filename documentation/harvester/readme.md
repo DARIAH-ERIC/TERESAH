@@ -5,6 +5,17 @@ As Supervisor or Administrator, one can also harvest webpages in order to add co
 This page is available in the administrative section of TERESAH under the "Data Sources" dropdown menu and is labeled as "Harvester".
 In the context of TERESAH, we talk about harvesting when retrieving information from a single HTML page containing RDFa data. This RDFa data can describe either one Tool / Service or many of those.
 
+These harvests are done weekly on Sundays at 3am, but in order to do this, we need to tell our application to launch a script regularly to check if there is a harvest to be done.
+You will need to add a cronjob to your server for this, and it has to be launched by your apache user (or the user that owns the TERESAH source code), first open crontab with your user, here `apache`:
+```bash
+sudo crontab -u apache -e
+```
+Then add this line to your contab, this will launch a script every 5 minutes by going to TERESAH installation (here /var/www/html/) and starting a php (which is in /usr/bin/php) artisan command:
+```bash
+*/5 * * * * cd /var/www/html/ && /usr/bin/php artisan cron:run
+```
+
+
 In order to be able to harvest correctly a webpage, you would need to know the [metadata application profile](./../../app/assets/application_profile/empty.pdf.txt) we use and to correctly use the [vocabularies](./../../app/assets/application_profile/empty.pdf.txt) that goes with it. Of course more information are given here in this document.
 
 Explanations for webmasters
