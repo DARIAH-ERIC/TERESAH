@@ -29,6 +29,7 @@ To ensure consistency throughout the source code, follow the coding conventions 
 * [Introduction](documentation/api/v1/readme.md)
 * [Data sources](documentation/api/v1/data_sources.md)
 * [Data types](documentation/api/v1/data_types.md)
+* [Harvesters](documentation/api/v1/harvesters.md)
 * [Logins](documentation/api/v1/logins.md)
 * [Tools](documentation/api/v1/tools.md)
 * [Users](documentation/api/v1/users.md)

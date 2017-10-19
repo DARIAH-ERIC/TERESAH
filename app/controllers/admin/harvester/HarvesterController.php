@@ -19,6 +19,7 @@ use Services\DataTypeService;
 use Services\HarvesterService;
 use Services\ToolService;
 use Symfony\Component\DomCrawler\Crawler;
+use Teresah\Support\Facades\Response;
 use Tool;
 
 class HarvesterController extends BaseController
@@ -53,6 +54,7 @@ class HarvesterController extends BaseController
      */
     public function index()
     {
+        Log::info(Response::jsonWithStatus(200, array("harvesters" => $this->harvesterService->all($with = array("user", "dataSource", "dataSource.user"), $perPage = Input::get("limit", 20))->toArray())));
         $allDataSources = DataSource::all();
         $dataSources = array();
         foreach($allDataSources as $oneDataSource) {

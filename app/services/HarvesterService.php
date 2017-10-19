@@ -31,6 +31,6 @@ class HarvesterService extends AbstractRepositoryService implements HarvesterSer
 
     public function findWithAssociatedData($id)
     {
-        return $this->harvesterRepository->find($id, array("user", "dataSource"));
+        return $this->harvesterRepository->find($id, array("user", "dataSource", "dataSource.user"));
     }
 }
