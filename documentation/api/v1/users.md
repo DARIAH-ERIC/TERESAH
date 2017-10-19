@@ -24,7 +24,7 @@ page  | integer | Return the specific page from the paginated result set.
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/users.json?limit=2
+$ curl http://teresah.dariah.eu/api/v1/users.json?limit=2
 ```
 
 ### Response
@@ -63,7 +63,7 @@ $ curl http://teresah.dasish.eu/api/v1/users.json?limit=2
             "user_id": 7,
             "ip_address": "10.0.2.2",
             "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.120 Safari/537.36",
-            "referer": "http://teresah.dasish.eu/login",
+            "referer": "http://teresah.dariah.eu/login",
             "via_remember": 0,
             "created_at": "2014-09-24T07:29:59+00:00",
             "updated_at": "2014-09-24T07:29:59+00:00",
@@ -84,7 +84,7 @@ $ curl http://teresah.dasish.eu/api/v1/users.json?limit=2
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/users/37.json
+$ curl http://teresah.dariah.eu/api/v1/users/37.json
 ```
 
 ### Response
@@ -105,7 +105,7 @@ $ curl http://teresah.dasish.eu/api/v1/users/37.json
       "user_id": 37,
       "ip_address": "10.0.2.2",
       "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36",
-      "referer": "http://teresah.dasish.eu/login",
+      "referer": "http://teresah.dariah.eu/login",
       "via_remember": 0,
       "created_at": "2014-11-26T10:23:23+00:00",
       "updated_at": "2014-11-26T10:23:23+00:00",
@@ -135,7 +135,7 @@ user_level            | integer | **Required** The user level for the user. Avai
 ### Request
 
 ```
-$ curl -X POST --data-binary @payload.json http://teresah.dasish.eu/api/v1/users.json
+$ curl -X POST --data-binary @payload.json http://teresah.dariah.eu/api/v1/users.json
 ```
 
 ```json
@@ -169,7 +169,7 @@ $ curl -X POST --data-binary @payload.json http://teresah.dasish.eu/api/v1/users
 ### Request
 
 ```
-$ curl -X PATCH --data-binary @payload.json http://teresah.dasish.eu/api/v1/users/37.json
+$ curl -X PATCH --data-binary @payload.json http://teresah.dariah.eu/api/v1/users/37.json
 ```
 
 ```json
@@ -199,7 +199,7 @@ $ curl -X PATCH --data-binary @payload.json http://teresah.dasish.eu/api/v1/user
 ### Request
 
 ```
-$ curl -X DELETE http://teresah.dasish.eu/api/v1/users/37.json
+$ curl -X DELETE http://teresah.dariah.eu/api/v1/users/37.json
 ```
 
 ### Response

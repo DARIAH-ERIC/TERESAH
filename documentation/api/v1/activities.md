@@ -14,7 +14,7 @@ page  | integer | Return the specific page from the paginated result set.
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/activities.json?limit=3
+$ curl http://teresah.dariah.eu/api/v1/activities.json?limit=3
 ```
 
 ### Response
@@ -67,7 +67,7 @@ $ curl http://teresah.dasish.eu/api/v1/activities.json?limit=3
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/activities/12407.json
+$ curl http://teresah.dariah.eu/api/v1/activities/12407.json
 ```
 
 ### Response
@@ -85,7 +85,7 @@ $ curl http://teresah.dasish.eu/api/v1/activities/12407.json
   "metadata": "{\"name\":\"Dwight Schrute\"}",
   "ip_address": "10.0.2.2",
   "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.65 Safari/537.36",
-  "referer": "http://teresah.dasish.eu/signup",
+  "referer": "http://teresah.dariah.eu/signup",
   "created_at": "2014-11-26T10:19:58+00:00",
   "updated_at": "2014-11-26T10:19:58+00:00",
   "user": {

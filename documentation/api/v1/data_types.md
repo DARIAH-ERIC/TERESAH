@@ -14,7 +14,7 @@ page  | integer | Return the specific page from the paginated result set.
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/data-types.json
+$ curl http://teresah.dariah.eu/api/v1/data-types.json
 ```
 
 ### Response
@@ -66,7 +66,7 @@ $ curl http://teresah.dasish.eu/api/v1/data-types.json
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/data-types/5.json
+$ curl http://teresah.dariah.eu/api/v1/data-types/5.json
 ```
 
 ### Response
@@ -115,7 +115,7 @@ linkable    | boolean | Data type is linkable?
 ### Request
 
 ```
-$ curl -X POST --data-binary @payload.json http://teresah.dasish.eu/api/v1/data-types.json
+$ curl -X POST --data-binary @payload.json http://teresah.dariah.eu/api/v1/data-types.json
 ```
 
 ```json
@@ -146,7 +146,7 @@ $ curl -X POST --data-binary @payload.json http://teresah.dasish.eu/api/v1/data-
 ### Request
 
 ```
-$ curl -X PATCH --data-binary @payload.json http://teresah.dasish.eu/api/v1/data-types/18.json
+$ curl -X PATCH --data-binary @payload.json http://teresah.dariah.eu/api/v1/data-types/18.json
 ```
 
 ```json
@@ -175,7 +175,7 @@ $ curl -X PATCH --data-binary @payload.json http://teresah.dasish.eu/api/v1/data
 ### Request
 
 ```
-$ curl -X DELETE http://teresah.dasish.eu/api/v1/data-types/15.json
+$ curl -X DELETE http://teresah.dariah.eu/api/v1/data-types/15.json
 ```
 
 ### Response

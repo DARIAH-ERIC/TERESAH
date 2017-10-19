@@ -14,7 +14,7 @@ page  | integer | Return the specific page from the paginated result set.
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/logins.json?limit=3
+$ curl http://teresah.dariah.eu/api/v1/logins.json?limit=3
 ```
 
 ### Response
@@ -37,7 +37,7 @@ $ curl http://teresah.dasish.eu/api/v1/logins.json?limit=3
         "user_id": 4,
         "ip_address": "10.0.2.2",
         "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36",
-        "referer": "http://teresah.dasish.eu/login",
+        "referer": "http://teresah.dariah.eu/login",
         "via_remember": 0,
         "created_at": "2014-12-05T11:00:25+00:00",
         "updated_at": "2014-12-05T11:00:25+00:00",
@@ -65,7 +65,7 @@ $ curl http://teresah.dasish.eu/api/v1/logins.json?limit=3
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/logins/7.json
+$ curl http://teresah.dariah.eu/api/v1/logins/7.json
 ```
 
 ### Response
@@ -79,7 +79,7 @@ $ curl http://teresah.dasish.eu/api/v1/logins/7.json
   "user_id": 4,
   "ip_address": "10.0.2.2",
   "user_agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.71 Safari/537.36",
-  "referer": "http://teresah.dasish.eu/login",
+  "referer": "http://teresah.dariah.eu/login",
   "created_at": "2014-12-05T09:24:26+00:00",
   "updated_at": "2014-12-05T09:24:26+00:00",
   "user": {

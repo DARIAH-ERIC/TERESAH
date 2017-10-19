@@ -14,7 +14,7 @@ page  | integer | Return the specific page from the paginated result set.
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/data-sources.json
+$ curl http://teresah.dariah.eu/api/v1/data-sources.json
 ```
 
 ### Response
@@ -37,7 +37,7 @@ $ curl http://teresah.dasish.eu/api/v1/data-sources.json
         "name": "TERESAH",
         "slug": "teresah",
         "description": "TERESAH (Tools E-Registry for E-Social science, Arts and Humanities) is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities (SSH). It aims to provide an authoritative listing of the software tools currently in use in those domains, and to allow their users to make transparent the methods and applications behind them.",
-        "homepage": "http://teresah.dasish.eu/",
+        "homepage": "http://teresah.dariah.eu/",
         "user_id": 3,
         "created_at": "2014-11-25T09:24:32+00:00",
         "updated_at": "2014-11-25T09:24:32+00:00",
@@ -65,7 +65,7 @@ $ curl http://teresah.dasish.eu/api/v1/data-sources.json
 ### Request
 
 ```
-$ curl http://teresah.dasish.eu/api/v1/data-sources/5.json
+$ curl http://teresah.dariah.eu/api/v1/data-sources/5.json
 ```
 
 ### Response
@@ -79,7 +79,7 @@ $ curl http://teresah.dasish.eu/api/v1/data-sources/5.json
   "name": "TERESAH",
   "slug": "teresah",
   "description": "TERESAH (Tools E-Registry for E-Social science, Arts and Humanities) is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities (SSH). It aims to provide an authoritative listing of the software tools currently in use in those domains, and to allow their users to make transparent the methods and applications behind them.",
-  "homepage": "http://teresah.dasish.eu/",
+  "homepage": "http://teresah.dariah.eu/",
   "user_id": 3,
   "created_at": "2014-11-25T09:24:32+00:00",
   "updated_at": "2014-11-25T09:24:32+00:00",
@@ -112,14 +112,14 @@ user_id     | integer | **Required** The identifier for the user *(automatically
 ### Request
 
 ```
-$ curl -X POST --data-binary @payload.json http://teresah.dasish.eu/api/v1/data-sources.json
+$ curl -X POST --data-binary @payload.json http://teresah.dariah.eu/api/v1/data-sources.json
 ```
 
 ```json
 {
   "name": "TERESAH",
   "description": "TERESAH (Tools E-Registry for E-Social science, Arts and Humanities) is a cross-community tools knowledge registry aimed at researchers in the Social Sciences and Humanities (SSH). It aims to provide an authoritative listing of the software tools currently in use in those domains, and to allow their users to make transparent the methods and applications behind them.",
-  "homepage": "http://teresah.dasish.eu/"
+  "homepage": "http://teresah.dariah.eu/"
 }
 ```
 
@@ -142,7 +142,7 @@ $ curl -X POST --data-binary @payload.json http://teresah.dasish.eu/api/v1/data-
 ### Request
 
 ```
-$ curl -X PATCH --data-binary @payload.json http://teresah.dasish.eu/api/v1/data-sources/5.json
+$ curl -X PATCH --data-binary @payload.json http://teresah.dariah.eu/api/v1/data-sources/5.json
 ```
 
 ```json
@@ -171,7 +171,7 @@ $ curl -X PATCH --data-binary @payload.json http://teresah.dasish.eu/api/v1/data
 ### Request
 
 ```
-$ curl -X DELETE http://teresah.dasish.eu/api/v1/data-sources/5.json
+$ curl -X DELETE http://teresah.dariah.eu/api/v1/data-sources/5.json
 ```
 
 ### Response

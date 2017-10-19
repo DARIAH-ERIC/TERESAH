@@ -103,7 +103,7 @@ class PagesController extends BaseController
 
         foreach (glob("{$path}/*.md") as $filename) {
             $content = file_get_contents($filename);
-            $content = str_replace("http://teresah.dasish.eu", URL::to('/'), $content);
+            $content = str_replace("http://teresah.dariah.eu", URL::to('/'), $content);
             $output[basename($filename)] = Markdown::render($content);
         }
 
