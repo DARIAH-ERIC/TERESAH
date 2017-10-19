@@ -26,7 +26,7 @@ class Harvester extends BaseModel
         "label" => "required|unique:data_types|max:255",
         "slug" => "required|unique:data_types|max:255",
         "url" => "required|url|max:1024",
-        "last_launched" => "sometimes|timestamp",
+        "last_launched" => "sometimes|date",
         "active" => "required|boolean",
         "launch_now" => "required|boolean",
         "user_id" => "required|integer|exists:users,id,deleted_at,NULL"
