@@ -27,7 +27,7 @@ Adding RDFa to an existing website is relatively easy once you know the properti
 ```
 Within this HTML element, you can then add all the descriptive elements you wish to have for this tool or service. All the descriptive elements you wish to use in RDFa will come from the Metadata Application Profile, for example you wish to add a TaDiRAH Research Activities item like “Publishing”, you can do so by a property “applicationCategory” around your “Publishing” description:
 ```xml
-<a href="http://141.5.105.148/tools/by-facet/application-category/publishing" property="applicationCategory">
+<a href="http://teresah.dariah.eu/tools/by-facet/application-category/publishing" property="applicationCategory">
     Publishing
 </a>
 ```
