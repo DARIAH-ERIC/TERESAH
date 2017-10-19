@@ -34,7 +34,6 @@ use Services\DataServiceInterface as DataService;
 use Services\DataTypeServiceInterface as DataTypeService;
 use Services\HarvesterServiceInterface as HarvesterService;
 use Services\ToolServiceInterface as ToolService;
-use Services\UserService;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -91,14 +90,13 @@ class CronRunCommand extends Command {
     protected $dataService;
     protected $dataTypeService;
     protected $harvesterService;
-    protected $userService;
 
     /**
      * Create a new command instance.
      *
      * @return void
      */
-    public function __construct(ToolService $toolService, DataService $dataService, DataTypeService $dataTypeService, HarvesterService $harvesterService, UserService $userService)
+    public function __construct(ToolService $toolService, DataService $dataService, DataTypeService $dataTypeService, HarvesterService $harvesterService)
     {
         parent::__construct();
 
@@ -106,7 +104,6 @@ class CronRunCommand extends Command {
         $this->dataService = $dataService;
         $this->dataTypeService = $dataTypeService;
         $this->harvesterService = $harvesterService;
-        $this->userService = $userService;
         $this->timestamp = time();
     }
 
@@ -156,7 +153,7 @@ class CronRunCommand extends Command {
 
         $client = new Client();
         $crawler = $client->request('GET', urldecode($harvester->url));
-        $userId = key($this->userService->getActiveUsers());
+        $userId = $harvester->user_id;
 
         $crawler->filter('*[vocab="http://schema.org/"][typeof="SoftwareApplication"]')->each(function (Crawler $node) use($dataTypes, $sourceId, $userId, &$tools, &$toolsFullyDescribed) {
             $vocab = $node->attr("vocab");
