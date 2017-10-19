@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Lang;
 use Services\HarvesterServiceInterface as HarvesterService;
 use Teresah\Support\Facades\Response;
 
-class HarvesterController extends ApiController
+class HarvestersController extends ApiController
 {
     protected $accessControlList = array(
         "administrator" => array("*")
