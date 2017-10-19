@@ -159,7 +159,7 @@ class CronRunCommand extends Command {
             $vocab = $node->attr("vocab");
             $typeof = $node->attr("typeof");
             if(($vocab.$typeof) == static::$vocabSoftwareApplication) {
-                $selectedTool = $node->filter("*[property='name']")->each(function (Crawler $subNode) {
+                $selectedTool = $node->filter("*[property='name']")->each(function (Crawler $subNode) use($userId) {
                     $toolFound = $this->toolService->findByNameAndTrashed($subNode->text());
                     if ($toolFound) {
                         if ($toolFound->trashed()) {
