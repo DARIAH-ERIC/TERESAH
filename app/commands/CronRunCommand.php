@@ -34,6 +34,7 @@ use Services\DataServiceInterface as DataService;
 use Services\DataTypeServiceInterface as DataTypeService;
 use Services\HarvesterServiceInterface as HarvesterService;
 use Services\ToolServiceInterface as ToolService;
+use Services\UserService;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -90,13 +91,14 @@ class CronRunCommand extends Command {
     protected $dataService;
     protected $dataTypeService;
     protected $harvesterService;
+    protected $userService;
 
     /**
      * Create a new command instance.
      *
      * @return void
      */
-    public function __construct(ToolService $toolService, DataService $dataService, DataTypeService $dataTypeService, HarvesterService $harvesterService)
+    public function __construct(ToolService $toolService, DataService $dataService, DataTypeService $dataTypeService, HarvesterService $harvesterService, UserService $userService)
     {
         parent::__construct();
 
@@ -104,6 +106,7 @@ class CronRunCommand extends Command {
         $this->dataService = $dataService;
         $this->dataTypeService = $dataTypeService;
         $this->harvesterService = $harvesterService;
+        $this->userService = $userService;
         $this->timestamp = time();
     }
 
@@ -127,9 +130,11 @@ class CronRunCommand extends Command {
         $this->everyFiveMinutes(function()
         {
             $allUrgent = $this->harvesterService->findAllUrgent();
-            Log::info("Starting all urgent: " . sizeof($allUrgent));
-            foreach($allUrgent as $harvester) {
-                $this->harvest($harvester);
+            if(sizeof($allUrgent) > 0) {
+                Log::info("Starting all urgent: " . sizeof($allUrgent));
+                foreach($allUrgent as $harvester) {
+                    $this->harvest($harvester);
+                }
             }
         });
 
@@ -162,7 +167,7 @@ class CronRunCommand extends Command {
                             $toolFound->restore();
                         }
                     } else {
-                        Tool::create($this->inputWithAuthenticatedUserId(array("name" => $subNode->text(), "is_filled" => false)));
+                        Tool::create(array("name" => $subNode->text(), "is_filled" => false, "user_id" => key($this->userService->getActiveUsers())));
                         $toolFound = $this->toolService->findByName($subNode->text());
                     }
                     return $toolFound;
