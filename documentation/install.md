@@ -52,3 +52,6 @@ Example of configuration:
     CustomLog "logs/teresah.myhost.org-access.log" common
 </VirtualHost>
 ```
+
+# Install the harvester
+If you wish to use the harvester, it needs an extra step for installation, please see the [harvester page](harvester/readme.md) for more information.
