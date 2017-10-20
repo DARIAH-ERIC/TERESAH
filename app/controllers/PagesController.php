@@ -57,6 +57,7 @@ class PagesController extends BaseController
   
             case "help":
                 $content = file_get_contents(base_path() . "/documentation/user_manual/readme.md");
+                $content = str_replace("./../../app/assets/application_profile/", "/assets/", $content);
                 $content = str_replace("./../../app/assets/images/user_manual/", "/assets/user_manual/", $content);
                 return $this->matchStaticView(
                     array(

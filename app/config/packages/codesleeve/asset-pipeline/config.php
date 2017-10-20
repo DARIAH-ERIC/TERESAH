@@ -44,6 +44,7 @@ return array(
         "app/assets/javascripts",
         "app/assets/stylesheets",
         "app/assets/images",
+        "app/assets/application_profile",
         "lib/assets/fonts",
         "lib/assets/javascripts",
         "lib/assets/stylesheets",
