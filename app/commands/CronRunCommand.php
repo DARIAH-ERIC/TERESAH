@@ -116,7 +116,7 @@ class CronRunCommand extends Command {
     {
         //Use weekly for all sources
         $this->weekly(function() {
-            $allHarvesters = $this->harvesterService->all();
+            $allHarvesters = $this->harvesterService->all()->get();
             Log::info("Starting all harvesters: " . sizeof($allHarvesters));
             foreach($allHarvesters as $harvester) {
                 $this->harvest($harvester);
