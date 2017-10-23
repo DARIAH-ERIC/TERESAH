@@ -54,7 +54,6 @@ class HarvesterController extends BaseController
      */
     public function index()
     {
-        Log::info(Response::jsonWithStatus(200, array("harvesters" => $this->harvesterService->all($with = array("user", "dataSource", "dataSource.user"), $perPage = Input::get("limit", 20))->toArray())));
         $allDataSources = DataSource::all();
         $dataSources = array();
         foreach($allDataSources as $oneDataSource) {
