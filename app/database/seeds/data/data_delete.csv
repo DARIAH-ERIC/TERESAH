@@ -408,3 +408,797 @@ Annotation Graph Toolkit (AGTK)|license|CPL|TERESAH
 Annotation Graph Toolkit (AGTK)|url|http://agtk.sourceforge.net/|TERESAH
 Annotation Graph Toolkit (AGTK)|keyword|library|TERESAH
 Annotation Graph Toolkit (AGTK)|application-category|4_Analysis|TERESAH
+Annotator�s Workbench|creator|Ethnographic Video for Instruction & Analysis (EVIA) Digital Archive Project|TERESAH
+Annotator�s Workbench|description|The Annotator�s Workbench is a software tool that enables users to create a collection from a set of existing video files, segment that collection, create annotations and assign vocabulary terms to the segments, and control access. This tool is part of the Ethnographic Video for Institution and Analysis (EVIA) Digital Archive Project at Indiana University and the University of Michigan.|BambooDirt
+Annotator�s Workbench|application-category|Annotating|TERESAH
+Annotator�s Workbench|url|http://www.eviada.org/element.cfm?mc=6&ctID=31&eID=1|TERESAH
+Annotator�s Workbench|operating-system|Linux|TERESAH
+Annotator�s Workbench|keyword|video|TERESAH
+Annotorious|description|A Web-based image annotation tool, built specifically for integration with existing Web pages or portal environments. Annotorious is also available as a plugin to the Annotator Web annotation system by the Open Knowledge Foundation.|BambooDirt
+Annotorious|creator|AIT Austrian Institute of Technology|TERESAH
+Annotorious|application-category|Annotating|TERESAH
+Annotorious|keyword|Beta|TERESAH
+Annotorious|license|GNU LGPL|TERESAH
+Annotorious|url|http://annotorious.github.io/|TERESAH
+Annotorious|keyword|Image Annotation|TERESAH
+Annotorious|operating-system|Web|TERESAH
+Annotum|description|Annotum is an open-source, open-process, open-access scholarly authoring and publishing platform based on WordPress.|BambooDirt
+Annotum|url|http://annotum.org/|TERESAH
+Annotum|application-category|Publishing|TERESAH
+Annotum|creator|Solvitor LLC|TERESAH
+Annotum|operating-system|Web|TERESAH
+Annotum|keyword|WordPress|TERESAH
+Annozilla (Annotea on Mozilla)|application-category|Annotating|TERESAH
+Annozilla (Annotea on Mozilla)|keyword|annotation|TERESAH
+Annozilla (Annotea on Mozilla)|description|Annozilla allows you to view and create annotations associated with a web page. To use Annozilla you need to install the packages and get set up with an account with the W3C test server.|BambooDirt
+Annozilla (Annotea on Mozilla)|keyword|Firefox 3.0, Firefox 3.5|TERESAH
+Annozilla (Annotea on Mozilla)|url|http://annozilla.mozdev.org/|TERESAH
+Annozilla (Annotea on Mozilla)|creator|W3C Annotea project|TERESAH
+AnSWR|description|AnSWR supports qualitative analysis of word-based data. This entails a set of methods for organizing, displaying, processing, summarizing, and interpreting information.|BambooDirt
+AnSWR|creator|Centers for Disease Control and Prevention|TERESAH
+AnSWR|application-category|4_Analysis|TERESAH
+AnSWR|keyword|data analysis|TERESAH
+AnSWR|url|http://www.cdc.gov/hiv/topics/surveillance/resources/software/answr/overview.htm|TERESAH
+AnSWR|keyword|No longer supported|TERESAH
+AnSWR|operating-system|Windows|TERESAH
+AnSWR|operating-system|Windows 2000, Windows XP, IE4+|TERESAH
+Anthologize|description|Anthologize is a WordPress plugin that allows users to outline, order, and edit content into a single volume that can be exported as PDF, TEI or epub.|BambooDirt
+Anthologize|url|http://anthologize.org/|TERESAH
+Anthologize|application-category|Publishing|TERESAH
+Anthologize|creator|Roy Rosenzweig Center for History and New Media (CHNM)|TERESAH
+Anthologize|operating-system|Web|TERESAH
+Anthologize|keyword|WordPress|TERESAH
+ANTHROPAC|creator|Analytic Technologies|TERESAH
+ANTHROPAC|description|ANTHROPAC is a menu-driven DOS program for collecting and analyzing data on cultural domains. The program assists with the collection and analysis of structured qualitative and quantitative data, and provides analytical and multivariate tools.|BambooDirt
+ANTHROPAC|application-category|4_Analysis|TERESAH
+ANTHROPAC|keyword|data analysis|TERESAH
+ANTHROPAC|url|http://www.analytictech.com/anthropac/apacdesc.htm|TERESAH
+ANTHROPAC|keyword|Paid|TERESAH
+ANTHROPAC|operating-system|Windows|TERESAH
+ArcExplorer|keyword|2d illustration|TERESAH
+ArcExplorer|keyword|2d modelling - raster|TERESAH
+ArcExplorer|keyword|2d modelling - vector|TERESAH
+ArcExplorer|keyword|3d modelling - interactive|TERESAH
+ArcExplorer|keyword|3d modelling - vector|TERESAH
+ArcExplorer|keyword|analysis|TERESAH
+ArcExplorer|description|ArcExplorer is a custom mapping tool that can be used in a web browser. ArcExplorer allows you to perform a range of basic GIS functions such as display, query and retrieve data.|ArtsHumanities
+ArcExplorer|description|"ArcExplorer is a custom mapping tool that can be used in a web browser. ArcExplorer allows you to perform a range of basic GIS functions such as display, query and retrieve data.
+Features:
+Display and query a variety of standard data sources including ESRI shapefiles, ArcInfo coverages Images, ArcIMS services
+
+Pan and zoom through multiple layers and identify, locate, and query geographic and attribute data.
+
+Symbolize data based on attributes contained in the data layers to create thematic maps.
+
+Perform basic spatial analysis tasks on the geographic data
+
+Freely distributable data"|BambooDirt
+ArcExplorer|keyword|Bitmap (BMP)|TERESAH
+ArcExplorer|operating-system|Cross-platform|TERESAH
+ArcExplorer|creator|Environmental Systems Research Institute (ESRI)|TERESAH
+ArcExplorer|license|Freeware|TERESAH
+ArcExplorer|keyword|geography|TERESAH
+ArcExplorer|keyword|Geo-referencing and projection|TERESAH
+ArcExplorer|keyword|Geospatial computing|TERESAH
+ArcExplorer|keyword|Geospatial technology|TERESAH
+ArcExplorer|keyword|GIS|TERESAH
+ArcExplorer|keyword|Graphics Interchange Format (GIF)|TERESAH
+ArcExplorer|standard|HTML|TERESAH
+ArcExplorer|url|http://www.esri.com/software/arcgis/explorer/arcexplorer|TERESAH
+ArcExplorer|keyword|Java|TERESAH
+ArcExplorer|standard|JPEG|TERESAH
+ArcExplorer|is-used-for|Mapping|TERESAH
+ArcExplorer|keyword|No longer supported|TERESAH
+ArcExplorer|standard|PNG|TERESAH
+ArcExplorer|license|Proprietary|TERESAH
+ArcExplorer|application-category|Publishing|TERESAH
+ArcExplorer|keyword|structuring|TERESAH
+ArcExplorer|standard|TIFF|TERESAH
+ArcExplorer|keyword|Use of existing digital data|TERESAH
+ArcExplorer|operating-system|Windows|TERESAH
+ArcGis|keyword|2d modelling - raster|TERESAH
+ArcGis|keyword|2d modelling - vector|TERESAH
+ArcGis|keyword|3d modelling - interactive|TERESAH
+ArcGis|keyword|3d modelling - vector|TERESAH
+ArcGis|description|A system for collecting, visualising and analysing geographical information, including the creation of maps and mapping applications. Multiple data types can be imported, provided they are geographical.  Cloud-based and desktop (Windows only) interfaces are available. Some functionality is available to a free, non-commercial account, but full functionality requires an organizational licence, see: http://www.esri.com/software/arcgis/arcgisonline/features/comparison-table. A free trial of the full product is available.|HistoryOnline
+ArcGis|keyword|Active development|TERESAH
+ArcGis|keyword|analysis|TERESAH
+ArcGis|description|"ArcGIS is a suite of software that comprises of Desktop GIS, Server GIS, Mobile GIS, and Online GIS. ArcGIS is a platform for building a complete geographic information system (GIS) that lets you easily create, edit, and analyse geographic  knowledge on the desktop; publish data, maps, globes and models to a GIS server and/or share them online; and use them on the desktop, on the Web, or in the field."|ArtsHumanities
+ArcGis|description|"ArcGIS is a suite of software that comprises of Desktop GIS, Server GIS, Mobile GIS, and Online GIS. ArcGIS is a platform for building a complete geographic information system (GIS) that lets you easily create, edit, and analyse geographic knowledge on the desktop; publish data, maps, globes and models to a GIS server and/or share them online; and use them on the desktop, on the Web, or in the field.
+
+Features:
+View and query maps
+
+Manipulate shapefiles and geodatabases
+
+Data manipulation, editing and analysis
+
+Mobile device enabled"|BambooDirt
+ArcGis|keyword|Cataloguing and indexing|TERESAH
+ArcGis|keyword|COM|TERESAH
+ArcGis|license|commercial|TERESAH
+ArcGis|keyword|creation|TERESAH
+ArcGis|operating-system|Cross-platform|TERESAH
+ArcGis|keyword|Delphi|TERESAH
+ArcGis|creator|Environmental Systems Research Institute (ESRI)|TERESAH
+ArcGis|keyword|Geophysical survey|TERESAH
+ArcGis|keyword|Geo-referencing and projection|TERESAH
+ArcGis|keyword|Geospatial computing|TERESAH
+ArcGis|keyword|Geospatial technology|TERESAH
+ArcGis|keyword|GIS|TERESAH
+ArcGis|keyword|GPS and total station surveys|TERESAH
+ArcGis|keyword|Graphical rendering|TERESAH
+ArcGis|standard|HTML|TERESAH
+ArcGis|url|http://www.esri.com/software/arcgis|TERESAH
+ArcGis|keyword|Intermediate|TERESAH
+ArcGis|keyword|Java|TERESAH
+ArcGis|operating-system|Linux|TERESAH
+ArcGis|keyword|Microsoft's .NET Framework|TERESAH
+ArcGis|keyword|Offline|TERESAH
+ArcGis|keyword|Paid|TERESAH
+ArcGis|license|Proprietary|TERESAH
+ArcGis|application-category|Publishing|TERESAH
+ArcGis|is-used-for|Searching|TERESAH
+ArcGis|keyword|Single purpose|TERESAH
+ArcGis|keyword|structuring|TERESAH
+ArcGis|keyword|TCP/IP|TERESAH
+ArcGis|keyword|Unified Modelling Language (UML)|TERESAH
+ArcGis|keyword|"Variable; contact Esri"|TERESAH
+ArcGis|keyword|Visual Basic|TERESAH
+ArcGis|keyword|Visual C++|TERESAH
+ArcGis|application-category|Visualization|TERESAH
+ArcGis|standard|XML|TERESAH
+Archeosurveyor|description|A software application for the transfer, assembly and enhancement of geophysical data obtained from gradiometers, resistivity meters and other monitoring instruments.|ArtsHumanities
+Archeosurveyor|description|A software application for the transfer, assembly and enhancement of geophysical data obtained from gradiometers, resistivity meters and other monitoring instruments. With support for Geoplot, GSSI Profiler, Surfer (ASCII & binary) and Scintrex input formats|BambooDirt
+Archeosurveyor|keyword|analysis|TERESAH
+Archeosurveyor|license|commercial|TERESAH
+Archeosurveyor|keyword|creation|TERESAH
+Archeosurveyor|creator|DW Consulting|TERESAH
+Archeosurveyor|keyword|environmental modelling|TERESAH
+Archeosurveyor|keyword|Geophysics|TERESAH
+Archeosurveyor|keyword|Geoplot|TERESAH
+Archeosurveyor|keyword|gradiometer|TERESAH
+Archeosurveyor|keyword|GSSI Profiler|TERESAH
+Archeosurveyor|url|http://www.dwconsulting.nl/archeosurveyor.html|TERESAH
+Archeosurveyor|is-used-for|Mapping|TERESAH
+Archeosurveyor|keyword|monitor|TERESAH
+Archeosurveyor|license|Proprietary|TERESAH
+Archeosurveyor|keyword|Scintrex|TERESAH
+Archeosurveyor|keyword|Surfer (ASCII & binary) data format|TERESAH
+Archeosurveyor|operating-system|Windows|TERESAH
+ArcView|description|A software application for creating, manipulating and analysing GIS (Geographic Information System) data. ArcView may be used to create geographic maps, manipulate spatial features, analyse attributes and characteristics, and visualise spatial information in an understandable form. Current versions of the software enable the user to import and manipulate several content types in a spatial environment, including demographic information, CAD designs, still images and other types of content.|ArtsHumanities
+ArcView|keyword|Adobe Illustrator (AI)|TERESAH
+ArcView|keyword|analysis|TERESAH
+ArcView|keyword|Bitmap (BMP)|TERESAH
+ArcView|license|commercial|TERESAH
+ArcView|keyword|creation|TERESAH
+ArcView|keyword|Encapsulated PostScript (EPS)|TERESAH
+ArcView|keyword|ESRI Digital Elevation Model (DEM)|TERESAH
+ArcView|keyword|floating GRID|TERESAH
+ArcView|keyword|Geophysical survey|TERESAH
+ArcView|keyword|Geo-referencing and projection|TERESAH
+ArcView|keyword|GIS|TERESAH
+ArcView|keyword|GPS and total station surveys|TERESAH
+ArcView|keyword|Graphics Interchange Format (GIF)|TERESAH
+ArcView|standard|JPEG|TERESAH
+ArcView|standard|PDF|TERESAH
+ArcView|standard|PNG|TERESAH
+ArcView|keyword|polygon|TERESAH
+ArcView|keyword|polyline|TERESAH
+ArcView|application-category|Publishing|TERESAH
+ArcView|keyword|structuring|TERESAH
+ArcView|keyword|Surfer (ASCII & binary) data format|TERESAH
+ArcView|standard|SVG|TERESAH
+ArcView|standard|TIFF|TERESAH
+ArcView|operating-system|Windows|TERESAH
+ArcView|keyword|Windows Enhanced MetaFile (EMF)|TERESAH
+ARTISAN|keyword|analysis|TERESAH
+ARTISAN|description|"ARTISAN (Automatic Retrieval of Trademark Images by Shape Analysis) is a software tool for the analysis and comparison of still image files. It uses a Content-based image retrieval (CBIR) technique to analyse the visual content of an image, contrasting against alternative methods that involve searching of associated metadata. The software builds upon the principles of Gestalt psychology, analysing an image in its entirety and locating images to which it has a broad resemblance. The cross-matching activity may be described as a form of ""fuzzy searching’, retrieving images on the basis that they look similar to a human observer."|ArtsHumanities
+ARTISAN|keyword|cbir|TERESAH
+ARTISAN|keyword|Content-based image retrieval|TERESAH
+ARTISAN|keyword|Image comparison|TERESAH
+ARTISAN|keyword|raster image formats|TERESAH
+ARTISAN|creator|University of Northumbria|TERESAH
+ARTISAN|license|Unknown|TERESAH
+arts-humanities.net|description|"arts-humanities.net aims to support and advance the use and understanding of digital tools and methods for research and teaching in the arts and humanities by providing information on projects creating and using digital content; tools and methods to answer research questions; a listing of expert centers and individual researchers; and a library documenting lessons learned through case students, briefing papers, and a bibliography."|BambooDirt
+arts-humanities.net|keyword|collaboration|TERESAH
+arts-humanities.net|url|http://www.arts-humanities.net/|TERESAH
+arts-humanities.net|creator|King's College London|TERESAH
+arts-humanities.net|application-category|Collaboration|TERESAH
+arts-humanities.net|application-category|Communicating|TERESAH
+arts-humanities.net|operating-system|Web|TERESAH
+Aruspix|keyword|history|TERESAH
+Aruspix|url|http://www.aruspix.net/|TERESAH
+Aruspix|description|post is very well written with lot of useful information for me. I am happy to find your great way of writing the post. With your generous help it is easier for me to understand and implement the concept. Thank you for the post.car for salenew car leasing|BambooDirt
+AskSam|keyword|Active|TERESAH
+AskSam|description|askSam is an application to organize information. You may use askSam to turn email, word processing documents, text files, spreadsheets and Web pages into a searchable database.|BambooDirt
+AskSam|keyword|database|TERESAH
+AskSam|url|http://www.asksam.com|TERESAH
+AskSam|application-category|Organizing|TERESAH
+AskSam|operating-system|osX|TERESAH
+AskSam|keyword|Paid|TERESAH
+AskSam|creator|Seaside Software Inc.|TERESAH
+Asset Bank|description|A digital asset management system for the storage, management and delivery of raster images, audiovisual content, documents and other resources. The software provides limited eCommerce functionality for use by institutions that wish to use the system to sell digital products. It may be installed in-house on a Windows/Linux/Unix system or hosted on a system operated by the developers.|ArtsHumanities
+Asset Bank|description|"A digital asset management system for the storage, management and delivery of raster images, audiovisual content, documents and other resources. The software provides limited eCommerce functionality for use by institutions that wish to use the system to sell digital products. It may be installed in-house on a Windows/Linux/Unix system or hosted on a system operated by the developers.
+
+Features:
+Image versioning
+
+User-driven rating system
+
+Automatic generation of thumbnails and preview images
+
+Metadata batch edit
+
+Date validation
+
+Metadata import in XML or other delimited formats"|BambooDirt
+Asset Bank|creator|Bright Interactive|TERESAH
+Asset Bank|license|commercial|TERESAH
+Asset Bank|operating-system|Cross-platform|TERESAH
+Asset Bank|keyword|digital asset management|TERESAH
+Asset Bank|keyword|digital repository|TERESAH
+Asset Bank|keyword|ecommerce|TERESAH
+Asset Bank|keyword|Embedded metadata formats|TERESAH
+Asset Bank|url|http://www.assetbank.co.uk/|TERESAH
+Asset Bank|operating-system|Linux|TERESAH
+Asset Bank|license|Proprietary|TERESAH
+Asset Bank|keyword|publication|TERESAH
+Asset Bank|application-category|Publishing|TERESAH
+Asset Bank|keyword|W3C accessibility standards|TERESAH
+Asset Bank|operating-system|Windows|TERESAH
+Asset Bank|keyword|Visualisation|TERESAH
+Asset Bank|application-category|Visualization|TERESAH
+Asset Bank|keyword|visualization|TERESAH
+Atlas.ti|keyword|Active|TERESAH
+Atlas.ti|creator|ATLAS.ti Scientific Software Development GmbH|TERESAH
+Atlas.ti|url|http://www.atlasti.com/index.html|TERESAH
+Atlas.ti|keyword|Paid|TERESAH
+Atlas.ti|keyword|Qualitative Data Analysis|TERESAH
+Atlas.ti|application-category|4_Analysis|TERESAH
+Atlas.ti|description|The purpose of ATLAS.ti is to help researchers uncover and systematically analyze complex phenomena hidden in text and multimedia data. The program provides tools that let the user locate, code, and annotate findings in primary data material, to weigh and evaluate their importance, and to visualize complex relations between them.|BambooDirt
+Atlas.ti|operating-system|Windows|TERESAH
+Attensity|creator|Attensity|TERESAH
+Attensity|url|http://www.attensity.com/home/|TERESAH
+Attensity|operating-system|osX|TERESAH
+Attensity|keyword|Paid|TERESAH
+Attensity|keyword|social media|TERESAH
+Attensity|description|text analytic and data extraction framework: data and semantic analytics in a suite of business applications.|BambooDirt
+Attensity|application-category|4_Analysis|TERESAH
+AustESE|description|eResearch tools to support the collaborative authoring and management of electronic scholarly editions.|BambooDirt
+AustESE|url|http://www.itee.uq.edu.au/eresearch/projects/austese/|TERESAH
+AustESE|keyword|In development|TERESAH
+AustESE|creator|University of Queensland.|TERESAH
+AustESE|operating-system|Web|TERESAH
+Autodesk 3ds Max|creator|Autodesk|TERESAH
+Autodesk 3ds Max|description|"Autodesk 3ds Max (formerly 3D Studio MAX) is an open source graphics software tool used by video game developers, motion picture studios and architectural visualisers for modelling and animation projects. One of the most advanced 3D modelling tools in the industry, 3ds Max has been utilised by many CGI-animated films such as Avatar and 2012 to generate computer graphics alongside live acting.
+
+Features:
+Create parametric and organic objects with polygonal and freeform tools
+  Character Studio enables life-like virtual character animation
+  Scene Explorer provides hierarchical views of complex scene data and analysis
+  Wide range of creative textures, planar mapping and layering options
+  MAXScript built-in scripting language automates repetitive tasks and assists with new tool and interface development
+  Multiple user collaborations
+  Customisable and intutive user interface"|BambooDirt
+Autodesk 3ds Max|url|http://www.autodesk.com/products/autodesk-3ds-max/overview|TERESAH
+Autodesk 3ds Max|keyword|Paid|TERESAH
+Autodesk 3ds Max|license|Proprietary|TERESAH
+Autodesk 3ds Max|keyword|video_games|TERESAH
+Autodesk 3ds Max|operating-system|Windows|TERESAH
+Autodesk 3ds Max|application-category|Visualization|TERESAH
+Awesome Highlighter|application-category|Annotating|TERESAH
+Awesome Highlighter|description|Awesome Highlighter enables you to highlight text on a web page and then provides you with a link to the highlighted page.|BambooDirt
+Awesome Highlighter|keyword|Firefox|TERESAH
+Awesome Highlighter|url|http://www.awesomehighlighter.com/|TERESAH
+Awesome Highlighter|keyword|linked data|TERESAH
+Balsamiq Mockups|keyword|Active|TERESAH
+Balsamiq Mockups|description|Balsamiq Mockups is a simple, flexible, and collaborative software for building wireframes for websites, apps, and other digital media.|BambooDirt
+Balsamiq Mockups|creator|Balsamiq Studios|TERESAH
+Balsamiq Mockups|url|http://balsamiq.com/|TERESAH
+Balsamiq Mockups|keyword|Paid|TERESAH
+Balsamiq Mockups|application-category|2_Creation|TERESAH
+Balsamiq Mockups|operating-system|Web|TERESAH
+Balsamiq Mockups|keyword|wireframes|TERESAH
+Bamboo Content Interoperability Hub|application-category|Conversion|TERESAH
+Bamboo Content Interoperability Hub|license|ECM|TERESAH
+Bamboo Content Interoperability Hub|keyword|EEBO-TCP|TERESAH
+Bamboo Content Interoperability Hub|keyword|No longer supported|TERESAH
+Bamboo Content Interoperability Hub|creator|Project Bamboo|TERESAH
+Bamboo Content Interoperability Hub|keyword|repository|TERESAH
+Bamboo Content Interoperability Hub|description|"The Bamboo Content Interoperability Hub (CI gub) is an effort to largely automate the time-consuming process of downloading and compiling data from different repositories and archives and standardizing some of the format differences.
+When scholars browse the repositories whose content they want (and have rights to) use, they can bookmark it at the proper level of granularity in Zotero, and import those Zotero bookmarks into a workspace integrated with the CI hub. The CI hub then retrieves the data, and normalizes it to a certain extent so that data from different sources can be used together. The CI hub also offers a ""preview"" tool to see what data has been ingested, before that data is handed off to the environment where the scholar will use it.
+The CI hub currently has adaptors to draw data from TCP-EEBO/ECO, Hathi Trust, Perseus, and AustLit."|BambooDirt
+Bamboo Content Interoperability Hub|operating-system|Web|TERESAH
+Bamboo HUBzero Work Space|keyword|Bamboo Content Interoperability Hub|TERESAH
+Bamboo HUBzero Work Space|application-category|6_Storage|TERESAH
+Bamboo HUBzero Work Space|license|ECM|TERESAH
+Bamboo HUBzero Work Space|url|http://www.projectbamboo.org|TERESAH
+Bamboo HUBzero Work Space|creator|Project Bamboo|TERESAH
+Bamboo HUBzero Work Space|description|The HubZero Bamboo Work Space is an instance of HubZero enhanced with the combined functionality of the Bamboo Services Platform, Content Interoperability Hub, and Person Service built-in.|BambooDirt
+Bamboo HUBzero Work Space|operating-system|Web|TERESAH
+Bamboo HUBzero Work Space|keyword|work space|TERESAH
+Bamboo Person Service|keyword|Bamboo Services Platform|TERESAH
+Bamboo Person Service|keyword|credit|TERESAH
+Bamboo Person Service|license|ECM|TERESAH
+Bamboo Person Service|keyword|No longer supported|TERESAH
+Bamboo Person Service|creator|Project Bamboo|TERESAH
+Bamboo Person Service|description|"The Bamboo Person Service can help scholars access all the resources (tools, collections, and shared data) they have permissions for due to their institutional affiliations, scholarly society membership, association with research groups, etc. By connecting accounts from these different groups (e.g. a Google account for a research group, a university ID, and a generic username for a scholarly society), scholars will be able to use resources provided by any of these groups, in any work space or tool environment within the Bamboo ecosystem. Where previously research groups would have to agree on a single environment to work collaboratively and share their data, the Bamboo Person Service can allow group leaders to indicate which scholars in the Bamboo Person Service should have access to a set of data, which will then become accessible for each of those people in the environment of their choosing.
+The Bamboo Person Service also provides mechanisms for making contributions to projects easier to document (e.g. to present to tenure and review committees), by keeping track of which individuals are doing curation work on corpora, or contributing entries to Bamboo DiRT. As the Bamboo Person Service develops, it may be integrated with social and scholarly networking sites, to allow scholars to opt into sharing the tools they use, as part of their profile.
+For tool developers and collection holders, the Bamboo Person Service can reduce the time and development effort that would go into writing custom authentication and authorization, and can facilitate quality control in crowdsourced projects by keeping track of the curator assessments made about the validity of individual users' additions."|BambooDirt
+Bamboo Person Service|application-category|2_Creation|TERESAH
+Bamboo Person Service|operating-system|Web|TERESAH
+Bamboo Services Platform|keyword|API|TERESAH
+Bamboo Services Platform|license|ECM|TERESAH
+Bamboo Services Platform|keyword|No longer supported|TERESAH
+Bamboo Services Platform|creator|Project Bamboo|TERESAH
+Bamboo Services Platform|description|The Bamboo Services platform, currently in development, provides a number of useful features for tool developers who want to make their tool available as a service, including authentication and authorization options and a result-caching service that allows users to start long-running automated analysis jobs and receive a notification when their data is ready.|BambooDirt
+Bamboo Services Platform|application-category|2_Creation|TERESAH
+Bamboo Services Platform|operating-system|Web|TERESAH
+Basecamp|keyword|Active|TERESAH
+Basecamp|application-category|Communicating|TERESAH
+Basecamp|keyword|Paid|TERESAH
+Basecamp|keyword|productivity|TERESAH
+Basecamp|description|Project management software for sharing files, messages, and task management, including options for daily update emails, real time document editing.|BambooDirt
+Basecamp|application-category|Meta: Project Management|TERESAH
+Basecamp|operating-system|Web|TERESAH
+Basis Technology|description|Basis provides natural language processing technology for the analysis of unstructured multilingual text.|BambooDirt
+Basis Technology|url|http://www.basistech.com/|TERESAH
+Basis Technology|keyword|multilingual|TERESAH
+Basis Technology|keyword|Paid|TERESAH
+Basis Technology|application-category|4_Analysis|TERESAH
+BBEdit|description|A text editor designed for use by software developers and web designers. BBEdit provides native support for several programming and scripting languages. Third party custom modules are available, created by users, to handle languages that are not supported in the native application.|ArtsHumanities
+BBEdit|description|"A text editor designed for use by software developers and web designers. BBEdit provides native support for several programming and scripting languages. Third party custom modules are available, created by users, to handle languages that are not supported in the native application.
+Features:
+Multi-file text searching
+Scripting
+Syntax highlighting for ANSI C, C++, CSS, Fortran (through Fortran 95), HTML, Java, JavaScript, JSP, Object Pascal, Objective-C, Objective-C++, Perl, PHP, Python, Rez, Ruby, Setext, SQL,  Tcl, Tex, UNIX shell scripts, XML and YAML"|BambooDirt
+BBEdit|keyword|analysis|TERESAH
+BBEdit|keyword|ANSI C|TERESAH
+BBEdit|keyword|AppleScript|TERESAH
+BBEdit|creator|Bare Bones Software|TERESAH
+BBEdit|keyword|C|TERESAH
+BBEdit|keyword|Cascading Style Sheets (CSS)|TERESAH
+BBEdit|license|commercial|TERESAH
+BBEdit|keyword|creation|TERESAH
+BBEdit|keyword|Fortran|TERESAH
+BBEdit|standard|HTML|TERESAH
+BBEdit|url|http://www.barebones.com/products/bbedit/|TERESAH
+BBEdit|keyword|Java|TERESAH
+BBEdit|keyword|Javascript|TERESAH
+BBEdit|keyword|markup|TERESAH
+BBEdit|keyword|Object Pascal|TERESAH
+BBEdit|keyword|Objective-C|TERESAH
+BBEdit|keyword|Open Scripting Architecture (OSA)|TERESAH
+BBEdit|operating-system|osX|TERESAH
+BBEdit|keyword|Paid|TERESAH
+BBEdit|keyword|Perl|TERESAH
+BBEdit|keyword|PHP|TERESAH
+BBEdit|license|Proprietary|TERESAH
+BBEdit|keyword|Python|TERESAH
+BBEdit|keyword|Rez|TERESAH
+BBEdit|keyword|Ruby|TERESAH
+BBEdit|keyword|Setext|TERESAH
+BBEdit|keyword|SQL|TERESAH
+BBEdit|keyword|syntax|TERESAH
+BBEdit|keyword|syntax highlighting|TERESAH
+BBEdit|keyword|Tcl|TERESAH
+BBEdit|keyword|Tex|TERESAH
+BBEdit|keyword|Text edit|TERESAH
+BBEdit|keyword|text editing|TERESAH
+BBEdit|keyword|UNIX shell scripts|TERESAH
+BBEdit|application-category|Web development|TERESAH
+BBEdit|standard|XML|TERESAH
+BBEdit|keyword|YAML|TERESAH
+BibApp|description|BibApp allows you to promote your research, find collaborators on your own campus in your research area, in order to make research more accessible in general. BibApp identifies which publications should be placed on the Web for greater access, and can place publications directly into an institutional repository.|BambooDirt
+BibApp|url|http://bibapp.org/|TERESAH
+BibApp|application-category|Collaboration|TERESAH
+BibApp|application-category|Communicating|TERESAH
+BibApp|keyword|social networking|TERESAH
+BibApp|creator|University of Wisconsin-Madison|TERESAH
+BibApp|operating-system|Web|TERESAH
+Bibliogo|description|Bibliogo is a journal article web app that allows you to create and share bibliographies, manage journal alerts, follow feeds, tag citations, and order articles. Compatible with the iPad.|BambooDirt
+Bibliogo|keyword|Firefox 1.0+, Internet Explorer 7, Safari 2, Opera 9.0, Google Chrome|TERESAH
+Bibliogo|url|http://info.bibliogo.com/|TERESAH
+Bibliogo|operating-system|iOS|TERESAH
+Bibliogo|operating-system|iPad|TERESAH
+Bibliogo|creator|Reprints Desk Inc.|TERESAH
+Bibliogo|application-category|Organizing|TERESAH
+Bibliopedia|keyword|Active|TERESAH
+Bibliopedia|description|"Bibliopedia is an open source, semantic wiki research platform designed to crawl scholarly resources including JSTOR, the Library of Congress, the Arts and Humanities Citation Index, and similar data sources, extract metadata about works cited, convert that data into a semantic web format, aggregate the different repositories, then display the results on a wiki-style website for the scholarly community to verify, add to, annotate, elaborate, and discuss. We envisage Bibliopedia as an open, research-enabling platform designed to unify the many disparate, closed silos of scholarly information available today, and that remain difficult and time-consuming to use. Our first goal was to extract and transform bibliographic data into a linked data format consistent with semantic web requirements, and to create large volumes of cross-references among texts, making digitized scholarly texts exponentially more useful to researchers and to machine analysis. The primary innovations Bibliopedia achieves are: 1) the aggregation and cross-referencing of separate silos of scholarly data; 2) the transformation of that information into a format consistent with the semantic web; and 3) crowd-sourcing the verification and elaboration of that data. Mapping and cross-referencing large-scale, high-volume scholarship also means that unexpected connections can be found and brought to light, along with less-known original works that might otherwise remain unread. Moreover, formatting scholarly references for the semantic web will make this data available to a far broader community and enable unexpected innovations. Bibliopedia will generate custom bibliographies and visualizations based on search results, facilitating a wide variety of scholarly inquiry and discovery. Most importantly, Bibliopedia is designed for ease of use, so as to substantially broaden participation to attract the largest possible range of humanities scholars as its user base, in particular scholars who do not normally use digital tools.
+Bibliopedia provides a RESTful API, SPARQL queries, linked data, Zotero-compatibility, and many other features. Built with Drupal 7, available on github, and served from the cloud for scalability, portability, and reliability, Bibliopedia is open to interested academics and libraries who would like to see what their metadata looks like on the semantic web."|BambooDirt
+Bibliopedia|keyword|Drupal|TERESAH
+Bibliopedia|url|http://www.bibliopedia.org|TERESAH
+Bibliopedia|creator|Jason Yandell|TERESAH
+Bibliopedia|license|open source|TERESAH
+Bibliopedia|is-used-for|Searching|TERESAH
+Bibliopedia|operating-system|Web|TERESAH
+Bibliopedia|keyword|web crawler|TERESAH
+BibServer|application-category|Organizing|TERESAH
+BibServer|description|BibServer is a tool for quickly and easily sharing collections of bibliographic metadata.|BambooDirt
+BibServer|license|GNU Affero GPL|TERESAH
+BibServer|url|http://bibserver.org/|TERESAH
+BibServer|operating-system|Linux|TERESAH
+BibServer|creator|Open Knowledge Foundation|TERESAH
+Bibus|application-category|Organizing|TERESAH
+Bibus|keyword|bibliographic management|TERESAH
+Bibus|description|Bibus is a bibliographic management software. You may search, edit, and sort bibliographic records. You can also perform live queries, and insert references and formatting into various Word Processors.|BambooDirt
+Bibus|url|http://bibus-biblio.sourceforge.net/wiki/index.php/Main_Page|TERESAH
+Bibus|operating-system|Linux|TERESAH
+BITEXT|keyword|Active|TERESAH
+BITEXT|description|Bitext provides multilingual semantic technologies in the field of Text Analyics via API with services like Entity Extraction, Concept Extraction, Sentiment Analysis, and Text Categorisation.|BambooDirt
+BITEXT|url|http://www.bitext.com|TERESAH
+BITEXT|keyword|linguistic technologies|TERESAH
+BITEXT|keyword|Paid|TERESAH
+BITEXT|application-category|4_Analysis|TERESAH
+BITEXT|operating-system|Web|TERESAH
+bitly|description|Bitly is a link shortening service that also helps you share, track, and analyze your links.|BambooDirt
+bitly|url|https://bitly.com/|TERESAH
+bitly|application-category|Collaboration|TERESAH
+bitly|application-category|Communicating|TERESAH
+bitly|operating-system|Web|TERESAH
+Blackboard Scholar|description|Blackboard Scholar is a social bookmarking service customized for education. It allows students and instructors to find educational resources on the Web. Available only to users of the Blackboard Learning System.|BambooDirt
+Blackboard Scholar|application-category|Gathering|TERESAH
+Blackboard Scholar|application-category|Meta: Give Overview|TERESAH
+Blackboard Scholar|url|http://www.itap.purdue.edu/tlt/Scholar/|TERESAH
+Blackboard Scholar|operating-system|osX|TERESAH
+Blackboard Scholar|creator|Purdue University|TERESAH
+Blackboard Scholar|keyword|social bookmarking|TERESAH
+Blog Analysis Toolkit (BAT)|keyword|blogging|TERESAH
+Blog Analysis Toolkit (BAT)|application-category|1_Capture|TERESAH
+Blog Analysis Toolkit (BAT)|url|https://surveyweb2.ucsur.pitt.edu/qblog/page_login.php|TERESAH
+Blog Analysis Toolkit (BAT)|description|The Blog Analysis Toolkit (BAT) is a free, Web-based system for capturing, archiving and sharing blog posts. Blog posts are acquired via RSS feeds, and stored in a database where they can be accessed and shared by other researchers. Free registration is required.|BambooDirt
+Blog Analysis Toolkit (BAT)|operating-system|Web|TERESAH
+Bookends|application-category|Organizing|TERESAH
+Bookends|keyword|bibliographic management|TERESAH
+Bookends|description|Bookends is reference management software that allows you to collect, annotate, and cite publications. Bookends performs Internet searches to retrieve references and associated web pages, or find and import references from other locations.|BambooDirt
+Bookends|url|http://sonnysoftware.com/|TERESAH
+Bookends|operating-system|osX|TERESAH
+Bookends|keyword|Paid|TERESAH
+Bookends|creator|Sonny Software|TERESAH
+Bookworm|description|Bookworm enables you to graphically explore lexical trends across a huge digital library.|BambooDirt
+Bookworm|url|http://bookworm.culturomics.org/|TERESAH
+Bookworm|keyword|No longer supported|TERESAH
+Bookworm|creator|Open Science Data Cloud|TERESAH
+Bookworm|application-category|Gathering|TERESAH
+Bookworm|application-category|Organizing|TERESAH
+Bookworm|operating-system|Web|TERESAH
+Boxer|description|Boxer is an easy-to-use DOS emulator for Mac OSX intended specifically for playing old DOS games.|BambooDirt
+Boxer|keyword|game studies|TERESAH
+Boxer|url|http://boxerapp.com/|TERESAH
+Boxer|operating-system|osX|TERESAH
+BuzzData|description|BuzzData is a user-friendly, versatile data-sharing software.|BambooDirt
+BuzzData|keyword|data sharing|TERESAH
+BuzzData|application-category|6_Storage|TERESAH
+BuzzData|url|http://buzzdata.com/|TERESAH
+BuzzData|operating-system|Web|TERESAH
+Camtasia|description|Camtasia is Mac/Windows software for recording screencasts.|BambooDirt
+Camtasia|url|http://www.techsmith.com/camtasia.html|TERESAH
+Camtasia|operating-system|osX|TERESAH
+Camtasia|keyword|Paid|TERESAH
+Camtasia|keyword|screencast|TERESAH
+Camtasia|application-category|Recording|TERESAH
+capella-scan|description|"capella-scan can ""OCR"" music scores from PDF or common image formats and output the results in MusicXML for use with common music editing software."|BambooDirt
+capella-scan|application-category|Conversion|TERESAH
+capella-scan|url|http://www.capella-software.com/capella-scan.cfm|TERESAH
+capella-scan|keyword|Paid|TERESAH
+capella-scan|operating-system|Windows|TERESAH
+Captivate|creator|Adobe Systems Incorporated|TERESAH
+Captivate|description|Captivate is software for recording audio and video of a user's screen. Users can import PowerPoint slides and add rich media, simulations, and quizzes, and publish them to learning management systems that support the SCORM standard.|BambooDirt
+Captivate|keyword|distance education|TERESAH
+Captivate|url|http://www.adobe.com/products/captivate.edu.html|TERESAH
+Captivate|operating-system|osX|TERESAH
+Captivate|keyword|Paid|TERESAH
+Captivate|application-category|Recording|TERESAH
+Capture Fox|description|Capture Fox is a Firefox plugin that allows the user to record their voice and their sccreen.|BambooDirt
+Capture Fox|keyword|Firefox|TERESAH
+Capture Fox|url|http://www.advancity.net/eng/products/capturefox.html|TERESAH
+Capture Fox|operating-system|Linux|TERESAH
+Capture Fox|keyword|screencast|TERESAH
+Capture Fox|application-category|Recording|TERESAH
+Casual|description|Casual allows you to search for a concept or common word and produces a unique cloud of concepts. Results are randomly displayed as definitions, related tags, and pictures.|BambooDirt
+Casual|url|http://nualart.com/casual/|TERESAH
+Casual|keyword|text|TERESAH
+Casual|operating-system|Web|TERESAH
+Casual|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+Cestagi|description|Cestagi is a collaborative platform that connects interdisciplinary communities. You can create a CV, share contributions, ask questions, learn about upcoming events, search employment opportunities, and track information.|BambooDirt
+Cestagi|creator|Cestagi.com|TERESAH
+Cestagi|url|http://www.cestagi.com/|TERESAH
+Cestagi|application-category|Collaboration|TERESAH
+Cestagi|application-category|Communicating|TERESAH
+Cestagi|keyword|social networking|TERESAH
+Cestagi|operating-system|Web|TERESAH
+CHET-C|keyword|Active|TERESAH
+CHET-C|description|CHET-C, or Chapel Hill Electronic Text-Converter, is a software tool designed to convert digital texts that employ standard typographic editorial conventions into EpiDoc-compliant XML files. A series of regular expressions are applied to the source document and the results are placed into a “shell file” (i.e., a template), which can be customised in advance. The regular expressions are stored in a separate configuration file to permit customisation, but this file is generated from regular expressions embedded in the EpiDoc Guidelines source files. This arrangement permits robust automated and user-driven self-tests within the EpiDoc webapp and facilitates a high degree of coordination across EpiDoc tools. Prior versions exist (MSAccess + VBA and Java, both now deprecated), but more recent development has focused on a JavaScript version that will run without plugins in a modern web browser.|BambooDirt
+CHET-C|creator|EpiDoc Collaborative|TERESAH
+CHET-C|license|GNU GPL|TERESAH
+CHET-C|url|http://wiki.digitalclassicist.org/Chapel_Hill_Electronic_Text_Converter_(CHETC)|TERESAH
+CHET-C|standard|TEI|TERESAH
+CHET-C|operating-system|Web|TERESAH
+CHET-C|application-category|Web development|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|standard|ASCII|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|standard|EpiDoc|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|keyword|epigraphy|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|license|GNU GPL|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|standard|HTML|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|creator|Hugh Cayless (with Zaneta Au, Gabriel Bodard, Tom Elliott, Raffaele Viglianti)|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|operating-system|Linux|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|operating-system|osX|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|keyword|Papyrology|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|application-category|Publishing|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|standard|RTF|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|description|Software tool designed to convert digital texts that employ standard typographic editorial conventions into EpiDoc-compliant XML files. A series of regular expressions are applied to the source document and the results are placed into a “shell file” (i.e., a template), which can be customised in advance. The regular expressions are stored in a separate configuration file to permit customisation, but this file is generated from regular expressions embedded in the EpiDoc Guidelines source files. This arrangement permits robust automated and user-driven self-tests within the EpiDoc webapp and facilitates a high degree of coordination across EpiDoc tools. Prior versions exist (MSAccess + VBA and Java, both now deprecated), but more recent development has focused on a JavaScript version that will run without plugins in a modern web browser.|ArtsHumanities
+CHET-C (Chapel Hill Electronic Text-Converter)|keyword|structuring|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|standard|TEI|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|keyword|text encoding|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|keyword|Text encoding - descriptive|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|keyword|Text encoding - presentational|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|keyword|Text encoding - referential|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|operating-system|Windows|TERESAH
+CHET-C (Chapel Hill Electronic Text-Converter)|standard|XML|TERESAH
+Chicken|description|Chicken (originally called Chicken of the VNC) is a VNC client, or Virtual Network Computing, that allows you to display and interact with a remote computer while displaying it on a remote screen.|BambooDirt
+Chicken|keyword|Chicken of the VNC|TERESAH
+Chicken|application-category|Collaboration|TERESAH
+Chicken|application-category|Editing|TERESAH
+Chicken|license|GNU GPL|TERESAH
+Chicken|url|http://sourceforge.net/projects/cotvnc/|TERESAH
+Chicken|operating-system|osX|TERESAH
+Chicken|creator|SourceForge|TERESAH
+Chicken of the VNC|description|A VNC (Virtual Network Computing) client that allows one to display the screen of a remote computer on a local machine. The remote computer may be controlled using the keyboard, mouse, or other peripheral on the local machine. Both local and remote systems must operate VNC software and be appropriately configured to allow access. The title of the software application is a play upon 'Chicken of the Sea', a brand of canned tuna sold in the US.|ArtsHumanities
+Chicken of the VNC|keyword|analysis|TERESAH
+Chicken of the VNC|keyword|client|TERESAH
+Chicken of the VNC|keyword|creation|TERESAH
+Chicken of the VNC|license|GNU GPL|TERESAH
+Chicken of the VNC|operating-system|osX|TERESAH
+Chicken of the VNC|application-category|Publishing|TERESAH
+Chicken of the VNC|keyword|remote desktop|TERESAH
+Chicken of the VNC|creator|Smeger|TERESAH
+Chicken of the VNC|keyword|structuring|TERESAH
+Chicken of the VNC|keyword|Tight transfer encoding|TERESAH
+Chicken of the VNC|keyword|transfer|TERESAH
+Chicken of the VNC|keyword|Vnc|TERESAH
+Chicken of the VNC|keyword|ZLib transfer encoding|TERESAH
+Click2map |keyword|Active development|TERESAH
+Click2map |keyword|Beginner|TERESAH
+Click2map |description|Click2Map's 'Free Map Creator' provides an online user interface which helps create maps, to which users can add points of interest, display markers containing HTML content such as text and images, and lines/polygons. Maps can be downloaded or published on a website free of charge.|HistoryOnline
+Click2map |keyword|Online|TERESAH
+Click2map |keyword|Single purpose|TERESAH
+Click2map |application-category|Visualization|TERESAH
+Concordance|description|A software tool for performing concordance � the analysis of a set of words within its immediate context - on a body of text. The tool performs full concordance, reading and analysing each and every word in a text. It was initially written for the analysis of English texts, but has since been extended to cater for other Western languages. Limited support is also provided for text in East Asian scripts, such as Chinese and Korean.|ArtsHumanities
+Concordance|keyword|analysis|TERESAH
+Concordance|license|commercial|TERESAH
+Concordance|keyword|concordance|TERESAH
+Concordance|creator|R.J.C. Watt|TERESAH
+Concordance|keyword|text analysis|TERESAH
+Concordance|keyword|Text encoding - descriptive|TERESAH
+Concordance|keyword|Text recognition|TERESAH
+Concordance|keyword|Unknown|TERESAH
+Concordance|keyword|web concordance|TERESAH
+Concordance|operating-system|Windows|TERESAH
+Concordance|keyword|word list|TERESAH
+Concordance|keyword|word usage|TERESAH
+CONTENTdm|keyword|archives|TERESAH
+CONTENTdm|keyword|Cataloguing and indexing|TERESAH
+CONTENTdm|creator|CISO, Center for Information Systems Optimization|TERESAH
+CONTENTdm|license|commercial|TERESAH
+CONTENTdm|keyword|Content management|TERESAH
+CONTENTdm|description|CONTENTdm is digital collection management software that allows for the upload, description, management and access of digital collections.CONTENTdm is mostly used by libraries, archives, museums, government agencies, universities, corporations, historical societies, and other organizations that wish to host a digital collection.|ArtsHumanities
+CONTENTdm|standard|JPEG2000|TERESAH
+CONTENTdm|operating-system|Linux|TERESAH
+CONTENTdm|standard|PDF|TERESAH
+CONTENTdm|keyword|repository|TERESAH
+CONTENTdm|keyword|structuring|TERESAH
+CONTENTdm|operating-system|Windows|TERESAH
+CONTENTdm|keyword|XML|TERESAH
+epcEdit|description|A structured text editor that may be used to create, edit, validate and convert XML and SGML documents. EpcEdit contains an integrated validating parser, an editor for CALS and HTML tables, an attribute editor and an element manipulation tool.|ArtsHumanities
+epcEdit|keyword|analysis|TERESAH
+epcEdit|keyword|Coding and standardisation|TERESAH
+epcEdit|license|commercial|TERESAH
+epcEdit|keyword|creation|TERESAH
+epcEdit|license|GNU GPL|TERESAH
+epcEdit|creator|Heinz-Detlev Koch|TERESAH
+epcEdit|standard|HTML|TERESAH
+epcEdit|operating-system|Linux|TERESAH
+epcEdit|keyword|parser|TERESAH
+epcEdit|standard|sgml|TERESAH
+epcEdit|keyword|Standard Generalized Markup Language (SGML)|TERESAH
+epcEdit|operating-system|Windows|TERESAH
+epcEdit|standard|XML|TERESAH
+epcEdit|standard|XSLT|TERESAH
+EPrints.org|description|A digital repository software package that may be used to accept, manage and publish digital objects. It is widely used in academia as a system to manage academic research papers, electronic theses and other distinct digital resources. EPrints offers an extensible plug-in architecture, enabling data processing activities to be tailored to the requirements of the institution.|ArtsHumanities
+EPrints.org|keyword|Cataloguing and indexing|TERESAH
+EPrints.org|keyword|digital repository|TERESAH
+EPrints.org|keyword|Dublin Core|TERESAH
+EPrints.org|standard|EP3-XML|TERESAH
+EPrints.org|keyword|eprints|TERESAH
+EPrints.org|license|GNU GPL|TERESAH
+EPrints.org|keyword|institutional repository|TERESAH
+EPrints.org|operating-system|Linux|TERESAH
+EPrints.org|standard|METS|TERESAH
+EPrints.org|keyword|METS|TERESAH
+EPrints.org|keyword|MODS|TERESAH
+EPrints.org|keyword|oais|TERESAH
+EPrints.org|keyword|Open Access Initiative Protocol for Metadata Harvesting (OAI-PMH)|TERESAH
+EPrints.org|keyword|Perl|TERESAH
+EPrints.org|keyword|preservation|TERESAH
+EPrints.org|application-category|Publishing|TERESAH
+EPrints.org|creator|University of Southampton|TERESAH
+EPrints.org|operating-system|Windows|TERESAH
+ERDAS Imagine|keyword|2d illustration|TERESAH
+ERDAS Imagine|keyword|2d modelling - raster|TERESAH
+ERDAS Imagine|keyword|2d modelling - vector|TERESAH
+ERDAS Imagine|keyword|3d modelling - interactive|TERESAH
+ERDAS Imagine|keyword|3d modelling - vector|TERESAH
+ERDAS Imagine|keyword|Ajax frameworks|TERESAH
+ERDAS Imagine|keyword|analysis|TERESAH
+ERDAS Imagine|keyword|Animation|TERESAH
+ERDAS Imagine|keyword|C|TERESAH
+ERDAS Imagine|license|commercial|TERESAH
+ERDAS Imagine|keyword|creation|TERESAH
+ERDAS Imagine|operating-system|Cross-platform|TERESAH
+ERDAS Imagine|creator|Earth Resource Data Analysis System (ERDAS)|TERESAH
+ERDAS Imagine|description|ERDAS Imagine is a suite of geospatial authoring software. The suite contains a raster graphics editor and remote sensing application that performs advanced remote sensing analysis and spatial modelling to create new information. ERDAS IMAGINE can also visualize results in 2D, 3D, movies, and on cartographic quality map compositions.|ArtsHumanities
+ERDAS Imagine|keyword|Erdas Macro Language (EML)|TERESAH
+ERDAS Imagine|keyword|Geo-referencing and projection|TERESAH
+ERDAS Imagine|keyword|Geospatial technology|TERESAH
+ERDAS Imagine|keyword|GIS|TERESAH
+ERDAS Imagine|keyword|GPS and total station surveys|TERESAH
+ERDAS Imagine|standard|HTML|TERESAH
+ERDAS Imagine|keyword|J2EE|TERESAH
+ERDAS Imagine|keyword|Java|TERESAH
+ERDAS Imagine|keyword|Javascript|TERESAH
+ERDAS Imagine|standard|JPEG|TERESAH
+ERDAS Imagine|keyword|multispectral images|TERESAH
+ERDAS Imagine|application-category|Publishing|TERESAH
+ERDAS Imagine|keyword|Raster image|TERESAH
+ERDAS Imagine|keyword|Remote sensing|TERESAH
+ERDAS Imagine|keyword|structuring|TERESAH
+ERDAS Imagine|standard|TIFF|TERESAH
+Exceed|keyword|analysis|TERESAH
+Exceed|keyword|Cataloguing and indexing|TERESAH
+Exceed|keyword|Coding and standardisation|TERESAH
+Exceed|license|commercial|TERESAH
+Exceed|operating-system|Cross-platform|TERESAH
+Exceed|keyword|Data modelling|TERESAH
+Exceed|description|Exceed is a PC X server system which allows for graphical user interface (GUI) interactions with networked computers. Exceed provides data exchange among applications on different platforms including UNIX, Linux, VMS, X Window Based System and IBM mainframes.|ArtsHumanities
+Exceed|keyword|Geo-referencing and projection|TERESAH
+Exceed|keyword|Graphical rendering|TERESAH
+Exceed|keyword|Graphical User Interface (GUI)|TERESAH
+Exceed|creator|Hummingbird Ltd.|TERESAH
+Exceed|keyword|Microsoft Visual C/C++|TERESAH
+Exceed|keyword|networked computers|TERESAH
+Exceed|application-category|Publishing|TERESAH
+Exceed|keyword|Record linkages|TERESAH
+Exceed|keyword|structuring|TERESAH
+Exceed|keyword|Use of existing digital data|TERESAH
+Exceed|keyword|x window system|TERESAH
+Exceed|keyword|x11|TERESAH
+Finale|description|Finale is music notation software with MusicXML support.|BambooDirt
+Finale|url|http://www.finalemusic.com|TERESAH
+Finale|operating-system|osX|TERESAH
+Finale|keyword|Paid|TERESAH
+Finale|keyword|score|TERESAH
+Firebug|license|BSD|TERESAH
+Firebug|description|Firebug integrates with Firefox to put a wealth of web development tools at your fingertips while you browse. You can edit, debug, and monitor CSS, HTML, and JavaScript live in any web page.|BambooDirt
+Firebug|keyword|Firefox|TERESAH
+Firebug|url|http://getfirebug.com/|TERESAH
+Firebug|creator|Mozilla|TERESAH
+Firebug|operating-system|Web|TERESAH
+Firebug|application-category|Web development|TERESAH
+Flare|description|"""ActionScript library for creating visualizations that run in the Adobe Flash Player"""|BambooDirt
+Flare|license|BSD|TERESAH
+Flare|keyword|data visualization|TERESAH
+Flare|url|http://flare.prefuse.org/|TERESAH
+Flare|creator|UC Berkeley Visualization Lab|TERESAH
+Flare|application-category|Visualization|TERESAH
+Flashcard Machine|application-category|2_Creation|TERESAH
+Flashcard Machine|keyword|collaboration|TERESAH
+Flashcard Machine|description|Flashcard Machine is a web interface with a corresponding iOS app for creating and studying flashcards.|BambooDirt
+Flashcard Machine|url|http://www.flashcardmachine.com/|TERESAH
+Flashcard Machine|operating-system|iOS|TERESAH
+Fleck|application-category|Annotating|TERESAH
+Fleck|keyword|bookmarking|TERESAH
+Fleck|description|Fleck is a browser extension that allows you to collect bookmarks and annotate web pages.|BambooDirt
+Fleck|url|http://fleck.com/|TERESAH
+Fleck|creator|Self Aware Games|TERESAH
+Fleck|operating-system|Web|TERESAH
+Flickr|description|"Flickr is an online community service that enables registered users to upload, tag, group, comment, share and rate photographs, artwork, illustrations, screenshots and videos. Images may be shared via Flickr galleries or embedded in external blogs and social media. Hosting approximately 4 billion images, Flickr is also available for unregistered users to search and browse galleries and navigate geospatial maps.
+Features include:
+100MB monthly upload limit (Free accounts); unlimited uploads (Pro subscribers)
+High Definition video uploads
+Available in 8 languages
+Metadata tagging to form tag-clouds and folksonomies
+Application Programming Interface (API) enables independent programmers to expand Flickr applications
+Ajax emulates the functionality of desktop photo applications
+Uploadr drag-and-drop desktop client allows users to upload photos outside the web interface
+Private and public image storage
+Guest pass allows private photos to be shared with unregistered users
+SafeSearch filtering controls
+RSS and Atom feeds
+Direct uploads from email and cameraphones
+Merchandising of canvas prints, posters, cards, calendars and photo books
+Copyright and creative commons license options"|BambooDirt
+Flickr|url|http://www.flickr.com|TERESAH
+Flickr|application-category|Gathering|TERESAH
+Flickr|keyword|Paid|TERESAH
+Flickr|license|Public Domain|TERESAH
+Flickr|keyword|web services|TERESAH
+Flickr|creator|Yahoo!|TERESAH
+flokoon|description|flokoon displays search results from Last.fm, YouTube, and Fotolia in a graphic interactive map, that connects related topics through a series of spiderweb-like graphics.|BambooDirt
+flokoon|url|http://www.flokoon.com|TERESAH
+flokoon|operating-system|Web|TERESAH
+flokoon|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+flokoon|keyword|visual search|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Active|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Animation|TERESAH
+FocusOPEN Digital Asset Manager|keyword|archival software|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Cataloguing and indexing|TERESAH
+FocusOPEN Digital Asset Manager|application-category|6_Storage|TERESAH
+FocusOPEN Digital Asset Manager|creator|Daydream Interactive Limited|TERESAH
+FocusOPEN Digital Asset Manager|keyword|digital asset management|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Digital Preservation|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Embedded metadata formats|TERESAH
+FocusOPEN Digital Asset Manager|creator|FocusOPEN Software|TERESAH
+FocusOPEN Digital Asset Manager|license|GNU AGPL|TERESAH
+FocusOPEN Digital Asset Manager|license|GNU GPL|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Graphical rendering|TERESAH
+FocusOPEN Digital Asset Manager|url|http://www.digitalassetmanager.com/|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Image Documents (.jpg) (.gif) (.png) (.tiff) (.bmp) Open Office|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Image manipulation|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Macromedia Flash|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Manual input and transcription|TERESAH
+FocusOPEN Digital Asset Manager|keyword|MPEG-4|TERESAH
+FocusOPEN Digital Asset Manager|description|Open source Digital Asset Management solution designed for medium size preservation, cataloguing, media archiving and batch transcoding.|ArtsHumanities
+FocusOPEN Digital Asset Manager|keyword|Paid|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Photography|TERESAH
+FocusOPEN Digital Asset Manager|application-category|Publishing|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Record linkages|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Text encoding - presentational|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Text encoding - referential|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Text recognition|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Use of existing digital data|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Video and moving image compression|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Video editing|TERESAH
+FocusOPEN Digital Asset Manager|keyword|Video post production|TERESAH
+FocusOPEN Digital Asset Manager|operating-system|Windows|TERESAH
+FocusOPEN Digital Asset Manager|description|Windows .NET based open source Digital Asset Management solution designed for medium size preservation, cataloguing, media archiving and batch transcoding.|BambooDirt
+FocusOPEN Digital Asset Manager|keyword|XML|TERESAH
+Formspring|application-category|1_Capture|TERESAH
+Formspring|keyword|forms|TERESAH
+Formspring|description|Formspring allows users to create and answer questionnaires either within the web interface or using an iOS app.|BambooDirt
+Formspring|url|http://www.formspring.me/|TERESAH
+Formspring|operating-system|iOS|TERESAH
+FOLKER|creator|Archiv für Gesprochenes Deutsch|TERESAH
+FOLKER|keyword|audio recording|TERESAH
+FOLKER|description|FOLKER is an editor for the transcription of audio recorded multiparty dialogue.|BambooDirt
+FOLKER|url|http://agd.ids-mannheim.de/folker_en.shtml|TERESAH
+FOLKER|operating-system|osX|TERESAH
+FOLKER|application-category|Transcription|TERESAH
+FotoFlexer|url|http://fotoflexer.com/|TERESAH
+FotoFlexer|research-object|Images|TERESAH
+FotoFlexer|keyword|image galleries|TERESAH
+FotoFlexer|description|Simple web-based image editing that can import content from PhotoBucket, Facebook, MySpace, Picasa, Flickr, Phanfare, Smugmug, or Yahoo Search. A free account is needed to use it.|BambooDirt
+FotoFlexer|operating-system|Web|TERESAH
+Freebase|keyword|Active|TERESAH
+Freebase|license|Creative Commons Attribution|TERESAH
+Freebase|application-category|4_Analysis|TERESAH
+Freebase|keyword|entity graph|TERESAH
+Freebase|description|Freebase is an entity graph of open data.|BambooDirt
+Freebase|url|http://www.freebase.com/|TERESAH
+Freebase|operating-system|Web|TERESAH
+Freedity|application-category|1_Capture|TERESAH
+Freedity|description|Freedity can create an RSS feed from any web page, with the number of feeds and update interval varying based on the tier of the subscription.|BambooDirt
+Freedity|url|http://feedity.com/|TERESAH
+Freedity|keyword|Paid|TERESAH
+Freedity|standard|RSS|TERESAH
+Freedity|operating-system|Web|TERESAH
+FreeMind|description|FreeMind is Java-based mind mapping software.|BambooDirt
+FreeMind|license|GNU GPL|TERESAH
+FreeMind|url|http://freemind.sourceforge.net/wiki/index.php/Main_Page|TERESAH
+FreeMind|keyword|Java|TERESAH
+FreeMind|operating-system|Linux|TERESAH
+Gallery|description|Gallery is an open source web-based photo album organizer that enables the integration of albums into websites.|BambooDirt
+Gallery|url|http://galleryproject.org/|TERESAH
+Gallery|application-category|Gathering|TERESAH
+Gallery|keyword|image galleries|TERESAH
+Gallery|operating-system|Web|TERESAH
