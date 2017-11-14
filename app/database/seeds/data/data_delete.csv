@@ -1202,3 +1202,555 @@ Gallery|url|http://galleryproject.org/|TERESAH
 Gallery|application-category|Gathering|TERESAH
 Gallery|keyword|image galleries|TERESAH
 Gallery|operating-system|Web|TERESAH
+Gamera|description|"A free (under the GNU General Public License) toolkit for the development of document image recognition systems.
+Features:
+Custom dictionaries may be created to assist with analysis of specific record types
+Extensible functionality
+Optical character recognition (OCR) toolkit plugin"|BambooDirt
+Gamera|description|A toolkit for use in the creation of document recognition applications. It may be used by developers to create image processing and recognition tools that are tailored to the requirements of specific communities and subject domains.|ArtsHumanities
+Gamera|keyword|artificial intelligence|TERESAH
+Gamera|operating-system|Cross-platform|TERESAH
+Gamera|license|GNU GPL|TERESAH
+Gamera|keyword|graphics Conversion|TERESAH
+Gamera|url|http://gamera.informatik.hsnr.de/|TERESAH
+Gamera|keyword|Information Analysis|TERESAH
+Gamera|keyword|optical character recognition|TERESAH
+Gamera|application-category|Publishing|TERESAH
+Gamera|keyword|Python|TERESAH
+Gamera|keyword|structuring|TERESAH
+Gamera|keyword|Text recognition|TERESAH
+Gamera|creator|The Gamera project|TERESAH
+Gamera|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+GapVis|keyword|Beta|TERESAH
+GapVis|description|GapVis is an interface for exploring and reading texts that reference ancient places. It includes maps and data visualizations that show what locations are referred to a different points in the narrative and allows you to dig into the details to learn more.|BambooDirt
+GapVis|creator|Google|TERESAH
+GapVis|url|http://nrabinowitz.github.io/gapvis/|TERESAH
+GapVis|operating-system|Web|TERESAH
+GapVis|application-category|Visualization|TERESAH
+GeoCommons|keyword|Active development|TERESAH
+GeoCommons|description|An open repository of data and maps. A mixture of free and paid-for services (the premium part is called GeoIQ). Data can be uploaded from csv files or from URLs. KML and other formats are supported. Geodata can include UK postcodes, but may work best with US data. Different data sets can be layered and ordered on a variety of base maps. 20 MB of private data and 10 private maps are allowed to free registrations.|HistoryOnline
+GeoCommons|keyword|Beginner|TERESAH
+GeoCommons|application-category|Archiving|TERESAH
+GeoCommons|url|http://geocommons.com/|TERESAH
+GeoCommons|is-used-for|Mapping|TERESAH
+GeoCommons|keyword|Multifunctional|TERESAH
+GeoCommons|keyword|Offline|TERESAH
+GeoCommons|description|Recently i found your site are generally already reading along. I think Keep away from companies leave my first comment. I don't figure out to tell you except that I've enjoyed reading. Nice blog. Steer clear of keep visiting this web site really often Airport ParkingTier 4 Approved|BambooDirt
+GeoCommons|operating-system|Web|TERESAH
+GeoCommons|application-category|Visualization|TERESAH
+GeoParser|keyword|analysis|TERESAH
+GeoParser|keyword|Cataloguing and indexing|TERESAH
+GeoParser|operating-system|Cross-platform|TERESAH
+GeoParser|keyword|Geoparser|TERESAH
+GeoParser|description|GeoParser is a text analysis tool that may be used to identify and tag references to geographic location in a text resource using Natural Language Processing to analyse the composition of a resource and identifying words that match its geographic database. The approach is useful for processing names that may have one of several locations (e.g. Belfast in Ireland, New Zealand and Canada) and distinguishing names that may be confused with other common words (e.g. Reading in Berkshire and reading as an activity). GeoParser may be used with GeoCrossWalk to tag a place name with full geographical coordinates (e.g. an OS National Grid Reference).|BambooDirt
+GeoParser|description|GeoParser is a text analysis tool that may be used to identify, tag and (where appropriate) disambiguate references to geographic location in a text resource. The tool uses Natural Language Processing to analyse the composition of a resource and identifying words that match its geographic database. The approach is useful for processing ambiguous references, such as names that may have one of several locations (e.g. Belfast in Ireland, New Zealand and Canada) and distinguishing names that may be confused with other action (e.g. Reading in Berkshire and reading as an activity). GeoParser may be used with GeoCrossWalk to tag a place name with full geographical coordinates (e.g. an OS National Grid Reference).|ArtsHumanities
+GeoParser|keyword|Geo-referencing and projection|TERESAH
+GeoParser|standard|HTML|TERESAH
+GeoParser|url|http://edina.ac.uk/projects/geoxwalk/geoparser.html|TERESAH
+GeoParser|keyword|metadata records|TERESAH
+GeoParser|keyword|Parsing|TERESAH
+GeoParser|keyword|plain text|TERESAH
+GeoParser|application-category|Publishing|TERESAH
+GeoParser|keyword|Text encoding - referential|TERESAH
+GeoParser|application-category|4_Analysis|TERESAH
+GeoParser|keyword|Text recognition|TERESAH
+GeoParser|keyword|Texture design and mapping|TERESAH
+GeoParser|license|University of Edinburgh fee-free use (no modifications)|TERESAH
+GeoParser|creator|University of Edinburgh School of Informatics - Language Technology Group|TERESAH
+GeoParser|operating-system|Web|TERESAH
+GeoParser|standard|XML|TERESAH
+Gliffy|description|Gliffy is a tool that makes it easy to create, share, and collaborate on a wide range of diagrams.|BambooDirt
+Gliffy|url|http://www.gliffy.com/|TERESAH
+Gliffy|operating-system|Web|TERESAH
+Gliffy|application-category|Visualization|TERESAH
+Gliffy|keyword|workflows|TERESAH
+Global Translator|description|Global Translator automatically translates WordPress sites into a variety of user-chosen languages, using one of four translation engines (Google Translation Engine, Babel Fish, Promt, FreeTranslations).|BambooDirt
+Global Translator|url|http://wordpress.org/plugins/global-translator/|TERESAH
+Global Translator|application-category|Publishing|TERESAH
+Global Translator|operating-system|Web|TERESAH
+Global Translator|keyword|WordPress|TERESAH
+GoodReader|creator|Good.iWare|TERESAH
+GoodReader|description|GoodReader is a PDF reader for iPad, iPhone and iPod Touch. GoodReader allows you to read anything -- books, movies, maps and images -- on your mobile device.|BambooDirt
+GoodReader|url|http://www.goodiware.com/goodreader.html|TERESAH
+GoodReader|operating-system|iOS|TERESAH
+GoodReader|operating-system|iOS 3.14+|TERESAH
+GoodReader|operating-system|iPhone|TERESAH
+GoodReader|keyword|Paid|TERESAH
+GoodReader|keyword|PDF reader|TERESAH
+Google 3D Warehouse|keyword|3D modeling|TERESAH
+Google 3D Warehouse|description|A collection of free-to-download 3D models that have been designed using Google SketchUp.|BambooDirt
+Google 3D Warehouse|creator|Google|TERESAH
+Google 3D Warehouse|keyword|Google SketchUp|TERESAH
+Google 3D Warehouse|url|https://3dwarehouse.sketchup.com/|TERESAH
+Google 3D Warehouse|application-category|Gathering|TERESAH
+Google Account|keyword|Active|TERESAH
+Google Chrome|keyword|Active|TERESAH
+Google Correlate|application-category|4_Analysis|TERESAH
+Google Correlate|description|Find searches that correlate with real-world data: Google Correlate finds search patterns which correspond with real-world trends.|BambooDirt
+Google Correlate|creator|Google|TERESAH
+Google Correlate|url|http://www.google.com/trends/correlate/|TERESAH
+Google Correlate|operating-system|Web|TERESAH
+Google Currents|keyword|Active|TERESAH
+Google Currents|keyword|google|TERESAH
+Google Currents|creator|Google|TERESAH
+Google Currents|url|http://www.google.com/producer/currents|TERESAH
+Google Currents|operating-system|iOS|TERESAH
+Google Currents|description|News and RSS reader designed for iOS and Android mobile devices.|BambooDirt
+Google Currents|application-category|Discovering|TERESAH
+Google Notebook|application-category|Annotating|TERESAH
+Google Notebook|creator|Google|TERESAH
+Google Notebook|description|"Google Notebook helps you collect notes and information from the web for research or planning. You can use Google's bookmarklet to add text and images to any page of your notebooks, access your notebooks from any computer or your mobile phone, and also share your notebooks with others.
+
+Google announced they are no longer actively developing Google Notebook, but are continuing to maintain the service."|BambooDirt
+Google Notebook|url|http://www.google.com/googlenotebook/faq.html|TERESAH
+Google Notebook|keyword|organization|TERESAH
+Google Notebook|operating-system|Web|TERESAH
+Google SketchUp|keyword|3D modeling|TERESAH
+Google SketchUp|creator|Google|TERESAH
+Google SketchUp|description|Google SketchUp is easy-to-use free 3D modeling software.|BambooDirt
+Google SketchUp|url|http://www.sketchup.com|TERESAH
+Google SketchUp|research-object|Images|TERESAH
+Google SketchUp|keyword|Paid|TERESAH
+Google SketchUp|operating-system|Web|TERESAH
+Google Topic Modelling Tool|keyword|Beginner|TERESAH
+Google Topic Modelling Tool|keyword|No active development|TERESAH
+Google Topic Modelling Tool|keyword|Offline|TERESAH
+Google Topic Modelling Tool|keyword|Single purpose|TERESAH
+Google Topic Modelling Tool|application-category|4_Analysis|TERESAH
+Google Topic Modelling Tool|description|This tool offers a very simply interface for performing topic modelling. Once downloaded, the tool can take any document as an input and produce a list of topics in various formats. Although the options are somewhat limited this is an easy way for a first pass to be made on topic modelling data. For people who wish to experiment with the topic, some sample documents are bundled in with the download. The tool will run on any system that has Java VM installed.|HistoryOnline
+Google Wonder Wheel|creator|Google|TERESAH
+Google Wonder Wheel|description|Google allows you to see relevant search results to your query in a unique semantically relevant and graphically designed way.|BambooDirt
+Google Wonder Wheel|url|http://www.googlewonderwheel.com/|TERESAH
+Google Wonder Wheel|operating-system|Web|TERESAH
+Google Wonder Wheel|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+Google Wonder Wheel|keyword|visualization|TERESAH
+Google+|keyword|Active|TERESAH
+Google+|keyword|google|TERESAH
+Google+|creator|Google|TERESAH
+Google+|url|https://plus.google.com/|TERESAH
+Google+|application-category|Collaboration|TERESAH
+Google+|application-category|Communicating|TERESAH
+Google+|description|Social networking platform, not unlike Facebook, that utilizes with other Google services and allows users to connect with and see what friends are doing. Users can create posts and share links or multimedia items with select groups (called Circles). The Hangouts feature allows group video chat.|BambooDirt
+Google+|operating-system|Web|TERESAH
+Grokker|description|Grokker is a visualization, web-based search tool.|BambooDirt
+Grokker|url|http://www.grokker.org/|TERESAH
+Grokker|operating-system|Web|TERESAH
+Grokker|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+Grokker|keyword|visualization|TERESAH
+Hackety Hack|description|Hackety Hack will teach you the absolute basics of programming from the ground up. No previous programming experience is needed! With Hackety Hack, you'll learn the Ruby programming language. Ruby is used for all kinds of programs, including desktop applications and websites.|BambooDirt
+Hackety Hack|url|http://hackety.com/|TERESAH
+Hackety Hack|operating-system|Linux|TERESAH
+Hackety Hack|keyword|Ruby|TERESAH
+Hackety Hack|application-category|Web development|TERESAH
+HearPlanet|creator|HearPlanet Inc.|TERESAH
+HearPlanet|description|HearPlanet is a real-time audio tour guide. This application plays audio tracks of Wikipedia articles based on points of interest surrounding your current location. Compatible with iPhone and iPod Touch.|BambooDirt
+HearPlanet|url|https://itunes.apple.com/app/hearplanet-lite-audio-guide/id300364135?mt=8|TERESAH
+HearPlanet|operating-system|iOS|TERESAH
+HearPlanet|operating-system|iOS 3.2|TERESAH
+HearPlanet|operating-system|iPod Touch|TERESAH
+HearPlanet|application-category|Discovering|TERESAH
+Heritrix|license|Apache License|TERESAH
+Heritrix|application-category|1_Capture|TERESAH
+Heritrix|keyword|downloading|TERESAH
+Heritrix|description|Heritrix is web crawler used by the Internet Archive, which provides a web-based user interface after initial configuration on a Linux machine. Also used by the Library of Congress, Heritrix captures metadata in the Web ARChive (WARC) format.|BambooDirt
+Heritrix|url|http://crawler.archive.org/|TERESAH
+Heritrix|creator|Internet Archive|TERESAH
+Heritrix|operating-system|Linux|TERESAH
+Heurist Reference Database|description|"""Heurist captures and manages web bookmarks, bibliographic references, personal notes and a host of other specialised data types (expandable) in a simple, searchable web interface, available anywhere.
+Researchers can easily and quickly find, capture and share relevant information, organise information resources and publish teaching/research project web site content automatically using Heurist."""|BambooDirt
+Heurist Reference Database|application-category|1_Capture|TERESAH
+Heurist Reference Database|url|http://heuristscholar.org/heurist/|TERESAH
+Heurist Reference Database|keyword|research|TERESAH
+Heurist Reference Database|operating-system|Web|TERESAH
+H-Net|keyword|collaboration|TERESAH
+H-Net|description|H-Net is an international interdisciplinary organization of scholars and teachers dedicated to developing the enormous educational potential of the Web.|BambooDirt
+H-Net|url|http://www.h-net.org/|TERESAH
+H-Net|creator|MATRIX at Michigan State University|TERESAH
+H-Net|application-category|Collaboration|TERESAH
+H-Net|application-category|Communicating|TERESAH
+H-Net|operating-system|Web|TERESAH
+HUBzero topic modeling tool|keyword|HUBzero|TERESAH
+HUBzero topic modeling tool|description|This tool, which runs within a HUBzero instance, this tool parses a data set and creates topic groups, then analyzes the data to see which topic groups the individual pieces of data most likely corresponds to. The results are then returned to the result window, along with the list of stories and the topics generated. The results, data and topics can all be downloaded.|BambooDirt
+HUBzero topic modeling tool|keyword|topic modeling|TERESAH
+HUBzero topic modeling tool|operating-system|Web|TERESAH
+HUBzero topic modeling tool|application-category|Visualization|TERESAH
+HyperImage|keyword|Active|TERESAH
+HyperImage|url|http://www.uni-lueneburg.de/hyperimage/hyperimage/idee_E.htm|TERESAH
+HyperImage|research-object|Images|TERESAH
+HyperImage|keyword|image linking|TERESAH
+HyperImage|description|The HyperImage platform supports the linking of (audio)-visual objects, texts and mixed-media documents. References between images in total, regions of images, annotations regarding the images, and other media, are achieved by means of hyperlinks.|BambooDirt
+HyperPo|url|http://stefansinclair.name/cv/#software|TERESAH
+HyperPo|description|HyperPo is a user-friendly text exploration and analysis program that allows users to import texts or use texts available online (in English or French), and provides frequency lists of characters, words and series of words, color-coding to indicate repetition, KWIC, co-occurrence and distribution lists, and the ability to simultaneously compare data from multiple texts.|BambooDirt
+HyperPo|keyword|No longer supported|TERESAH
+HyperPo|creator|Stéfan Sinclair|TERESAH
+HyperPo|application-category|4_Analysis|TERESAH
+HyperPo|keyword|text mining|TERESAH
+HyperPo|operating-system|Web|TERESAH
+HyperRESEARCH|application-category|4_Analysis|TERESAH
+HyperRESEARCH|url|http://www.researchware.com/products/hyperresearch.html|TERESAH
+HyperRESEARCH|description|HyperRESEARCH enables users to code and retrieve, build theories, and conduct analyses of your data. You may work with text, graphics, audio and video sources.|BambooDirt
+HyperRESEARCH|operating-system|osX|TERESAH
+HyperRESEARCH|keyword|Paid|TERESAH
+HyperRESEARCH|creator|Researchware Inc.|TERESAH
+HyperRESEARCH|keyword|video|TERESAH
+iAnnotate|keyword|Active|TERESAH
+iAnnotate|keyword|audio recording|TERESAH
+iAnnotate|application-category|Collaboration|TERESAH
+iAnnotate|application-category|Editing|TERESAH
+iAnnotate|description|Full-featured app for reading, annotating, organizing, and sending PDFs. Offers ability to annotate PDFs with pen, highlighter, audio recordings, and photos. For iPad or Android.|BambooDirt
+iAnnotate|url|http://www.branchfire.com/iannotate/|TERESAH
+iAnnotate|operating-system|iOS|TERESAH
+iAnnotate|keyword|Paid|TERESAH
+IBM AeroText|keyword|C|TERESAH
+IBM AeroText|url|http://www.rocketsoftware.com/products/rocket-aerotext|TERESAH
+IBM AeroText|description|IBM AeroText is an information extraction system for developing knowledge-based content analysis applications.|BambooDirt
+IBM AeroText|creator|Lockheed Martin|TERESAH
+IBM AeroText|keyword|Paid|TERESAH
+IBM AeroText|application-category|4_Analysis|TERESAH
+IBM InfoSphere|url|http://www.ibm.com/software/products/us/en/infwaree|TERESAH
+IBM InfoSphere|description|IBM InfoSphere is intended for enterprise-scale data warehouses, delivering access to structured and unstructured information and operational and transactional data.|BambooDirt
+IBM InfoSphere|operating-system|Linux|TERESAH
+IBM InfoSphere|keyword|mashup|TERESAH
+IBM InfoSphere|keyword|Paid|TERESAH
+IBM InfoSphere|application-category|4_Analysis|TERESAH
+IBM Many Eyes|description|A variety of visualisation tools are available for use with existing datasets, or upload your own.|BambooDirt
+IBM Many Eyes|keyword|data visualization|TERESAH
+IBM Many Eyes|url|http://www-958.ibm.com/software/data/cognos/manyeyes/|TERESAH
+IBM Many Eyes|creator|IBM|TERESAH
+IBM Many Eyes|operating-system|Web|TERESAH
+IBM Many Eyes|application-category|Visualization|TERESAH
+iBoogie|creator|CyberTavern|TERESAH
+iBoogie|url|http://www.iboogie.com/|TERESAH
+iBoogie|description|iBoogie is a clustering search engine that puts documents with similar content or with related topics into the same group. Each group is assigned a label based on the content of the documents. The results are presented to the user in a hierarchy of topics (clusters) for browsing.|BambooDirt
+iBoogie|keyword|research|TERESAH
+iBoogie|operating-system|Web|TERESAH
+iBoogie|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+iBreadCrumbs.com|application-category|Gathering|TERESAH
+iBreadCrumbs.com|application-category|Meta: Give Overview|TERESAH
+iBreadCrumbs.com|keyword|bookmarking|TERESAH
+iBreadCrumbs.com|url|http://www.ibreadcrumbs.com/|TERESAH
+iBreadCrumbs.com|description|iBreadCrumbs.com is a recording toolbar for your web browser. It records all the web pages you visit while you research. You may also save, review, and share your research with friends or colleagues.|BambooDirt
+iBreadCrumbs.com|creator|Interactive BreadCrumbs|TERESAH
+iBreadCrumbs.com|operating-system|Web|TERESAH
+ICE (Integrated Content Environment)|license|GNU GPL|TERESAH
+ICE (Integrated Content Environment)|url|http://www.usq.edu.au/lrds/tech/ice|TERESAH
+ICE (Integrated Content Environment)|description|ICE is a content management system that can convert content authored in Microsoft Word or OpenOffice.org Writer into self-contained course websites using the IMS format.|BambooDirt
+ICE (Integrated Content Environment)|keyword|No longer supported|TERESAH
+ICE (Integrated Content Environment)|creator|University of Southern Queensland|TERESAH
+ICE (Integrated Content Environment)|operating-system|Web|TERESAH
+ICE (Integrated Content Environment)|application-category|Web development|TERESAH
+Image Map Tool|standard|HTML|TERESAH
+Image Map Tool|url|http://www.image-maps.com/|TERESAH
+Image Map Tool|description|Image Map Tool allows you to upload an image (or specify the URL of an image found online) and turn it into a clickable image map.|BambooDirt
+Image Map Tool|operating-system|Web|TERESAH
+Image Map Tool|application-category|Web development|TERESAH
+Improvise|keyword|Active|TERESAH
+Improvise|license|GNU GPL|TERESAH
+Improvise|url|http://www.cs.ou.edu/~weaver/improvise/index.html|TERESAH
+Improvise|description|Improvise is a fully-implemented Java software architecture and user interface that enables users to build and browse highly-coordinated visualizations interactively. By coupling a shared-object coordination model with a declarative visual query language, users gain precise control over how navigation and selection affects the appearance of data across multiple views, using a potentially infinite number of variations on well-known coordination patterns such as synchronized scrolling, overview+detail, brushing, drill-down, and semantic zoom.|BambooDirt
+Improvise|operating-system|Linux|TERESAH
+Improvise|application-category|Visualization|TERESAH
+Impure |description|"A 'visual programming language' which can take information from private data or the web and visualise it. Requires registration. Once logged in, a menu of libraries offers 'structures, operators, visualizators, controls, and apis': a good general knowledge of programming concepts is required to build the modular visualisation process; for example the first thing on the menu for structures is 'Number', which has 'actionScript number datatype'. Powerful but requires a large investment of time from non-programmers to get started, although some documentation, including code snippets, is available at the site's wiki: http://wiki.impure.com/wiki/index.php/Main_Page. A good example of the kind of thing you can produce is at http://www.elephant-path.com/."|HistoryOnline
+Impure |keyword|Active development|TERESAH
+Impure |keyword|Advanced|TERESAH
+Impure |keyword|Online|TERESAH
+Impure |keyword|Single purpose|TERESAH
+Impure |application-category|Visualization|TERESAH
+InqScribe|url|http://www.inqscribe.com/|TERESAH
+InqScribe|description|InqScribe is a software for transcription and subtitling. You may view and transcribe audio or video side-by-side. You may insert blocks of text, time codes, as well as convert your transcript into a subtitled movie.|BambooDirt
+InqScribe|creator|LLC|TERESAH
+InqScribe|operating-system|osX|TERESAH
+InqScribe|keyword|Paid|TERESAH
+InqScribe|application-category|Transcription|TERESAH
+InqScribe|keyword|video|TERESAH
+Instaviz|is-used-for|Brainstorming|TERESAH
+Instaviz|url|http://instaviz.com/|TERESAH
+Instaviz|description|Instaviz is a pocket whiteboard for the iPhone, iPad or iPod Touch. You sketch rough shapes and lines, and Instaviz transforms them into laid-out diagrams.|BambooDirt
+Instaviz|operating-system|iOS|TERESAH
+Instaviz|operating-system|iOS 4.0|TERESAH
+Instaviz|keyword|Library Journal|TERESAH
+Instaviz|keyword|Paid|TERESAH
+Instaviz|creator|Pixelglow Software|TERESAH
+Insync|keyword|Active|TERESAH
+Insync|keyword|backup|TERESAH
+Insync|url|https://www.insynchq.com/|TERESAH
+Insync|creator|Insync|TERESAH
+Insync|application-category|Organizing|TERESAH
+Insync|operating-system|osX|TERESAH
+iPhoto|creator|Apple|TERESAH
+iPhoto|url|http://www.apple.com/ilife/iphoto/|TERESAH
+iPhoto|research-object|Images|TERESAH
+iPhoto|description|iPhoto can download images from your camera, and allows you to do basic image touch-up, tag people, present slideshows, and share photos in a variety of ways (email, Facebook, Flickr, etc.). It is available in the Mac App Store as part of iLife.|BambooDirt
+iPhoto|operating-system|osX|TERESAH
+iPhoto|keyword|Paid|TERESAH
+iPhoto|keyword|slideshow|TERESAH
+iShowU|url|http://www.shinywhitebox.com/ishowu-v1/|TERESAH
+iShowU|description|iShowU is publishing and recording software for Mac. It enables you to record audio and video on your screen, capture full screen shots, and program recording settings.|BambooDirt
+iShowU|operating-system|osX|TERESAH
+iShowU|keyword|Paid|TERESAH
+iShowU|application-category|Publishing|TERESAH
+iShowU|creator|shinywhitebox|TERESAH
+iSpring|application-category|2_Creation|TERESAH
+iSpring|keyword|e-learning|TERESAH
+iSpring|url|http://www.ispringsolutions.com/|TERESAH
+iSpring|description|iSpring is an authoring tool that allows you to create online presentations with slides synced with audio and video narration. You can create quizzes and courses, add attachments and web links, and integrate these courses with BlackBoard LMS. Additionally, you can download iSpring Free which allows you to convert PowerPoint to Flash for free to view your presentations online.|BambooDirt
+iSpring|creator|iSpring Solutions Inc.|TERESAH
+iSpring|operating-system|osX|TERESAH
+iSpring|keyword|Paid|TERESAH
+iTunesCyrFix|application-category|Conversion|TERESAH
+iTunesCyrFix|url|http://prokhorenko.us/itunescyrfix/|TERESAH
+iTunesCyrFix|keyword|ID3 tags|TERESAH
+iTunesCyrFix|description|iTunesCyrFix can convert jibberish text in the title, artist, artist, or other ID3 tags in iTunes (e.g. Ñïëèí) into readable UTF-8 Cyrillic text.|BambooDirt
+iTunesCyrFix|operating-system|osX|TERESAH
+iWrite|keyword|Active|TERESAH
+iWrite|url|http://app.iwriteassistant.co.uk/login.asp|TERESAH
+iWrite|creator|iWrite Assitant|TERESAH
+iWrite|application-category|Publishing|TERESAH
+iWrite|operating-system|Web|TERESAH
+iWrite|description|Web-based service to keep track of the status of your writing submissions|BambooDirt
+JavaScript InfoVis Toolkit|url|http://philogb.github.io/jit/|TERESAH
+JavaScript InfoVis Toolkit|description|"JavaScript InfoVis Toolkit enables users to create interactive web-based visualizations; the demos page has some good examples along with the underlying code."|BambooDirt
+JavaScript InfoVis Toolkit|operating-system|Web|TERESAH
+JavaScript InfoVis Toolkit|application-category|Visualization|TERESAH
+Jing|keyword|audio recording|TERESAH
+Jing|url|http://www.techsmith.com/jing.html|TERESAH
+Jing|description|Jing allows you to take screenshots, record screencasts, and instantly share information.|BambooDirt
+Jing|operating-system|osX|TERESAH
+Jing|keyword|Paid|TERESAH
+Jing|application-category|Publishing|TERESAH
+Jing|creator|TechSmith Corporation|TERESAH
+JIRA|creator|Atlassian|TERESAH
+JIRA|keyword|hosting|TERESAH
+JIRA|url|https://www.atlassian.com/software/jira|TERESAH
+JIRA|description|JIRA is project and bug tracking software that integrates with other Atlassian products like the Confluence wiki. JIRA available either for installation on a local server or via cloud hosting. Open source projects can request a free license.|BambooDirt
+JIRA|keyword|Paid|TERESAH
+JIRA|application-category|2_Creation|TERESAH
+JIRA|operating-system|Web|TERESAH
+Journler|url|http://journler.com/|TERESAH
+Journler|operating-system|iOS|TERESAH
+Journler|description|Journler is a daily notebook and entry based information manager. Scholars, teachers, students, writers, and everyday users may use this on a daily basis to integrate their notebook content to other sources of media such as audio and video.|BambooDirt
+Journler|application-category|Organizing|TERESAH
+Journler|keyword|Paid|TERESAH
+Journler|creator|Philip Dow|TERESAH
+Journler|keyword|video|TERESAH
+Jumpchart|keyword|collaboration|TERESAH
+Jumpchart|url|https://www.jumpchart.com/|TERESAH
+Jumpchart|description|Jumpchart is a way to collaboratively design website wireframes and sitemaps, and includes the ability to create navigation menus, draft and organize content, and track changes. It could be used as a way to get a head start on building a website, even before a server and/or software are available. Jumpchart offers HTML exports, and a direct-to-WordPress export ($25+/month accounts only).|BambooDirt
+Jumpchart|keyword|Paid|TERESAH
+Jumpchart|operating-system|Web|TERESAH
+Jumpchart|application-category|Web development|TERESAH
+Juxta|license|Apache License|TERESAH
+Juxta|keyword|collation|TERESAH
+Juxta|url|http://www.juxtasoftware.org/|TERESAH
+Juxta|description|"Juxta is an open-source cross-platform tool for comparing and collating multiple witnesses to a single textual work. The software allows users to set any of the witnesses as the base text, to add or remove witness texts, to switch the base text at will, and to annotate Juxta-revealed comparisons and save the results.
+Juxta comes with several kinds of analytic visualizations. The primary collation gives a split frame comparison of a base text with a witness text, along with a display of the digital images from which the base text is derived. Juxta displays a heat map of all textual variants and allows the user to locate — at the level of any textual unit — all witness variations from the base text. A histogram of Juxta collations is particularly useful for long documents. This visualization displays the density of all variation from the base text and serves as a useful finding aid for specific variants. Juxta can also output a lemmatized schedule (in HTML format) of the textual variants in any set of comparisons."|BambooDirt
+Juxta|operating-system|Linux|TERESAH
+Juxta|application-category|Visualization|TERESAH
+Kaleidoscope 2.0|keyword|Beta|TERESAH
+Kaleidoscope 2.0|creator|Black Pixel|TERESAH
+Kaleidoscope 2.0|url|http://www.kaleidoscopeapp.com/|TERESAH
+Kaleidoscope 2.0|keyword|image editing|TERESAH
+Kaleidoscope 2.0|description|Kaleidoscope is one of the world's best tools for spotting differences in images and text, and now it supports merging of files and folders, too. Kaleidoscope integrates directly with Git, Subversion, Mercurial, and Bazaar to fit perfectly in your workflow.|BambooDirt
+Kaleidoscope 2.0|operating-system|osX|TERESAH
+Kaleidoscope 2.0|keyword|Paid|TERESAH
+Kaleidoscope 2.0|application-category|Visualization|TERESAH
+Kartograph|keyword|data visualization|TERESAH
+Kartograph|url|http://kartograph.org|TERESAH
+Kartograph|description|Kartograph is a new framework for building interactive map applications without Google Maps or any other mapping service. It was created with the needs of designers and data journalists in mind.|BambooDirt
+Kartograph|is-used-for|Mapping|TERESAH
+Kartograph|operating-system|Web|TERESAH
+Kartoo|url|http://www.kartoo.com/|TERESAH
+Kartoo|description|Kartoo is a search engine that works across many different languages. Kartoo also provides a variety of other features and games.|BambooDirt
+Kartoo|operating-system|Web|TERESAH
+Kartoo|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+Kartoo|keyword|visual search|TERESAH
+Koha|application-category|6_Storage|TERESAH
+Koha|url|http://www.koha.org/|TERESAH
+Koha|description|Koha is an open source integrated library system (ILS) that has also been used for virtual library systems (e.g. recreating historic libraries).|BambooDirt
+Koha|creator|LibLime|TERESAH
+Koha|operating-system|Web|TERESAH
+Koha|keyword|VLS|TERESAH
+Korbo|keyword|Active|TERESAH
+Korbo|application-category|1_Capture|TERESAH
+Korbo|license|GNU GPL|TERESAH
+Korbo|url|http://korbo.muruca.org/demo.php|TERESAH
+Korbo|description|"Korbo is a powerful aggregation platform for gathering Linked Data objects relevant to your area of research into single workspaces or “baskets”.
+Korbo is targeted primarily at developers who want to build applications on top of its API and make full use of the linked cultural data from sources such as Europeana, FreeBase and DBPedia.
+Korbo is currently in the early stages of development, but you can already try out a demo version of the platform."|BambooDirt
+Korbo|keyword|linked data|TERESAH
+Korbo|creator|Semlib|TERESAH
+Korbo|operating-system|Web|TERESAH
+LATtice|url|http://winedarksea.org/?p=1285|TERESAH
+LATtice|description|LATtice lets you explore and compare texts across entire corpora but also allows you to “drill down” to the level of individual LATs to ask exactly what rhetorical categories make texts similar or different.|BambooDirt
+LATtice|operating-system|Linux|TERESAH
+LATtice|application-category|Gathering|TERESAH
+LATtice|application-category|Organizing|TERESAH
+LC Newspaper Viewer|url|http://sourceforge.net/apps/trac/loc-ndnp/|TERESAH
+LC Newspaper Viewer|creator|Library of Congress|TERESAH
+LC Newspaper Viewer|application-category|Publishing|TERESAH
+LC Newspaper Viewer|description|The LC Newspaper Viewer is an open-source web application that understands how to model newspaper data created according to a set of technical guidelines, with the goal of publishing an online archive like Chronicling America.|BambooDirt
+LC Newspaper Viewer|operating-system|Web|TERESAH
+Leaflet|keyword|Active|TERESAH
+Leaflet|url|http://leafletjs.com/|TERESAH
+Leaflet|description|Leaflet is a modern open-source JavaScript library for mobile-friendly interactive maps.|BambooDirt
+Leaflet|operating-system|Web|TERESAH
+Leaflet|application-category|Visualization|TERESAH
+Leaflet|creator|Vladimir Agafonkin|TERESAH
+Legend Maker|description|A simple and easy tool for creating EPUB, MOBI, and other ebook formats.|BambooDirt
+Legend Maker|url|http://www.zapptek.com/legendmaker/|TERESAH
+Legend Maker|operating-system|osX|TERESAH
+Legend Maker|keyword|Paid|TERESAH
+Legend Maker|application-category|Publishing|TERESAH
+Legend Maker|creator|ZappTek|TERESAH
+Lemon8-XML|application-category|Conversion|TERESAH
+Lemon8-XML|url|http://pkp.sfu.ca/lemon8|TERESAH
+Lemon8-XML|description|"Lemon8-XML helps authors convert scholarly papers from word processor formats (e.g. .doc, .odt) into XML-based formats
+ web-based application designed to make it easier for non-technical editors and authors to convert scholarly papers from typical word-processor editing formats such as MS-Word .DOC and OpenOffice .ODT, into the XML-based publishing layout formats expected by Open Journal Systems."|BambooDirt
+Lemon8-XML|keyword|odt|TERESAH
+Lemon8-XML|keyword|Open Journal Systems|TERESAH
+Lemon8-XML|operating-system|Web|TERESAH
+Leximancer|url|https://www.leximancer.com/|TERESAH
+Leximancer|keyword|Java|TERESAH
+Leximancer|description|Leximancer is text analysis software that can create topic and concept based network visualizations and includes a sentiment analyzer.|BambooDirt
+Leximancer|keyword|Paid|TERESAH
+Leximancer|operating-system|Web|TERESAH
+Leximancer|application-category|Visualization|TERESAH
+Lextek|keyword|analysis|TERESAH
+Lextek|url|http://www.lextek.com/|TERESAH
+Lextek|description|"Lextec offers a range of services and software for full-text indexing search and retrieval; automatic classification, routing, and filtering electronic text according to user defined profiles."|BambooDirt
+Lextek|keyword|Paid|TERESAH
+Lextek|is-used-for|Searching|TERESAH
+LibraryLookup|url|http://jonudell.net/LibraryLookup.html|TERESAH
+LibraryLookup|keyword|Koha|TERESAH
+LibraryLookup|keyword|library|TERESAH
+LibraryLookup|description|Library Lookup is a bookmarklet that can look up whether a book is available in the user's local library, based on information about that book on a separate website (e.g. Amazon). Supported library systems are listed here.|BambooDirt
+LibraryLookup|is-used-for|Searching|TERESAH
+LibraryLookup|operating-system|Web|TERESAH
+LibX|keyword|Chrome|TERESAH
+LibX|url|http://libx.org/|TERESAH
+LibX|description|LibX is a Firefox or Chrome plugin that enables direct access to the user's library's resources, including support for Google Scholar, CiteULike, COinS, and xISBN.|BambooDirt
+LibX|is-used-for|Searching|TERESAH
+LibX|operating-system|Web|TERESAH
+LibX|creator|Virginia Tech|TERESAH
+LibX|keyword|xISBN|TERESAH
+LimeService|keyword|Active|TERESAH
+LimeService|keyword|data collection|TERESAH
+LimeService|application-category|6_Storage|TERESAH
+LimeService|url|https://www.limeservice.com/en/|TERESAH
+LimeService|description|"LimeService is basically the hosted version of the GNU licensed LimeSurvey. It is a survey service-platform to prepare, run and evaluate on-line surveys. Besides basic free usage you are always getting the full feature set with no monthly fees or subscription plans.
+I've used it before and found it to pretty robust."|BambooDirt
+LimeService|operating-system|Web|TERESAH
+Linguistic Inquiry and Word Count (LIWC)|description|"""Linguistic Inquiry and Word Count (LIWC) is a text analysis software program...LIWC is able to calculate the degree to which people use different categories of words across a wide array of texts."" Free and limited web analysis available."|BambooDirt
+Linguistic Inquiry and Word Count (LIWC)|url|http://www.liwc.net/index.php|TERESAH
+Linguistic Inquiry and Word Count (LIWC)|keyword|Paid|TERESAH
+Linguistic Inquiry and Word Count (LIWC)|application-category|4_Analysis|TERESAH
+Linguistic Inquiry and Word Count (LIWC)|operating-system|Web|TERESAH
+Linguistic Inquiry and Word Count (LIWC)|keyword|word count|TERESAH
+LitBlitz Literature Notes Manager|keyword|Active|TERESAH
+LitBlitz Literature Notes Manager|license|Beta (as of January 2013)|TERESAH
+LitBlitz Literature Notes Manager|keyword|Google Chrome|TERESAH
+LitBlitz Literature Notes Manager|url|http://www.litblitz.net|TERESAH
+LitBlitz Literature Notes Manager|keyword|information management|TERESAH
+LitBlitz Literature Notes Manager|application-category|Organizing|TERESAH
+LitBlitz Literature Notes Manager|description|"Overview
+LitBlitz is free web-based beta software that aims to improve how students and researchers manage their notes for literature reviews, assignment research and more. With LitBlitz, you can:
+- Avoid hours of printing, highlighting, organizing and typing
+- Save money involved in printing 100s to 1000s of pages
+- Highlight and write notes without shuffling a stack of papers
+- Organise your notes into digital notebooks in real-time
+- Easily transfer notes to your draft review/assignment
+LitBlitz v1.0 is currently available as a Google Chrome extension.
+How LitBlitz Is Different
+LitBlitz was designed from the ground-up to solve problems other annotation and notetaking services haven't looked at or have solved poorly. It's is different from popular notetaking and archiving software like Evernote in that it allows users to:
+(1) Take text and image snippets from their document/webpage sources rather than forcing the user to archive entire documents
+(2) Write ""Own Notes"" (personal insights) related to snippets to enable rapid draft writing and context building
+(3) Manage these snippets in themed digital notebooks for fast, easy reference
+Note from founder: We are very open to improving through suggestions from librarians, academics and Ed Tech professionals - feel free to contact us via our website litblitz.net"|BambooDirt
+LitBlitz Literature Notes Manager|creator|Skyhatch|TERESAH
+LitBlitz Literature Notes Manager|operating-system|Web|TERESAH
+LIWC|application-category|4_Analysis|TERESAH
+LIWC|keyword|data analysis|TERESAH
+LIWC|url|http://www.liwc.net/index.php|TERESAH
+LIWC|description|Linguistic Inquiry and Word Count is a text analysis software program that calculates the degree to which people use different categories of words across a wide array of texts.|BambooDirt
+LIWC|creator|LIWC Inc.|TERESAH
+LIWC|operating-system|osX|TERESAH
+LIWC|keyword|Paid|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Active development|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Advanced|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|analysis|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|license|Apache|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|description|Apache Lucene is a high-performance, full-featured text search engine library written entirely in Java. It is a technology suitable for nearly any application that requires full-text search, especially cross-platform.|ArtsHumanities
+Mac OS X 10.7+, Mac iOS 4.0+|description|Apache Lucene is indexing and search software. It is particularly suitable for indexing text in a variety of file formats. It can also carry out other text analysis functions. Lucene is often used in conjunction with other, closely-related Apache things such as the open-source Solr search server, Hadoop and Mahout.|HistoryOnline
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|C|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|C#|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Cataloguing and indexing|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|operating-system|Cross-platform|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|cross-platform|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Delphi|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|standard|DOC|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|creator|Doug Cutting|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|full-text search|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|standard|HTML|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Indexing|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Java|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|standard|ODF|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Offline|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|standard|PDF|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Perl|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|PHP|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Python|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Ruby|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|keyword|Single purpose|TERESAH
+Mac OS X 10.7+, Mac iOS 4.0+|application-category|4_Analysis|TERESAH
+MacSpeech Scribe|url|http://www.nuance.com/for-individuals/by-product/dragon-for-mac/index.htm|TERESAH
+MacSpeech Scribe|description|MacSpeech Scribe is a transcription software that allows you to create your own personal transcriptions, and supports a wide variety of audio file formats.|BambooDirt
+MacSpeech Scribe|creator|Nuance Communications Inc.|TERESAH
+MacSpeech Scribe|operating-system|osX|TERESAH
+MacSpeech Scribe|keyword|Paid|TERESAH
+MacSpeech Scribe|application-category|Transcription|TERESAH
+MacSpeech Scribe|keyword|transcription|TERESAH
+Madison Digital Image Database (MDID)|license|GNU GPL|TERESAH
+Madison Digital Image Database (MDID)|url|http://sites.jmu.edu/mdidhelp/|TERESAH
+Madison Digital Image Database (MDID)|application-category|Gathering|TERESAH
+Madison Digital Image Database (MDID)|keyword|images|TERESAH
+Madison Digital Image Database (MDID)|creator|James Madison University|TERESAH
+Madison Digital Image Database (MDID)|operating-system|Linux|TERESAH
+Madison Digital Image Database (MDID)|description|MDID is software for teaching and learning with digital images with tools for discovering, aggregating, and presenting digital media in a variety of learning spaces.|BambooDirt
+ManagedQ|creator|David Stat|TERESAH
+ManagedQ|url|http://managedq.com/|TERESAH
+ManagedQ|description|ManagedQ is a search engine that classifies results into three categories (person, place, thing) and displays the results on a grid.|BambooDirt
+ManagedQ|operating-system|Web|TERESAH
+ManagedQ|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+ManagedQ|keyword|visualization|TERESAH
+Many Eyes |keyword|Active development|TERESAH
+Many Eyes |keyword|Beginner|TERESAH
+Many Eyes |description|"Many Eyes is an IBM project described as an ""experiment"". Registered users can upload a dataset and then choose a visualisation from the following categories: ""Analyze a text"" (Word Tree, Tag Cloud, Phrase Net, Word Cloud Generator); ""Compare a set of values"" (Bar Chart, Block Histogram, Bubble Chart); ""See relationships among values"" (Scatterplot, Matrix Chart, Network Diagram); ""See the parts of a whole"" (Pie Chart, Tree Map, Tree Map for Comparisons); ""See the world"" (country maps, supporting 14 countries and more fine-grained US maps at present); ""Track rises and falls over time"" (Line Graph, Stack Graph, Stack Graph for Categories). Visualisations, which must be shared openly, can be organised into topics. A live version of a visualisation can be embedded into a website."|HistoryOnline
+Many Eyes |keyword|Online|TERESAH
+Many Eyes |keyword|Single purpose|TERESAH
+Many Eyes |application-category|Visualization|TERESAH
+MapHub|keyword|Active|TERESAH
+MapHub|creator|Cornell Information Science|TERESAH
+MapHub|keyword|geography|TERESAH
+MapHub|url|http://maphub.github.io/|TERESAH
+MapHub|description|Maphub in an online application for exploring and annotating digitized, high-resolution historic maps. All user-contributed annotations are shared via the Maphub Open Annotation API.|BambooDirt
+MapHub|is-used-for|Mapping|TERESAH
+MapHub|operating-system|Web|TERESAH
+Mapstraction|license|BSD|TERESAH
+Mapstraction|url|http://mapstraction.com/|TERESAH
+Mapstraction|keyword|library|TERESAH
+Mapstraction|is-used-for|Mapping|TERESAH
+Mapstraction|description|Mapstraction is a Javascript mapping abstraction library that supports all major mapping providers, dynamic provider switching, image overlay and base tiles, Point, Line, Polygon, GeoRSS, KML support.|BambooDirt
+Mapstraction|operating-system|Web|TERESAH
+Markdown|license|BSD|TERESAH
+Markdown|url|http://daringfireball.net/projects/markdown/|TERESAH
+Markdown|creator|John Gruber|TERESAH
+Markdown|operating-system|Linux|TERESAH
+Markdown|description|Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).|BambooDirt
+Markdown|application-category|Writing|TERESAH
+Matlab|application-category|4_Analysis|TERESAH
+Matlab|url|http://www.mathworks.com/products/matlab/|TERESAH
+Matlab|operating-system|Linux|TERESAH
+Matlab|creator|MathWorks|TERESAH
+Matlab|description|MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, Java, and Fortran.|BambooDirt
+Matlab|keyword|Paid|TERESAH
+Matlab|keyword|visualization|TERESAH
