@@ -2499,3 +2499,217 @@ Projects|operating-system|osX|TERESAH
 Projects|keyword|Paid|TERESAH
 Projects|description|Projects allows researchers to organise and manage all their research outputs in a safe, simple and structured way. It’s designed to help academics, at any stage of their career, keep track and stay on top of all their results. It’s a light, useful and slick application that integrates into a researcher’s existing workflow to help them work more efficiently and ensure they have more time for making discoveries.|BambooDirt
 Projects|application-category|Meta: Project Management|TERESAH
+Protovis|url|http://mbostock.github.io/protovis/|TERESAH
+Protovis|keyword|Javascript|TERESAH
+Protovis|description|"Protovis composes custom views of data with simple marks such as bars and dots. Unlike low-level graphics libraries that quickly become tedious for visualization, Protovis defines marks through dynamic properties that encode data, allowing inheritance, scales and layouts to simplify construction.
+Protovis is free and open-source, provided under the BSD License. It uses JavaScript and SVG for web-native visualizations; no plugin required (though you will need a modern web browser)! Although programming experience is helpful, Protovis is mostly declarative and designed to be learned by example."|BambooDirt
+Protovis|operating-system|Web|TERESAH
+Protovis|application-category|Visualization|TERESAH
+Pycoon|description|A Python-based XML web publishing framework which enables dynamic pipelining of XSLT transformations. Data is processed by an XML pipeline composed of several WSGI applications and middleware components.|ArtsHumanities
+Pycoon|description|"A Python-based XML web publishing framework which enables dynamic pipelining of XSLT transformations. Data is processed by an XML pipeline composed of several WSGI applications and middleware components.
+Features:
+Apache Cocoon Sitemap 1.0 compatible
+WSGI modularity
+URI pattern matching"|BambooDirt
+Pycoon|creator|anrienord|TERESAH
+Pycoon|keyword|cocoon|TERESAH
+Pycoon|keyword|Coding and standardisation|TERESAH
+Pycoon|operating-system|Cross-platform|TERESAH
+Pycoon|license|GNU GPL|TERESAH
+Pycoon|url|http://code.google.com/p/pycoon/|TERESAH
+Pycoon|keyword|No longer supported|TERESAH
+Pycoon|application-category|Publishing|TERESAH
+Pycoon|keyword|Python|TERESAH
+Pycoon|keyword|sitemap|TERESAH
+Pycoon|application-category|Web development|TERESAH
+Pycoon|keyword|Web Server Gateway Interface (WSGI)|TERESAH
+Pycoon|keyword|wsgi|TERESAH
+Pycoon|standard|XML|TERESAH
+QDA Miner|keyword|Active|TERESAH
+QDA Miner|keyword|CAQDAS|TERESAH
+QDA Miner|url|http://provalisresearch.com/products/qualitative-data-analysis-software/|TERESAH
+QDA Miner|operating-system|Linux|TERESAH
+QDA Miner|keyword|Paid|TERESAH
+QDA Miner|creator|Provalis Research|TERESAH
+QDA Miner|description|"QDA Miner is an easy-to-use mixed-methods qualitative data analysis software package for coding, annotating, retrieving and analyzing small and large collections of documents and images. QDA Miner may be used to analyze interview or focus-group transcripts, legal documents, journal articles, even entire books, as well as drawing, photographs, paintings, and other types of visual documents. Its seamless integration with SimStat, a statistical data analysis tool, and WordStat, a content analysis and text-mining module, gives you unprecedented flexibility for analyzing text and relating its content to structured information, including numerical and categorical data.
+For more information, visit http://provalisresearch.com/products/qualitative-data-analysis-software/"|BambooDirt
+QDA Miner|license|Site License|TERESAH
+QDA Miner|application-category|Visualization|TERESAH
+Qualrus|application-category|4_Analysis|TERESAH
+Qualrus|keyword|data analysis|TERESAH
+Qualrus|url|http://www.ideaworks.com/qualrus/buy.html|TERESAH
+Qualrus|operating-system|Linux|TERESAH
+Qualrus|keyword|Paid|TERESAH
+Qualrus|description|Qualrus is an innovative qualitative data analysis tool that helps you manage unstructured data. Additionally, Qualrus learns your coding trends, provides a visual semantic network display, and gives advice and technical support.|BambooDirt
+Qualrus|creator|The Idea Works Inc.|TERESAH
+QuarkXPress|keyword|2d graphic design|TERESAH
+QuarkXPress|keyword|2d modelling - raster|TERESAH
+QuarkXPress|license|commercial|TERESAH
+QuarkXPress|keyword|Desktop publishing and pre-press|TERESAH
+QuarkXPress|standard|DTP|TERESAH
+QuarkXPress|standard|HTML|TERESAH
+QuarkXPress|standard|XHTML|TERESAH
+QuarkXPress|url|http://www.quark.com/|TERESAH
+QuarkXPress|operating-system|osX|TERESAH
+QuarkXPress|keyword|Paid|TERESAH
+QuarkXPress|standard|PDF|TERESAH
+QuarkXPress|keyword|printing|TERESAH
+QuarkXPress|license|Proprietary|TERESAH
+QuarkXPress|standard|PSD|TERESAH
+QuarkXPress|application-category|Publishing|TERESAH
+QuarkXPress|keyword|Quark|TERESAH
+QuarkXPress|creator|Quark Inc|TERESAH
+QuarkXPress|keyword|QuarkXpress|TERESAH
+QuarkXPress|description|"QuarkXPress desktop publishing software is commonly used to create page layouts for a variety of print publications such as books, newspapers, magazines, posters and brochures. Similar in function to InDesign, the main differences are Quark's unique features for exporting documents as interactive webpages as well as its widespread use by printers, typesetters and page designers.
+Features:
+Enables the production of HTML and XML content without the need to convert or refine documents
+Supports direct PDF importing and outputing according to regulations
+Fully supports Adobe Photoshop files, avoiding complicated and time-consuming conversions
+Uses OpenType and Unicode, making font and character settings easy
+Free TypeTricks XTension locates overset text boxes as well as widows and orphans
+Presents intuitive colour-management tools that includes the unique option of hexachrome printing
+Allows the customisation of line and border dashes and stripes as well as the merging of boxes to generate complex shapes
+Text runaround for hidden layers may be turned off
+Shared Content instantly incorporates any text or graphic changes consistently throughout a project
+XPress Composition Zones allow team members to work simulatenously on a project, with all modifications being updated instantly
+Job jackets keep print job specifications consistent throughout the project, ensuring their clarity and memorability"|BambooDirt
+QuarkXPress|description|QuarkXPress desktop publishing software is commonly used to create page layouts for a variety of print publications such as books, newspapers, magazines, posters and brochures.Similar in function to InDesign, the main differences are Quark's unique features for exporting documents as interactive webpages as well as its widespread use by printers, typesetters and page designers.|ArtsHumanities
+QuarkXPress|standard|QuarkXpress Document (QXD)|TERESAH
+QuarkXPress|keyword|typesetting|TERESAH
+QuarkXPress|keyword|Unicode|TERESAH
+QuarkXPress|operating-system|Windows|TERESAH
+QuarkXPress|keyword|XML|TERESAH
+QuickVoice iP|keyword|dictation|TERESAH
+QuickVoice iP|url|http://www.nfinityinc.com/quickvoiceip.html|TERESAH
+QuickVoice iP|creator|nFinity Inc|TERESAH
+QuickVoice iP|description|QuickVoice iP is a voice recorder for Mac and Windows, as well as the iPhone, iPad, and iPod. You may record voice notes, reminders, dictations, meetings, to do lists and entire lectures.|BambooDirt
+QuickVoice iP|application-category|Recording|TERESAH
+Quintura|url|http://www.quintura.com/|TERESAH
+Quintura|creator|Quintura Inc|TERESAH
+Quintura|description|Quintura is a visual search engine that provides a tagcloud option to allow for easier navigation and search refinement into more specific categories. You may search across the web, images or video.|BambooDirt
+Quintura|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+Quintura|keyword|visual search|TERESAH
+RDB2Java|description|A suite of software components designed to support the development of interfaces between web applications on J2EE systems.|ArtsHumanities
+RDB2Java|creator|Centre for Computing in the Humanities, King's College London|TERESAH
+RDB2Java|keyword|creation|TERESAH
+RDB2Java|operating-system|Cross-platform|TERESAH
+RDB2Java|keyword|J2EE|TERESAH
+RDB2Java|keyword|Java|TERESAH
+RDB2Java|application-category|Publishing|TERESAH
+RDB2Java|keyword|RDB2Java|TERESAH
+RDB2Java|keyword|relational database|TERESAH
+RDB2Java|license|Unknown|TERESAH
+Readability|url|http://www.readability.com/|TERESAH
+Readability|application-category|Gathering|TERESAH
+Readability|description|Readability is a web & mobile app that zaps online clutter and saves web articles in a comfortable reading view.|BambooDirt
+Readability|operating-system|Web|TERESAH
+Readware Information Processor|url|http://www.readware.com/prod_infoproc.asp|TERESAH
+Readware Information Processor|operating-system|Linux|TERESAH
+Readware Information Processor|keyword|Paid|TERESAH
+Readware Information Processor|keyword|text analysis|TERESAH
+Readware Information Processor|application-category|4_Analysis|TERESAH
+Readware Information Processor|description|The main programs that comprise the Information processor are called the analyst server and query or knowledge processor. The analyst program can be called from a command line,  from an html form, or through a TCP/IP socket protocol.  The query processor can be accessed with any browser using HTML commands. It analyzes text and allows the user to search it.|BambooDirt
+Recollection|keyword|archives|TERESAH
+Recollection|url|http://sourceforge.net/projects/loc-recollect/|TERESAH
+Recollection|creator|Library of Congress|TERESAH
+Recollection|description|Recollection is a web application that allows users to create and share embeddable interfaces to digital cultural heritage collections.|BambooDirt
+Recollection|application-category|Web development|TERESAH
+ReDBox|creator|Australian National Data Service|TERESAH
+ReDBox|application-category|4_Analysis|TERESAH
+ReDBox|license|GNU GPL v3|TERESAH
+ReDBox|url|https://sites.google.com/site/redboxmint/|TERESAH
+ReDBox|description|ReDBox is a metadata registry application for describing research data.|BambooDirt
+RedZ|url|http://redz.com/|TERESAH
+RedZ|creator|RedZ|TERESAH
+RedZ|description|RedZ is a 3D search engine that displays its results in the form of web page snapshots. The user may navigate through these relatively large snapshots, which are displayed in a Cover Flow layout.|BambooDirt
+RedZ|operating-system|Web|TERESAH
+RedZ|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+RedZ|keyword|visual search|TERESAH
+Referencer|application-category|Organizing|TERESAH
+Referencer|keyword|document management|TERESAH
+Referencer|creator|Gnome|TERESAH
+Referencer|url|http://icculus.org/referencer/|TERESAH
+Referencer|operating-system|Linux|TERESAH
+Referencer|description|Referencer is a Gnome application to organize documents or references. You can also generate a BibTeX bibliography file.|BambooDirt
+Reframe It|application-category|Annotating|TERESAH
+Reframe It|url|http://reframeit.com/|TERESAH
+Reframe It|keyword|notetaking|TERESAH
+Reframe It|description|Reframe it is a web browser plug-in that creates a space for comments in the right hand margin beside any web page.|BambooDirt
+Reframe It|operating-system|Web|TERESAH
+RefWorks|application-category|Organizing|TERESAH
+RefWorks|keyword|citation management|TERESAH
+RefWorks|url|http://www.refworks.com/|TERESAH
+RefWorks|keyword|Paid|TERESAH
+RefWorks|creator|RefWorks|TERESAH
+RefWorks|description|RefWorks is an online research management, writing and collaboration tool. You may gather, manage, store, and share information, as well as generate citations and bibliographies.|BambooDirt
+RefWorks|operating-system|Web|TERESAH
+Rehersal Assistant|operating-system|Android|TERESAH
+Rehersal Assistant|keyword|annotation|TERESAH
+Rehersal Assistant|url|http://sourceforge.net/apps/trac/rehearsalassist/wiki|TERESAH
+Rehersal Assistant|description|Rehearsal Assistant is an open source voice/audio recorder. You may organize recordings, record reminders and lists, and annotate events.|BambooDirt
+Rehersal Assistant|creator|SourceForge|TERESAH
+Rehersal Assistant|application-category|Recording|TERESAH
+RivEx|keyword|2d graphic design|TERESAH
+RivEx|keyword|2d illustration|TERESAH
+RivEx|keyword|2d modelling - raster|TERESAH
+RivEx|keyword|2d modelling - vector|TERESAH
+RivEx|keyword|3d graphic design|TERESAH
+RivEx|keyword|3d modelling - interactive|TERESAH
+RivEx|keyword|3d modelling - vector|TERESAH
+RivEx|keyword|analysis|TERESAH
+RivEx|keyword|C++|TERESAH
+RivEx|keyword|COM|TERESAH
+RivEx|license|commercial|TERESAH
+RivEx|creator|Duncan Hornby|TERESAH
+RivEx|keyword|Geo-referencing and projection|TERESAH
+RivEx|keyword|GIS|TERESAH
+RivEx|keyword|Graphical rendering|TERESAH
+RivEx|keyword|habitat surveying|TERESAH
+RivEx|url|http://www.rivex.co.uk/|TERESAH
+RivEx|is-used-for|Mapping|TERESAH
+RivEx|keyword|OWL|TERESAH
+RivEx|license|Proprietary|TERESAH
+RivEx|keyword|River mapping|TERESAH
+RivEx|creator|RivEx|TERESAH
+RivEx|description|RivEx is a river network tool designed to run under ESRI ArcMap 9.1. It allows for quality control and analysis of the river network and creation of node layers.|BambooDirt
+RivEx|description|RivEx is a river network tool designed to run under ESRI ArcMap 9.1. It allows for quality control and analysis of the river network and creation of node layers.|ArtsHumanities
+RivEx|keyword|structuring|TERESAH
+RivEx|keyword|Texture design and mapping|TERESAH
+RivEx|keyword|Use of existing digital data|TERESAH
+RivEx|operating-system|Windows|TERESAH
+RivEx|keyword|Virtual world modelling|TERESAH
+RivEx|keyword|Visual Basic|TERESAH
+RivEx|standard|XML|TERESAH
+Roambi Lite|url|http://www.roambi.com/flow|TERESAH
+Roambi Lite|operating-system|iOS|TERESAH
+Roambi Lite|operating-system|iOS 4.2+|TERESAH
+Roambi Lite|operating-system|iPhone|TERESAH
+Roambi Lite|creator|MeLLmo Inc.|TERESAH
+Roambi Lite|application-category|Publishing|TERESAH
+Roambi Lite|description|Roambi Lite is a free online publishing service. Roambi allows you to transform Excel data to visualizations compatible with mobile, and also send them to the iPhone or iPad.|BambooDirt
+RStudio|application-category|4_Analysis|TERESAH
+RStudio|license|GNU GPL|TERESAH
+RStudio|url|http://www.rstudio.com/ide/|TERESAH
+RStudio|operating-system|Linux|TERESAH
+RStudio|keyword|R|TERESAH
+RStudio|description|RStudio is a customizable user interface for R.|BambooDirt
+SAS Analytics|keyword|analysis|TERESAH
+SAS Analytics|application-category|4_Analysis|TERESAH
+SAS Analytics|url|http://www.sas.com/technologies/analytics/|TERESAH
+SAS Analytics|keyword|Paid|TERESAH
+SAS Analytics|description|SAS Analytics is an environment for predictive and descriptive modeling, data mining, text analytics, forecasting, optimization, simulation, experimental design, and other statistical functions.|BambooDirt
+SAS Analytics|operating-system|Windows|TERESAH
+Scalar|creator|Alliance for Networking Visual Culture|TERESAH
+Scalar|url|http://scalar.usc.edu/anvc/?page_id=6|TERESAH
+Scalar|description|Scalar is an authoring and publishing platform that’s designed to make it easy for authors to write long-form scholarship online.|BambooDirt
+Scalar|operating-system|Web|TERESAH
+Scalar|application-category|Writing|TERESAH
+Scanner for Zotero|keyword|Active|TERESAH
+Scanner for Zotero|operating-system|Android|TERESAH
+Scanner for Zotero|keyword|Android|TERESAH
+Scanner for Zotero|description|Android app that scans the ISBN barcode on a book and pulls the bibliographic metadata into your Zotero library.|BambooDirt
+Scanner for Zotero|application-category|Organizing|TERESAH
+Scanner for Zotero|license|GNU GPL v3|TERESAH
+Scanner for Zotero|url|http://jmschanck.github.io/Scanner-For-Zotero/|TERESAH
+Scanner for Zotero|creator|John M. Schanck|TERESAH
+Scanner for Zotero|keyword|Paid|TERESAH
