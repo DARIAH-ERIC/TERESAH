@@ -2183,41 +2183,16 @@ Wavesurfer|keyword|Sun Audio (AU)|TERESAH
 Wavesurfer|keyword|TIMIT|TERESAH
 Wavesurfer|application-category|Recording|TERESAH
 Wavesurfer|operating-system|Windows|TERESAH
-WebClust|url|http://www.webclust.com/|TERESAH
-WebClust|operating-system|Web|TERESAH
-WebClust|description|WebClust is a meta search engine that clusters documents into meaningful groups. WebClust presents search results in a horizontal topical arrangement, in addition to a single vertical list. WebClust's data mining technique is meant to make sense of large amounts of textual information extracted from the web, including digital libraries.|BambooDirt
-WebClust|creator|Vincenzo Bacarella|TERESAH
-WebClust|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
-WebClust|keyword|visualization|TERESAH
-WebKruz|url|http://www9.webkruz.com/|TERESAH
-WebKruz|keyword|No longer supported|TERESAH
-WebKruz|operating-system|Web|TERESAH
-WebKruz|description|WebKruz is a visual search engine that allows you to navigate through the results (web page snapshots) of your query automatically.|BambooDirt
-WebKruz|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
-WebKruz|keyword|visual search|TERESAH
 WebLicht|keyword|Active|TERESAH
 WebLicht|creator|CLARIN-D|TERESAH
 WebLicht|keyword|grammatical tagging|TERESAH
-WebLicht|url|http://clarin-d.net/index.php/en/language-resources/weblicht-en|TERESAH
+WebLicht|url|https://www.clarin-d.net/en/language-resources-and-services/weblicht|TERESAH
 WebLicht|application-category|4_Analysis|TERESAH
 WebLicht|operating-system|Web|TERESAH
 WebLicht|description|"WebLicht is a service-oriented architecture (SOA) for creating annotated text corpora. Development started in October 2008 as part of CLARIN-D's predecessor project D-SPIN, and further development and enhancement of WebLicht is an important goal of CLARIN-D, aiming to make WebLicht a fully-functional virtual research environment.
 WebLicht employs chains of RESTful web services. Each web service encapsulates a certain linguistic tool. For example, users can access as a web service the query component of a corpus, a format converter, a tokenizer, a tagger, or a parser. Translation between the input format specific to some tool and the WebLicht information interchange format TCF (see below) is performed by a web service wrapper. Each web service adds at least one layer of annotation encompassing the work of the tool encapsulated by that service. The output of a chain of WebLicht services is an automatically analyzed corpus in the form of an XML document.
 To do this, each WebLicht service must be able to use a common interchange format that all the other services can also process. CLARIN-D's Text Corpus Format (TCF), serves this purpose. It is broadly compatible with existing related interchange formats like Negra, Paula, or TüBa-D/Z, and format-specific converters allow interchange between them.
 WebLicht can be accessed only with a valid DFN-AAI/Shibboleth-based account or a local Tübingen account."|BambooDirt
-WebSlides|creator|Diigo Inc.|TERESAH
-WebSlides|keyword|Diligo|TERESAH
-WebSlides|url|http://slides.diigo.com/help.html|TERESAH
-WebSlides|application-category|Publishing|TERESAH
-WebSlides|keyword|screencast|TERESAH
-WebSlides|operating-system|Web|TERESAH
-WebSlides|description|WebSlides allows you to convert your bookmarks and feeds to present them as live web pages in an interactive slideshow. Each WebSlide has a unique URL, or comes as a widget. Users may create a guided tour of any website, group course information for students, provide a simple tutorial on any subject, or share images on the web. Additionally, content publishers may use this presentation format for repacking and remixing content.|BambooDirt
-WEFT QDA|keyword|coding|TERESAH
-WEFT QDA|application-category|4_Analysis|TERESAH
-WEFT QDA|url|http://www.pressure.to/qda/|TERESAH
-WEFT QDA|creator|PRESSURE.TO|TERESAH
-WEFT QDA|operating-system|Web|TERESAH
-WEFT QDA|description|Weft QDA is a free and open-source tool for the analysis of textual data. You may import documents from plain text or PDF, apply character-level coding, category and document memos, retrieve coded text, apply simple coding statistics, apply free-text search, and export to HTML and CSV formats.|BambooDirt
 Weka|keyword|Active development|TERESAH
 Weka|keyword|Advanced|TERESAH
 Weka|keyword|feature selection|TERESAH
@@ -2236,13 +2211,6 @@ Versioning Machine|application-category|Gathering|TERESAH
 Versioning Machine|application-category|Organizing|TERESAH
 Versioning Machine|operating-system|Web|TERESAH
 Versioning Machine|keyword|XSLT|TERESAH
-Vertov|application-category|Annotating|TERESAH
-Vertov|keyword|Firefox 2.0, Zotero, Java Runtime Environment and QuickTime player (for Windows users)|TERESAH
-Vertov|url|http://digitalhistory.concordia.ca/vertov/|TERESAH
-Vertov|operating-system|osX|TERESAH
-Vertov|creator|Stuart Thiel|TERESAH
-Vertov|description|Vertov is a free media annotating plug-in for the research tool Zotero. Vertov allows you to cut audio and video files into clips, annotate the clips, and integrate annotations with other research sources and notes stored in Zotero. You must first download and install Firefox and Zotero before using Vertov.|BambooDirt
-Vertov|keyword|Zotero|TERESAH
 Whatizit|url|http://www.ebi.ac.uk/webservices/whatizit/info.jsf|TERESAH
 Whatizit|keyword|text analysis|TERESAH
 Whatizit|application-category|4_Analysis|TERESAH
@@ -2254,22 +2222,6 @@ VideoANT|url|http://ant.umn.edu/|TERESAH
 VideoANT|operating-system|Web|TERESAH
 VideoANT|keyword|video|TERESAH
 VideoANT|description|VideoANT is an online environment that synchronizes web based video with timeline based annotations.|BambooDirt
-Viewshare|keyword|exploratory|TERESAH
-Viewshare|url|http://viewshare.org|TERESAH
-Viewshare|license|MIT License|TERESAH
-Viewshare|operating-system|Web|TERESAH
-Viewshare|description|"Viewshare is a free web application for creating interfaces and visualizations of cultural heritage collections. It can create, interactive maps, timelines, facets, tag clouds, histograms, and image galleries.
-Import Collection Data: Ingest collections from spreadsheets, MODS records or Dublin Core data via OAI-PMH. Upload from your desktop or import them from a URL.
-Augment Data: You can then derive points of latitude and longitude from plain text place names, break apart lists, and derive ISO standardized dates.
-Author Views: Using a simple drag and drop interface you can build visual interfaces to digital collections, including maps and timelines, and sophisticated faceted navigation.
-Embed and Share: You can then copy-paste to embed your interface in any webpage. Users can also export data directly from the embedded interfaces."|BambooDirt
-Viewshare|application-category|Visualization|TERESAH
-Viewshare|creator|Zepheira|TERESAH
-Wiggio|application-category|1_Capture|TERESAH
-Wiggio|url|http://wiggio.com/|TERESAH
-Wiggio|keyword|survey|TERESAH
-Wiggio|operating-system|Web|TERESAH
-Wiggio|description|Wiggio is a free service that allows users to create groups, host virtual meetings and conference calls, manage events, create to-do lists, poll members, send messages, and upload and manage folders.|BambooDirt
 Wikidot|application-category|Collaboration|TERESAH
 Wikidot|application-category|Editing|TERESAH
 Wikidot|url|http://www.wikidot.com/|TERESAH
@@ -2278,11 +2230,6 @@ Wikidot|operating-system|Web|TERESAH
 Wikidot|keyword|web development|TERESAH
 Wikidot|creator|Wikidot Inc.|TERESAH
 Wikidot|description|Wikidot is a web application service that allows you to create a traditional wiki, forum, or blog. Wikidot is also a large community with an active question and answer forum.|BambooDirt
-WikiMindMap|license|GNU Free Documentation License|TERESAH
-WikiMindMap|url|http://www.wikimindmap.org/|TERESAH
-WikiMindMap|operating-system|Web|TERESAH
-WikiMindMap|description|WikiMindMap is a mindmapping tool that allows you to browse in wiki content. It uses an interactive interface based on a system of nodes and brackets. Maps may be exported into FreeMind.|BambooDirt
-WikiMindMap|keyword|visualization|TERESAH
 WikiPack|keyword|Active|TERESAH
 WikiPack|keyword|collaboration|TERESAH
 WikiPack|description|Create private wikis using Markdown and WikiWords that are stored in your Dropbox account.|BambooDirt
@@ -2298,31 +2245,12 @@ Wink|url|http://www.debugmode.com/wink/|TERESAH
 Wink|operating-system|Linux|TERESAH
 Wink|application-category|Publishing|TERESAH
 Wink|description|Wink is a tutorial and presentation creation software, that allows you to create tutorials on how to use software, by capturing screenshots, mouse movements, and accompanying audio.|BambooDirt
-Virtual Lightbox|license|GNU GPL|TERESAH
-Virtual Lightbox|url|http://mith.umd.edu/lightbox/|TERESAH
-Virtual Lightbox|application-category|Gathering|TERESAH
-Virtual Lightbox|description|The Virtual Lightbox enables online image comparison, with features like an image-centric whiteboard.|BambooDirt
-Virtual Lightbox|operating-system|Web|TERESAH
-Virtual Lightbox|keyword|whiteboard|TERESAH
-Virtual Lightbox for Museums and Archives|description|"""The Virtual Lightbox for Museums and Archives (VLMA) is an educational tool for collecting and reusing in a structured fashion the online contents of museums and archives with visual components. With VLMA, you can browse and search collections, construct personal collections, export these collections to xml or Impress presentation format, annotate them, and share your collections with other VLMA users."""|BambooDirt
-Virtual Lightbox for Museums and Archives|application-category|1_Capture|TERESAH
-Virtual Lightbox for Museums and Archives|url|http://www.jisc.ac.uk/whatwedo/programmes/edistributed/vl.aspx|TERESAH
-Virtual Lightbox for Museums and Archives|creator|JISC|TERESAH
-Virtual Lightbox for Museums and Archives|keyword|No longer supported|TERESAH
-Virtual Lightbox for Museums and Archives|keyword|search|TERESAH
 VirtualBox|keyword|Active|TERESAH
 VirtualBox|url|https://www.virtualbox.org/|TERESAH
 VirtualBox|creator|Oracle|TERESAH
 VirtualBox|application-category|Web development|TERESAH
 VirtualBox|description|VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use. For example, you can use a Windows computer to create a Mac or Linux environment to test software or websites.|BambooDirt
 VirtualBox|keyword|virtualization|TERESAH
-visual.ly|keyword|Active|TERESAH
-visual.ly|description|Easy-to-use web-based software for creating infographics and data visualization, including a platform to share your work and discover works by others.|BambooDirt
-visual.ly|url|http://visual.ly/|TERESAH
-visual.ly|creator|Inc.|TERESAH
-visual.ly|keyword|infographics|TERESAH
-visual.ly|operating-system|Web|TERESAH
-visual.ly|application-category|Visualization|TERESAH
 VisualEyes|url|http://www.viseyes.org/|TERESAH
 VisualEyes|creator|University of Virginia|TERESAH
 VisualEyes|description|VisualEyes is web-based authoring tool developed at the University of Virginia to weave images, maps, charts, video and data into highly interactive and compelling dynamic visualizations.|BambooDirt
@@ -2333,12 +2261,6 @@ VisuWords|operating-system|Web|TERESAH
 VisuWords|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
 VisuWords|keyword|visual search|TERESAH
 VisuWords|description|VisuWords is a mindmapping linguistic tool that shows the relationships between the queried word and related words in an interactive map, with corresponding definitions.|BambooDirt
-Vitaware|url|https://github.com/scholarpress/scholarpress-vitaware|TERESAH
-Vitaware|creator|Scholarpress|TERESAH
-Vitaware|description|ScholarPress Vitaware enables users to build a CV in Wordpress using Zotero.|BambooDirt
-Vitaware|operating-system|Web|TERESAH
-Vitaware|application-category|Web development|TERESAH
-Vitaware|keyword|WordPress|TERESAH
 VIVO|license|BSD|TERESAH
 VIVO|url|http://vivoweb.org/|TERESAH
 VIVO|creator|Michael Conlon|TERESAH
@@ -2350,56 +2272,12 @@ Wmatrix|keyword|Paid|TERESAH
 Wmatrix|application-category|4_Analysis|TERESAH
 Wmatrix|operating-system|Web|TERESAH
 Wmatrix|description|Wmatrix is web-based software for corpus analysis and comparison. It provides a web interface to the USAS and CLAWS corpus annotation tools, and standard corpus linguistic methodologies such as frequency lists and concordances. It also extends the keywords method to key grammatical categories and key semantic domains.|BambooDirt
-VoiceThread|url|http://voicethread.com/|TERESAH
-VoiceThread|keyword|Paid|TERESAH
-VoiceThread|application-category|Collaboration|TERESAH
-VoiceThread|application-category|Communicating|TERESAH
-VoiceThread|keyword|slideshow|TERESAH
-VoiceThread|description|VoiceThread is a collaborative slide show that allows people to navigate slides and comment in five different ways (using voice, text, audio, or video). VoiceThreads can be embedded to show and receive comments on other websites, and exported to play as archival movies.|BambooDirt
-VoiceThread|creator|VoiceThread LLC|TERESAH
-VoiceWalker|url|http://www.linguistics.ucsb.edu/projects/transcription/tools|TERESAH
-VoiceWalker|application-category|Transcription|TERESAH
-VoiceWalker|keyword|WAV|TERESAH
-VoiceWalker|operating-system|Windows|TERESAH
-VoiceWalker|description|VoiceWalker has fine-grained controls for playing back audio and video to facilitate transcription.|BambooDirt
-VoodooPad|application-category|Annotating|TERESAH
-VoodooPad|creator|Flying Meat Inc.|TERESAH
-VoodooPad|url|http://www.flyingmeat.com/voodoopad/|TERESAH
-VoodooPad|operating-system|iOS|TERESAH
-VoodooPad|operating-system|Mac OS X 10.5+|TERESAH
-VoodooPad|keyword|organization|TERESAH
-VoodooPad|keyword|Paid|TERESAH
-VoodooPad|description|VoodooPad is an annotation and organization tool. You may drag and drop folders, PDF files, applications, and URLs into VoodooPad, while maintaining the links. VoodooPad provides full screen editing, the ability to export your pages as HTML documents, and search capabilities.|BambooDirt
-Word Hoard|description|"""In the WordHoard environment, texts are annotated or tagged by morphological, lexical, prosodic, and narratological criteria. They are mediated through a 'digital page' or user interface that lets scholarly but non-technical users explore the greatly increased query potential of textual data kept in such a form."""|BambooDirt
-Word Hoard|license|GNU GPL|TERESAH
-Word Hoard|url|http://wordhoard.northwestern.edu/userman/index.html|TERESAH
-Word Hoard|operating-system|osX|TERESAH
-Word Hoard|application-category|Gathering|TERESAH
-Word Hoard|application-category|Organizing|TERESAH
-Word Hoard|keyword|word frequency|TERESAH
 Word2cleanHTML|keyword|conversion|TERESAH
 Word2cleanHTML|application-category|Conversion|TERESAH
 Word2cleanHTML|url|http://word2cleanhtml.com/|TERESAH
 Word2cleanHTML|creator|Olly Cope|TERESAH
 Word2cleanHTML|operating-system|Web|TERESAH
 Word2cleanHTML|description|Word2cleanHTML allows users to copy and paste a Word document into a text box, and convert it to clean HTML. Additional options include removing empty paragraphs, replacing non-ascii with HTML entities, replacing smart quotes, indenting with tabs, and replacing non-breaking spaces with ordinary spaces.|BambooDirt
-WordCruncher|keyword|Active|TERESAH
-WordCruncher|creator|Brigham Young University|TERESAH
-WordCruncher|url|http://www.wordcruncher.com/|TERESAH
-WordCruncher|operating-system|Windows|TERESAH
-WordCruncher|application-category|Visualization|TERESAH
-WordCruncher|description|WordCruncher is a text retrieval and analysis program that allows users to index or use a text, including very large multilingual Unicode documents.  It supports the addition of tags (such as part of speech, definitions, lemma, etc), graphics, and hyperlinks to text or multimedia files.  In addition to supporting contextual and tag searching, WordCruncher also includes many analytical reports, including collocation, vocabulary dispersion, frequency distribution, vocabulary usage, and various other reports.|BambooDirt
-WordFreak|description|"""WordFreak is a java-based linguistic annotation tool designed to support human, and automatic annotation of linguistic data as well as employ active-learning for human correction of automatically annotated data."" (text taken from http://wordfreak.sourceforge.net/)"|BambooDirt
-WordFreak|keyword|Active|TERESAH
-WordFreak|keyword|automatic annotation|TERESAH
-WordFreak|url|http://wordfreak.sourceforge.net/|TERESAH
-WordFreak|application-category|4_Analysis|TERESAH
-WordFreak|operating-system|Linux|TERESAH
-Wordle|description|A simple word cloud generator with customizable font and color options.|BambooDirt
-Wordle|application-category|4_Analysis|TERESAH
-Wordle|url|http://www.wordle.net/|TERESAH
-Wordle|creator|Jonathan Feinberg|TERESAH
-Wordle|keyword|word cloud|TERESAH
 WordPress|description|A blog publication system that may be used for basic content management. WordPress is widely used within the arts and humanities community. It offers a template and theme management system, which can be used by administrators to configure their blog without the need to edit PHP or HTML code. A plug-in architecture enables developers and users to expend functionality beyond that provided in the base installation. In its current iteration, WordPress supports only one weblog per installation, although multiple concurrent copies may be run from different directories if configured to use separate database tables. Source code forks, such as WordPress Multi-User (WPMU) allow multiple blogs to exist within a single installation.|ArtsHumanities
 WordPress|keyword|blog|TERESAH
 WordPress|keyword|blogging|TERESAH
@@ -2419,7 +2297,6 @@ WordPress|application-category|Web development|TERESAH
 WordPress|keyword|weblog|TERESAH
 WordPress|description|WordPress is an easy-to-use web publishing platform originally designed around blogging, with many themes and plugins for extra functionality.|BambooDirt
 WordPress|standard|XML|TERESAH
-WordPress, BuddyPress|keyword|Active|TERESAH
 WordPress.com|keyword|cloud storage|TERESAH
 WordPress.com|url|http://wordpress.com/|TERESAH
 WordPress.com|keyword|Paid|TERESAH
@@ -2427,34 +2304,6 @@ WordPress.com|operating-system|Web|TERESAH
 WordPress.com|application-category|Web development|TERESAH
 WordPress.com|keyword|WordPress|TERESAH
 WordPress.com|description|Wordpress.com provides free ad-supported hosting for basic WordPress sites, with paid options for premium features (custom domain, extra storage, custom design, no ads, etc.)|BambooDirt
-WordSmith|url|http://www.lexically.net/wordsmith/index.html|TERESAH
-WordSmith|operating-system|osX|TERESAH
-WordSmith|keyword|Paid|TERESAH
-WordSmith|application-category|4_Analysis|TERESAH
-WordSmith|standard|TXT|TERESAH
-WordSmith|description|WordSmith allows users to develop concordances, find keywords, and develop word lists from plain text files.|BambooDirt
-WordStat - Content Analysis & Text Mining Software|keyword|Active|TERESAH
-WordStat - Content Analysis & Text Mining Software|keyword|Analyze texts|TERESAH
-WordStat - Content Analysis & Text Mining Software|url|http://provalisresearch.com/products/content-analysis-software/|TERESAH
-WordStat - Content Analysis & Text Mining Software|operating-system|Linux|TERESAH
-WordStat - Content Analysis & Text Mining Software|keyword|Paid|TERESAH
-WordStat - Content Analysis & Text Mining Software|creator|Provalis Research|TERESAH
-WordStat - Content Analysis & Text Mining Software|license|Site License|TERESAH
-WordStat - Content Analysis & Text Mining Software|application-category|4_Analysis|TERESAH
-WordStat - Content Analysis & Text Mining Software|description|"WordStat is a text analysis module for QDA Miner or SimStat. WordStat combines content analysis method by using dictionary approach and many algorithms exploration or various text mining methods. WordStat can apply existing categorization dictionaries to a new text corpus. It also may be used in the development and validation of new categorization dictionaries. When used in conjunction with manual coding, this module can provide assistance for a more systematic application of coding rules, help uncover differences in word usage between subgroups of individuals and assist in the revision of existing coding using KWIC (Keyword In Context) tables. WordStat is specifically designed to study textual information such as responses to open-ended questions, interviews, titles, journal articles, public speeches, electronic communications, etc.
-For more information, visit: http://provalisresearch.com/products/content-analysis-software/"|BambooDirt
-WordVenture|url|http://wordventure.eti.pg.gda.pl/|TERESAH
-WordVenture|keyword|lexicon|TERESAH
-WordVenture|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
-WordVenture|creator|WordNet|TERESAH
-WordVenture|description|WordVenture is an interactive visualization of the WordNet database that employs the technology and interface of TouchGraph.|BambooDirt
-WorkTop|keyword|Active|TERESAH
-WorkTop|url|http://cs.brown.edu/~bcz/worktop/|TERESAH
-WorkTop|creator|Microsoft Research|TERESAH
-WorkTop|operating-system|Windows|TERESAH
-WorkTop|keyword|worktop|TERESAH
-WorkTop|description|WorkTop was designed to enhance the ability of students (and scholars at all levels) to more efficiently perform fundamental scholarly tasks while at the same time providing new opportunities for collaborative learning.|BambooDirt
-WorkTop|application-category|Writing|TERESAH
 WorldCat|url|http://www.worldcat.org/|TERESAH
 WorldCat|keyword|library catalog|TERESAH
 WorldCat|keyword|Paid|TERESAH
@@ -2470,53 +2319,12 @@ WorldMap|is-used-for|Mapping|TERESAH
 WorldMap|description|"Powerful web-based mapping tool (a customized version of GeoNode) that allows users to visualize, edit, collaborate, and publish geospatial information. Upload your own data or use the existing library
 attempts to fill a growing niche between powerful desktop-bound mapping applications, and lightweight web map solutions with limited capacity"|BambooDirt
 WorldMap|operating-system|Web|TERESAH
-VoxcribeCC|keyword|Active|TERESAH
-VoxcribeCC|url|http://www.voxcribe.com|TERESAH
-VoxcribeCC|keyword|Paid|TERESAH
-VoxcribeCC|keyword|subtitle editing|TERESAH
-VoxcribeCC|application-category|Recording|TERESAH
-VoxcribeCC|operating-system|Windows|TERESAH
-VoxcribeCC|creator|Voxcribe Technologies|TERESAH
-VoxcribeCC|description|"VoxcribeCC has the most accurate speaker-independent and topic-independent desktop speech recognition technology. It is used for media (audiovideo) transcription and video-captioning.
-Please watch VoxcribeCC Usage Video to learn using VoxcribeCC just in 2 minutes.
-VoxcribeCC offers:
-• An unmatched ability for audio transcription and subtitle creation and editing,
-• Outstanding levels of productivity and quality at incredibly low costs. 
-Features:
-• Direct media-speech-recognition.
-• Auto time stamping
-• Interactive time-line with audio energy display
-• Spell-check and auto text formatting
-• Subtitle splitting and merging with automatic audio synchronization
-• Visual subtitles with graphically adjustable start and end points 
-Click here to Download VoxcribeCC"|BambooDirt
 Voyant Tools|keyword|Active|TERESAH
 Voyant Tools|url|http://voyant-tools.org/|TERESAH
 Voyant Tools|operating-system|Web|TERESAH
 Voyant Tools|application-category|Visualization|TERESAH
 Voyant Tools|keyword|word cloud|TERESAH
 Voyant Tools|description|Voyant Tools is a web-based reading and analysis environment for digital texts.|BambooDirt
-Voyeur Tools|creator|Geoffrey Rockwell|TERESAH
-Voyeur Tools|url|http://voyeurtools.org/|TERESAH
-Voyeur Tools|operating-system|Web|TERESAH
-Voyeur Tools|application-category|Visualization|TERESAH
-Voyeur Tools|keyword|work space|TERESAH
-Voyeur Tools|description|Voyeur is a web-based text analysis environment where users can apply a wide variety of tools to any text they import.|BambooDirt
-Writeboard|creator|37signals|TERESAH
-Writeboard|application-category|Collaboration|TERESAH
-Writeboard|application-category|Editing|TERESAH
-Writeboard|url|http://37signals.com/writeboard-retired|TERESAH
-Writeboard|operating-system|Web|TERESAH
-Writeboard|description|Writeboards are sharable, web-based text documents. You can use Writeboard on your own or collaboratively, to revise and organize documents, compare different versions of documents, and collaborate on materials.|BambooDirt
-Writeboard|keyword|writing|TERESAH
-WriteRoom|creator|HogBay Software|TERESAH
-WriteRoom|url|http://www.hogbaysoftware.com/products/writeroom|TERESAH
-WriteRoom|operating-system|Mac OS X 10.7+, Mac iOS 4.0+|TERESAH
-WriteRoom|operating-system|osX|TERESAH
-WriteRoom|keyword|Paid|TERESAH
-WriteRoom|description|WriteRoom is an alternative to Microsoft Word, that removes distractions on your computer while you're writing. WriteRoom is a full screen writing environment that has certain functions like word count and autosave. WriteRoom for iOS is synced with Dropbox, and your iPhone/iPad/iPod touch.|BambooDirt
-WriteRoom|application-category|Writing|TERESAH
-WriteRoom|keyword|writing|TERESAH
 VUE|is-used-for|Brainstorming|TERESAH
 VUE|url|http://vue.tufts.edu/|TERESAH
 VUE|operating-system|Linux|TERESAH
@@ -2528,9 +2336,6 @@ Wufoo|url|http://www.wufoo.com/|TERESAH
 Wufoo|keyword|Paid|TERESAH
 Wufoo|operating-system|Web|TERESAH
 Wufoo|description|Wufoo is an online form builder with built-in analytics. Free users are allowed to create up to three forms with up to 10 fields.|BambooDirt
-VUVOX|keyword|music|TERESAH
-VUVOX|operating-system|Web|TERESAH
-VUVOX|description|"VUVOX (""visual voice"") is an easy to use production and sharing service that allows you to instantly create and share stories. You can create, mix, and personalize media - videos, photos and music - to share with others."|BambooDirt
 Xalan|keyword|analysis|TERESAH
 Xalan|license|Apache|TERESAH
 Xalan|license|Apache License|TERESAH
@@ -2560,63 +2365,6 @@ Xena|creator|National Archives of Australia|TERESAH
 Xena|is-used-for|Searching|TERESAH
 Xena|keyword|web archiving|TERESAH
 Xena|description|Xena is free and open source software developed by the National Archives of Australia to aid in the long term preservation of digital records. Xena is an acronym meaning Xml Electronic Normalising for Archives. Xena is a component of the Digital Preservation Software Platform (DPSP). Xena software aids digital preservation by performing two important tasks: detecting the file formats of digital objects and converting digital objects into open formats for preservation.|BambooDirt
-XMetal|description|A software application used for creating and editing documents in XML and SGML.|ArtsHumanities
-XMetal|license|commercial|TERESAH
-XMetal|operating-system|Cross-platform|TERESAH
-XMetal|standard|Document Type Definition (DTD)|TERESAH
-XMetal|creator|JustSystems|TERESAH
-XMetal|keyword|Paid|TERESAH
-XMetal|license|Proprietary|TERESAH
-XMetal|creator|SoftQuad Software, JustSystems|TERESAH
-XMetal|keyword|Standard Generalized Markup Language (SGML)|TERESAH
-XMetal|keyword|structuring|TERESAH
-XMetal|standard|TEI|TERESAH
-XMetal|keyword|Text encoding - descriptive|TERESAH
-XMetal|keyword|Text encoding - presentational|TERESAH
-XMetal|keyword|Text encoding - referential|TERESAH
-XMetal|application-category|Web development|TERESAH
-XMetal|standard|XML|TERESAH
-XMetal|keyword|XML Schema Definition (XSD)|TERESAH
-XMetal|description|"XML-based software application for structured authoring and editing documents and content collaboration.
-
-
-Features: 
-Spellchecker, thesaurus, track changes and other word processing functionality
-Configurable document view (normal, tagged, plain text)
- 
-Resource Manager may be used to locate and insert items such as image files and text fragments."|BambooDirt
-XMLSpy|keyword|Active development|TERESAH
-XMLSpy|description|Altova XMLSpy is designed for authoring and validating XML documents, creating and debugging XML Schemas and Json files, and for handling the XSL suite of technologies, such as XSLT and XPath. Graphical and text-based views of XML files are offered. An educational licence does not appear to be available, but 30-day free trials can be requested.|HistoryOnline
-XMLSpy|keyword|Beginner|TERESAH
-XMLSpy|keyword|Offline|TERESAH
-XMLSpy|application-category|Editing|TERESAH
-XMLSpy|application-category|Annotating|TERESAH
-XMLSpy|keyword|Single purpose|TERESAH
-xMod|description|"A tool capable of transforming a collection of TEI encoded XML records into a web site. To perform the process, the tool requires a set of valid XML files, a configuration script that indicates the relationship between files and a ""personality pack’ (CSS and image files) that determine its visual appearance.
-Features:
-Batch file processing
-Modular XSLT structure, with special libraries for different transformation scenarios
-Ability to group files for generation of indices at document and intra-document level"|BambooDirt
-xMod|description|"A tool capable of transforming a collection of TEI encoded XML records into a web site. To perform the process, the tool requires a set of valid XML files, a configuration script that indicates the relationship between files and a ""personality pack’ (CSS and image files) that determine its visual appearance."|ArtsHumanities
-xMod|creator|Centre for Computing in the Humanities, King's College London|TERESAH
-xMod|operating-system|Cross-platform|TERESAH
-xMod|standard|docbook|TERESAH
-xMod|standard|DocBook (DBK)|TERESAH
-xMod|keyword|encoding|TERESAH
-xMod|license|GNU GPL v2|TERESAH
-xMod|creator|King's College London|TERESAH
-xMod|keyword|markup|TERESAH
-xMod|keyword|No longer supported|TERESAH
-xMod|keyword|Perl|TERESAH
-xMod|application-category|Publishing|TERESAH
-xMod|keyword|structuring|TERESAH
-xMod|keyword|tei|TERESAH
-xMod|standard|TEI|TERESAH
-xMod|keyword|Text encoding - descriptive|TERESAH
-xMod|license|Unknown|TERESAH
-xMod|application-category|Web development|TERESAH
-xMod|keyword|web site|TERESAH
-xMod|standard|XML|TERESAH
 XnView|description|Free software for viewing and converting over 400 image formats.|BambooDirt
 XnView|url|http://www.xnview.com/en/index.php|TERESAH
 XnView|research-object|Images|TERESAH
@@ -2648,77 +2396,20 @@ Features:
 Bi-directional content conversion
 Support for any flat file structure that has been document in an appropriate XFlat format.
 Support for variety of XML-based formats"|BambooDirt
-Xtranormal|keyword|Active|TERESAH
-Xtranormal|keyword|Animation|TERESAH
-Xtranormal|description|Easy-to-use web-based animation software. Offers educational pricing.|BambooDirt
-Xtranormal|url|http://www.xtranormal.com/|TERESAH
-Xtranormal|operating-system|Web|TERESAH
-Xtranormal|application-category|Recording|TERESAH
-Xtranormal|creator|Xtranormal Inc.|TERESAH
-Yahoo! Pipes |keyword|Active development|TERESAH
-Yahoo! Pipes |keyword|Cloud computing|TERESAH
-Yahoo! Pipes |keyword|Intermediate|TERESAH
-Yahoo! Pipes |keyword|Online|TERESAH
-Yahoo! Pipes |keyword|Single purpose|TERESAH
-Yahoo! Pipes |description|Yahoo! Pipes is a web application providing an interface through which users can create data mashups that aggregate web content such as web feeds and web pages (the name is based on the Unix notion of piping one command to another). There are three elements to the interface: library, canvas, and debugger. At its simplest you can drag a web data source onto the canvas and then pipe it through some kind of operator. The resultant web-based app can be 'published' on the Yahoo! Pipes website or can be kept private, accessible only through its URL. The output of the pipe can be RSS, JSON, KML, or other formats.|HistoryOnline
-YahooNotepad|application-category|Annotating|TERESAH
-YahooNotepad|url|http://info.yahoo.com/privacy/sg/yahoo/notepad/|TERESAH
-YahooNotepad|keyword|notetaking|TERESAH
-YahooNotepad|operating-system|Web|TERESAH
-YahooNotepad|creator|Yahoo!|TERESAH
-YahooNotepad|description|Yahoo! Notepad is a note-taking tool. You may save your notes, and access them later from any web accessible computer. You must be a registered Yahoo! user to use Notepad.|BambooDirt
-Yana|creator|Harvard University|TERESAH
-Yana|url|http://osc.hul.harvard.edu/yana/|TERESAH
-Yana|operating-system|Linux|TERESAH
-Yana|license|MIT License|TERESAH
-Yana|application-category|Web development|TERESAH
-Yana|description|Yāna provides a free, open-source template that open access journals can use as the basis of their own multi-platform mobile applications. The Yāna template provides the basic functionality required by any journal operating on a mobile platform.|BambooDirt
 yED Graph|keyword|data visualization|TERESAH
 yED Graph|url|http://www.yworks.com/en/index.html|TERESAH
 yED Graph|operating-system|Web|TERESAH
 yED Graph|application-category|Visualization|TERESAH
 yED Graph|description|yEd is a powerful desktop application that can be used to quickly and effectively generate high-quality diagrams. Create diagrams manually, or import your external data for analysis. Our automatic layout algorithms arrange even large data sets with just the press of a button.|BambooDirt
-Yojimbo|creator|Bare Bones Software|TERESAH
-Yojimbo|url|http://www.barebones.com/products/Yojimbo/index.html|TERESAH
-Yojimbo|keyword|images|TERESAH
-Yojimbo|operating-system|Mac OS X 10.5.7+|TERESAH
-Yojimbo|application-category|Organizing|TERESAH
-Yojimbo|operating-system|osX|TERESAH
-Yojimbo|keyword|Paid|TERESAH
-Yojimbo|description|"Yojimbo is an information organizer software that allows you to store text, images, PDFs, and passwords; organize information with tags and labels; export a copy of your data to your mobile device; and search all of Yojimbo content. Licenses available for individual, family, or educational use."|BambooDirt
-Your Twapper Keeper|application-category|4_Analysis|TERESAH
-Your Twapper Keeper|url|http://twapperkeeper.com/|TERESAH
-Your Twapper Keeper|operating-system|Linux|TERESAH
-Your Twapper Keeper|keyword|No longer supported|TERESAH
-Your Twapper Keeper|standard|RSS|TERESAH
-Your Twapper Keeper|keyword|Twitter|TERESAH
-Your Twapper Keeper|description|Your Twapper Keeper runs on a dedicated virtual server (any OS, so long as it has Apache/PHP/MySQL) to provide more functionality than the hosted version of Twapper Keeper, including export.|BambooDirt
-Yutzu|url|http://www.yutzu.com/|TERESAH
-Yutzu|operating-system|Web|TERESAH
-Yutzu|application-category|Writing|TERESAH
-Yutzu|description|Yutzu is a collaborative tool that allows people in the creative industries to collect, share, and publish multimedia content in an easy-to-use and intuitive way.|BambooDirt
 Zamzar|application-category|Conversion|TERESAH
 Zamzar|url|http://www.zamzar.com/|TERESAH
 Zamzar|keyword|images|TERESAH
 Zamzar|operating-system|Web|TERESAH
 Zamzar|description|Zamzar converts between a wide variety of formats (including support for word processing documents, audio, images, video, and ebooks) and emails the result to the user.|BambooDirt
-Zandy|keyword|Active|TERESAH
-Zandy|operating-system|Android|TERESAH
-Zandy|keyword|Android|TERESAH
-Zandy|creator|Avram Lyon|TERESAH
-Zandy|application-category|Organizing|TERESAH
-Zandy|url|https://play.google.com/store/apps/details?id=com.gimranov.zandy.app|TERESAH
-Zandy|keyword|Paid|TERESAH
-Zandy|description|Zotero app for Android.|BambooDirt
 ZeeMaps|url|http://www.zeemaps.com/|TERESAH
 ZeeMaps|is-used-for|Mapping|TERESAH
 ZeeMaps|operating-system|Web|TERESAH
 ZeeMaps|description|ZeeMaps allows users to create custom interactive maps that can be embedded in websites, including customized markers.Airport Parking|BambooDirt
-Zoho|url|http://www.zoho.com/creator/|TERESAH
-Zoho|keyword|Paid|TERESAH
-Zoho|operating-system|Web|TERESAH
-Zoho|application-category|Visualization|TERESAH
-Zoho|description|Zoho provides a drag-and-drop interface for creating database-driven applications, such as forms.|BambooDirt
 Zoomerang|keyword|analysis|TERESAH
 Zoomerang|application-category|1_Capture|TERESAH
 Zoomerang|url|http://www.zoomerang.com/|TERESAH
@@ -2759,13 +2450,6 @@ Zotero|keyword|Zotero|TERESAH
 Zotero|description|"Zotero allows users to bookmark and save content (PDFs, images, audio and video files, snapshots of web pages, etc.) by automatically pulling in metadata stored on websites. Users can then search, tag and annotate any entry in their library.
 Zotero is primarily available as a Firefox plug-in, but is now also available in a stand-alone version with connectors to other browsers.
 Zotero also allows students to automatically create Works Cited pages by drawing on the sources used in a document."|BambooDirt
-ZotFile|keyword|Active|TERESAH
-ZotFile|keyword|Dropbox|TERESAH
-ZotFile|url|https://addons.mozilla.org/en-US/firefox/addon/zotfile/|TERESAH
-ZotFile|creator|Joscha Legewie|TERESAH
-ZotFile|application-category|Organizing|TERESAH
-ZotFile|operating-system|Web|TERESAH
-ZotFile|description|Zotero extension (for Firefox or Standalone Zotero) for attachment handling. Can add, rename, and move attachemnts between different devices via Dropbox.|BambooDirt
 Zotpress|application-category|Organizing|TERESAH
 Zotpress|url|http://wordpress.org/plugins/zotpress/|TERESAH
 Zotpress|creator|Katie Seaborn|TERESAH
