@@ -104,12 +104,12 @@ Altmetric|application-category|Collaboration|TERESAH
 Altmetric|application-category|Communicating|TERESAH
 Altmetric|description|The Altmetric Explorer is a powerful web app that allows you to track the conversations around scientific articles online. Altmetric collects and analyzes hundreds of thousands of postings about tens of thousands of articles and datasets each month. It makes this data available to end users through an intuitive user interface and to developers through an API.|BambooDirt
 Altmetric|operating-system|Web|TERESAH
-Annie |keyword|Active development|TERESAH
-Annie |description|Annie is open-source information extraction software. It offers standard Natural Language Processing tasks, such as tokenisation, sentence splitting and named entity recognition - the latter being its main purpose. It can be used via an API or downloaded. It uses the GATE (General Architecture for Text Engineering) software. Its online trial feature (where users can enter a url and have the software perform named entitiy on that webpage) is particularly suitable for introducing named entity recognition as a concept.|HistoryOnline
-Annie |keyword|Beginner|TERESAH
-Annie |keyword|Both|TERESAH
-Annie |keyword|Single purpose|TERESAH
-Annie |application-category|4_Analysis|TERESAH
+Annie|keyword|Active development|TERESAH
+Annie|description|Annie is open-source information extraction software. It offers standard Natural Language Processing tasks, such as tokenisation, sentence splitting and named entity recognition - the latter being its main purpose. It can be used via an API or downloaded. It uses the GATE (General Architecture for Text Engineering) software. Its online trial feature (where users can enter a url and have the software perform named entitiy on that webpage) is particularly suitable for introducing named entity recognition as a concept.|HistoryOnline
+Annie|keyword|Beginner|TERESAH
+Annie|keyword|Both|TERESAH
+Annie|keyword|Single purpose|TERESAH
+Annie|application-category|4_Analysis|TERESAH
 ANNIS|keyword|Active|TERESAH
 ANNIS|description|"ANNIS2 is an open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation. ANNIS, which stands for ANNotation of Information Structure, has been designed to provide access to the data of the SFB 632 (""Information Structure: The Linguistic Means for Structuring Utterances, Sentences and Texts""). Since information structure interacts with linguistic phenomena on many levels, ANNIS2 addresses the SFB's need to concurrently annotate, query and visualize data from such varied areas as syntax, semantics, morphology, prosody, referentiality, lexis and more. For projects working with spoken language, support for audio / video annotations is also required.
 In the SFB, a number of different projects collect and annotate data according to the common SFB Annotation Standard. This data, which is annotated using both automatic taggers/parsers and a small set of manual annotation tools (EXMARaLDA, ELAN, annotate/Synpathy, MMAX, RSTTool), is mapped onto the encoding standard of the SFB, PAULA (Potsdamer Austauschformat für Linguistische Annotation / Potsdam Interchange Format for Linguistic Annotation), a stand-off multilevel XML format, which serves as the basis for further processing. ANNIS2 provides the means for visualizing and retrieving this data. The diagram below illustrates the data flow from multiple annotation tools into the merged XML format and the ANNIS application."|BambooDirt
