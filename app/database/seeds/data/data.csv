@@ -104,12 +104,6 @@ Altmetric|application-category|Collaboration|TERESAH
 Altmetric|application-category|Communicating|TERESAH
 Altmetric|description|The Altmetric Explorer is a powerful web app that allows you to track the conversations around scientific articles online. Altmetric collects and analyzes hundreds of thousands of postings about tens of thousands of articles and datasets each month. It makes this data available to end users through an intuitive user interface and to developers through an API.|BambooDirt
 Altmetric|operating-system|Web|TERESAH
-Annie|keyword|Active development|TERESAH
-Annie|description|Annie is open-source information extraction software. It offers standard Natural Language Processing tasks, such as tokenisation, sentence splitting and named entity recognition - the latter being its main purpose. It can be used via an API or downloaded. It uses the GATE (General Architecture for Text Engineering) software. Its online trial feature (where users can enter a url and have the software perform named entitiy on that webpage) is particularly suitable for introducing named entity recognition as a concept.|HistoryOnline
-Annie|keyword|Beginner|TERESAH
-Annie|keyword|Both|TERESAH
-Annie|keyword|Single purpose|TERESAH
-Annie|application-category|4_Analysis|TERESAH
 ANNIS|keyword|Active|TERESAH
 ANNIS|description|"ANNIS2 is an open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation. ANNIS, which stands for ANNotation of Information Structure, has been designed to provide access to the data of the SFB 632 (""Information Structure: The Linguistic Means for Structuring Utterances, Sentences and Texts""). Since information structure interacts with linguistic phenomena on many levels, ANNIS2 addresses the SFB's need to concurrently annotate, query and visualize data from such varied areas as syntax, semantics, morphology, prosody, referentiality, lexis and more. For projects working with spoken language, support for audio / video annotations is also required.
 In the SFB, a number of different projects collect and annotate data according to the common SFB Annotation Standard. This data, which is annotated using both automatic taggers/parsers and a small set of manual annotation tools (EXMARaLDA, ELAN, annotate/Synpathy, MMAX, RSTTool), is mapped onto the encoding standard of the SFB, PAULA (Potsdamer Austauschformat für Linguistische Annotation / Potsdam Interchange Format for Linguistic Annotation), a stand-off multilevel XML format, which serves as the basis for further processing. ANNIS2 provides the means for visualizing and retrieving this data. The diagram below illustrates the data flow from multiple annotation tools into the merged XML format and the ANNIS application."|BambooDirt
@@ -563,11 +557,6 @@ GNU Wget|license|GNU GPL|TERESAH
 GNU Wget|description|GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP.|BambooDirt
 GNU Wget|url|http://www.gnu.org/software/wget/|TERESAH
 GNU Wget|operating-system|Linux|TERESAH
-Google Alerts|creator|Google|TERESAH
-Google Alerts|description|Google Alerts are email updates of the latest relevant Google results (web, news, etc.) based on your queries.|BambooDirt
-Google Alerts|keyword|monitoring news|TERESAH
-Google Alerts|application-category|Discovering|TERESAH
-Google Alerts|operating-system|Web|TERESAH
 Google Books|keyword|ebooks|TERESAH
 Google Books|creator|Google|TERESAH
 Google Books|description|Google Books provides full, free PDF scans (and web-viewable versions) of public domain books, free previews of books some under copyright, and a bookstore for other books under copyright.|BambooDirt
@@ -576,12 +565,6 @@ Google Books|keyword|Paid|TERESAH
 Google Books|application-category|Gathering|TERESAH
 Google Books|application-category|Organizing|TERESAH
 Google Books|operating-system|Web|TERESAH
-Google chart tools|keyword|Active development|TERESAH
-Google chart tools|keyword|Beginner|TERESAH
-Google chart tools|keyword|Online|TERESAH
-Google chart tools|keyword|Single purpose|TERESAH
-Google chart tools|description|Using the Google chart API (Application Programming Interface) a large number of charts can be made, from simple bar charts to map charts with pin markers, zoomed in to specified latitudes and longitudes. The charts can be made from data entered directly into HTML code or by pointing the API at an appropriate data source, such as a Google docs worksheet. Because this is an API the charts will not work offline. Basic charts can be made by simply manipulating the values given in Google’s templates or using the Chart Wizard, while more and more complex charts can be created by delving more deeply into the code.|HistoryOnline
-Google chart tools|application-category|Visualization|TERESAH
 Google Docs|creator|Google|TERESAH
 Google Docs|description|Google Docs is an online environment for editing and sharing documents, spreadsheets, presentations, forms, drawings, and tables. Google Docs documents can be public or private, or shared with anyone with a Google account.|BambooDirt
 Google Docs|url|http://docs.google.com|TERESAH
@@ -626,13 +609,15 @@ Google Earth|keyword|Portable Anymap (PNM)|TERESAH
 Google Earth|application-category|Publishing|TERESAH
 Google Earth|keyword|Web Mapping Service (WMS)|TERESAH
 Google Earth|operating-system|Windows|TERESAH
-Google fusion tables |description|"A cloud-based data service which can produce data visualisation from data tables that have been uploaded: maps, charts and timelines of various types. These can be embedded into web pages and will update automatically when the data is updated (this can be managed with the Fusion Tables API). Also available from Google Docs under ""Data"" (currently beta) - presumably this will migrate to Google Drive, which is pending at the time of writing."|HistoryOnline
-Google fusion tables |keyword|Active development|TERESAH
-Google fusion tables |keyword|Beginner|TERESAH
-Google fusion tables |application-category|Visualization|TERESAH
-Google fusion tables |keyword|Multifunctional|TERESAH
-Google fusion tables |keyword|Online|TERESAH
-Google fusion tables |application-category|Visualization|TERESAH
+Google Earth|url|https://www.google.com/earth/|TERESAH
+Google fusion tables|description|"A cloud-based data service which can produce data visualisation from data tables that have been uploaded: maps, charts and timelines of various types. These can be embedded into web pages and will update automatically when the data is updated (this can be managed with the Fusion Tables API). Also available from Google Docs under ""Data"" (currently beta) - presumably this will migrate to Google Drive, which is pending at the time of writing."|HistoryOnline
+Google fusion tables|keyword|Active development|TERESAH
+Google fusion tables|keyword|Beginner|TERESAH
+Google fusion tables|application-category|Visualization|TERESAH
+Google fusion tables|keyword|Multifunctional|TERESAH
+Google fusion tables|keyword|Online|TERESAH
+Google fusion tables|application-category|Visualization|TERESAH
+Google fusion tables|url|https://fusiontables.google.com/|TERESAH
 Google Maps|keyword|geocoding|TERESAH
 Google Maps|creator|Google|TERESAH
 Google Maps|description|Google Maps is a web mapping service application that includes street maps. The API can be used outside of the normal Google Maps interface for other projects. Heathrow Parking  Sushi Recipes|BambooDirt
@@ -966,12 +951,6 @@ Map Warper|url|http://mapwarper.net/|TERESAH
 Map Warper|is-used-for|Mapping|TERESAH
 Map Warper|creator|Tim Waters|TERESAH
 Map Warper|operating-system|Web|TERESAH
-Marble|description|A virtual globe and world atlas with which you can pan and zoom around locations and look up places and streets. It is also possible to measure distances, watch the current cloud cover, and change the dates and times to track changes. Types of maps include: topographic, satellite view, and street map. Marble can be embedded as a widget. It can import data from a variety of other data sources, such as KML, GPX and free map sources such as OpenStreetMap.|HistoryOnline
-Marble|keyword|Active development|TERESAH
-Marble|keyword|Beginner|TERESAH
-Marble|keyword|Both|TERESAH
-Marble|keyword|Single purpose|TERESAH
-Marble|application-category|Visualization|TERESAH
 Mediathread|keyword|Active|TERESAH
 Mediathread|creator|Columbia Center for New Media Teaching and Learning (CCNMTL)|TERESAH
 Mediathread|license|GNU GPL|TERESAH
@@ -2072,18 +2051,7 @@ TokenX|description|TokenX is a web-based environment for visualizing, analyzing 
 TokenX|operating-system|Web|TERESAH
 T-PEN (Transcription for Paleographical and Editorial Notation)|creator|Center for Digital Theology at Saint Louis University|TERESAH
 T-PEN (Transcription for Paleographical and Editorial Notation)|license|Educational Community License|TERESAH
-T-PEN (Transcription for Paleographical and Editorial Notation)|description|"Extensive set of tools to allow collaborative transcription of manuscript pages in TEI-compliant XML.
-Features of T-PEN through version 1.2 [from project blog]
-Zoom Tool in Transcription User Interface: Holding CTRL+SHIFT will result in a magnified image of the current line being transcribed.
-Magnifying Tool in Full Page View: Click on ""Magnify"" button at the top right of the browser window and a magnifying glass tool will appear as the mouse pointer. Click on the same button to dismiss the tool. The magnifying tool is also available in the Compare Page feature.
-Create a Project “Pipeline” to the outer world: In partnership with The Carolingian Canon Law Project (CCL), T-PEN developed a model for enabling users working on transcription projects in T-PEN to export their work to a larger, external project. In this instance, the CCL prepared for T-PEN an XML-markup template (XML button set) that may be used for all transcriptions destined for the CCL database. Users identify their T-PEN projects as destined for the CCL, and when the transcription is complete, they can submit it from T-PEN to the CCL project. The CCL receives notification of the stable URL in T-PEN that the CCL can (either manually or by automation) use to extract the designated transcription from T-PEN’s data store. Other projects interested in creating their own pipeline should contact T-PEN via t-pen.org
-T-PEN Administration: T-PEN administrator can clear registration requests that have not been approved (ones that were mostly generated through internal testing).
-Transcription UI: The previous line text will scale to the size of the screen. When on the first line of the page, available text from the last line of the previous page will be shown.
-Visual Cue for Closing Tag Proximity (Transcription UI): Closing tags originating on previous pages are faded to indicate their distance from the current line of transcription.
-Transcription Preview: The preview tool now applies a simple color filter to  to allow for a more clear view of your transcription.
-New Project Option Tools: Users can add a French/English dictionary, a dictionary for Middle English and the Dictionary of Old English (subscription required). User can select which tools will be available in the Transcription UI:s i-frame. All tools can also be renamed by the user on the project management page.
-Exporting Transcriptions: When exporting xml, users can select or deselect all the tags for inclusion at once.
-Line History (Versioning): T-PEN distinguishes between all versions of any transcription line. Users can view previous versions of a given line. A change in a line is defined as addition or deletion of a single character (including white space) or modifications to the line parsing coordinates. A previous version can be selected to replace the current version. All versioning activity is recorded in the project log, which can be viewed on the project management page under the Collaboration tab."|BambooDirt
+T-PEN (Transcription for Paleographical and Editorial Notation)|description|Extensive set of tools to allow collaborative transcription of manuscript pages in TEI-compliant XML.|BambooDirt
 T-PEN (Transcription for Paleographical and Editorial Notation)|url|http://t-pen.org/TPEN/|TERESAH
 T-PEN (Transcription for Paleographical and Editorial Notation)|application-category|Transcription|TERESAH
 T-PEN (Transcription for Paleographical and Editorial Notation)|operating-system|Web|TERESAH

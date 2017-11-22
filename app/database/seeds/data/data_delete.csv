@@ -398,6 +398,12 @@ Anastasia|application-category|Web development|TERESAH
 Anastasia|operating-system|Windows|TERESAH
 Anastasia|standard|XML|TERESAH
 Anastasia|standard|XSLT|TERESAH
+Annie|keyword|Active development|TERESAH
+Annie|description|Annie is open-source information extraction software. It offers standard Natural Language Processing tasks, such as tokenisation, sentence splitting and named entity recognition - the latter being its main purpose. It can be used via an API or downloaded. It uses the GATE (General Architecture for Text Engineering) software. Its online trial feature (where users can enter a url and have the software perform named entitiy on that webpage) is particularly suitable for introducing named entity recognition as a concept.|HistoryOnline
+Annie|keyword|Beginner|TERESAH
+Annie|keyword|Both|TERESAH
+Annie|keyword|Single purpose|TERESAH
+Annie|application-category|4_Analysis|TERESAH
 AnnotateIt|description|AnnotateIt lets users annotate anything anywhere on the web.|BambooDirt
 AnnotateIt|application-category|Annotating|TERESAH
 AnnotateIt|url|http://annotateit.org/|TERESAH
@@ -1284,6 +1290,17 @@ Google 3D Warehouse|keyword|Google SketchUp|TERESAH
 Google 3D Warehouse|url|https://3dwarehouse.sketchup.com/|TERESAH
 Google 3D Warehouse|application-category|Gathering|TERESAH
 Google Account|keyword|Active|TERESAH
+Google Alerts|creator|Google|TERESAH
+Google Alerts|description|Google Alerts are email updates of the latest relevant Google results (web, news, etc.) based on your queries.|BambooDirt
+Google Alerts|keyword|monitoring news|TERESAH
+Google Alerts|application-category|Discovering|TERESAH
+Google Alerts|operating-system|Web|TERESAH
+Google chart tools|keyword|Active development|TERESAH
+Google chart tools|keyword|Beginner|TERESAH
+Google chart tools|keyword|Online|TERESAH
+Google chart tools|keyword|Single purpose|TERESAH
+Google chart tools|description|Using the Google chart API (Application Programming Interface) a large number of charts can be made, from simple bar charts to map charts with pin markers, zoomed in to specified latitudes and longitudes. The charts can be made from data entered directly into HTML code or by pointing the API at an appropriate data source, such as a Google docs worksheet. Because this is an API the charts will not work offline. Basic charts can be made by simply manipulating the values given in Google’s templates or using the Chart Wizard, while more and more complex charts can be created by delving more deeply into the code.|HistoryOnline
+Google chart tools|application-category|Visualization|TERESAH
 Google Chrome|keyword|Active|TERESAH
 Google Correlate|application-category|4_Analysis|TERESAH
 Google Correlate|description|Find searches that correlate with real-world data: Google Correlate finds search patterns which correspond with real-world trends.|BambooDirt
@@ -1747,6 +1764,12 @@ Mapstraction|keyword|library|TERESAH
 Mapstraction|is-used-for|Mapping|TERESAH
 Mapstraction|description|Mapstraction is a Javascript mapping abstraction library that supports all major mapping providers, dynamic provider switching, image overlay and base tiles, Point, Line, Polygon, GeoRSS, KML support.|BambooDirt
 Mapstraction|operating-system|Web|TERESAH
+Marble|description|A virtual globe and world atlas with which you can pan and zoom around locations and look up places and streets. It is also possible to measure distances, watch the current cloud cover, and change the dates and times to track changes. Types of maps include: topographic, satellite view, and street map. Marble can be embedded as a widget. It can import data from a variety of other data sources, such as KML, GPX and free map sources such as OpenStreetMap.|HistoryOnline
+Marble|keyword|Active development|TERESAH
+Marble|keyword|Beginner|TERESAH
+Marble|keyword|Both|TERESAH
+Marble|keyword|Single purpose|TERESAH
+Marble|application-category|Visualization|TERESAH
 Markdown|license|BSD|TERESAH
 Markdown|url|http://daringfireball.net/projects/markdown/|TERESAH
 Markdown|creator|John Gruber|TERESAH
