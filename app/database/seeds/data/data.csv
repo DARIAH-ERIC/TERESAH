@@ -1,11 +1,4 @@
 tool|type|value|source
-Abbot|description|"Abbot is a tool for undertaking large-scale conversion of XML document collections in order to make them interoperable with one another.  In particular, Abbot can make one or more collections conform to a designated schema (including a schema used to define one of the collections).
-By default, Abbot converts documents into TEI Analytics -- a TEI subset designed for text analysis applications."|BambooDirt
-Abbot|application-category|Conversion|TERESAH
-Abbot|keyword|DHCS|TERESAH
-Abbot|url|https://github.com/CDRH/abbot|TERESAH
-Abbot|operating-system|Linux|TERESAH
-Abbot|creator|Martin Mueller|TERESAH
 Academia|creator|Academia|TERESAH
 Academia|description|Academia allows academics to have free web pages, and displays the branches of academia in a tree-like format, grouped by universities and departments.|BambooDirt
 Academia|keyword|collaboration|TERESAH
@@ -13,76 +6,6 @@ Academia|url|http://www.academia.edu/|TERESAH
 Academia|application-category|Collaboration|TERESAH
 Academia|application-category|Communicating|TERESAH
 Academia|operating-system|Web|TERESAH
-Adapter|description|Adapter is a free video converter that converts avi, saves flash .flv, crops video and more. It also works with audio and image files. converting wav to mp3 and transforming jpg files.|BambooDirt
-Adapter|url|http://www.macroplant.com/adapter/|TERESAH
-Adapter|creator|Macroplant|TERESAH
-Adapter|operating-system|osX|TERESAH
-Adapter|license|Proprietary|TERESAH
-Adapter|application-category|Recording|TERESAH
-Adobe Flash|keyword|abc|TERESAH
-Adobe Flash|description|Adobe Flash is a multimedia platform that is popular for adding animation and interactivity to web pages. Flash is commonly used to create animation, advertisements, and various web page Flash components, to integrate video into web pages, and more recently, to develop rich Internet applications.|ArtsHumanities
-Adobe Flash|keyword|Adobe Illustrator (AI)|TERESAH
-Adobe Flash|keyword|Animation|TERESAH
-Adobe Flash|keyword|asc|TERESAH
-Adobe Flash|keyword|aso|TERESAH
-Adobe Flash|keyword|authoring environment|TERESAH
-Adobe Flash|description|Authoring environment for interactive content on desktops, televisions, smartphones and tablets|BambooDirt
-Adobe Flash|application-category|2_Creation|TERESAH
-Adobe Flash|keyword|creation|TERESAH
-Adobe Flash|license|EULA|TERESAH
-Adobe Flash|keyword|exe|TERESAH
-Adobe Flash|standard|f4a|TERESAH
-Adobe Flash|standard|f4b|TERESAH
-Adobe Flash|standard|f4p|TERESAH
-Adobe Flash|standard|f4v|TERESAH
-Adobe Flash|standard|fla|TERESAH
-Adobe Flash|keyword|flax|TERESAH
-Adobe Flash|keyword|flp|TERESAH
-Adobe Flash|standard|FLV|TERESAH
-Adobe Flash|keyword|hqx|TERESAH
-Adobe Flash|url|http://www.adobe.com/products/flash.html|TERESAH
-Adobe Flash|keyword|jsfl|TERESAH
-Adobe Flash|operating-system|Linux|TERESAH
-Adobe Flash|creator|Macromedia|TERESAH
-Adobe Flash|keyword|mxml|TERESAH
-Adobe Flash|operating-system|osX|TERESAH
-Adobe Flash|keyword|Paid|TERESAH
-Adobe Flash|standard|PSD|TERESAH
-Adobe Flash|application-category|Publishing|TERESAH
-Adobe Flash|keyword|sol|TERESAH
-Adobe Flash|keyword|spl|TERESAH
-Adobe Flash|keyword|swc|TERESAH
-Adobe Flash|keyword|swd|TERESAH
-Adobe Flash|keyword|swt|TERESAH
-Adobe Flash|keyword|Web design|TERESAH
-Adobe Flash|operating-system|Windows|TERESAH
-Adobe Flash|keyword|xfl|TERESAH
-Adobe Flash|keyword|xmp|TERESAH
-All Our Ideas|description|"All Our Ideas is a research project that seeks to develop a new form of social data collection by combining the best features of quantitative and qualitative methods. Using the power of the web, we are creating a data collection tool that has the scale, speed, and quantification of a survey while still allowing for new information to ""bubble up"" from respondents as happens in interviews, participant observation, and focus groups."|BambooDirt
-All Our Ideas|creator|Google|TERESAH
-All Our Ideas|url|http://www.allourideas.org/|TERESAH
-All Our Ideas|application-category|Collaboration|TERESAH
-All Our Ideas|application-category|Communicating|TERESAH
-All Our Ideas|operating-system|Web|TERESAH
-Alpheios|keyword|Active|TERESAH
-Alpheios|keyword|Firefox|TERESAH
-Alpheios|license|GNU GPL|TERESAH
-Alpheios|url|http://alpheios.net/|TERESAH
-Alpheios|keyword|sequence alignment|TERESAH
-Alpheios|application-category|4_Analysis|TERESAH
-Alpheios|creator|The Alpheios Project|TERESAH
-Alpheios|description|"The goal of the Alpheios project is to help people learn how to learn languages as efficiently and enjoyably as possible, and in a way that best helps them understand their own literary heritage and culture, and the literary heritage and culture of other peoples throughout history. One of the principal tools, a Firefox plugin, allows a reader to browse a web page with Latin, ancient Greek, or Arabic, click on a word, and get a definition and morphological analysis of the word.
-Initial focus is on classical literature in languages no longer spoken, such as Latin and ancient Greek, but will eventually include a wide variety of languages, ancient and modern. By sharing these tools and the source code in which they are written freely on the Web, the Alpheios Project also hopes to encourage their collaborative development.
-The software as of July 2012 is in Beta release, with all the caveats normally associated with that level of development.
-Other tools under development include a treebank editor, an alignment editor, text analysis software, and learning management software."|BambooDirt
-Alpheios|operating-system|Web|TERESAH
-Altmetric|url|http://www.altmetric.com/|TERESAH
-Altmetric|keyword|impact|TERESAH
-Altmetric|keyword|Paid|TERESAH
-Altmetric|application-category|Collaboration|TERESAH
-Altmetric|application-category|Communicating|TERESAH
-Altmetric|description|The Altmetric Explorer is a powerful web app that allows you to track the conversations around scientific articles online. Altmetric collects and analyzes hundreds of thousands of postings about tens of thousands of articles and datasets each month. It makes this data available to end users through an intuitive user interface and to developers through an API.|BambooDirt
-Altmetric|operating-system|Web|TERESAH
 ANNIS|keyword|Active|TERESAH
 ANNIS|description|"ANNIS2 is an open source, versatile web browser-based search and visualization architecture for complex multilevel linguistic corpora with diverse types of annotation. ANNIS, which stands for ANNotation of Information Structure, has been designed to provide access to the data of the SFB 632 (""Information Structure: The Linguistic Means for Structuring Utterances, Sentences and Texts""). Since information structure interacts with linguistic phenomena on many levels, ANNIS2 addresses the SFB's need to concurrently annotate, query and visualize data from such varied areas as syntax, semantics, morphology, prosody, referentiality, lexis and more. For projects working with spoken language, support for audio / video annotations is also required.
 In the SFB, a number of different projects collect and annotate data according to the common SFB Annotation Standard. This data, which is annotated using both automatic taggers/parsers and a small set of manual annotation tools (EXMARaLDA, ELAN, annotate/Synpathy, MMAX, RSTTool), is mapped onto the encoding standard of the SFB, PAULA (Potsdamer Austauschformat für Linguistische Annotation / Potsdam Interchange Format for Linguistic Annotation), a stand-off multilevel XML format, which serves as the basis for further processing. ANNIS2 provides the means for visualizing and retrieving this data. The diagram below illustrates the data flow from multiple annotation tools into the merged XML format and the ANNIS application."|BambooDirt
@@ -90,41 +13,25 @@ ANNIS|keyword|Apache|TERESAH
 ANNIS|license|Apache License|TERESAH
 ANNIS|creator|Apache Software Foundation|TERESAH
 ANNIS|keyword|corpus linguistics|TERESAH
-ANNIS|url|http://www.sfb632.uni-potsdam.de/annis/|TERESAH
+ANNIS|url|http://corpus-tools.org/annis/|TERESAH
 ANNIS|application-category|Visualization|TERESAH
-Annotator|keyword|Active|TERESAH
-Annotator|keyword|AnnotateIt|TERESAH
-Annotator|description|Annotator is an open source JavaScript library that developers can include on their pages (along with jQuery) to allow users to annotate content. Annotations can be stored in AnnotateIt.|BambooDirt
-Annotator|license|GNU GPL v3|TERESAH
-Annotator|url|http://okfnlabs.org/annotator/|TERESAH
-Annotator|keyword|Javascript|TERESAH
-Annotator|creator|Open Knowledge Foundation|TERESAH
-Annotator|operating-system|Web|TERESAH
-Annotator|application-category|Web development|TERESAH
 AntConc|description|AntConc is free concordance software.|BambooDirt
 AntConc|keyword|concordance|TERESAH
-AntConc|url|http://www.antlab.sci.waseda.ac.jp/antconc_index.html|TERESAH
+AntConc|url|http://www.laurenceanthony.net/software/antconc/|TERESAH
 AntConc|creator|Laurence Anthony|TERESAH
 AntConc|operating-system|Linux|TERESAH
 AntConc|application-category|4_Analysis|TERESAH
 AntWordProfiler|description|AntWordProfiler is free software for analyzing word frequency.|BambooDirt
-AntWordProfiler|url|http://www.antlab.sci.waseda.ac.jp/antwordprofiler_index.html|TERESAH
+AntWordProfiler|url|http://www.laurenceanthony.net/software/antwordprofiler/|TERESAH
 AntWordProfiler|creator|Laurence Anthony|TERESAH
 AntWordProfiler|operating-system|Linux|TERESAH
 AntWordProfiler|keyword|text analysis|TERESAH
 AntWordProfiler|application-category|4_Analysis|TERESAH
 Anvil|description|ANVIL is a free video annotation tool. It offers multi-layered annotation based on a user-defined coding scheme.|BambooDirt
-Anvil|url|http://www.anvil-software.de/|TERESAH
+Anvil|url|http://www.anvil-software.org/|TERESAH
 Anvil|operating-system|Linux|TERESAH
 Anvil|creator|Michael Kipp|TERESAH
 Anvil|application-category|Recording|TERESAH
-Archive-It|description|Archive-It is a subscription web archiving service from the Internet Archive that helps organizations to harvest, build, and preserve collections of digital content. Through our user friendly web application Archive-It partners can collect, catalog, and manage their collections of archived content with 24/7 access and full text search available for their use as well as their patrons. Content is hosted and stored at the Internet Archive data centers.|BambooDirt
-Archive-It|url|http://www.archive-it.org/|TERESAH
-Archive-It|creator|Internet Archive|TERESAH
-Archive-It|application-category|Organizing|TERESAH
-Archive-It|keyword|Paid|TERESAH
-Archive-It|operating-system|Web|TERESAH
-Archive-It|keyword|web archiving|TERESAH
 Archivematica|description|Archivematica is a digital preservation system that is designed to maintain standards-based, long-term access to collections of digital objects. It uses a micro-services design pattern to provide an integrated suite of software tools that allows users to process digital objects from ingest to access in compliance with the ISO-OAIS functional model. Users monitor and control the micro-services via a web-based dashboard. Archivematica uses METS, PREMIS, Dublin Core and other best practice metadata standards. Archivematica implements media type preservation plans based on an analysis of the significant characteristics of file formats.|BambooDirt
 Archivematica|keyword|Beta|TERESAH
 Archivematica|keyword|Digital Preservation|TERESAH

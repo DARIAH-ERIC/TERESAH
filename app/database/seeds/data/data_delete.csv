@@ -1,4 +1,4 @@
-tool;type;value;source
+tool|type|value|source
 140kit|description|"140kit provides a management layer for tweet collection and analysis.
 Raw data cannot be passed through to the users, but any analytical process can be run across your dataset, and the data is held  for as long as the user wants. When new analytical processes are created, they can be run on existing sets of data. 140kit does not claim any control of the analysis, however it retains ownership of the data collected.
 Current limits:
