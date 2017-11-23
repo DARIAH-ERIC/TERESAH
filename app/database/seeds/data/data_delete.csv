@@ -1,4 +1,20 @@
 tool;type;value;source
+140kit|description|"140kit provides a management layer for tweet collection and analysis.
+Raw data cannot be passed through to the users, but any analytical process can be run across your dataset, and the data is held  for as long as the user wants. When new analytical processes are created, they can be run on existing sets of data. 140kit does not claim any control of the analysis, however it retains ownership of the data collected.
+Current limits:
+User: 20,000 Tweets per Dataset or until Dataset time elapses
+Academic User: 500,000 Tweets per Dataset or until Dataset time elapses"|BambooDirt
+140kit|keyword|Adobe Fireworks|TERESAH
+140kit|application-category|4_Analysis|TERESAH
+140kit|creator|Devin Gaffney|TERESAH
+140kit|url|https://twitter.com/140kit|TERESAH
+140kit|application-category|Gathering|TERESAH
+140kit|keyword|No longer supported|TERESAH
+140kit|keyword|social networks|TERESAH
+140kit|operating-system|Web|TERESAH
+140kit|operating-system|Windows|TERESAH
+140kit|keyword|XML|TERESAH
+140kit|keyword|XML RCP|TERESAH
 3DVIA Virtools|keyword|3D|TERESAH
 3DVIA Virtools|keyword|3d modelling - interactive|TERESAH
 3DVIA Virtools|keyword|3d modelling - vector|TERESAH
@@ -33,6 +49,11 @@ tool;type;value;source
 3DVIA Virtools|keyword|virtual reality|TERESAH
 3DVIA Virtools|keyword|Virtual world modelling|TERESAH
 3DVIA Virtools|application-category|Visualization|TERESAH
+960 Grid System|description|960 Grid System is a CSS template that comes with corresponding Acorn, Fireworks, Flash, InDesign, GIMP, Inkscape, Illustrator, OmniGraffle, Photoshop, QuarkXPress, Visio, Exp Design, and printable templates to facilitate different stages of the web design process.|BambooDirt
+960 Grid System|url|http://960.gs/|TERESAH
+960 Grid System|creator|Nathan Smith|TERESAH
+960 Grid System|operating-system|Web|TERESAH
+960 Grid System|application-category|Web development|TERESAH
 A.nnotate.com|description|A.nnotate.com allows you to annotate documents and images online. You may also collaborate on documents and index files. A.nnotate.com supports PDF and MS Office file formats, and runs on all common web browsers.|BambooDirt
 A.nnotate.com|application-category|Annotating|TERESAH
 A.nnotate.com|url|http://a.nnotate.com/|TERESAH
