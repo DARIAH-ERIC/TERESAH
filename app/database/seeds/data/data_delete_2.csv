@@ -92,3 +92,499 @@ Archive-It|application-category|Organizing|TERESAH
 Archive-It|keyword|Paid|TERESAH
 Archive-It|operating-system|Web|TERESAH
 Archive-It|keyword|web archiving|TERESAH
+Archivematica|description|Archivematica is a digital preservation system that is designed to maintain standards-based, long-term access to collections of digital objects. It uses a micro-services design pattern to provide an integrated suite of software tools that allows users to process digital objects from ingest to access in compliance with the ISO-OAIS functional model. Users monitor and control the micro-services via a web-based dashboard. Archivematica uses METS, PREMIS, Dublin Core and other best practice metadata standards. Archivematica implements media type preservation plans based on an analysis of the significant characteristics of file formats.|BambooDirt
+Archivematica|keyword|Beta|TERESAH
+Archivematica|keyword|Digital Preservation|TERESAH
+Archivematica|license|GNU Affero GPL v.3|TERESAH
+Archivematica|url|http://www.archivematica.org|TERESAH
+Archivematica|creator|Inc.|TERESAH
+Archivematica|operating-system|Linux|TERESAH
+Archivematica|application-category|Organizing|TERESAH
+Audacity|description|A software tool for capturing and manipulating audio recordings. Audacity may be used to import or record audio streams and subsequently edit aspects of its composition.|ArtsHumanities
+Audacity|keyword|analysis|TERESAH
+Audacity|keyword|Apple Core Audio Format (CAF)|TERESAH
+Audacity|description|Audacity is a free, easy-to-use and multilingual audio editor and recorder.|BambooDirt
+Audacity|keyword|audio|TERESAH
+Audacity|standard|Audio Interchange File Format (AIFF)|TERESAH
+Audacity|keyword|creation|TERESAH
+Audacity|keyword|Creative Voice (VOC)|TERESAH
+Audacity|creator|Dominic Mazzoni|TERESAH
+Audacity|keyword|Ensoniq PARIS|TERESAH
+Audacity|license|GNU GPL|TERESAH
+Audacity|license|GNU GPL v2|TERESAH
+Audacity|keyword|GNU Octave MAT|TERESAH
+Audacity|keyword|headerless Raw|TERESAH
+Audacity|url|http://audacity.sourceforge.net/|TERESAH
+Audacity|standard|IFF/SVX|TERESAH
+Audacity|operating-system|Linux|TERESAH
+Audacity|keyword|manipulation|TERESAH
+Audacity|standard|MPEG-1 Audio Layer 3 (MP3)|TERESAH
+Audacity|standard|MS WAV|TERESAH
+Audacity|keyword|Ogg Vorbis|TERESAH
+Audacity|operating-system|osX|TERESAH
+Audacity|keyword|playback|TERESAH
+Audacity|standard|Portable Voice Format (PVF)|TERESAH
+Audacity|keyword|Sound Designer II (SD2)|TERESAH
+Audacity|keyword|Sound recording|TERESAH
+Audacity|keyword|Soundforge W64|TERESAH
+Audacity|keyword|Sun Sound (SND)|TERESAH
+Audacity|operating-system|Windows|TERESAH
+Blacklight|license|Apache License|TERESAH
+Blacklight|description|Blacklight is an open source Ruby on Rails gem that provides a discovery interface for any Solr index.|BambooDirt
+Blacklight|url|http://projectblacklight.org/|TERESAH
+Blacklight|operating-system|Linux|TERESAH
+Blacklight|creator|University of Virginia Library|TERESAH
+Blacklight|application-category|Web development|TERESAH
+Blogger|description|Blogger is simple blog publishing software owned by Google.|BambooDirt
+Blogger|keyword|blogging|TERESAH
+Blogger|creator|Google|TERESAH
+Blogger|url|http://www.blogger.com/home|TERESAH
+Blogger|operating-system|Web|TERESAH
+Blogger|application-category|Writing|TERESAH
+Bluefish|description|Bluefish is a powerful editor targeted towards programmers and web designers, with many options to write websites, scripts and programming code. Bluefish supports many programming and markup languages, and it focuses on editing dynamic and interactive websites.|BambooDirt
+Bluefish|license|GNU GPL|TERESAH
+Bluefish|url|http://bluefish.openoffice.nl/|TERESAH
+Bluefish|operating-system|Linux|TERESAH
+Bluefish|creator|OpenOffice|TERESAH
+Bluefish|application-category|Writing|TERESAH
+Bootstrap|license|Apache License|TERESAH
+Bootstrap|url|http://getbootstrap.com/|TERESAH
+Bootstrap|operating-system|Linux|TERESAH
+Bootstrap|description|Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.|BambooDirt
+Bootstrap|creator|Twitter|TERESAH
+Bootstrap|application-category|Web development|TERESAH
+bubbl.us|is-used-for|Brainstorming|TERESAH
+bubbl.us|description|bubbl.us is free web-based mind mapping software.|BambooDirt
+bubbl.us|url|https://bubbl.us/|TERESAH
+bubbl.us|keyword|sticky notes|TERESAH
+bubbl.us|operating-system|Web|TERESAH
+BuddyPress|description|BuddyPress is a variant of WordPress that includes social networking features.|BambooDirt
+BuddyPress|license|GNU GPL|TERESAH
+BuddyPress|url|http://buddypress.org/|TERESAH
+BuddyPress|keyword|social networking|TERESAH
+BuddyPress|operating-system|Web|TERESAH
+BuddyPress|application-category|Web development|TERESAH
+BuddyPress|keyword|WordPress|TERESAH
+Calibre|description|Calibre is a free and open source ebook library management application, including options for syncing to devices and converting between a large number of formats.|BambooDirt
+Calibre|application-category|Conversion|TERESAH
+Calibre|url|http://calibre-ebook.com/|TERESAH
+Calibre|creator|Kovid Goyal|TERESAH
+Calibre|operating-system|Linux|TERESAH
+CamStudio|standard|AVI|TERESAH
+CamStudio|description|CamStudio is free and open source screencasting software that saves the video as AVI files, though a Flash converter is included.|BambooDirt
+CamStudio|license|GNU GPL|TERESAH
+CamStudio|url|http://camstudio.org/|TERESAH
+CamStudio|application-category|Recording|TERESAH
+CamStudio|operating-system|Windows|TERESAH
+Dropbox|keyword|Active development|TERESAH
+Dropbox|keyword|Beginner|TERESAH
+Dropbox|keyword|Both|TERESAH
+Dropbox|application-category|Sharing|TERESAH
+Dropbox|description|"Dropbox is a file-sharing and synching service. Users can upload and download files from folders via a web interface or a desktop application that synchs with the cloud; smartphone apps are also available. Users can create public folders to share documents with people who do not have a Dropbox account. Accounts are free to a limit of between 2 and 18 GB. Paid-for accounts offer between 100 and 500 GB and, additionally, an unlimited 'undo' option. A team account is available, starting at 1TB of data."|HistoryOnline
+Dropbox|keyword|Single purpose|TERESAH
+Dropbox|url|https://www.dropbox.com/|TERESAH
+Drupal|description|A web-based Content Management System that is commonly used as a back-end system for resources of many different types and size, including blogs, web portals, discussion sites and web sites. The standard 'core' release of Drupal offers functionality such as user account administration, permissions system, RSS feed support, and customisable page layout. Plug-ins and other extensions may be developed or adopted to provide new functionality.|ArtsHumanities
+Drupal|keyword|blog|TERESAH
+Drupal|keyword|Cascading Style Sheets (CSS)|TERESAH
+Drupal|keyword|Content management framework|TERESAH
+Drupal|keyword|Content Management System|TERESAH
+Drupal|operating-system|Cross-platform|TERESAH
+Drupal|keyword|Discussion Forum|TERESAH
+Drupal|creator|Dries Buytaert and contributors|TERESAH
+Drupal|license|GNU GPL|TERESAH
+Drupal|standard|HTML|TERESAH
+Drupal|application-category|Publishing|TERESAH
+Drupal|keyword|structuring|TERESAH
+Drupal|keyword|web portal|TERESAH
+Drupal|standard|XHTML|TERESAH
+Drupal|url|https://www.drupal.org/|TERESAH
+Emacs|keyword|Active development|TERESAH
+Emacs|description|Although at heart a text editor, Emacs is highly customisable and can be used for many tasks, including XML editing (it has an XML 'mode'). Emacs requires an initial invstment of time, but because it can be customised for individual needs, with macros and key bindings, once learned it is a highly efficient way to edit documents. XML parsers and authoring tools are available as add-ons.|HistoryOnline
+Emacs|keyword|Intermediate|TERESAH
+Emacs|keyword|Multifunctional|TERESAH
+Emacs|keyword|Offline|TERESAH
+Emacs|application-category|Editing|TERESAH
+Emacs|application-category|Annotating|TERESAH
+Emacs|url|https://www.gnu.org/software/emacs/|TERESAH
+Frogr|keyword|Flickr|TERESAH
+Frogr|url|https://wiki.gnome.org/Apps/Frogr|TERESAH
+Frogr|research-object|Images|TERESAH
+Frogr|operating-system|Linux|TERESAH
+Frogr|creator|Mario Sanchez|TERESAH
+Frogr|description|This Flickr uploader for Linux includes tag autocompletion, along with all the features of the official Mac/Windows uploader (assigning privacy levels, adding title/tags/description, putting photos into sets, multiple Flickr accounts, etc.) A beta version is available for OSX.|BambooDirt
+FromThePage|creator|Ben Brumfield|TERESAH
+FromThePage|description|FromThePage is free software that allows volunteers to transcribe handwritten documents on-line. It's easy to index and annotate subjects within a text using a simple, wiki-like mark-up. Users can discuss difficult writing or obscure words within a page to refine their transcription. The resulting text is hosted on the web, making documents easy to read and search.|BambooDirt
+FromThePage|license|GNU Affero GPL|TERESAH
+FromThePage|url|http://beta.fromthepage.com/|TERESAH
+FromThePage|keyword|MySQL|TERESAH
+FromThePage|application-category|Transcription|TERESAH
+FromThePage|operating-system|Web|TERESAH
+GIMP: GNU Image Manipulation Program|description|GIMP is image editing software, much like Photoshop. It is a multi-platform software application primarily used for image composition and editing. The basic tool may be augmented by plug-ins and extensions that allow the use of new file formats, effects filters and batch processing capabilities. GIMP was initially created to manipulate raster images, but has been extended to provide limited vector image and moving image support. A number of free extensions are available in the plugin registry.|BambooDirt
+GIMP: GNU Image Manipulation Program|url|http://www.gimp.org/|TERESAH
+GIMP: GNU Image Manipulation Program|research-object|Images|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|2d scanning and photography|TERESAH
+GIMP: GNU Image Manipulation Program|description|A multi-platform software application primarily used for image composition and editing. The basic tool may be augmented by plug-ins and extensions that allow the use of new file formats, effects filters and batch processing capabilities. GIMP was initially created to manipulate raster images, but has been extended to provide limited vector image and moving image support.|ArtsHumanities
+GIMP: GNU Image Manipulation Program|keyword|batch|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Bitmap (BMP)|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|creation|TERESAH
+GIMP: GNU Image Manipulation Program|operating-system|Cross-platform|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|editing|TERESAH
+GIMP: GNU Image Manipulation Program|creator|GIMP Team|TERESAH
+GIMP: GNU Image Manipulation Program|license|GNU GPL|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Graphics Interchange Format (GIF)|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Image enhancement|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Image manipulation|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Image restoration|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Image restoration and rectification|TERESAH
+GIMP: GNU Image Manipulation Program|standard|JPEG|TERESAH
+GIMP: GNU Image Manipulation Program|operating-system|Linux|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|manipulation|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|moving image|TERESAH
+GIMP: GNU Image Manipulation Program|standard|MPEG-1|TERESAH
+GIMP: GNU Image Manipulation Program|operating-system|osX|TERESAH
+GIMP: GNU Image Manipulation Program|standard|PCX|TERESAH
+GIMP: GNU Image Manipulation Program|standard|PDF|TERESAH
+GIMP: GNU Image Manipulation Program|standard|PNG|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|PostScript (PS)|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Raster image|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|script|TERESAH
+GIMP: GNU Image Manipulation Program|standard|TIFF|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|Truevision TarGA (TGA)|TERESAH
+GIMP: GNU Image Manipulation Program|operating-system|Windows|TERESAH
+GIMP: GNU Image Manipulation Program|keyword|XPixMap (XPM)|TERESAH
+Github|description|Github provides free public code repositories, collaborator management, issue tracking, wikis, downloads, code review, and graphs. Private repositories are also available for a monthly fee.|BambooDirt
+Github|url|https://github.com/|TERESAH
+Github|keyword|Paid|TERESAH
+Github|application-category|2_Creation|TERESAH
+Github|operating-system|Web|TERESAH
+Gnod|description|Gnod is a cultural search tool that generates its results in floating tag clouds. You may search for books, music, movies, and people.|BambooDirt
+Gnod|url|http://www.gnod.net/|TERESAH
+Gnod|creator|Marek Gibney|TERESAH
+Gnod|operating-system|Web|TERESAH
+Gnod|is-used-for|Pattern Recognition > Analysis-Relational Analysis|TERESAH
+Gnod|keyword|visual search|TERESAH
+Google Books|keyword|ebooks|TERESAH
+Google Books|creator|Google|TERESAH
+Google Books|description|Google Books provides full, free PDF scans (and web-viewable versions) of public domain books, free previews of books some under copyright, and a bookstore for other books under copyright.|BambooDirt
+Google Books|url|http://books.google.com/|TERESAH
+Google Books|keyword|Paid|TERESAH
+Google Books|application-category|Gathering|TERESAH
+Google Books|application-category|Organizing|TERESAH
+Google Books|operating-system|Web|TERESAH
+Google Docs|creator|Google|TERESAH
+Google Docs|description|Google Docs is an online environment for editing and sharing documents, spreadsheets, presentations, forms, drawings, and tables. Google Docs documents can be public or private, or shared with anyone with a Google account.|BambooDirt
+Google Docs|url|http://docs.google.com|TERESAH
+Google Docs|keyword|spreadsheet|TERESAH
+Google Docs|operating-system|Web|TERESAH
+Google Docs|application-category|Writing|TERESAH
+Google Drive|description|A web-based cloud storage service where files saved in the Drive folder are automatically synced to all of your other devices (ie desktop, laptop, mobile) with Drive. Offers free and paid accounts - the free account comes with 5GB of space. Drive is also the new platform for Google Docs.|BambooDirt
+Google Drive|keyword|Active|TERESAH
+Google Drive|keyword|Active development|TERESAH
+Google Drive|keyword|Beginner|TERESAH
+Google Drive|application-category|Collaboration|TERESAH
+Google Drive|keyword|cloud storage|TERESAH
+Google Drive|creator|Google|TERESAH
+Google Drive|keyword|Google Account|TERESAH
+Google Drive|description|Google Drive is a storage platform which allows users to upload and access data from any mobile device, desktop PC, laptop, or the web. Users can store anything in their drive and are able to open many file  types within Google Drive. It is also possible to allow other users to access and edit the files on your drive simulaneously, making collaboration on projects easy. Storage of up to 5GB is free.|HistoryOnline
+Google Drive|url|http://drive.google.com|TERESAH
+Google Drive|keyword|Online|TERESAH
+Google Drive|application-category|Organizing|TERESAH
+Google Drive|keyword|Paid|TERESAH
+Google Drive|keyword|Single purpose|TERESAH
+Google Drive|operating-system|Web|TERESAH
+Google Earth|keyword|3D|TERESAH
+Google Earth|keyword|Alias Pix|TERESAH
+Google Earth|keyword|Arcview Header (HDR)|TERESAH
+Google Earth|keyword|Bitmap (BMP)|TERESAH
+Google Earth|license|commercial|TERESAH
+Google Earth|keyword|geography|TERESAH
+Google Earth|keyword|Geophysical survey|TERESAH
+Google Earth|keyword|Geo-referencing and projection|TERESAH
+Google Earth|keyword|Geospatial technology|TERESAH
+Google Earth|keyword|GIS|TERESAH
+Google Earth|description|"Google Earth is a virtual globe, map and geographic information program that was originally called EarthViewer 3D, and was created by Keyhole, Inc, a company acquired by Google in 2004.
+It maps the Earth by the superimposition of images obtained from satellite imagery, aerial photography and GIS 3D globe."|ArtsHumanities
+Google Earth|keyword|GPS and total station surveys|TERESAH
+Google Earth|keyword|GPS data|TERESAH
+Google Earth|keyword|Keyhole Markup Language (KML)|TERESAH
+Google Earth|creator|Keyhole, Inc|TERESAH
+Google Earth|standard|KML-Zipped (KMZ)|TERESAH
+Google Earth|operating-system|Linux|TERESAH
+Google Earth|operating-system|osX|TERESAH
+Google Earth|keyword|Portable Anymap (PNM)|TERESAH
+Google Earth|application-category|Publishing|TERESAH
+Google Earth|keyword|Web Mapping Service (WMS)|TERESAH
+Google Earth|operating-system|Windows|TERESAH
+Google Earth|url|https://www.google.com/earth/|TERESAH
+Google fusion tables|description|"A cloud-based data service which can produce data visualisation from data tables that have been uploaded: maps, charts and timelines of various types. These can be embedded into web pages and will update automatically when the data is updated (this can be managed with the Fusion Tables API). Also available from Google Docs under ""Data"" (currently beta) - presumably this will migrate to Google Drive, which is pending at the time of writing."|HistoryOnline
+Google fusion tables|keyword|Active development|TERESAH
+Google fusion tables|keyword|Beginner|TERESAH
+Google fusion tables|application-category|Visualization|TERESAH
+Google fusion tables|keyword|Multifunctional|TERESAH
+Google fusion tables|keyword|Online|TERESAH
+Google fusion tables|application-category|Visualization|TERESAH
+Google fusion tables|url|https://fusiontables.google.com/|TERESAH
+Google Maps|keyword|geocoding|TERESAH
+Google Maps|creator|Google|TERESAH
+Google Maps|description|Google Maps is a web mapping service application that includes street maps. The API can be used outside of the normal Google Maps interface for other projects. Heathrow Parking  Sushi Recipes|BambooDirt
+Google Maps|url|http://maps.google.com/|TERESAH
+Google Maps|is-used-for|Mapping|TERESAH
+Google Maps|operating-system|Web|TERESAH
+Google Scholar|keyword|articles|TERESAH
+Google Scholar|creator|Google|TERESAH
+Google Scholar|description|Google Scholar searches books and scholarly articles (and optionally patents, legal opinions, and legal journals).|BambooDirt
+Google Scholar|url|http://scholar.google.com/|TERESAH
+Google Scholar|is-used-for|Searching|TERESAH
+Google Scholar|operating-system|Web|TERESAH
+Google Scholar Citations|creator|Google|TERESAH
+Google Scholar Citations|description|Google Scholar Citations lets you track citations to your publications, check who is citing your publications, graph your citations over time, compute citation metrics, and view publications by colleagues.|BambooDirt
+Google Scholar Citations|url|http://scholar.google.com/citations|TERESAH
+Google Scholar Citations|application-category|Discovering|TERESAH
+Google Scholar Citations|operating-system|Web|TERESAH
+Graphviz|license|EPL|TERESAH
+Graphviz|description|Graphviz is open source software for graph visualization, representing structural information as diagrams of abstract graphs and networks. The package includes web and interactive graphical interfaces, and auxiliary tools, libraries, and language bindings.|BambooDirt
+Graphviz|url|http://www.graphviz.org/|TERESAH
+Graphviz|operating-system|Linux|TERESAH
+Graphviz|application-category|Visualization|TERESAH
+Greenshot|keyword|Active|TERESAH
+Greenshot|creator|Greenshot|TERESAH
+Greenshot|url|http://getgreenshot.org/|TERESAH
+Greenshot|research-object|Images|TERESAH
+Greenshot|keyword|image editing|TERESAH
+Greenshot|operating-system|Windows|TERESAH
+Greenshot|description|Windows tool for annotating, editing, and sharing screen shots and images.|BambooDirt
+Hadoop|keyword|Active development|TERESAH
+Hadoop|keyword|Advanced|TERESAH
+Hadoop|description|Apache Hadoop is a software framework and distributed file system, enabling distributed data processing across thousands of computers (nodes) with petabytes of data.|HistoryOnline
+Hadoop|application-category|Organizing|TERESAH
+Hadoop|keyword|Multifunctional|TERESAH
+Hadoop|keyword|Online|TERESAH
+Hadoop|application-category|4_Analysis|TERESAH
+Hadoop|url|https://hadoop.apache.org/|TERESAH
+HandBrake|description|HandBrake is an open-source, GPL-licensed, multiplatform, multithreaded video transcoder|BambooDirt
+HandBrake|url|http://handbrake.fr/|TERESAH
+HandBrake|operating-system|Linux|TERESAH
+HandBrake|application-category|Recording|TERESAH
+HathiTrust Digital Library|url|http://www.hathitrust.org/|TERESAH
+HathiTrust Digital Library|keyword|page images|TERESAH
+HathiTrust Digital Library|application-category|Gathering|TERESAH
+HathiTrust Digital Library|application-category|Organizing|TERESAH
+HathiTrust Digital Library|description|The HathiTrust Digital Library offers public domain texts scanned from university libraries for the Google Books Project, in a variety of formats for search and browsing.|BambooDirt
+HathiTrust Digital Library|creator|University of Michigan|TERESAH
+HathiTrust Digital Library|operating-system|Web|TERESAH
+HTML5 boilerplate|url|http://html5boilerplate.com/|TERESAH
+HTML5 boilerplate|description|The HTML5 boilerplate is a base HTML/CSS/JS template for web design that offers cross-browser compatibility, cachine and compression rules, mobile browser optimizations, graceful degradation, and IE-specific classes. Extensive documentation is available.|BambooDirt
+HTML5 boilerplate|application-category|Web development|TERESAH
+HTTrack|application-category|1_Capture|TERESAH
+HTTrack|keyword|downloading|TERESAH
+HTTrack|license|GNU GPL|TERESAH
+HTTrack|url|http://www.httrack.com/|TERESAH
+HTTrack|description|HTTrack provides an easy-to-use interface for downloading websites-- including HTML, images, and other files-- or update a copy of a previously-downloaded site.|BambooDirt
+HTTrack|operating-system|Linux|TERESAH
+ifttt|url|http://ifttt.com/|TERESAH
+ifttt|application-category|Organizing|TERESAH
+ifttt|description|Put the internet to work for you by creating tasks that fit this simple structure: if this then that. Think of all the things you could do if you were able to define any task as: when something happens (this) then do something else (that).|BambooDirt
+ifttt|operating-system|Web|TERESAH
+ImageJ|url|http://rsb.info.nih.gov/ij/index.html|TERESAH
+ImageJ|research-object|Images|TERESAH
+ImageJ|description|ImageJ is a Java image processing program that can display, edit, and analyze images, and perform simple transformations like scaling and rotating images. It can run either as an online applet or as a downloadable application on any computer with a Java 1.4 or later.|BambooDirt
+ImageJ|keyword|Java|TERESAH
+ImageJ|operating-system|Linux|TERESAH
+ImageJ|creator|Wayne Rasband|TERESAH
+ImageMagik|description|A software suite for displaying, converting and editing still images stored in a raster image format. Image manipulation may be performed via the command line, API libraries, or through a simply graphical user interface.|ArtsHumanities
+ImageMagik|description|"A software suite for displaying, converting and editing still images stored in a raster image format. Image manipulation may be performed via the command line, API libraries, or through a simply graphical user interface.
+Features:
+Software control through API and command line
+Format conversion
+image transformation
+transparency support
+Format identification
+Text to image conversion"|BambooDirt
+ImageMagik|keyword|Ada|TERESAH
+ImageMagik|keyword|batch|TERESAH
+ImageMagik|keyword|C|TERESAH
+ImageMagik|keyword|C++|TERESAH
+ImageMagik|keyword|Clipper Header (CH)|TERESAH
+ImageMagik|keyword|COM+|TERESAH
+ImageMagik|keyword|creation|TERESAH
+ImageMagik|keyword|editing|TERESAH
+ImageMagik|url|http://www.imagemagick.org/|TERESAH
+ImageMagik|keyword|Image enhancement|TERESAH
+ImageMagik|keyword|Image manipulation|TERESAH
+ImageMagik|keyword|Image restoration|TERESAH
+ImageMagik|keyword|Image restoration and rectification|TERESAH
+ImageMagik|license|ImageMagick|TERESAH
+ImageMagik|license|ImageMagick License|TERESAH
+ImageMagik|creator|ImageMagick Studio LLC|TERESAH
+ImageMagik|operating-system|Linux|TERESAH
+ImageMagik|keyword|Lisp|TERESAH
+ImageMagik|keyword|manipulation|TERESAH
+ImageMagik|keyword|moving image|TERESAH
+ImageMagik|operating-system|osX|TERESAH
+ImageMagik|keyword|Perl|TERESAH
+ImageMagik|keyword|Pretty Good Privacy (PGP)|TERESAH
+ImageMagik|application-category|Publishing|TERESAH
+ImageMagik|keyword|Python|TERESAH
+ImageMagik|keyword|Raster image|TERESAH
+ImageMagik|keyword|script|TERESAH
+ImageMagik|standard|Tcl/TK|TERESAH
+ImageMagik|operating-system|Windows|TERESAH
+ImageMagik|application-category|Visualization|TERESAH
+ImagePlot|keyword|Active|TERESAH
+ImagePlot|url|http://lab.softwarestudies.com/p/imageplot.html|TERESAH
+ImagePlot|keyword|ImageJ|TERESAH
+ImagePlot|description|ImagePlot is a free software tool that visualizes collections of images and video of any size.|BambooDirt
+ImagePlot|operating-system|Linux|TERESAH
+ImagePlot|creator|Software Studies Initiative|TERESAH
+ImagePlot|application-category|Visualization|TERESAH
+Indexhibit|description|A web application used to build and maintain an archetypal, invisible website format that combines text, image, movie and sound.|BambooDirt
+Indexhibit|keyword|Active|TERESAH
+Indexhibit|url|http://www.indexhibit.org/|TERESAH
+Indexhibit|creator|Jeffery Vaska|TERESAH
+Indexhibit|operating-system|Linux|TERESAH
+Indexhibit|keyword|Paid|TERESAH
+Indexhibit|application-category|Web development|TERESAH
+InstaPaper|application-category|Gathering|TERESAH
+InstaPaper|application-category|Meta: Give Overview|TERESAH
+InstaPaper|keyword|bookmarking|TERESAH
+InstaPaper|url|https://www.instapaper.com/|TERESAH
+InstaPaper|description|Instapaper is a tool to save web pages for reading later. This tool allows you to read on the computer, iPhone, iPad, iPod touch, Kindle, or on paper.|BambooDirt
+InstaPaper|operating-system|iOS|TERESAH
+InstaPaper|creator|LLC|TERESAH
+Internet Archive|keyword|archives|TERESAH
+Internet Archive|license|Creative Commons|TERESAH
+Internet Archive|url|http://www.archive.org/|TERESAH
+Internet Archive|application-category|Gathering|TERESAH
+Internet Archive|application-category|Organizing|TERESAH
+Internet Archive|description|The Internet Archive stores a wide variety of webpages, audio, images, video, and text.|BambooDirt
+Internet Archive|operating-system|Web|TERESAH
+IrfanView|description|"An image viewer and converter with simple editing features; can also generate slideshows and save them as .exe files. Includes support for Photoshop filters."|BambooDirt
+IrfanView|url|http://www.irfanview.com/|TERESAH
+IrfanView|research-object|Images|TERESAH
+IrfanView|keyword|images|TERESAH
+IrfanView|operating-system|Windows|TERESAH
+IssueLab|license|Creative Commons Attribution-Share Alike|TERESAH
+IssueLab|url|http://www.issuelab.org|TERESAH
+IssueLab|keyword|information sharing|TERESAH
+IssueLab|description|IssueLab is a research archive in the nonprofit sector. In addition to archiving social policy research by nonprofits at no cost, IssueLab distributes this research online with a broad audience via e-newsletters, RSS feeds, and social media. Additionally, IssueLab advocates for the broad use of open licenses and the overall adoption of open access standards, to allow people to find and reuse nonprofit materials.|BambooDirt
+IssueLab|application-category|Collaboration|TERESAH
+IssueLab|application-category|Communicating|TERESAH
+Jekyll|url|http://jekyllrb.com/|TERESAH
+Jekyll|description|Jekyll is a simple, blog aware, static site generator. It takes a template directory (representing the raw form of a website), runs it through Textile or Markdown and Liquid converters, and spits out a complete, static website suitable for serving with Apache or your favorite web server.|BambooDirt
+Jekyll|operating-system|Linux|TERESAH
+Jekyll|application-category|Web development|TERESAH
+Joomla|license|GNU GPL|TERESAH
+Joomla|url|http://www.joomla.org/|TERESAH
+Joomla|description|Joomla is an open source content management system (CMS), which enables you to build Web sites and powerful online applications.|BambooDirt
+Joomla|operating-system|Linux|TERESAH
+Joomla|creator|Open Source Matters|TERESAH
+Joomla|application-category|Web development|TERESAH
+jotform|application-category|1_Capture|TERESAH
+jotform|keyword|forms|TERESAH
+jotform|url|http://www.jotform.com/|TERESAH
+jotform|description|Jotform allows users to create web forms (for surveys, etc.) using a drag-and-drop interface.|BambooDirt
+jotform|keyword|Paid|TERESAH
+jotform|operating-system|Web|TERESAH
+JsFiddle|url|http://jsfiddle.net/|TERESAH
+JsFiddle|description|JsFiddle is a playground for web developers, a tool which may be used in many ways. One can use it as an online editor for snippets build from HTML, CSS and JavaScript. The code can then be shared with others, embedded on a blog, etc. Using this approach, JavaScript developers can very easily isolate bugs. We aim to support all actively developed frameworks - it helps with testing compatibility.|BambooDirt
+JsFiddle|keyword|Prototyping|TERESAH
+JsFiddle|operating-system|Web|TERESAH
+JsFiddle|application-category|Web development|TERESAH
+KORA|application-category|1_Capture|TERESAH
+KORA|keyword|HASTAC|TERESAH
+KORA|url|http://kora.sourceforge.net/|TERESAH
+KORA|description|KORA is an digital repository that allows institutions to ingest, manage, and deliver digital objects and metadata.|BambooDirt
+KORA|operating-system|Web|TERESAH
+LilyPond|license|GNU GPL|TERESAH
+LilyPond|url|http://www.lilypond.org/|TERESAH
+LilyPond|description|LilyPond is text-based music engraving software, with specific text input conventions.|BambooDirt
+LilyPond|operating-system|Linux|TERESAH
+LilyPond|keyword|score|TERESAH
+LimeSurvey|keyword|Active|TERESAH
+LimeSurvey|application-category|1_Capture|TERESAH
+LimeSurvey|keyword|data collection|TERESAH
+LimeSurvey|license|GPL3|TERESAH
+LimeSurvey|url|http://www.limesurvey.org/|TERESAH
+LimeSurvey|description|Online web survey tool written in PHP using MySQL, MSSQL or Postgres database. Multilingual site with demo, feature list, documentation [Open Source, GPL3]|BambooDirt
+LiveJournal|keyword|blogging|TERESAH
+LiveJournal|url|http://www.livejournal.com/|TERESAH
+LiveJournal|description|LiveJournal is a longstanding blogging/personal journal platform.|BambooDirt
+LiveJournal|operating-system|Web|TERESAH
+LiveJournal|application-category|Writing|TERESAH
+MantisBT|keyword|analysis|TERESAH
+MantisBT|operating-system|Cross-platform|TERESAH
+MantisBT|standard|CSS|TERESAH
+MantisBT|standard|CSV|TERESAH
+MantisBT|standard|DOC|TERESAH
+MantisBT|creator|Futureware Pty Ltd|TERESAH
+MantisBT|license|GNU GPL|TERESAH
+MantisBT|standard|HTML|TERESAH
+MantisBT|url|http://www.mantisbt.org/|TERESAH
+MantisBT|creator|Kenzaburo Ito and Victor Boctor|TERESAH
+MantisBT|description|"MantisBT is a free popular web-based bugtracking system written in the PHP scripting language. The most common use of MantisBT is to track software defects. However, MantisBT is often configured by users to serve as a more generic issue tracking system and project management tool.
+Features:
+event-driven-plug-in system
+
+works with MySQL, MS SQL, PostgreSQL, SQLite, Oracle and IBM DB2 databases
+
+
+RSS Feeds
+
+
+Customisable workflow
+
+
+Wiki integration
+
+
+Chat integration"|BambooDirt
+MantisBT|description|MantisBT is a free popular web-based bugtracking system written in the PHP scripting language.The most common use of MantisBT is to track software defects. However, MantisBT is often configured by users to serve as a more generic issue tracking system and project management tool.|ArtsHumanities
+MantisBT|keyword|MySQL|TERESAH
+MantisBT|keyword|PHP|TERESAH
+MantisBT|standard|RSS|TERESAH
+MantisBT|keyword|scripting language|TERESAH
+MantisBT|keyword|Tracking|TERESAH
+MantisBT|operating-system|Web|TERESAH
+MantisBT|application-category|Web development|TERESAH
+MantisBT|standard|XLS|TERESAH
+MediaWiki|license|Creative Commons Attribution-Share Alike|TERESAH
+MediaWiki|url|https://www.mediawiki.org/wiki/MediaWiki|TERESAH
+MediaWiki|creator|MediaWiki|TERESAH
+MediaWiki|description|"MediaWiki is a free software open source wiki for the documentation, discussion, and development of the MediaWiki software, which powers Wikipedia and other Wikimedia Foundation projects.
+A wiki is a website where users can add or modify content via a web browser. System administrators can install and configure MediaWiki. Developers can become a ""MediaWiki hacker"" and learn to use the API and write extensions."|BambooDirt
+MediaWiki|operating-system|osX|TERESAH
+MediaWiki|keyword|PHP 5.2.3+|TERESAH
+MediaWiki|application-category|Web development|TERESAH
+MediaWiki|keyword|wiki|TERESAH
+MindMup|description|A free browser-based brainstorming tool that lets you create visually interesting mind maps quickly and intuitively. Similar to other mind-mapping or brainstorming tools (ex. Bubbl.us and FreeMind), MindMup has lots of options for embedding,sharing, or saving maps. Maps can be saved to Google Drive or to MindMup. Includes extensions to allow users to collaborate on maps in real time.|BambooDirt
+MindMup|keyword|Active|TERESAH
+MindMup|is-used-for|Brainstorming|TERESAH
+MindMup|url|http://www.mindmup.com/|TERESAH
+MindMup|keyword|mind mapping|TERESAH
+MindMup|operating-system|Web|TERESAH
+MIT App Inventor|keyword|Active|TERESAH
+MIT App Inventor|operating-system|Android|TERESAH
+MIT App Inventor|keyword|app development|TERESAH
+MIT App Inventor|keyword|Google Account|TERESAH
+MIT App Inventor|url|http://explore.appinventor.mit.edu/|TERESAH
+MIT App Inventor|creator|MIT|TERESAH
+MIT App Inventor|description|"The MIT App Inventory (formerly Google App Inventor) allows users to develop applications for Android phones using a web browser and either a connected phone or emulator. Includes forum and tutorials; requires a Google account."|BambooDirt
+MIT App Inventor|application-category|Web development|TERESAH
+Modernizr|license|BSD|TERESAH
+Modernizr|url|http://modernizr.com/|TERESAH
+Modernizr|operating-system|Linux|TERESAH
+Modernizr|description|Modernizr is a small JavaScript library that detects the availability of native implementations for next-generation web technologies, i.e. features that stem from the HTML5 and CSS3 specifications.|BambooDirt
+Modernizr|application-category|Web development|TERESAH
+Modest Maps|license|BSD|TERESAH
+Modest Maps|url|http://modestmaps.com/|TERESAH
+Modest Maps|operating-system|Linux|TERESAH
+Modest Maps|keyword|map tiles|TERESAH
+Modest Maps|is-used-for|Mapping|TERESAH
+Modest Maps|description|Modest Maps is a display and interaction library for tile-based maps in Flash and Python that can display maps from external sources (e.g. OpenStreetMap, NASA Blue Marble, Yahoo!, Microsoft, but not Google Maps|BambooDirt
+Mozilla Thimble|description|A simple web-based HTML and CSS editor geared toward beginners. Thimble splits your window into two panes - one is the editor and the other displays a preview of your work. Includes tutorial projects for learning to code. Offers option for webpages to be published by thimble.webmaker.org.|BambooDirt
+Mozilla Thimble|keyword|Active|TERESAH
+Mozilla Thimble|url|https://thimble.webmaker.org/|TERESAH
+Mozilla Thimble|creator|Mozilla|TERESAH
+Mozilla Thimble|operating-system|Web|TERESAH
+Mozilla Thimble|application-category|Web development|TERESAH
+Mozilla Thimble|keyword|web development|TERESAH
