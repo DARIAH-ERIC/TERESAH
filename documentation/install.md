@@ -8,7 +8,7 @@
 
 # Clone repository
 In the install  folder for TERESAH run
-```git clone https://github.com/DASISH/TERESAH```
+```git clone https://github.com/DARIAH-ERIC/TERESAH```
 
 # Create a database for TERESAH
 Create a empty database for TERESAH in MySQL / Postgres / SQL Server.
@@ -55,3 +55,6 @@ Example of configuration:
 
 # Install the harvester
 If you wish to use the harvester, it needs an extra step for installation, please see the [harvester page](harvester/readme.md) for more information.
+
+# Install on OSX 10.11+
+To install on OSX, you will need to install php56 and mcrypt via homebrew, see this very [good link](https://getgrav.org/blog/macos-sierra-apache-multiple-php-versions). And also install "brew install php56-mcrypt".
