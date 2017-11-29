@@ -476,33 +476,6 @@ myHistro|operating-system|iOS|TERESAH
 myHistro|creator|myHistro|TERESAH
 myHistro|description|Using myHistro, you can combine maps and timelines seamlessly into one great presentation, convert any public timeline into a personal pdf file, or export it into Google Earth format for offline storage. All completed timelines can be embedded into your blog and websites for maximum exposure.|BambooDirt
 myHistro|application-category|Visualization|TERESAH
-MySQL|description|A software application that enables relational databases to be created, managed and queried. The database management system enables multiple users to access a database through an appropriate interface. As an open source tool, MySQL underpins a number of free software projects, such as WordPress, phpBB and other software built on a LAMP infrastructure. Although widely used, there are a number of performance issues that limit its use in some environments. For example, it is unable to use multiple CPU cores to process a single query, potentially limiting its use as a data warehouse.|ArtsHumanities
-MySQL|description|"A software application that enables relational databases to be created, managed and queried. The database management system enables multiple users to access a database through an appropriate interface. As an open source tool, MySQL underpins a number of free software projects, such as WordPress, phpBB and other software built on a LAMP infrastructure. Although widely used, there are a number of performance issues that limit its use in some environments. For example, it is unable to use multiple CPU cores to process a single query, potentially limiting its use as a data warehouse.
-Features:
-X/Open XA distributed transaction processing (DTP) support
-Connector/ODBC enables connection to a MySQL server using the Open Database Connectivity (ODBC) API
-Connector/NET enables developers to create .NET applications that use data stored in a MySQL database"|BambooDirt
-MySQL|keyword|analysis|TERESAH
-MySQL|keyword|ANSI SQL|TERESAH
-MySQL|keyword|creation|TERESAH
-MySQL|operating-system|Cross-platform|TERESAH
-MySQL|keyword|Data modelling|TERESAH
-MySQL|license|GNU GPL|TERESAH
-MySQL|url|http://www.mysql.com/|TERESAH
-MySQL|operating-system|Linux|TERESAH
-MySQL|creator|MySQL AB|TERESAH
-MySQL|application-category|Publishing|TERESAH
-MySQL|keyword|rdbms|TERESAH
-MySQL|keyword|relational database|TERESAH
-MySQL|keyword|SQL|TERESAH
-MySQL|creator|Sun Microsystems|TERESAH
-MySQL|application-category|Web development|TERESAH
-MyStickies|application-category|Annotating|TERESAH
-MyStickies|keyword|editing|TERESAH
-MyStickies|url|http://www.mystickies.com/|TERESAH
-MyStickies|creator|Josh Buhler|TERESAH
-MyStickies|description|MyStickies allows you to place small yellow squares of digital paper on web pages. MyStickies also provides an interface to browse, search, sort and edit with your sticky notes from any computer.|BambooDirt
-MyStickies|operating-system|Web|TERESAH
 Natural Language Toolkit|keyword|Active|TERESAH
 Natural Language Toolkit|keyword|corpus linguistics|TERESAH
 Natural Language Toolkit|license|Creative Commons Attribution-Noncommercial-No derivatives|TERESAH
@@ -530,52 +503,6 @@ Nominatim|url|http://wiki.openstreetmap.org/wiki/Nominatim|TERESAH
 Nominatim|description|Nominatim is a tool to search osm data by name and address and to generate synthetic addresses of osm points (reverse geocoding). Nominatim is also used as one of the sources for the Search box on the OpenStreetMap home page and powers the search on the MapQuest Open Initiative websites.|BambooDirt
 Nominatim|creator|Open Street Map|TERESAH
 Nominatim|operating-system|Web|TERESAH
-Omeka.net|keyword|archiving|TERESAH
-Omeka.net|keyword|ATOM|TERESAH
-Omeka.net|keyword|Cataloguing and indexing|TERESAH
-Omeka.net|creator|Center for History and New Media,George Mason University|TERESAH
-Omeka.net|keyword|CMS|TERESAH
-Omeka.net|keyword|creation|TERESAH
-Omeka.net|operating-system|Cross-platform|TERESAH
-Omeka.net|keyword|data management|TERESAH
-Omeka.net|keyword|Dublin Core|TERESAH
-Omeka.net|license|GNU GPL|TERESAH
-Omeka.net|standard|HTML|TERESAH
-Omeka.net|url|http://www.omeka.net/|TERESAH
-Omeka.net|keyword|JSON|TERESAH
-Omeka.net|operating-system|Linux|TERESAH
-Omeka.net|keyword|museum|TERESAH
-Omeka.net|keyword|Omeka|TERESAH
-Omeka.net|description|Omeka is a free, flexible, and open source web-publishing platform for the display of library, museum, archives, and scholarly collections and exhibitions. Omeka falls at a crossroads of Web Content Management, Collections Management, and Archival Digital Collections Systems. Omeka is designed with non-IT specialists in mind, allowing users to focus on content and interpretation rather than programming. It brings Web 2.0 technologies and approaches to academic and cultural websites to foster user interaction and participation. It makes top-shelf design easy with a simple and flexible templating system. Its robust open-source developer and user communities underwrite Omeka’s stability and sustainability.Omeka allows users to publish cultural heritage objects, extend its functionality with themes and plugins, and curate online exhibits with digital objects.|ArtsHumanities
-Omeka.net|description|"Omeka.net provides free and paid hosting for Omeka sites, with different degrees of flexibility depending on the hosting plan.
-
-Users can contact the Omeka Team to request a zip file with the files and MySQL database of their Omeka.net site to migrate it to another hosting environment."|BambooDirt
-Omeka.net|operating-system|osX|TERESAH
-Omeka.net|keyword|Paid|TERESAH
-Omeka.net|standard|PDF|TERESAH
-Omeka.net|keyword|PHP|TERESAH
-Omeka.net|keyword|Powerpoint Document (.ppt)|TERESAH
-Omeka.net|application-category|Publishing|TERESAH
-Omeka.net|standard|RSS2|TERESAH
-Omeka.net|keyword|structuring|TERESAH
-Omeka.net|operating-system|Web|TERESAH
-Omeka.net|keyword|web content management|TERESAH
-Omeka.net|application-category|Web development|TERESAH
-Omeka.net|keyword|web-publishing|TERESAH
-Omeka.net|operating-system|Windows|TERESAH
-Omeka.net|standard|XML|TERESAH
-Open Attribute|license|Creative Commons Attribution|TERESAH
-Open Attribute|url|http://openattribute.com/|TERESAH
-Open Attribute|creator|Nathan Yergler|TERESAH
-Open Attribute|description|Open Attribute is a suite of tools that makes it simple for anyone to copy and paste the correct attribution for any CC licensed work. These tools will query the metadata around a CC-licensed object and produce a properly formatted attribution that users can copy and paste wherever they need to.|BambooDirt
-Open Attribute|application-category|Publishing|TERESAH
-Open Attribute|operating-system|Web|TERESAH
-Open Conference Systems|url|http://pkp.sfu.ca/ocs|TERESAH
-Open Conference Systems|description|Open Conference Systems (OCS) is a tool that allows users to create a conference website, send a call for papers, accept paper and abstract submissions, post conference proceedings and data sets, register participants, and enable post-conference online discussion.|BambooDirt
-Open Conference Systems|creator|Public Knowledge Project|TERESAH
-Open Conference Systems|application-category|Publishing|TERESAH
-Open Conference Systems|operating-system|Web|TERESAH
-Open Conference Systems|keyword|web publishing|TERESAH
 Open GRASS|keyword|Active|TERESAH
 Open GRASS|keyword|Cartography|TERESAH
 Open GRASS|description|Commonly referred to as GRASS, this is free Geographic Information System (GIS) software used for geospatial data management and analysis, image processing, graphics/maps production, spatial modeling, and visualization. GRASS is currently used in academic and commercial settings around the world, as well as by many governmental agencies and environmental consulting companies. GRASS is an official project of the Open Source Geospatial Foundation.|BambooDirt
@@ -590,11 +517,6 @@ Open Harvester Systems|standard|MARCXML|TERESAH
 Open Harvester Systems|creator|Public Knowledge Project|TERESAH
 Open Harvester Systems|description|The Open Harvester Systems is a free metadata indexing system that allowers users to create a searchable index of the metadata from Open Archives Initiative (OAI)-compliant archives, such as sites using Open Journal Systems (OJS) or Open Conference Systems (OCS). It can harvest OAI metadata in a variety of schemas (including unqualified DC, the PKP (Open Journal Systems/Open Conference Systems) Dublin Core extension, MODS, and MARCXML).|BambooDirt
 Open Harvester Systems|operating-system|Web|TERESAH
-Open Journal Systems|url|http://pkp.sfu.ca/ojs|TERESAH
-Open Journal Systems|description|Open Journal Systems (OJS) is a journal management and publishing system.|BambooDirt
-Open Journal Systems|creator|Public Knowledge Project|TERESAH
-Open Journal Systems|application-category|Publishing|TERESAH
-Open Journal Systems|operating-system|Web|TERESAH
 OpenCalais|keyword|Active development|TERESAH
 OpenCalais|keyword|Intermediate|TERESAH
 OpenCalais|keyword|Multifunctional|TERESAH
@@ -604,52 +526,6 @@ OpenCalais|application-category|Editing|TERESAH
 OpenCalais|application-category|Annotating|TERESAH
 OpenCalais|application-category|4_Analysis|TERESAH
 OpenCalais|url|http://www.opencalais.com/|TERESAH
-OpendTect|keyword|2d graphic design|TERESAH
-OpendTect|keyword|3d graphic design|TERESAH
-OpendTect|description|A software application for analysing and visualising multi-volume seismic data. OpendTect may be used to analyse 2D, 3D and 4D pre- and post-stack seismic data.|ArtsHumanities
-OpendTect|description|"A software application that is used for analysing and visualising multi-volume seismic data.
-
-Features:
-Visualization and analysis of 2D and 3D seismic data in a single survey
-
-2D and 3D horizon tracking including auto-tracking, plane-by-plane, line and manual tracking
-
-On-the-fly calculation and visualization of various attributes and filters
-
-Plug-in architecture"|BambooDirt
-OpendTect|license|academic|TERESAH
-OpendTect|keyword|analysis|TERESAH
-OpendTect|keyword|archaeology|TERESAH
-OpendTect|license|commercial|TERESAH
-OpendTect|keyword|creation|TERESAH
-OpendTect|operating-system|Cross-platform|TERESAH
-OpendTect|creator|Freshmeat|TERESAH
-OpendTect|keyword|geography|TERESAH
-OpendTect|keyword|Geophysical survey|TERESAH
-OpendTect|license|GNU GPL|TERESAH
-OpendTect|keyword|Graphical rendering|TERESAH
-OpendTect|url|http://opendtect.org/index.php|TERESAH
-OpendTect|operating-system|Linux|TERESAH
-OpendTect|keyword|Open Graphics Library (OpenGL)|TERESAH
-OpendTect|creator|OpendTect project|TERESAH
-OpendTect|operating-system|osX|TERESAH
-OpendTect|keyword|seismic|TERESAH
-OpendTect|operating-system|Windows|TERESAH
-OpendTect|application-category|Visualization|TERESAH
-OpenLayers|license|BSD|TERESAH
-OpenLayers|url|http://openlayers.org/|TERESAH
-OpenLayers|is-used-for|Mapping|TERESAH
-OpenLayers|keyword|markers|TERESAH
-OpenLayers|creator|Open Source Geospatial Foundation|TERESAH
-OpenLayers|description|OpenLayers is a Javascript library that can display map tiles and markers loaded from any source.|BambooDirt
-OpenLayers|operating-system|Web|TERESAH
-OpenOffice|license|Apache License|TERESAH
-OpenOffice|creator|Apache Software Foundation|TERESAH
-OpenOffice|url|http://www.openoffice.org|TERESAH
-OpenOffice|description|OpenOffice is an open-source office software suite for word processing, spreadsheets, presentations, graphics and databases.|BambooDirt
-OpenOffice|operating-system|osX|TERESAH
-OpenOffice|application-category|Writing|TERESAH
-OpenOffice|keyword|writing|TERESAH
 OpenRefine|keyword|Active|TERESAH
 OpenRefine|license|BSD|TERESAH
 OpenRefine|keyword|data conversion|TERESAH
@@ -661,174 +537,14 @@ Orange|url|http://orange.biolab.si/|TERESAH
 Orange|description|Open source data visualization and analysis for novice and experts. Data mining through visual programming or Python scripting. Components for machine learning. Add-ons for bioinformatics and text mining. Packed with features for data analytics.|BambooDirt
 Orange|operating-system|Web|TERESAH
 Orange|application-category|Visualization|TERESAH
-ORBIS|keyword|Active|TERESAH
-ORBIS|url|http://orbis.stanford.edu/|TERESAH
-ORBIS|description|ORBIS: The Stanford Geospatial Network Model of the Roman World reconstructs the time cost and financial expense associated with a wide range of different types of travel in antiquity.|BambooDirt
-ORBIS|creator|Stanford University|TERESAH
-ORBIS|operating-system|Web|TERESAH
-ORBIS|application-category|Visualization|TERESAH
-Org Mode|keyword|Active|TERESAH
-Org Mode|creator|Bastien Guerry|TERESAH
-Org Mode|url|http://orgmode.org/|TERESAH
-Org Mode|operating-system|Linux|TERESAH
-Org Mode|description|Org mode is for keeping notes, maintaining TODO lists, doing project planning, and authoring with a fast and effective plain-text system.|BambooDirt
-Org Mode|application-category|Meta: Project Management|TERESAH
-oSkope|url|http://www.oskope.com/|TERESAH
-oSkope|creator|oSkope|TERESAH
-oSkope|description|oSkope is a visual search assistant that allows you to browse and organize items from Amazon, eBay, Flickr, Fotolia, Yahoo!Image Search and YouTube. Results are displayed on an interactive Flash grid of thumbnails.|BambooDirt
-oSkope|operating-system|Web|TERESAH
-oSkope|keyword|visualization|TERESAH
-Otixo|keyword|Active|TERESAH
-Otixo|keyword|cloud storage|TERESAH
-Otixo|url|http://otixo.com/|TERESAH
-Otixo|application-category|Collaboration|TERESAH
-Otixo|creator|Otixo|TERESAH
-Otixo|keyword|Paid|TERESAH
-Otixo|operating-system|Web|TERESAH
-Otixo|description|View and edit files from different cloud services (e.g. Dropbox, Google Drive, etc.) in one place.|BambooDirt
-OttoBib|application-category|Organizing|TERESAH
-OttoBib|keyword|bibliographic management|TERESAH
-OttoBib|url|http://ottobib.com/|TERESAH
-OttoBib|description|OttoBib allows you to create a bibliography based on looking up the data online. Additionally, the reader or teacher can see the books, their covers, links to Amazon or other online references.|BambooDirt
-OttoBib|operating-system|Web|TERESAH
-OxGarage|keyword|Beginner|TERESAH
-OxGarage|application-category|Conversion|TERESAH
-OxGarage|url|http://www.oucs.ox.ac.uk/oxgarage/|TERESAH
-OxGarage|keyword|No active development|TERESAH
-OxGarage|keyword|Online|TERESAH
-OxGarage|creator|Oxford University|TERESAH
-OxGarage|description|OxGarage is a document conversion facility. Users can upload files falling into three categories: documents, presentations and spreadsheets. In the documents category files in common format, such as Microsoft Word, plain text, or XHTML, or in various TEI formats, can be converted into many formats, including LaTeX, TEI P5, plain text, RDF XML and more. The spreadsheets input is limited to a few standard spreadsheet formats, such as Microsoft Excel and Open Office Spreadsheet, but the lists of outputs is still large. The presentation options are fewer but offer, for example, converstion of Powerpoint to Flash.|HistoryOnline
-OxGarage|description|OxGarage is an experimental web, and RESTful, service to manage the transformation of documents (XML, word processing, spreadsheets, presentations) between a variety of formats. The majority of transformations use TEI as a pivot format. See the conversion matrix for details.|BambooDirt
-OxGarage|application-category|Editing|TERESAH
-OxGarage|application-category|Annotating|TERESAH
-OxGarage|keyword|Single purpose|TERESAH
-OxGarage|operating-system|Web|TERESAH
-Padlet|keyword|Active|TERESAH
-Padlet|is-used-for|Brainstorming|TERESAH
-Padlet|url|http://padlet.com/|TERESAH
-Padlet|description|What is Padlet? It is an online environmentally friendly online sticky note spot! This tool allows you to create a wall to collaborate with students, teachers, parents and others in the community. Go to http://padlet.com/ to build your own wall. Add sticky note like electronic messages including text, websites, images and videos. Now you may be asking “What can you do with Padlet?” well, you can brainstorm on any topic, plan and organize a collaborative project and list websites to use for research,|BambooDirt
-Pandoc|application-category|6_Storage|TERESAH
-Pandoc|license|GNU GPL|TERESAH
-Pandoc|url|http://pandoc.org/index.html|TERESAH
-Pandoc|creator|John MacFarlane|TERESAH
-Pandoc|operating-system|Linux|TERESAH
-Pandoc|description|Pandoc can convert documents in reStructuredText, textile, HTML, or LaTeX formats to a variety of other formats including XHTML, PDF, EPUB, docx, odt, and more.|BambooDirt
 Pattern|license|BSD|TERESAH
 Pattern|creator|CLiPS|TERESAH
-Pattern|url|http://www.clips.ua.ac.be/pages/pattern|TERESAH
+Pattern|url|https://www.clips.uantwerpen.be/pages/pattern|TERESAH
 Pattern|operating-system|Linux|TERESAH
 Pattern|description|Pattern is a Python web mining module with tools for data retrieval (Google + Twitter + Wikipedia API, web spider, HTML DOM parser), text analysis (rule-based shallow parser, WordNet interface, syntactical + semantical n-gram search algorithm, tf-idf + cosine similarity + LSA metrics) and data visualization (graph networks).|BambooDirt
 Pattern|keyword|Python|TERESAH
 Pattern|keyword|web crawler|TERESAH
 Pattern|application-category|Visualization|TERESAH
-PDFCreator|keyword|conversion|TERESAH
-PDFCreator|application-category|Conversion|TERESAH
-PDFCreator|url|http://www.pdfforge.org/pdfcreator|TERESAH
-PDFCreator|description|PDFCreator is a free PDF creation utility for Windows that includes features for password protection and disabling printing.|BambooDirt
-PDFCreator|operating-system|Windows|TERESAH
-PDFsam (PDF Split and Merge)|keyword|batch processing|TERESAH
-PDFsam (PDF Split and Merge)|application-category|Conversion|TERESAH
-PDFsam (PDF Split and Merge)|license|GNU GPL|TERESAH
-PDFsam (PDF Split and Merge)|url|http://www.pdfsam.org/|TERESAH
-PDFsam (PDF Split and Merge)|operating-system|osX|TERESAH
-PDFsam (PDF Split and Merge)|description|PDFsam can split and merge batches of PDFs.|BambooDirt
-Perl|keyword|Apache HTTP server|TERESAH
-Perl|license|Artistic License|TERESAH
-Perl|keyword|C|TERESAH
-Perl|keyword|C++|TERESAH
-Perl|keyword|creation|TERESAH
-Perl|operating-system|Cross-platform|TERESAH
-Perl|license|GNU GPL|TERESAH
-Perl|url|http://www.perl.org/|TERESAH
-Perl|keyword|Java|TERESAH
-Perl|creator|Larry Wall|TERESAH
-Perl|operating-system|Linux|TERESAH
-Perl|keyword|Microsoft's .NET Framework|TERESAH
-Perl|description|Perl is a high-level, general-purpose, interpreted, dynamic programming language.  Originally developed for text manipulation, it is now used for a wide range of tasks including graphics programming, system administration, network programming, applications that require database access and CGI programming on the Web.|ArtsHumanities
-Perl|description|"Perl is a high-level, general-purpose, interpreted, dynamic programming language. Originally developed for text manipulation, it is now used for a wide range of tasks including graphics programming, system administration, network programming, applications that require database access and CGI programming on the Web.
-Features:
-C, shell scripting (sh), AWK, and sed
-Powerful text processing facilities
-Flexibility and adaptability
-Support for multiple programming paradigms
-Reference counting memory management"|BambooDirt
-Perl|keyword|PHP|TERESAH
-Perl|keyword|Programming language|TERESAH
-Perl|keyword|Ruby|TERESAH
-Perl|creator|The Perl Foundation|TERESAH
-Perl|application-category|Web development|TERESAH
-Piazza|keyword|Active|TERESAH
-Piazza|application-category|Meta: Teaching / Learning|TERESAH
-Piazza|keyword|e-learning|TERESAH
-Piazza|url|https://piazza.com/|TERESAH
-Piazza|creator|Inc.|TERESAH
-Piazza|operating-system|Web|TERESAH
-Piazza|description|Web-based web discussion tool (it's not a full fledged learning management system) that allows student to ask questions and interact with teachers in a public space, which, ideally, saves time for teachers and fosters greater engagement.|BambooDirt
-Plone|keyword|Active|TERESAH
-Plone|creator|Alexander Limi, Alan Runyan, and Vidar Andersen|TERESAH
-Plone|keyword|AWK|TERESAH
-Plone|keyword|Content management|TERESAH
-Plone|keyword|creation|TERESAH
-Plone|operating-system|Cross-platform|TERESAH
-Plone|standard|CSS|TERESAH
-Plone|standard|DOC|TERESAH
-Plone|license|GNU GPL|TERESAH
-Plone|url|http://plone.org/|TERESAH
-Plone|keyword|Javascript|TERESAH
-Plone|license|open source|TERESAH
-Plone|standard|PDF|TERESAH
-Plone|keyword|Perl|TERESAH
-Plone|keyword|PHP|TERESAH
-Plone|description|Plone is a powerful, flexible, open source Content Management System (CMS) built on top of Zope application server and CMF.|ArtsHumanities
-Plone|description|"Plone is a powerful, flexible, open source Content Management System (CMS) built on top of Zope application server and CMF.
-Features:
-Flexible and adaptable workflow
-Customisable
-Free add-ons
-Versioning, history and reverting content
-Support for multiple mark up formats
-Multilingual content management
-RSS feed support
-WebDAV and FTP support
-WYSIWYG"|BambooDirt
-Plone|application-category|Publishing|TERESAH
-Plone|keyword|Python|TERESAH
-Plone|creator|The Plone Foundation|TERESAH
-Plone|operating-system|Web|TERESAH
-Plone|application-category|Web development|TERESAH
-Plone|keyword|web-server|TERESAH
-Plone|keyword|XHTML|TERESAH
-Plone|keyword|XML|TERESAH
-Pocket|keyword|Active|TERESAH
-Pocket|application-category|Gathering|TERESAH
-Pocket|application-category|Meta: Give Overview|TERESAH
-Pocket|keyword|bookmarking|TERESAH
-Pocket|url|http://getpocket.com/|TERESAH
-Pocket|creator|Inc|TERESAH
-Pocket|description|Pocket (formerly Read It Later) is a tool to save web pages for reading later. This tool allows you to read on the computer, iPhone, iPad, iPod touch, Kindle, or on paper.|BambooDirt
-Pocket|operating-system|Web|TERESAH
-PostgreSQL|keyword|C|TERESAH
-PostgreSQL|operating-system|Cross-platform|TERESAH
-PostgreSQL|keyword|database|TERESAH
-PostgreSQL|url|http://www.postgresql.org/|TERESAH
-PostgreSQL|keyword|Java|TERESAH
-PostgreSQL|operating-system|Linux|TERESAH
-PostgreSQL|keyword|Manual input and transcription|TERESAH
-PostgreSQL|creator|Michael Stonebraker|TERESAH
-PostgreSQL|keyword|ODBC|TERESAH
-PostgreSQL|keyword|Perl|TERESAH
-PostgreSQL|keyword|PHP|TERESAH
-PostgreSQL|creator|PostgreSQL Global Development Group|TERESAH
-PostgreSQL|description|PostgreSQL is a powerful, open source object-relational database system.|ArtsHumanities
-PostgreSQL|description|PostgreSQL is a powerful, open source object-relational database system.|BambooDirt
-PostgreSQL|license|PostgreSQL License|TERESAH
-PostgreSQL|keyword|Python|TERESAH
-PostgreSQL|keyword|query language|TERESAH
-PostgreSQL|keyword|Ruby|TERESAH
-PostgreSQL|keyword|structuring|TERESAH
-PostgreSQL|keyword|Tcl|TERESAH
-PostgreSQL|keyword|.Net|TERESAH
-PostgreSQL|standard|XML|TERESAH
 Praat|description|A software application that may be used to analyse, synthesise, and manipulate speech in phonetics, and create visual representations of the audio recording.|ArtsHumanities
 Praat|keyword|AIFC|TERESAH
 Praat|keyword|AIFF|TERESAH
@@ -853,23 +569,11 @@ Praat|keyword|Speech analysis|TERESAH
 Praat|keyword|Speech recognition|TERESAH
 Praat|keyword|speech synthesis|TERESAH
 Praat|keyword|WAV|TERESAH
-Prism|license|Creative Commons Attribution|TERESAH
-Prism|url|http://prism.scholarslab.org/|TERESAH
-Prism|description|Prism is a tool for crowdsourcing interpretation. Welcome to our experiment in crowd-sourcing and visualizing many readings of a common set of texts.|BambooDirt
-Prism|application-category|Gathering|TERESAH
-Prism|application-category|Organizing|TERESAH
-Prism|creator|University of Virginia Scholars' Lab|TERESAH
-Prism|operating-system|Web|TERESAH
 Processing|keyword|data analysis|TERESAH
 Processing|url|http://processing.org/|TERESAH
 Processing|description|Processing is an open source programming language and environment for people who want to create images, animations, and interactions. Initially developed to serve as a software sketchbook and to teach fundamentals of computer programming within a visual context, Processing also has evolved into a tool for generating finished professional work. Today, there are tens of thousands of students, artists, designers, researchers, and hobbyists who use Processing for learning, prototyping, and production.|BambooDirt
 Processing|operating-system|Web|TERESAH
 Processing|application-category|Visualization|TERESAH
-Proofread Page|url|https://www.mediawiki.org/wiki/Extension:Proofread_Page|TERESAH
-Proofread Page|keyword|mediawiki|TERESAH
-Proofread Page|description|Proofread Page is an extension for MediaWiki which allows you to edit transcriptions side by side with the page images. It is used on WikiSource for manuscript and early print transcription projects. Proofread Page supports workflow, but no markup.|BambooDirt
-Proofread Page|application-category|Transcription|TERESAH
-Proofread Page|operating-system|Web|TERESAH
 Protege|description|"""Protege is a free, open source ontology editor and knowledge-base framework
 The Protege platform supports two main ways of modeling ontologies via the Protege-Frames and Protege-OWL editors. Protege ontologies can be exported into a variety of formats including RDF(S), OWL, and XML Schema."" -- Protege Home Page (viewed 30 October 2012)"|BambooDirt
 Protege|keyword|Active|TERESAH
@@ -890,76 +594,6 @@ Proxemie|creator|Centre National de Ressources Textuelles et Lexicales (CNRTL)|T
 Proxemie|url|http://www.cnrtl.fr/proxemie/|TERESAH
 Proxemie|operating-system|Web|TERESAH
 Proxemie|keyword|visual search|TERESAH
-Publish or Perish|creator|Anne-Wil Harzing|TERESAH
-Publish or Perish|url|http://www.harzing.com/pop.htm|TERESAH
-Publish or Perish|operating-system|Linux|TERESAH
-Publish or Perish|description|Publish or Perish is a software program that retrieves and analyzes academic citations. It uses Google Scholar to obtain the raw citations, then analyzes these and presents the statistics.|BambooDirt
-Publish or Perish|application-category|Collaboration|TERESAH
-Publish or Perish|application-category|Communicating|TERESAH
-Pundit|keyword|Active|TERESAH
-Pundit|application-category|Communicating|TERESAH
-Pundit|license|Creative Commons Attribution 3.0 Unported|TERESAH
-Pundit|creator|DM2E|TERESAH
-Pundit|url|http://www.thepund.it/|TERESAH
-Pundit|description|"Pundit is a semantic annotation and augmentation tool. It enables users to create structured data while annotating web pages.
-
-Annotations span from simple comments to semantic links to web of data entities (as Freebase.com and Dbpedia.org), to fine granular cross-references and citations. Pundit can be configured to include custom controlled vocabularies. In other words, annotations can refer to precise entities and concepts as well as express precise relations among entities and contents. Read more on semantically structured annotations
-
-Pundit is designed to enable groups of users to share their annotations and collaboratively create structured knowledge."|BambooDirt
-Pundit|operating-system|Web|TERESAH
-Purdue OWL|url|http://owl.english.purdue.edu/owl/search.php|TERESAH
-Purdue OWL|creator|Purdue University English Dept.|TERESAH
-Purdue OWL|description|The Online Writing Lab (OWL) at Purdue University houses writing resources and instructional material. As a member of the Writing Lab community, you can find information to assist with various writing projects. Teachers and trainers can also use this material for in-class and out-of-class instruction. Links should be attributed to the Purdue University Online Writing Lab (OWL). No commercial use of the Purdue OWL is permitted.|BambooDirt
-PyBossa|license|GNU Affero GPL|TERESAH
-PyBossa|url|http://crowdcrafting.org/|TERESAH
-PyBossa|keyword|In development|TERESAH
-PyBossa|creator|Open Knowledge Foundation|TERESAH
-PyBossa|description|PyBossa is a free, open-source, platform for creating and running crowd-sourcing applications that utilise online assistance in performing tasks that require human cognition, knowledge or intelligence such as image classification, transcription, geocoding and more.|BambooDirt
-PyBossa|application-category|Transcription|TERESAH
-PyBossa|operating-system|Web|TERESAH
-Python|description|A general-purpose high-level programming language that places an emphasis upon code readability. Python supports a number of development models, including object oriented, imperative, and functional design. It provides automatic memory management and a fully dynamic type system.|ArtsHumanities
-Python|description|"A general-purpose high-level programming language that places an emphasis upon code readability. Python supports a number of development models, including object oriented, imperative, and functional design. It provides automatic memory management and a fully dynamic type system.
-Features:
-Very clear, readable syntax
-Strong introspection capabilities
-Intuitive object orientation
-Natural expression of procedural code
-Full modularity, supporting hierarchical packages
-Exception-based error handling
-Very high level dynamic data types
-Extensive standard libraries and third party modules for virtually every task
-Extensions and modules easily written in C, C++ (or Java for Jython, or .NET languages for IronPython)
-Embeddable within applications as a scripting interface"|BambooDirt
-Python|keyword|Active|TERESAH
-Python|keyword|C|TERESAH
-Python|keyword|C++|TERESAH
-Python|keyword|COM|TERESAH
-Python|keyword|CORBA|TERESAH
-Python|keyword|creation|TERESAH
-Python|operating-system|Cross-platform|TERESAH
-Python|creator|Guido Van Rossum|TERESAH
-Python|url|http://www.python.org/|TERESAH
-Python|keyword|Java|TERESAH
-Python|operating-system|Linux|TERESAH
-Python|keyword|Microsoft's .NET Framework|TERESAH
-Python|keyword|Programming language|TERESAH
-Python|license|Python Software Foundation|TERESAH
-Python|creator|Python Software Foundation|TERESAH
-Python|operating-system|Windows|TERESAH
-Python|standard|XML|TERESAH
-Python|keyword|XML RCP|TERESAH
-Qiqqa|operating-system|Android|TERESAH
-Qiqqa|application-category|Meta: Teaching / Learning|TERESAH
-Qiqqa|keyword|document management|TERESAH
-Qiqqa|url|http://www.qiqqa.com/|TERESAH
-Qiqqa|description|"Qiqqa is a research management software that allows you to organize large numbers of papers; find new papers to read and new information about papers you already have; review materials and create annotation reports. Qiqqa has several PDF tools that also allow you to convert from PDFs to text, and use a clipboard function to cut and paste text into your document."|BambooDirt
-Qnotero|keyword|Active|TERESAH
-Qnotero|keyword|bibliographic management|TERESAH
-Qnotero|description|Desktop application to quickly search Zotero references and open PDFs attached to those references.|BambooDirt
-Qnotero|url|http://www.cogsci.nl/software/qnotero|TERESAH
-Qnotero|operating-system|Linux|TERESAH
-Qnotero|is-used-for|Searching|TERESAH
-Qnotero|creator|Sebastiaan Mathôt|TERESAH
 Quadrigram|keyword|Active|TERESAH
 Quadrigram|creator|Bestiario|TERESAH
 Quadrigram|keyword|data analysis|TERESAH
@@ -976,36 +610,6 @@ Quantum GIS|url|http://www.qgis.org/|TERESAH
 Quantum GIS|creator|OSGeo|TERESAH
 Quantum GIS|description|Quantum GIS (QGIS) is a user friendly Open Source Geographic Information System (GIS) licensed under the GNU General Public License. QGIS is an official project of the Open Source Geospatial Foundation (OSGeo). It runs on Linux, Unix, Mac OSX, Windows and Android and supports numerous vector, raster, and database formats and functionalities.|BambooDirt
 Quantum GIS|application-category|Visualization|TERESAH
-R|application-category|4_Analysis|TERESAH
-R|url|http://www.r-project.org/|TERESAH
-R|operating-system|iOS|TERESAH
-R|description|"R is a free software environment for statistical computing and graphics. R can be run from the command line, or using any of the many graphical user interfaces available on a variety of platforms; these are listed as separate tools."|BambooDirt
-RSiena|keyword|Active|TERESAH
-RSiena|application-category|4_Analysis|TERESAH
-RSiena|license|GNU GPL v2|TERESAH
-RSiena|url|http://www.stats.ox.ac.uk/~snijders/siena/|TERESAH
-RSiena|operating-system|Linux|TERESAH
-RSiena|keyword|network analysis|TERESAH
-RSiena|keyword|R|TERESAH
-RSiena|description|RSiena is a package for the R language that enables the statistical analysis of network data, including longitudinal network data, longitudinal data of networks and behavior, and cross-sectional network data. It provides the same functionality available in SIENA (Simulation Investigation for Empirical Network Analysis), Windows software which is no longer maintained.|BambooDirt
-Ruby on Rails|keyword|ATOM|TERESAH
-Ruby on Rails|operating-system|Cross-platform|TERESAH
-Ruby on Rails|creator|David Heinemeier Hansson|TERESAH
-Ruby on Rails|standard|HTML|TERESAH
-Ruby on Rails|url|http://rubyonrails.org/|TERESAH
-Ruby on Rails|keyword|JASON|TERESAH
-Ruby on Rails|operating-system|Linux|TERESAH
-Ruby on Rails|license|MIT|TERESAH
-Ruby on Rails|license|MIT License|TERESAH
-Ruby on Rails|keyword|programming|TERESAH
-Ruby on Rails|creator|Rails Core Team|TERESAH
-Ruby on Rails|description|Ruby on Rails is a web development framework written in the Ruby language. It is intended to be used with an Agile development methodology that is used by web developers for rapid development.|BambooDirt
-Ruby on Rails|description|"Ruby on Rails, often shortened to Rails or RoR, is a web development framework written in the Ruby language.
-It is intended to be used with an Agile development methodology that is used by web developers for rapid development.Ruby on Rails is separated into various packages, namely ActiveRecord (an object-relational mapping system for database access), ActiveResource (provides web services), ActionPack, ActiveSupport and ActionMailer."|ArtsHumanities
-Ruby on Rails|keyword|structuring|TERESAH
-Ruby on Rails|keyword|web applications|TERESAH
-Ruby on Rails|keyword|web development|TERESAH
-Ruby on Rails|keyword|XML|TERESAH
 Rwui|application-category|2_Creation|TERESAH
 Rwui|url|http://sysbio.mrc-bsu.cam.ac.uk/Rwui/|TERESAH
 Rwui|keyword|R|TERESAH
@@ -1070,29 +674,6 @@ Sci2 Tool|description|"The Science of Science (Sci2) Tool is a modular toolset s
 * Use different visualizations to interactively explore and understand specific datasets.
 * Share datasets and algorithms across scientific boundaries."|BambooDirt
 Sci2 Tool|application-category|Visualization|TERESAH
-Screencast-o-matic|description|A free Java-based online application which allows you to create recordings of your desktop.|BambooDirt
-Screencast-o-matic|keyword|editing|TERESAH
-Screencast-o-matic|url|http://www.screencast-o-matic.com/|TERESAH
-Screencast-o-matic|keyword|Java|TERESAH
-Screencast-o-matic|keyword|Paid|TERESAH
-Screencast-o-matic|creator|Screencast-o-matic|TERESAH
-Screencast-o-matic|operating-system|Web|TERESAH
-Scripto|url|http://scripto.org/|TERESAH
-Scripto|keyword|Omeka|TERESAH
-Scripto|creator|Roy Rosenzweig Center for History and New Media (CHNM)|TERESAH
-Scripto|description|Scripto is an engine for crowdsourcing the transcription of content that can be integrated with a custom transcription GUI and existing CMS.|BambooDirt
-Scripto|application-category|Transcription|TERESAH
-Scripto|operating-system|Web|TERESAH
-Scripto|keyword|Active development|TERESAH
-Scripto|keyword|Advanced|TERESAH
-Scripto|application-category|Crowdsourcing|TERESAH
-Scripto|keyword|Online|TERESAH
-Scripto|description|Scripto is an open source tool that enables projects to host crowd-sourced transcriptions of documents and images. Registered users are able to view and transcribe digital files. The software must be hosted locally by the project, within a suitable Content Management System.|HistoryOnline
-Scripto|keyword|Single purpose|TERESAH
-SearchTeam|url|http://searchteam.com/|TERESAH
-SearchTeam|keyword|search|TERESAH
-SearchTeam|description|"SearchTeam allows users to curate search results in a public or shared ""space""."|BambooDirt
-SearchTeam|operating-system|Web|TERESAH
 SEASR|url|http://seasr.org/|TERESAH
 SEASR|operating-system|Linux|TERESAH
 SEASR|creator|NCSA|TERESAH
@@ -1112,20 +693,6 @@ Sigil|license|GNU GPL v3|TERESAH
 Sigil|url|http://code.google.com/p/sigil/|TERESAH
 Sigil|operating-system|Linux|TERESAH
 Sigil|application-category|Writing|TERESAH
-Silk|keyword|Active|TERESAH
-Silk|url|http://www.silkapp.com|TERESAH
-Silk|creator|Silk|TERESAH
-Silk|description|"Silk is a platform for sites that contain collections of information. It's like the Tumblr for websites that have structured content �like software reviews, information about designers, a site with UN datasets, and more.
-When you have created your site (manually or by uploading one or more datasets), you can visualize and filter your data in a few ways. You can create graphs if your pages contain numbers, maps if you have locations, and filtered tables for just about anything. These visualizations and tables are interactive: anyone can play around with the variables to get the answer they need from the data."|BambooDirt
-Silk|operating-system|Web|TERESAH
-Silk|application-category|Visualization|TERESAH
-Skype|keyword|collaboration|TERESAH
-Skype|application-category|Communicating|TERESAH
-Skype|url|http://www.skype.com|TERESAH
-Skype|operating-system|iOS|TERESAH
-Skype|creator|Microsoft|TERESAH
-Skype|keyword|Paid|TERESAH
-Skype|description|Skype allows free voice and video computer-to-computer calls, and calls to phone numbers for a fee. Video is only available for person-to-person calls, but multiple users can join a voice call.|BambooDirt
 Slideshare|url|http://www.slideshare.net/|TERESAH
 Slideshare|keyword|information sharing|TERESAH
 Slideshare|application-category|Collaboration|TERESAH
@@ -1140,35 +707,6 @@ Social Science Research Network|application-category|Communicating|TERESAH
 Social Science Research Network|creator|Social Science Electronic Publishing Inc.|TERESAH
 Social Science Research Network|description|Social Science Research Network is devoted to the dissemination of social science research. The SSRN electronic library consists of an Abstract Database containing abstracts on over 384,300 scholarly papers.|BambooDirt
 Social Science Research Network|operating-system|Web|TERESAH
-Solr|keyword|analysis|TERESAH
-Solr|license|Apache|TERESAH
-Solr|license|Apache License|TERESAH
-Solr|creator|Apache Software Foundation|TERESAH
-Solr|keyword|Cataloguing and indexing|TERESAH
-Solr|creator|CNET Networks|TERESAH
-Solr|operating-system|Cross-platform|TERESAH
-Solr|keyword|cross-platform|TERESAH
-Solr|keyword|full-text search|TERESAH
-Solr|standard|HTML|TERESAH
-Solr|keyword|HTTP|TERESAH
-Solr|url|http://lucene.apache.org/solr/|TERESAH
-Solr|keyword|Indexing|TERESAH
-Solr|keyword|Java|TERESAH
-Solr|keyword|JSON APIs|TERESAH
-Solr|operating-system|Linux|TERESAH
-Solr|keyword|PHP|TERESAH
-Solr|keyword|Python|TERESAH
-Solr|keyword|Ruby|TERESAH
-Solr|is-used-for|Searching|TERESAH
-Solr|description|Solr is an open source enterprise search platform from the Apache Lucene project.  It operates as a standalone full-text search server within an appropriate servlet container, such as Tomcat. Solr uses the Lucene Java search library at its core for full-text indexing and search, and has REST-like HTTP/XML and JSON APIs that make it easy to use from virtually any programming language.|ArtsHumanities
-Solr|description|Solr is an open source enterprise search platform from the Apache Lucene project. It operates as a standalone full-text search server within an appropriate servlet container, such as Tomcat. Solr uses the Lucene Java search library at its core for full-text indexing and search, and has REST-like HTTP/XML and JSON APIs that make it easy to use from virtually any programming language.|BambooDirt
-Solr|keyword|XML|TERESAH
-Solr|keyword|XSLT|TERESAH
-Sort My List|keyword|alphabetizing|TERESAH
-Sort My List|application-category|Conversion|TERESAH
-Sort My List|url|http://sortmylist.com/|TERESAH
-Sort My List|description|Sort My List will alphabetically sort a list of plain text data, and do some simple text reformatting (e.g. going from CSV to TSV)|BambooDirt
-Sort My List|operating-system|Web|TERESAH
 SoSOL (Son of SOL)|standard|EpiDoc|TERESAH
 SoSOL (Son of SOL)|keyword|epigraphy|TERESAH
 SoSOL (Son of SOL)|license|GNU GPL|TERESAH
@@ -1187,7 +725,7 @@ SoSOL (Son of SOL)|keyword|Text encoding - referential|TERESAH
 SoSOL (Son of SOL)|description|Tool under construction at the University of Kentucky as part of the IDP second phase. It is an editing tool which aims to make the task of creating EpiDoc-conformant XML editions of epigraphic and papyrological texts manageable to users without needing to edit the raw XML. As such it will include conversions tools such as CHET-C, as well as a tags-free editing environment and template handler.|ArtsHumanities
 SoSOL (Son of SOL)|operating-system|Windows|TERESAH
 SoSOL (Son of SOL)|standard|XML|TERESAH
-SoSOL (Son of SOL)|url|http://wiki.digitalclassicist.org/SoSOL/|TERESAH
+SoSOL (Son of SOL)|url|http://wiki.digitalclassicist.org/SoSOL|TERESAH
 SPITBOL|keyword|analysis|TERESAH
 SPITBOL|keyword|assembly-language|TERESAH
 SPITBOL|operating-system|Cross-platform|TERESAH
@@ -1199,89 +737,18 @@ SPITBOL|description|SPITBOL (Speedy Implementation of SNOBOL) is a compiled impl
 SPITBOL|keyword|String Oriented Symbolic Language (SNOBOL)|TERESAH
 SPITBOL|keyword|string-processing|TERESAH
 SPITBOL|url|https://github.com/spitbol/spitbol|TERESAH
-SQL Server|description|"A server-side software application that enables databases conformant to a relational data model to be created, managed and queried. Information, most commonly text may be stored as one or more records contained within a table. The table may exist in isolation or have some relationship to other tables. Information may be manipulated using a set of T-SQL or ANSI SQL commands. Several editions of SQL Server are available, including SQL Server Compact, Developer, Embedded, Enterprise, Evaluation, Express and Fast Track.
-
-Features:
-Service Broker
-
-Replication Services using transaction, merge, or snapshot replication
-
-Analysis functionality to perform data mining, OLAP and other services
-
-Report generation services"|BambooDirt
-SQL Server|description|A server-side software application that enables databases conformant to a relational data model to be created, managed and queried. Information, most commonly text may be stored as one or more records contained within a table. The table may exist in isolation or have some relationship to other tables. Information may be manipulated using a set of T-SQL or ANSI SQL commands. Several editions of SQL Server are available, including SQL Server Compact, Developer, Embedded, Enterprise, Evaluation, Express and Fast Track.|ArtsHumanities
-SQL Server|keyword|Active|TERESAH
-SQL Server|keyword|analysis|TERESAH
-SQL Server|keyword|ANSI SQL|TERESAH
-SQL Server|license|commercial|TERESAH
-SQL Server|keyword|Data modelling|TERESAH
-SQL Server|url|http://www.microsoft.com/en-us/sqlserver/default.aspx|TERESAH
-SQL Server|creator|Microsoft|TERESAH
-SQL Server|creator|Microsoft Corporation|TERESAH
-SQL Server|keyword|Paid|TERESAH
-SQL Server|license|Proprietary|TERESAH
-SQL Server|application-category|Publishing|TERESAH
-SQL Server|keyword|rdbms|TERESAH
-SQL Server|keyword|relational database|TERESAH
-SQL Server|keyword|SQL|TERESAH
-SQL Server|keyword|Transact-SQL|TERESAH
-SQL Server|application-category|Web development|TERESAH
-SQL Server|operating-system|Windows|TERESAH
-SQL Server|standard|XML|TERESAH
 Stanford POS Tagger|license|GNU GPL|TERESAH
 Stanford POS Tagger|url|http://nlp.stanford.edu/software/tagger.shtml|TERESAH
 Stanford POS Tagger|application-category|4_Analysis|TERESAH
 Stanford POS Tagger|creator|Stanford University|TERESAH
 Stanford POS Tagger|description|The Stanford Part-of-Speech Tagger includes English, Arabic, Chinese, and German tagger modules.|BambooDirt
 Stanford POS Tagger|keyword|tsv|TERESAH
-StatCrunch|keyword|analysis|TERESAH
-StatCrunch|application-category|4_Analysis|TERESAH
-StatCrunch|url|http://www.statcrunch.com/|TERESAH
-StatCrunch|keyword|Paid|TERESAH
-StatCrunch|creator|Pearson Education|TERESAH
-StatCrunch|description|StatCrunch is web-based statistical analysis and data-sharing software.|BambooDirt
-StatCrunch|operating-system|Web|TERESAH
 Statistical Lab|keyword|analysis|TERESAH
 Statistical Lab|application-category|4_Analysis|TERESAH
 Statistical Lab|url|http://www.statistiklabor.de/en/|TERESAH
 Statistical Lab|keyword|R|TERESAH
 Statistical Lab|description|Statistical Lab is a graphical user interface for R designed to make statistical analysis easier to understand.|BambooDirt
 Statistical Lab|operating-system|Windows|TERESAH
-Stories Matter|creator|Centre for Oral History and Digital Storytelling at Concordia University|TERESAH
-Stories Matter|url|http://storytelling.concordia.ca/storiesmatter/|TERESAH
-Stories Matter|operating-system|osX|TERESAH
-Stories Matter|description|Stories Matter is an oral history database that allows you to cut, index, and export audio and video recordings.|BambooDirt
-Stories Matter|keyword|video|TERESAH
-Storify|url|http://storify.com/|TERESAH
-Storify|application-category|Collaboration|TERESAH
-Storify|application-category|Communicating|TERESAH
-Storify|description|Storify is a way to tell stories using social media such as Tweets, photos and videos. You search multiple social networks from one place, and then drag individual elements into your story. You can re-order the elements and also add text to give context to your readers.|BambooDirt
-Storify|operating-system|Web|TERESAH
-StoryKit|url|https://itunes.apple.com/app/storykit/id329374595?mt=8|TERESAH
-StoryKit|creator|ICDL Foundation|TERESAH
-StoryKit|operating-system|iOS 3.0+|TERESAH
-StoryKit|application-category|Publishing|TERESAH
-StoryKit|description|StoryKit allows you to create an electronic storybook.|BambooDirt
-StoryKit|keyword|teaching|TERESAH
-Substance|keyword|Active|TERESAH
-Substance|license|GNU GPL v3|TERESAH
-Substance|url|http://substance.io/|TERESAH
-Substance|creator|Michael Aufreiter|TERESAH
-Substance|application-category|Publishing|TERESAH
-Substance|description|Substance is a fully web-based document authoring and publishing platform.|BambooDirt
-Substance|operating-system|Web|TERESAH
-Sumo Paint|url|http://www.sumopaint.com/|TERESAH
-Sumo Paint|research-object|Images|TERESAH
-Sumo Paint|keyword|images|TERESAH
-Sumo Paint|operating-system|iOS|TERESAH
-Sumo Paint|keyword|Paid|TERESAH
-Sumo Paint|description|Web-based image editor with photo editing and drawing features. A free account is required.|BambooDirt
-Survey Monkey|application-category|1_Capture|TERESAH
-Survey Monkey|url|http://www.surveymonkey.com/|TERESAH
-Survey Monkey|keyword|Paid|TERESAH
-Survey Monkey|keyword|survey|TERESAH
-Survey Monkey|description|Survey Monkey is a web-based survey creation and distribution site, with free and paid plans that allow users to create surveys and collect responses through a link, email, Facebook, or being embedded in a website or blog.|BambooDirt
-Survey Monkey|operating-system|Web|TERESAH
 Tabula|keyword|Active|TERESAH
 Tabula|application-category|Conversion|TERESAH
 Tabula|url|https://github.com/jazzido/tabula|TERESAH
@@ -1289,11 +756,6 @@ Tabula|creator|Manuel Aristarán|TERESAH
 Tabula|license|MIT License|TERESAH
 Tabula|description|Tabula lets you upload a (text-based) PDF file into a simple web interface and magically pull tabular data into CSV format.|BambooDirt
 Tabula|operating-system|Web|TERESAH
-TagCrowd|url|http://www.tagcrowd.com/|TERESAH
-TagCrowd|description|TagCrowd is a web-based word cloud generator that can accept a URL, text, or an uploaded plain text file.|BambooDirt
-TagCrowd|operating-system|Web|TERESAH
-TagCrowd|application-category|Visualization|TERESAH
-TagCrowd|keyword|word cloud|TERESAH
 TEI Boilerplate|license|Creative Commons Attribution|TERESAH
 TEI Boilerplate|keyword|Firefox, Chrome, Safari, and Internet Explorer 9|TERESAH
 TEI Boilerplate|url|http://dcl.slis.indiana.edu/teibp/|TERESAH
@@ -1321,23 +783,6 @@ Tesseract|url|http://code.google.com/p/tesseract-ocr/|TERESAH
 Tesseract|operating-system|Linux|TERESAH
 Tesseract|keyword|optical character recognition|TERESAH
 Tesseract|application-category|Transcription|TERESAH
-Tesserae|keyword|Active|TERESAH
-Tesserae|keyword|collation|TERESAH
-Tesserae|url|http://tesserae.caset.buffalo.edu/|TERESAH
-Tesserae|is-used-for|Searching|TERESAH
-Tesserae|description|The Tesserae project aims to provide a flexible and robust web interface for exploring intertextual parallels.|BambooDirt
-Tesserae|creator|University of Buffalo|TERESAH
-Tesserae|operating-system|Web|TERESAH
-Text Analysis Markup System (TAMS) Analyzer|license|GNU GPL|TERESAH
-Text Analysis Markup System (TAMS) Analyzer|url|http://tamsys.sourceforge.net/|TERESAH
-Text Analysis Markup System (TAMS) Analyzer|operating-system|Linux|TERESAH
-Text Analysis Markup System (TAMS) Analyzer|keyword|qualitative analysis|TERESAH
-Text Analysis Markup System (TAMS) Analyzer|description|TAMS Analyzer is a program that works with TAMS to let you assign ethnographic codes to passages of a text just by selecting the relevant text and double clicking the name of the code on a list. It then allows you to extract, analyze, and save coded information.|BambooDirt
-Text Analysis Markup System (TAMS) Analyzer|application-category|4_Analysis|TERESAH
-Text Fixer|application-category|Conversion|TERESAH
-Text Fixer|url|http://www.textfixer.com/html/convert-word-to-html.php|TERESAH
-Text Fixer|description|Text Fixer allows users to copy and paste a Word document into a box and convert it to clean HTML.|BambooDirt
-Text Fixer|operating-system|Web|TERESAH
 Text Variation Explorer|keyword|Beta|TERESAH
 Text Variation Explorer|url|http://www.uta.fi/sis/tauchi/virg/projects/dammoc/tve.html|TERESAH
 Text Variation Explorer|operating-system|osX|TERESAH
@@ -1371,10 +816,6 @@ TextGrid|keyword|Intermediate|TERESAH
 TextGrid|keyword|Multifunctional|TERESAH
 TextGrid|keyword|Online|TERESAH
 TextGrid|description|TextGrid is a virtual research environment consisting of a 'Repository' - an archive for research data, and a 'Laboratory' - the point of access to the VRE providing access to tools and services via user-friendly software. It allows Arts and Humanities researchers to work together and conduct projects in a secure environment sharing tools, data and methods.|HistoryOnline
-textpresso|description|"""a text-mining system for scientific literature. Textpresso's two major elements are (1) access to full text, so that entire articles can be searched, and (2) introduction of categories of biological concepts and classes that relate two objects (e.g., association, regulation, etc.) or describe one (e.g., methods, etc)"""|BambooDirt
-textpresso|url|http://www.textpresso.org/|TERESAH
-textpresso|keyword|linked data|TERESAH
-textpresso|application-category|4_Analysis|TERESAH
 The Field Linguist's Toolbox|url|https://software.sil.org/toolbox/|TERESAH
 The Field Linguist's Toolbox|keyword|interlinear analysis|TERESAH
 The Field Linguist's Toolbox|application-category|4_Analysis|TERESAH
@@ -1382,17 +823,6 @@ The Field Linguist's Toolbox|license|SIL Language Freeware|TERESAH
 The Field Linguist's Toolbox|description|The Field Linguist's Toolbox is Windows software for maintaining lexical data, and for parsing and interlinearizing text.|BambooDirt
 The Field Linguist's Toolbox|operating-system|Windows|TERESAH
 The Field Linguist's Toolbox|creator|SIL International|TERESAH
-Thinkport Annotator|url|http://annotator.thinkport.org/|TERESAH
-Thinkport Annotator|keyword|teaching|TERESAH
-Thinkport Annotator|description|The Annotator allows you to analyze any block of text created by other authors. You may use virtual markers to highlight important passages, questions, thoughts, or add comments.|BambooDirt
-Thinkport Annotator|creator|Thinkport|TERESAH
-Thinkport Annotator|operating-system|Web|TERESAH
-TiddlyWiki|license|BSD|TERESAH
-TiddlyWiki|url|http://tiddlywiki.com/|TERESAH
-TiddlyWiki|keyword|information sharing|TERESAH
-TiddlyWiki|description|TiddlyWiki is a reusable personal web notebook. It allows anyone to create personal hypertext documents that can be published on the Web, and also search and tag content.|BambooDirt
-TiddlyWiki|creator|UnaMesa|TERESAH
-TiddlyWiki|operating-system|Web|TERESAH
 Tika|keyword|Active development|TERESAH
 Tika|keyword|Advanced|TERESAH
 Tika|keyword|Offline|TERESAH
@@ -1406,56 +836,12 @@ TILE (Text-Image Linking Environment)|creator|MITH|TERESAH
 TILE (Text-Image Linking Environment)|keyword|scholarly edition|TERESAH
 TILE (Text-Image Linking Environment)|description|The Text-Image Linking Environment (TILE) is a web-based tool for creating and editing image-based electronic editions and digital archives of humanities texts. It allows the user to import and export transcript lines and images of text, as well as mark up the image, and includes a semi-automated line recognizer.|BambooDirt
 TILE (Text-Image Linking Environment)|operating-system|Web|TERESAH
-TileMill|keyword|Active|TERESAH
-TileMill|url|http://www.mapbox.com/tilemill/|TERESAH
-TileMill|operating-system|Linux|TERESAH
-TileMill|keyword|map tiles|TERESAH
-TileMill|creator|MapBox|TERESAH
-TileMill|is-used-for|Mapping|TERESAH
-TileMill|description|"Open source map design studio for creating custom web tile maps that use MapBox's data.
- Sushi"|BambooDirt
-Timeflow|url|http://flowingmedia.com/timeflow.html|TERESAH
-Timeflow|description|Time Flow is an open-source timeline built to help journalists analyze temporal data. The application offers several view modes--timelime, calendar, list, table--to help explore thousands of data points.|BambooDirt
-Timeflow|operating-system|Web|TERESAH
-Timeflow|application-category|Visualization|TERESAH
-Timeline JS|keyword|Active|TERESAH
-Timeline JS|url|http://timeline.verite.co/|TERESAH
-Timeline JS|description|TImeline is an open source framework for visualizing data files and data feeds in a variety of formats via an aesthetically pleasing wed display. Timelines are interactive and media rich|BambooDirt
-Timeline JS|description|TimelineJS can pull in media from different sources. It has built in support for: Twitter, Flickr, Google Maps, YouTube, Vimeo, Dailymotion, Wikipedia, SoundCloud and more media types in the future. Creating one is as easy as filling in a Google spreadsheet or as detailed as JSON.|BambooDirt
-Timeline JS|keyword|timelines|TERESAH
-Timeline JS|operating-system|Web|TERESAH
-Timeline JS|creator|VeriteCo|TERESAH
-Timeline JS|application-category|Visualization|TERESAH
-TipCam|url|http://tipcam.en.softonic.com/|TERESAH
-TipCam|keyword|No longer supported|TERESAH
-TipCam|description|TipCam is a screen recording software for Windows, which allows you to record images and audio on your screen, and upload to YouTube.|BambooDirt
-TipCam|creator|uTIPu|TERESAH
-TipCam|application-category|Recording|TERESAH
-TipCam|keyword|video|TERESAH
-TitanPad|application-category|Collaboration|TERESAH
-TitanPad|application-category|Editing|TERESAH
-TitanPad|description|Collaborators can write and edit a document simultaneously. TitanPad does not currently work with iOS devices like Apple's iPad or iPhone.|BambooDirt
-TitanPad|keyword|editing|TERESAH
-TitanPad|url|http://titanpad.com/|TERESAH
-TitanPad|operating-system|Web|TERESAH
 TokenX|creator|Brian L. Pytlik Zillig|TERESAH
 TokenX|url|http://tokenx.unl.edu|TERESAH
 TokenX|keyword|KWiC|TERESAH
 TokenX|application-category|4_Analysis|TERESAH
 TokenX|description|TokenX is a web-based environment for visualizing, analyzing and playing with texts. Options include word clouds, highlighting words, keywords in context, replacing words with bocks, highlighting punctuation and non-words, counting words in context and decontextualized, and substituting words. A number of sample files are provided, or users can point TokenX to any XML file online.|BambooDirt
 TokenX|operating-system|Web|TERESAH
-T-PEN (Transcription for Paleographical and Editorial Notation)|creator|Center for Digital Theology at Saint Louis University|TERESAH
-T-PEN (Transcription for Paleographical and Editorial Notation)|license|Educational Community License|TERESAH
-T-PEN (Transcription for Paleographical and Editorial Notation)|description|Extensive set of tools to allow collaborative transcription of manuscript pages in TEI-compliant XML.|BambooDirt
-T-PEN (Transcription for Paleographical and Editorial Notation)|url|http://t-pen.org/TPEN/|TERESAH
-T-PEN (Transcription for Paleographical and Editorial Notation)|application-category|Transcription|TERESAH
-T-PEN (Transcription for Paleographical and Editorial Notation)|operating-system|Web|TERESAH
-Transcriber|url|http://sourceforge.net/projects/trans/files/|TERESAH
-Transcriber|operating-system|osX|TERESAH
-Transcriber|keyword|Paid|TERESAH
-Transcriber|description|Transana is open source software for the transcription and qualitative analysis of audio and video.|BambooDirt
-Transcriber|application-category|Transcription|TERESAH
-Transcriber|keyword|video|TERESAH
 Transcript|url|http://www.jacobboerema.nl/en/Freeware.htm|TERESAH
 Transcript|creator|J.G. Boerema|TERESAH
 Transcript|keyword|Paid|TERESAH
@@ -1464,27 +850,6 @@ Transcript|application-category|Transcription|TERESAH
 Transcript|keyword|transcription|TERESAH
 Transcript|operating-system|Windows|TERESAH
 Transcript|operating-system|Windows 95+|TERESAH
-Trello|keyword|Active development|TERESAH
-Trello|keyword|Beginner|TERESAH
-Trello|application-category|Collaboration|TERESAH
-Trello|creator|Fog Creek Software|TERESAH
-Trello|url|https://trello.com/|TERESAH
-Trello|keyword|Online|TERESAH
-Trello|description|Online software that allows teams to track the progress of a project or task. Users can create and share team boards, to which virtual cards are attached: these cards can contain files, pictures, links, to-do lists, responsibility assignments and scheduling. Cards that are completed can be archived. Boards can be made private or public.|HistoryOnline
-Trello|keyword|Single purpose|TERESAH
-Trello|application-category|2_Creation|TERESAH
-Trello|description|Trello is a collaboration tool that organizes your projects into boards. In one glance, Trello tells you what's being worked on, who's working on what, and where something is in a process.|BambooDirt
-Trello|operating-system|Web|TERESAH
-Tumblr|url|https://www.tumblr.com/|TERESAH
-Tumblr|operating-system|iOS|TERESAH
-Tumblr|operating-system|iPad|TERESAH
-Tumblr|description|Tumblr is a blogging/microblogging platform with a focus on data sharing between individual blogs.|BambooDirt
-Tumblr|application-category|Writing|TERESAH
-Twitter|application-category|Communicating|TERESAH
-Twitter|url|https://twitter.com/|TERESAH
-Twitter|keyword|microblogging|TERESAH
-Twitter|description|Twitter allows users to send 140-character messages. There is a thriving digital humanities community of Twitter users.|BambooDirt
-Twitter|operating-system|Web|TERESAH
 TXM|keyword|Active|TERESAH
 TXM|creator|ENS de Lyon|TERESAH
 TXM|license|GNU GPL v3|TERESAH
@@ -1493,11 +858,6 @@ TXM|description|TXM is a free and open-source cross-platform Unicode,  XML & TEI
 TXM|operating-system|Web|TERESAH
 TXM|keyword|web publishing|TERESAH
 TXM|application-category|Visualization|TERESAH
-TypeWright|creator|18th Connect|TERESAH
-TypeWright|url|http://www.18thconnect.org/typewright/documents|TERESAH
-TypeWright|application-category|Transcription|TERESAH
-TypeWright|description|TypeWright is a tool for correcting the text-version of a document made up of page images. These text-versions are crucially necessary: they are what enables full-text searching, datamining, preserving, and curating texts of historical importance. Right now, the text running behind the page images of these texts has been mechanically typed, leaving behind errors that need to be corrected by human eyes and hands.|BambooDirt
-TypeWright|operating-system|Web|TERESAH
 UAM CorpusTool|keyword|Active|TERESAH
 UAM CorpusTool|url|http://corpustool.com/|TERESAH
 UAM CorpusTool|application-category|4_Analysis|TERESAH
@@ -1506,46 +866,9 @@ UAM CorpusTool|keyword|stand-off|TERESAH
 UAM CorpusTool|description|The UAM CorpusTool may be used for annotating a corpus as part of a linguistic study. The tool also allows to search for annotation forms and compare them to one another. It provides a graphical schema editor and saves annotations in a stand-off XML format.|BambooDirt
 VassarStats|description|A website that explains statistical concepts and provides a web-based environment for performing those calculations.|BambooDirt
 VassarStats|application-category|4_Analysis|TERESAH
-VassarStats|url|http://faculty.vassar.edu/lowry/VassarStats.html|TERESAH
+VassarStats|url|http://vassarstats.net/|TERESAH
 VassarStats|keyword|pedagogy|TERESAH
 VassarStats|operating-system|Web|TERESAH
-Wavesurfer|description|A software tool for the manipulation of audio recordings. Wavesurfer provides basic audio editing function, such as excision, copying, pasting, zero-crossing adjustment, and effects such as fading, normalization, echo, inversion, reversal, replacement with silence, and DC-removal.|ArtsHumanities
-Wavesurfer|description|"A software tool for the manipulation of audio recordings. Wavesurfer provides basic audio editing function, such as excision, copying, pasting, zero-crossing adjustment, and effects such as fading, normalization, echo, inversion, reversal, replacement with silence, and DC-removal.
-Features:
-Audio format support, including WAV, AU, AIFF, MP3, CSL, SD, Ogg/Vorbis, and NIST/Sphere
-Read/write support for HTK (and MLF), TIMIT, ESPS/Waves+, and Phondat transcription formats
-Direct-to-disk playback/recording enabling use of audio recordings larger than available memory
-Plug-in architecture
-built-in script interpreter"|BambooDirt
-Wavesurfer|keyword|analysis|TERESAH
-Wavesurfer|keyword|audio|TERESAH
-Wavesurfer|keyword|Audio mixing|TERESAH
-Wavesurfer|license|BSD|TERESAH
-Wavesurfer|license|BSD variant|TERESAH
-Wavesurfer|creator|Centre for Speech Technology (CTT), KTH|TERESAH
-Wavesurfer|keyword|Citation Style Format (CSL)|TERESAH
-Wavesurfer|keyword|creation|TERESAH
-Wavesurfer|keyword|ESPS/Waves+|TERESAH
-Wavesurfer|keyword|HTK|TERESAH
-Wavesurfer|url|http://www.speech.kth.se/wavesurfer/|TERESAH
-Wavesurfer|creator|KTH|TERESAH
-Wavesurfer|operating-system|Linux|TERESAH
-Wavesurfer|keyword|manipulation|TERESAH
-Wavesurfer|keyword|MLF|TERESAH
-Wavesurfer|standard|MPEG-1 Audio Layer 3 (MP3)|TERESAH
-Wavesurfer|standard|MS WAV|TERESAH
-Wavesurfer|keyword|NIST/Sphere|TERESAH
-Wavesurfer|keyword|Ogg Vorbis|TERESAH
-Wavesurfer|operating-system|osX|TERESAH
-Wavesurfer|keyword|Phondat|TERESAH
-Wavesurfer|keyword|playback|TERESAH
-Wavesurfer|keyword|Sound Designer (SD)|TERESAH
-Wavesurfer|keyword|Sound editing|TERESAH
-Wavesurfer|keyword|Sound recording|TERESAH
-Wavesurfer|keyword|Sun Audio (AU)|TERESAH
-Wavesurfer|keyword|TIMIT|TERESAH
-Wavesurfer|application-category|Recording|TERESAH
-Wavesurfer|operating-system|Windows|TERESAH
 WebLicht|keyword|Active|TERESAH
 WebLicht|creator|CLARIN-D|TERESAH
 WebLicht|keyword|grammatical tagging|TERESAH
