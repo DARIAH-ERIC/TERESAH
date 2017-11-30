@@ -1265,3 +1265,197 @@ Wavesurfer|keyword|Sun Audio (AU)|TERESAH
 Wavesurfer|keyword|TIMIT|TERESAH
 Wavesurfer|application-category|Recording|TERESAH
 Wavesurfer|operating-system|Windows|TERESAH
+VideoANT|application-category|Annotating|TERESAH
+VideoANT|creator|Brandford Hosack|TERESAH
+VideoANT|url|http://ant.umn.edu/|TERESAH
+VideoANT|operating-system|Web|TERESAH
+VideoANT|keyword|video|TERESAH
+VideoANT|description|VideoANT is an online environment that synchronizes web based video with timeline based annotations.|BambooDirt
+Wikidot|application-category|Collaboration|TERESAH
+Wikidot|application-category|Editing|TERESAH
+Wikidot|url|http://www.wikidot.com/|TERESAH
+Wikidot|keyword|Paid|TERESAH
+Wikidot|operating-system|Web|TERESAH
+Wikidot|keyword|web development|TERESAH
+Wikidot|creator|Wikidot Inc.|TERESAH
+Wikidot|description|Wikidot is a web application service that allows you to create a traditional wiki, forum, or blog. Wikidot is also a large community with an active question and answer forum.|BambooDirt
+WikiPack|keyword|Active|TERESAH
+WikiPack|keyword|collaboration|TERESAH
+WikiPack|description|Create private wikis using Markdown and WikiWords that are stored in your Dropbox account.|BambooDirt
+WikiPack|keyword|Dropbox|TERESAH
+WikiPack|url|http://wikipackit.com/|TERESAH
+WikiPack|keyword|Paid|TERESAH
+WikiPack|application-category|Creation|TERESAH
+WikiPack|application-category|Organizing|TERESAH
+WikiPack|operating-system|Web|TERESAH
+WikiPack|creator|WikiPack|TERESAH
+Wink|creator|DebugMode|TERESAH
+Wink|url|http://www.debugmode.com/wink/|TERESAH
+Wink|operating-system|Linux|TERESAH
+Wink|application-category|Publishing|TERESAH
+Wink|description|Wink is a tutorial and presentation creation software, that allows you to create tutorials on how to use software, by capturing screenshots, mouse movements, and accompanying audio.|BambooDirt
+VirtualBox|keyword|Active|TERESAH
+VirtualBox|url|https://www.virtualbox.org/|TERESAH
+VirtualBox|creator|Oracle|TERESAH
+VirtualBox|application-category|Web development|TERESAH
+VirtualBox|description|VirtualBox is a general-purpose full virtualizer for x86 hardware, targeted at server, desktop and embedded use. For example, you can use a Windows computer to create a Mac or Linux environment to test software or websites.|BambooDirt
+VirtualBox|keyword|virtualization|TERESAH
+VisualEyes|url|http://www.viseyes.org/|TERESAH
+VisualEyes|creator|University of Virginia|TERESAH
+VisualEyes|description|VisualEyes is web-based authoring tool developed at the University of Virginia to weave images, maps, charts, video and data into highly interactive and compelling dynamic visualizations.|BambooDirt
+VisualEyes|application-category|Visualization|TERESAH
+VIVO|license|BSD|TERESAH
+VIVO|url|http://vivoweb.org/|TERESAH
+VIVO|creator|Michael Conlon|TERESAH
+VIVO|operating-system|Web|TERESAH
+VIVO|description|VIVO is an open source semantic web application originally developed and implemented at Cornell. When installed and populated with researcher interests, activities, and accomplishments, it enables the discovery of research and scholarship across disciplines at that institution and beyond. VIVO supports browsing and a search function which returns faceted results for rapid retrieval of desired information. Content in any local VIVO installation may be maintained manually,  brought into VIVO in automated ways from local systems of record, such as HR, grants, course, and faculty activity databases, or from database providers such as publication aggregators and funding agencies.|BambooDirt
+Wmatrix|keyword|frequency|TERESAH
+Wmatrix|url|http://ucrel.lancs.ac.uk/wmatrix/|TERESAH
+Wmatrix|keyword|Paid|TERESAH
+Wmatrix|application-category|4_Analysis|TERESAH
+Wmatrix|operating-system|Web|TERESAH
+Wmatrix|description|Wmatrix is web-based software for corpus analysis and comparison. It provides a web interface to the USAS and CLAWS corpus annotation tools, and standard corpus linguistic methodologies such as frequency lists and concordances. It also extends the keywords method to key grammatical categories and key semantic domains.|BambooDirt
+Word2cleanHTML|keyword|conversion|TERESAH
+Word2cleanHTML|application-category|Conversion|TERESAH
+Word2cleanHTML|url|http://word2cleanhtml.com/|TERESAH
+Word2cleanHTML|creator|Olly Cope|TERESAH
+Word2cleanHTML|operating-system|Web|TERESAH
+Word2cleanHTML|description|Word2cleanHTML allows users to copy and paste a Word document into a text box, and convert it to clean HTML. Additional options include removing empty paragraphs, replacing non-ascii with HTML entities, replacing smart quotes, indenting with tabs, and replacing non-breaking spaces with ordinary spaces.|BambooDirt
+WordPress|description|A blog publication system that may be used for basic content management. WordPress is widely used within the arts and humanities community. It offers a template and theme management system, which can be used by administrators to configure their blog without the need to edit PHP or HTML code. A plug-in architecture enables developers and users to expend functionality beyond that provided in the base installation. In its current iteration, WordPress supports only one weblog per installation, although multiple concurrent copies may be run from different directories if configured to use separate database tables. Source code forks, such as WordPress Multi-User (WPMU) allow multiple blogs to exist within a single installation.|ArtsHumanities
+WordPress|keyword|blog|TERESAH
+WordPress|keyword|blogging|TERESAH
+WordPress|operating-system|Cross-platform|TERESAH
+WordPress|license|GNU GPL|TERESAH
+WordPress|url|http://wordpress.org/|TERESAH
+WordPress|creator|Matt Mullenweg, Mike Little and other software developer|TERESAH
+WordPress|keyword|MySQL|TERESAH
+WordPress|keyword|PHP|TERESAH
+WordPress|application-category|Publishing|TERESAH
+WordPress|keyword|structuring|TERESAH
+WordPress|keyword|tagging|TERESAH
+WordPress|keyword|Text encoding - presentational|TERESAH
+WordPress|keyword|Use of existing digital data|TERESAH
+WordPress|operating-system|Web|TERESAH
+WordPress|application-category|Web development|TERESAH
+WordPress|keyword|weblog|TERESAH
+WordPress|description|WordPress is an easy-to-use web publishing platform originally designed around blogging, with many themes and plugins for extra functionality.|BambooDirt
+WordPress|standard|XML|TERESAH
+WordPress.com|keyword|cloud storage|TERESAH
+WordPress.com|url|http://wordpress.com/|TERESAH
+WordPress.com|keyword|Paid|TERESAH
+WordPress.com|operating-system|Web|TERESAH
+WordPress.com|application-category|Web development|TERESAH
+WordPress.com|keyword|WordPress|TERESAH
+WordPress.com|description|Wordpress.com provides free ad-supported hosting for basic WordPress sites, with paid options for premium features (custom domain, extra storage, custom design, no ads, etc.)|BambooDirt
+WorldCat|url|http://www.worldcat.org/|TERESAH
+WorldCat|keyword|library catalog|TERESAH
+WorldCat|keyword|Paid|TERESAH
+WorldCat|is-used-for|Searching|TERESAH
+WorldCat|operating-system|Web|TERESAH
+WorldCat|description|WorldCat can simultaneously search the collections and services of more than 10,000 libraries worldwide.|BambooDirt
+WorldMap|keyword|Active|TERESAH
+WorldMap|keyword|Geospatial computing|TERESAH
+WorldMap|license|GNU GPL v3|TERESAH
+WorldMap|creator|Harvard University|TERESAH
+WorldMap|url|http://worldmap.harvard.edu/|TERESAH
+WorldMap|is-used-for|Mapping|TERESAH
+WorldMap|description|"Powerful web-based mapping tool (a customized version of GeoNode) that allows users to visualize, edit, collaborate, and publish geospatial information. Upload your own data or use the existing library
+attempts to fill a growing niche between powerful desktop-bound mapping applications, and lightweight web map solutions with limited capacity"|BambooDirt
+WorldMap|operating-system|Web|TERESAH
+VUE|is-used-for|Brainstorming|TERESAH
+VUE|url|http://vue.tufts.edu/|TERESAH
+VUE|operating-system|Linux|TERESAH
+VUE|keyword|semantic map|TERESAH
+VUE|creator|Tufts University|TERESAH
+VUE|description|VUE (Visual Understanding Environment) is concept mapping software that can integrate with a repository to pull in data.|BambooDirt
+Wufoo|keyword|analysis|TERESAH
+Wufoo|url|http://www.wufoo.com/|TERESAH
+Wufoo|keyword|Paid|TERESAH
+Wufoo|operating-system|Web|TERESAH
+Wufoo|description|Wufoo is an online form builder with built-in analytics. Free users are allowed to create up to three forms with up to 10 fields.|BambooDirt
+Xalan|keyword|analysis|TERESAH
+Xalan|license|Apache|TERESAH
+Xalan|license|Apache License|TERESAH
+Xalan|creator|Apache Software Foundation|TERESAH
+Xalan|keyword|Coding and standardisation|TERESAH
+Xalan|keyword|creation|TERESAH
+Xalan|operating-system|Cross-platform|TERESAH
+Xalan|standard|HTML|TERESAH
+Xalan|url|http://xalan.apache.org/|TERESAH
+Xalan|operating-system|Linux|TERESAH
+Xalan|application-category|Publishing|TERESAH
+Xalan|keyword|Use of existing digital data|TERESAH
+Xalan|application-category|Web development|TERESAH
+Xalan|description|Xalan is an XSLT processor for transforming XML documents into HTML, text, or other XML document types. It implements XSL Transformations (XSLT) Version 1.0 and XML Path Language (XPath) Version 1.0.|ArtsHumanities
+Xalan|description|"Xalan is an XSLT processor for transforming XML documents into HTML, text, or other XML document types. It implements XSL Transformations (XSLT) Version 1.0 and XML Path Language (XPath) Version 1.0.
+Features:
+Conversion between structured markup formats
+Stylesheet validation"|BambooDirt
+Xalan|standard|XHTML|TERESAH
+Xalan|standard|XML|TERESAH
+Xalan|keyword|XPath|TERESAH
+Xalan|standard|XSLT|TERESAH
+Xena|license|GNU GPL v3|TERESAH
+Xena|url|http://xena.sourceforge.net/|TERESAH
+Xena|operating-system|Linux|TERESAH
+Xena|creator|National Archives of Australia|TERESAH
+Xena|is-used-for|Searching|TERESAH
+Xena|keyword|web archiving|TERESAH
+Xena|description|Xena is free and open source software developed by the National Archives of Australia to aid in the long term preservation of digital records. Xena is an acronym meaning Xml Electronic Normalising for Archives. Xena is a component of the Digital Preservation Software Platform (DPSP). Xena software aids digital preservation by performing two important tasks: detecting the file formats of digital objects and converting digital objects into open formats for preservation.|BambooDirt
+XnView|description|Free software for viewing and converting over 400 image formats.|BambooDirt
+XnView|url|http://www.xnview.com/en/index.php|TERESAH
+XnView|research-object|Images|TERESAH
+XnView|keyword|images|TERESAH
+XnView|operating-system|Linux|TERESAH
+Xournal|application-category|Annotating|TERESAH
+Xournal|license|GNU GPL|TERESAH
+Xournal|url|http://xournal.sourceforge.net/|TERESAH
+Xournal|keyword|journaling|TERESAH
+Xournal|operating-system|Linux|TERESAH
+Xournal|description|Xournal is an application for note-taking, sketching, and journaling.|BambooDirt
+Zamzar|application-category|Conversion|TERESAH
+Zamzar|url|http://www.zamzar.com/|TERESAH
+Zamzar|keyword|images|TERESAH
+Zamzar|operating-system|Web|TERESAH
+Zamzar|description|Zamzar converts between a wide variety of formats (including support for word processing documents, audio, images, video, and ebooks) and emails the result to the user.|BambooDirt
+ZeeMaps|url|http://www.zeemaps.com/|TERESAH
+ZeeMaps|is-used-for|Mapping|TERESAH
+ZeeMaps|operating-system|Web|TERESAH
+ZeeMaps|description|ZeeMaps allows users to create custom interactive maps that can be embedded in websites, including customized markers.Airport Parking|BambooDirt
+Zoomerang|keyword|analysis|TERESAH
+Zoomerang|application-category|1_Capture|TERESAH
+Zoomerang|url|http://www.zoomerang.com/|TERESAH
+Zoomerang|keyword|Paid|TERESAH
+Zoomerang|operating-system|Web|TERESAH
+Zoomerang|description|"Zoomerang is online survey software; paid plans include analysis tools."|BambooDirt
+Zoomify|description|A suite of products developed for web designers that may be used to convert large images into a form that can be zoomed and panned. Zoomify enables large images to be viewed and manipulated, without an increase in server load or download time. It convert large images stored in raster formats (e.g. TIFF, JPEG) into a set of pieces or 'tiles' The individual pieces contain sub-sections of the image at different resolutions or levels of zoom, which are combined to create a type of mosaic.|ArtsHumanities
+Zoomify|description|"A suite of products developed for web designers that may be used to convert large images into a form that can be zoomed and panned. Zoomify enables large images to be viewed and manipulated, without an increase in server load or download time. It converts large images stored in raster formats (e.g. TIFF, JPEG) into a set of pieces or 'tiles' The individual pieces contain sub-sections of the image at different resolutions or levels of zoom, which are combined to create a type of mosaic.
+Features:
+Enables access to high quality still images without an increase in server load"|BambooDirt
+Zoomify|license|commercial|TERESAH
+Zoomify|operating-system|Cross-platform|TERESAH
+Zoomify|standard|FLV|TERESAH
+Zoomify|standard|HTML|TERESAH
+Zoomify|url|http://www.zoomify.com/|TERESAH
+Zoomify|standard|JPEG|TERESAH
+Zoomify|operating-system|Linux|TERESAH
+Zoomify|keyword|mosaic|TERESAH
+Zoomify|keyword|Paid|TERESAH
+Zoomify|keyword|pan|TERESAH
+Zoomify|license|Proprietary|TERESAH
+Zoomify|application-category|Publishing|TERESAH
+Zoomify|keyword|still image|TERESAH
+Zoomify|keyword|structuring|TERESAH
+Zoomify|standard|TIFF|TERESAH
+Zoomify|application-category|Web development|TERESAH
+Zoomify|keyword|zoom|TERESAH
+Zoomify|creator|Zoomify Inc.|TERESAH
+Zoomify|creator|Zoomify, Inc|TERESAH
+Zoomify|keyword|zooming|TERESAH
+Zotpress|application-category|Organizing|TERESAH
+Zotpress|url|http://wordpress.org/plugins/zotpress/|TERESAH
+Zotpress|creator|Katie Seaborn|TERESAH
+Zotpress|operating-system|Web|TERESAH
+Zotpress|keyword|web publishing|TERESAH
+Zotpress|keyword|WordPress|TERESAH
+Zotpress|description|Zotpress enables users to easily add Zotero citations to a WordPress site by using a special syntax that turns a Zotero citation key into a well-formatted inline citation and bibliography, based on the data stored in Zotero.|BambooDirt
