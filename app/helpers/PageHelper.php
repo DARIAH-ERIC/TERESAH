@@ -24,6 +24,7 @@ class PageHelper
     {
         switch (App::environment()) {
             case "production":
+            case "staging":
                 $content = "index, follow";
                 break;
 
