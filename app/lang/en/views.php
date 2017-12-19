@@ -835,6 +835,10 @@ return array(
                 "license" => array(
                     "name" => "License and Citing",
                     "title" => "License and Citing"
+                ),
+                "ap" => array(
+                    "name" => "HaS metadata application profile",
+                    "title" => "HaS metadata application profile"
                 )
             ),
 

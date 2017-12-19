@@ -16,6 +16,7 @@
                         <li>{{ link_to_route("pages.show", Lang::get("views.shared.navigation.about.license.name"), array("path" => "about/license"), array("title" => Lang::get("views.shared.navigation.about.license.title"))) }}</li>
                         <li>{{ link_to_route("pages.show", Lang::get("views.shared.navigation.about.api.name"), array("path" => "about/api"), array("title" => Lang::get("views.shared.navigation.about.api.title"))) }}</li>
                         <li>{{ link_to_route("pages.show", Lang::get("views.shared.navigation.about.rdf.name"), array("path" => "about/rdf"), array("title" => Lang::get("views.shared.navigation.about.rdf.title"))) }}</li>
+                        <li>{{ link_to_route("pages.show", Lang::get("views.shared.navigation.about.ap.name"), array("path" => "about/application-profile"), array("title" => Lang::get("views.shared.navigation.about.ap.title"))) }}</li>
                     </ul>
                 </li>
                 <li class="has-dropdown">
