@@ -320,11 +320,6 @@ What can the current version of Netlytic do?
 ICTA (internet community text analyzer)|keyword|social media|TERESAH
 ICTA (internet community text analyzer)|application-category|4_Analysis|TERESAH
 ICTA (internet community text analyzer)|operating-system|Web|TERESAH
-JabRef|application-category|Organizing|TERESAH
-JabRef|keyword|Content management|TERESAH
-JabRef|url|http://www.jabref.org/|TERESAH
-JabRef|description|JabRef is an open source bibliographic reference management tool. You can import BibTeX and LaTeX files to generate bibliographies in a number of different styles.|BambooDirt
-JabRef|operating-system|Linux|TERESAH
 JGAAP (java graphical authorship attribution program)|keyword|Active|TERESAH
 JGAAP (java graphical authorship attribution program)|url|http://evllabs.com/?page_id=42|TERESAH
 JGAAP (java graphical authorship attribution program)|description|JGAAP is software designed for textual analysis, text categorization, and authorship attribution|BambooDirt
@@ -674,12 +669,6 @@ Sci2 Tool|description|"The Science of Science (Sci2) Tool is a modular toolset s
 * Use different visualizations to interactively explore and understand specific datasets.
 * Share datasets and algorithms across scientific boundaries."|BambooDirt
 Sci2 Tool|application-category|Visualization|TERESAH
-SEASR|url|http://seasr.org/|TERESAH
-SEASR|operating-system|Linux|TERESAH
-SEASR|creator|NCSA|TERESAH
-SEASR|description|SEASR provides an environment for developing data flows that ingest data, process it through a series of transformations and analytics, and send the data to a results viewer.|BambooDirt
-SEASR|keyword|textual studies|TERESAH
-SEASR|application-category|2_Creation|TERESAH
 SepiaTown|keyword|Active|TERESAH
 SepiaTown|url|http://sepiatown.com/|TERESAH
 SepiaTown|description|SepiaTown is a cultural history project whose goal is to provide both a window to the past by merging photography, geography, and technology, as well as a forum for institutions and individuals to share and map historical images.|BambooDirt
@@ -690,16 +679,9 @@ Sigil|keyword|Active|TERESAH
 Sigil|creator|Dave Heiland|TERESAH
 Sigil|keyword|ebook publishing|TERESAH
 Sigil|license|GNU GPL v3|TERESAH
-Sigil|url|http://code.google.com/p/sigil/|TERESAH
+Sigil|url|https://sigil-ebook.com/|TERESAH
 Sigil|operating-system|Linux|TERESAH
 Sigil|application-category|Writing|TERESAH
-Slideshare|url|http://www.slideshare.net/|TERESAH
-Slideshare|keyword|information sharing|TERESAH
-Slideshare|application-category|Collaboration|TERESAH
-Slideshare|application-category|Communicating|TERESAH
-Slideshare|creator|SlideShare Inc.|TERESAH
-Slideshare|description|SlideShare is a community for sharing presentations. You can use this free online service to share slides from a talk, share lesson plans, or disseminate information.|BambooDirt
-Slideshare|operating-system|Web|TERESAH
 Social Science Research Network|keyword|collaboration|TERESAH
 Social Science Research Network|url|http://www.ssrn.com/|TERESAH
 Social Science Research Network|application-category|Collaboration|TERESAH
@@ -726,17 +708,6 @@ SoSOL (Son of SOL)|description|Tool under construction at the University of Kent
 SoSOL (Son of SOL)|operating-system|Windows|TERESAH
 SoSOL (Son of SOL)|standard|XML|TERESAH
 SoSOL (Son of SOL)|url|http://wiki.digitalclassicist.org/SoSOL|TERESAH
-SPITBOL|keyword|analysis|TERESAH
-SPITBOL|keyword|assembly-language|TERESAH
-SPITBOL|operating-system|Cross-platform|TERESAH
-SPITBOL|license|MIT|TERESAH
-SPITBOL|creator|Robert Dewar and Ken Belcher|TERESAH
-SPITBOL|keyword|snobol4|TERESAH
-SPITBOL|keyword|spitbol|TERESAH
-SPITBOL|description|SPITBOL (Speedy Implementation of SNOBOL) is a compiled implementation of the SNOBOL4 (String Oriented Symbolic Language) programming language. SNOBOL was one of several character-string oriented languages developed during the 1950s and 1960s. The tool is widely regarded as the most efficient method of executing SNOBOL4 programs, due to the use of a garbage collector to manage memory usage and a compile time decision-making system.|ArtsHumanities
-SPITBOL|keyword|String Oriented Symbolic Language (SNOBOL)|TERESAH
-SPITBOL|keyword|string-processing|TERESAH
-SPITBOL|url|https://github.com/spitbol/spitbol|TERESAH
 Stanford POS Tagger|license|GNU GPL|TERESAH
 Stanford POS Tagger|url|http://nlp.stanford.edu/software/tagger.shtml|TERESAH
 Stanford POS Tagger|application-category|4_Analysis|TERESAH
@@ -897,11 +868,6 @@ Versioning Machine|application-category|Gathering|TERESAH
 Versioning Machine|application-category|Organizing|TERESAH
 Versioning Machine|operating-system|Web|TERESAH
 Versioning Machine|keyword|XSLT|TERESAH
-Whatizit|url|http://www.ebi.ac.uk/webservices/whatizit/info.jsf|TERESAH
-Whatizit|keyword|text analysis|TERESAH
-Whatizit|application-category|4_Analysis|TERESAH
-Whatizit|operating-system|Web|TERESAH
-Whatizit|description|Whatizit can ingest up to 500,000 terms pasted into the input box and execute any of the pre-defined text analysis pipelines.|BambooDirt
 VisuWords|url|http://www.visuwords.com/|TERESAH
 VisuWords|creator|logicalOctopus|TERESAH
 VisuWords|operating-system|Web|TERESAH
@@ -914,26 +880,6 @@ Voyant Tools|operating-system|Web|TERESAH
 Voyant Tools|application-category|Visualization|TERESAH
 Voyant Tools|keyword|word cloud|TERESAH
 Voyant Tools|description|Voyant Tools is a web-based reading and analysis environment for digital texts.|BambooDirt
-XSugar|creator|Aarhus University|TERESAH
-XSugar|keyword|analysis|TERESAH
-XSugar|keyword|creation|TERESAH
-XSugar|operating-system|Cross-platform|TERESAH
-XSugar|standard|eXtended FLAT (XFLAT)|TERESAH
-XSugar|license|GNU GPL|TERESAH
-XSugar|url|http://www.brics.dk/xsugar/|TERESAH
-XSugar|keyword|Java|TERESAH
-XSugar|keyword|language processing|TERESAH
-XSugar|keyword|markup|TERESAH
-XSugar|creator|Programming Language Research Team, Department of Computer Science, Aarhus University|TERESAH
-XSugar|keyword|text classification|TERESAH
-XSugar|application-category|Web development|TERESAH
-XSugar|standard|XML|TERESAH
-XSugar|description|XSugar is a proof of concept tool for mapping textual content between a flat file schema (e.g. wiki mark-up) and XML format (e.g. RELAX NG, XFlat, BibTeX). The tool performs statistical analysis to establish if transformations between the two formats are bi-directional, enabling content that has been converted into an XML format to be re-exported to the original flat file structure, or vice-versa. To validate the conversion, a schema must exist for source and destination formats, e.g. a bespoke XFlat encoded XML document that contains a definition of the structure of a class of flat files, an XML schema.|ArtsHumanities
-XSugar|description|"XSugar is a proof of concept tool for mapping textual content between a flat file schema and XML format. It performs statistical analysis to establish if transformations between the two formats are bi-directional, enabling content that has been converted into an XML format to be re-exported to the original flat file structure, or vice-versa. To validate the conversion, a schema must exist for source and destination formats, e.g. a bespoke XFlat encoded XML document that contains a definition of the structure of a class of flat files, an XML schema.
-Features: 
-Bi-directional content conversion
-Support for any flat file structure that has been document in an appropriate XFlat format.
-Support for variety of XML-based formats"|BambooDirt
 yED Graph|keyword|data visualization|TERESAH
 yED Graph|url|http://www.yworks.com/en/index.html|TERESAH
 yED Graph|operating-system|Web|TERESAH
