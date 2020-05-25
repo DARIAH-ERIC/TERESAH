@@ -31,18 +31,18 @@ class SignupController extends BaseController
      *
      * @return Redirect
      */
-    public function store()
-    {
-        $user = $this->user->fill(Input::all());
-        $user->active = true;
-        $user->user_level = User::AUTHENTICATED_USER;
-
-        if ($user->save()) {
-            return Redirect::route("pages.show", array("path" => "/"))
-                ->with("success", Lang::get("controllers.signup.store.success"));
-        } else {
-            return Redirect::route("signup.create")
-                ->withErrors($user->getErrors())->withInput();
-        }
-    }
+//    public function store()
+//    {
+//        $user = $this->user->fill(Input::all());
+//        $user->active = true;
+//        $user->user_level = User::AUTHENTICATED_USER;
+//
+//        if ($user->save()) {
+//            return Redirect::route("pages.show", array("path" => "/"))
+//                ->with("success", Lang::get("controllers.signup.store.success"));
+//        } else {
+//            return Redirect::route("signup.create")
+//                ->withErrors($user->getErrors())->withInput();
+//        }
+//    }
 }
